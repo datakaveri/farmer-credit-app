@@ -1,0 +1,1560 @@
+year,district,crop,season,yield
+2024,Adilabad,Arhar/Tur,K,1.02
+2024,Adilabad,Arhar/Tur,R,1.24
+2024,Adilabad,Bajra,K,1.21
+2024,Adilabad,Bajra,R,0.96
+2024,Adilabad,Banana,K,49.97
+2024,Adilabad,Cashewnut,K,0.61
+2024,Adilabad,Castor seed,K,0.85
+2024,Adilabad,Castor seed,R,0.97
+2024,Adilabad,Coriander,K,1.0
+2024,Adilabad,Coriander,R,1.33
+2024,Adilabad,Coriander,WY,0.49
+2024,Adilabad,Cowpea(Lobia),K,0.88
+2024,Adilabad,Cowpea(Lobia),R,1.7
+2024,Adilabad,Dry chillies,K,3.9
+2024,Adilabad,Dry chillies,R,4.49
+2024,Adilabad,Garlic,K,4.0
+2024,Adilabad,Garlic,R,3.0
+2024,Adilabad,Ginger,K,7.89
+2024,Adilabad,Ginger,R,9.0
+2024,Adilabad,Gram,K,1.5
+2024,Adilabad,Gram,R,1.54
+2024,Adilabad,Groundnut,K,1.79
+2024,Adilabad,Groundnut,R,2.11
+2024,Adilabad,Horse-gram,R,0.43
+2024,Adilabad,Jowar,K,0.81
+2024,Adilabad,Jowar,R,1.77
+2024,Adilabad,Linseed,R,0.49
+2024,Adilabad,Maize,K,3.78
+2024,Adilabad,Maize,R,7.19
+2024,Adilabad,Moong(Green Gram),K,0.62
+2024,Adilabad,Moong(Green Gram),R,0.83
+2024,Adilabad,Oilseeds total,K,1.0
+2024,Adilabad,Oilseeds total,R,0.83
+2024,Adilabad,Onion,K,17.71
+2024,Adilabad,Onion,R,30.1
+2024,Adilabad,Other Kharif pulses,K,0.29
+2024,Adilabad,Other Rabi pulses,R,0.27
+2024,Adilabad,Potato,R,10.0
+2024,Adilabad,Ragi,R,0.82
+2024,Adilabad,Rapeseed &Mustard,R,1.19
+2024,Adilabad,Rice,K,2.97
+2024,Adilabad,Rice,R,3.4
+2024,Adilabad,Safflower,R,0.89
+2024,Adilabad,Sesamum,K,0.14
+2024,Adilabad,Sesamum,R,0.54
+2024,Adilabad,Small millets,K,1.72
+2024,Adilabad,Small millets,R,1.0
+2024,Adilabad,Soyabean,K,1.34
+2024,Adilabad,Soyabean,R,1.46
+2024,Adilabad,Sugarcane,K,87.82
+2024,Adilabad,Sunflower,R,2.72
+2024,Adilabad,Sweet potato,R,11.06
+2024,Adilabad,Tobacco,K,3.78
+2024,Adilabad,Tobacco,R,3.21
+2024,Adilabad,Turmeric,K,6.05
+2024,Adilabad,Turmeric,R,7.0
+2024,Adilabad,Urad,K,0.62
+2024,Adilabad,Urad,R,1.16
+2024,Adilabad,Wheat,K,2.05
+2024,Adilabad,Wheat,R,2.61
+2024,Bhadradri,Arhar/Tur,K,0.86
+2024,Bhadradri,Arhar/Tur,R,0.87
+2024,Bhadradri,Bajra,R,0.93
+2024,Bhadradri,Banana,K,46.61
+2024,Bhadradri,Cashewnut,K,0.43
+2024,Bhadradri,Castor seed,R,1.0
+2024,Bhadradri,Cowpea(Lobia),K,0.91
+2024,Bhadradri,Cowpea(Lobia),R,1.13
+2024,Bhadradri,Dry chillies,K,6.17
+2024,Bhadradri,Dry chillies,R,7.36
+2024,Bhadradri,Ginger,K,9.0
+2024,Bhadradri,Gram,R,1.73
+2024,Bhadradri,Groundnut,K,2.23
+2024,Bhadradri,Groundnut,R,3.53
+2024,Bhadradri,Horse-gram,R,1.91
+2024,Bhadradri,Jowar,K,0.93
+2024,Bhadradri,Jowar,R,1.88
+2024,Bhadradri,Maize,K,3.92
+2024,Bhadradri,Maize,R,7.32
+2024,Bhadradri,Moong(Green Gram),K,0.46
+2024,Bhadradri,Moong(Green Gram),R,0.9
+2024,Bhadradri,Onion,K,16.0
+2024,Bhadradri,Onion,R,30.17
+2024,Bhadradri,Ragi,K,1.5
+2024,Bhadradri,Ragi,R,1.67
+2024,Bhadradri,Rice,K,3.38
+2024,Bhadradri,Rice,R,2.87
+2024,Bhadradri,Safflower,R,1.0
+2024,Bhadradri,Sesamum,K,0.31
+2024,Bhadradri,Sesamum,R,0.69
+2024,Bhadradri,Small millets,K,1.26
+2024,Bhadradri,Small millets,R,1.0
+2024,Bhadradri,Soyabean,K,1.34
+2024,Bhadradri,Soyabean,R,2.0
+2024,Bhadradri,Sugarcane,K,80.51
+2024,Bhadradri,Sunflower,R,2.04
+2024,Bhadradri,Sweet potato,R,9.45
+2024,Bhadradri,Tobacco,K,3.0
+2024,Bhadradri,Tobacco,R,2.64
+2024,Bhadradri,Turmeric,K,6.87
+2024,Bhadradri,Turmeric,R,6.77
+2024,Bhadradri,Urad,K,1.42
+2024,Bhadradri,Urad,R,1.38
+2024,Bhadradri,Wheat,R,2.0
+2024,Jagitial,Arhar/Tur,K,1.16
+2024,Jagitial,Arhar/Tur,R,1.4
+2024,Jagitial,Bajra,R,1.93
+2024,Jagitial,Banana,K,49.73
+2024,Jagitial,Castor seed,K,1.0
+2024,Jagitial,Coriander,R,1.0
+2024,Jagitial,Cowpea(Lobia),K,0.59
+2024,Jagitial,Cowpea(Lobia),R,1.43
+2024,Jagitial,Dry chillies,K,2.15
+2024,Jagitial,Dry chillies,R,5.1
+2024,Jagitial,Garlic,R,3.52
+2024,Jagitial,Ginger,K,9.5
+2024,Jagitial,Gram,R,1.69
+2024,Jagitial,Groundnut,K,2.2
+2024,Jagitial,Groundnut,R,1.58
+2024,Jagitial,Horse-gram,K,1.0
+2024,Jagitial,Horse-gram,R,0.71
+2024,Jagitial,Jowar,K,0.88
+2024,Jagitial,Jowar,R,1.94
+2024,Jagitial,Maize,K,5.55
+2024,Jagitial,Maize,R,6.5
+2024,Jagitial,Moong(Green Gram),K,0.69
+2024,Jagitial,Moong(Green Gram),R,0.97
+2024,Jagitial,Onion,K,17.86
+2024,Jagitial,Onion,R,30.11
+2024,Jagitial,Potato,R,24.0
+2024,Jagitial,Rice,K,3.62
+2024,Jagitial,Rice,R,3.91
+2024,Jagitial,Safflower,R,1.0
+2024,Jagitial,Sesamum,R,0.71
+2024,Jagitial,Soyabean,K,1.66
+2024,Jagitial,Soyabean,R,2.0
+2024,Jagitial,Sugarcane,K,69.78
+2024,Jagitial,Sunflower,R,2.74
+2024,Jagitial,Sweet potato,K,12.0
+2024,Jagitial,Turmeric,K,10.19
+2024,Jagitial,Urad,K,0.88
+2024,Jagitial,Urad,R,1.03
+2024,Jagitial,Wheat,R,2.01
+2024,Jangoan,Arhar/Tur,K,0.78
+2024,Jangoan,Arhar/Tur,R,0.82
+2024,Jangoan,Bajra,K,1.0
+2024,Jangoan,Banana,K,48.28
+2024,Jangoan,Castor seed,K,0.84
+2024,Jangoan,Castor seed,R,1.42
+2024,Jangoan,Coriander,K,1.0
+2024,Jangoan,Coriander,R,0.84
+2024,Jangoan,Cowpea(Lobia),K,0.85
+2024,Jangoan,Cowpea(Lobia),R,0.91
+2024,Jangoan,Dry chillies,K,5.24
+2024,Jangoan,Dry chillies,R,4.33
+2024,Jangoan,Ginger,K,6.6
+2024,Jangoan,Ginger,R,9.17
+2024,Jangoan,Gram,K,1.0
+2024,Jangoan,Gram,R,1.13
+2024,Jangoan,Groundnut,K,2.68
+2024,Jangoan,Groundnut,R,1.63
+2024,Jangoan,Horse-gram,K,1.09
+2024,Jangoan,Horse-gram,R,1.1
+2024,Jangoan,Jowar,K,0.93
+2024,Jangoan,Jowar,R,1.88
+2024,Jangoan,Maize,K,5.0
+2024,Jangoan,Maize,R,6.76
+2024,Jangoan,Moong(Green Gram),K,0.48
+2024,Jangoan,Moong(Green Gram),R,0.61
+2024,Jangoan,Onion,K,16.84
+2024,Jangoan,Onion,R,30.1
+2024,Jangoan,Ragi,K,1.67
+2024,Jangoan,Rice,K,2.99
+2024,Jangoan,Rice,R,3.0
+2024,Jangoan,Safflower,K,1.0
+2024,Jangoan,Safflower,R,0.99
+2024,Jangoan,Sesamum,K,0.25
+2024,Jangoan,Sesamum,R,0.7
+2024,Jangoan,Small millets,K,1.21
+2024,Jangoan,Small millets,R,1.0
+2024,Jangoan,Soyabean,K,1.46
+2024,Jangoan,Soyabean,R,1.75
+2024,Jangoan,Sugarcane,K,87.6
+2024,Jangoan,Sunflower,K,1.85
+2024,Jangoan,Sunflower,R,2.12
+2024,Jangoan,Sweet potato,K,10.55
+2024,Jangoan,Sweet potato,R,10.91
+2024,Jangoan,Tobacco,K,3.66
+2024,Jangoan,Tobacco,R,3.41
+2024,Jangoan,Turmeric,K,6.98
+2024,Jangoan,Turmeric,R,7.0
+2024,Jangoan,Urad,K,0.81
+2024,Jangoan,Urad,R,1.36
+2024,Jangoan,Wheat,K,2.0
+2024,Jangoan,Wheat,R,2.52
+2024,Jayashankar,Arhar/Tur,K,0.74
+2024,Jayashankar,Arhar/Tur,R,0.78
+2024,Jayashankar,Bajra,K,1.0
+2024,Jayashankar,Bajra,R,1.0
+2024,Jayashankar,Banana,K,49.73
+2024,Jayashankar,Cashewnut,K,0.37
+2024,Jayashankar,Castor seed,K,1.0
+2024,Jayashankar,Castor seed,R,1.38
+2024,Jayashankar,Coriander,R,0.83
+2024,Jayashankar,Cowpea(Lobia),K,0.67
+2024,Jayashankar,Cowpea(Lobia),R,0.91
+2024,Jayashankar,Dry chillies,K,6.27
+2024,Jayashankar,Dry chillies,R,5.41
+2024,Jayashankar,Gram,K,1.33
+2024,Jayashankar,Gram,R,1.47
+2024,Jayashankar,Groundnut,K,2.68
+2024,Jayashankar,Groundnut,R,1.93
+2024,Jayashankar,Horse-gram,K,1.8
+2024,Jayashankar,Horse-gram,R,0.76
+2024,Jayashankar,Jowar,K,0.64
+2024,Jayashankar,Jowar,R,2.1
+2024,Jayashankar,Maize,K,5.67
+2024,Jayashankar,Maize,R,7.93
+2024,Jayashankar,Moong(Green Gram),K,0.65
+2024,Jayashankar,Moong(Green Gram),R,0.91
+2024,Jayashankar,Onion,R,30.1
+2024,Jayashankar,Ragi,K,1.54
+2024,Jayashankar,Ragi,R,0.94
+2024,Jayashankar,Rice,K,3.08
+2024,Jayashankar,Rice,R,3.38
+2024,Jayashankar,Sesamum,K,0.18
+2024,Jayashankar,Sesamum,R,0.68
+2024,Jayashankar,Small millets,K,1.7
+2024,Jayashankar,Small millets,R,1.0
+2024,Jayashankar,Soyabean,K,1.6
+2024,Jayashankar,Soyabean,R,1.5
+2024,Jayashankar,Sugarcane,K,84.0
+2024,Jayashankar,Sunflower,K,3.0
+2024,Jayashankar,Sunflower,R,2.13
+2024,Jayashankar,Tobacco,K,3.84
+2024,Jayashankar,Tobacco,R,3.36
+2024,Jayashankar,Turmeric,K,6.87
+2024,Jayashankar,Turmeric,R,7.33
+2024,Jayashankar,Urad,K,0.87
+2024,Jayashankar,Urad,R,1.3
+2024,Jayashankar,Wheat,R,2.0
+2024,Jogulamba,Arhar/Tur,K,0.6
+2024,Jogulamba,Arhar/Tur,R,0.75
+2024,Jogulamba,Bajra,K,1.02
+2024,Jogulamba,Bajra,R,2.15
+2024,Jogulamba,Banana,K,49.71
+2024,Jogulamba,Castor seed,K,0.84
+2024,Jogulamba,Castor seed,R,0.92
+2024,Jogulamba,Coriander,R,0.59
+2024,Jogulamba,Cowpea(Lobia),K,0.85
+2024,Jogulamba,Cowpea(Lobia),R,1.45
+2024,Jogulamba,Dry chillies,K,3.46
+2024,Jogulamba,Dry chillies,R,4.01
+2024,Jogulamba,Gram,R,1.07
+2024,Jogulamba,Groundnut,K,1.94
+2024,Jogulamba,Groundnut,R,2.45
+2024,Jogulamba,Horse-gram,K,1.01
+2024,Jogulamba,Horse-gram,R,1.02
+2024,Jogulamba,Jowar,K,0.93
+2024,Jogulamba,Jowar,R,2.03
+2024,Jogulamba,Maize,K,3.44
+2024,Jogulamba,Maize,R,5.22
+2024,Jogulamba,Moong(Green Gram),K,0.55
+2024,Jogulamba,Moong(Green Gram),R,0.96
+2024,Jogulamba,Onion,K,14.62
+2024,Jogulamba,Onion,R,27.91
+2024,Jogulamba,Ragi,K,1.59
+2024,Jogulamba,Rice,K,2.86
+2024,Jogulamba,Rice,R,2.87
+2024,Jogulamba,Safflower,R,1.0
+2024,Jogulamba,Sesamum,K,0.25
+2024,Jogulamba,Sesamum,R,0.64
+2024,Jogulamba,Small millets,K,0.97
+2024,Jogulamba,Small millets,R,0.96
+2024,Jogulamba,Soyabean,K,1.47
+2024,Jogulamba,Soyabean,R,1.53
+2024,Jogulamba,Sugarcane,K,72.82
+2024,Jogulamba,Sunflower,K,1.75
+2024,Jogulamba,Sunflower,R,2.1
+2024,Jogulamba,Tobacco,K,2.23
+2024,Jogulamba,Tobacco,R,2.24
+2024,Jogulamba,Urad,K,0.85
+2024,Jogulamba,Urad,R,1.37
+2024,Jogulamba,Wheat,R,2.22
+2024,Kamareddy,Arhar/Tur,K,1.01
+2024,Kamareddy,Arhar/Tur,R,1.14
+2024,Kamareddy,Bajra,K,0.83
+2024,Kamareddy,Bajra,R,0.9
+2024,Kamareddy,Banana,K,49.75
+2024,Kamareddy,Cashewnut,K,0.5
+2024,Kamareddy,Castor seed,K,0.71
+2024,Kamareddy,Castor seed,R,1.0
+2024,Kamareddy,Coriander,K,1.0
+2024,Kamareddy,Coriander,R,0.75
+2024,Kamareddy,Cowpea(Lobia),K,0.66
+2024,Kamareddy,Cowpea(Lobia),R,0.9
+2024,Kamareddy,Dry chillies,K,5.13
+2024,Kamareddy,Dry chillies,R,6.24
+2024,Kamareddy,Garlic,R,4.5
+2024,Kamareddy,Ginger,K,9.21
+2024,Kamareddy,Ginger,R,9.0
+2024,Kamareddy,Gram,R,1.55
+2024,Kamareddy,Groundnut,K,1.91
+2024,Kamareddy,Groundnut,R,1.85
+2024,Kamareddy,Horse-gram,K,1.0
+2024,Kamareddy,Horse-gram,R,1.16
+2024,Kamareddy,Jowar,K,0.89
+2024,Kamareddy,Jowar,R,2.77
+2024,Kamareddy,Maize,K,5.32
+2024,Kamareddy,Maize,R,6.5
+2024,Kamareddy,Moong(Green Gram),K,0.84
+2024,Kamareddy,Moong(Green Gram),R,0.92
+2024,Kamareddy,Onion,K,16.69
+2024,Kamareddy,Onion,R,24.94
+2024,Kamareddy,Potato,R,18.19
+2024,Kamareddy,Ragi,K,1.52
+2024,Kamareddy,Rice,K,3.79
+2024,Kamareddy,Rice,R,3.95
+2024,Kamareddy,Safflower,R,0.62
+2024,Kamareddy,Sesamum,K,0.17
+2024,Kamareddy,Sesamum,R,0.48
+2024,Kamareddy,Small millets,K,1.35
+2024,Kamareddy,Soyabean,K,1.53
+2024,Kamareddy,Soyabean,R,1.4
+2024,Kamareddy,Sugarcane,K,86.13
+2024,Kamareddy,Sunflower,K,1.36
+2024,Kamareddy,Sunflower,R,2.04
+2024,Kamareddy,Sweet potato,R,9.49
+2024,Kamareddy,Tobacco,K,2.64
+2024,Kamareddy,Tobacco,R,3.78
+2024,Kamareddy,Turmeric,K,6.66
+2024,Kamareddy,Turmeric,R,7.71
+2024,Kamareddy,Urad,K,0.89
+2024,Kamareddy,Urad,R,1.43
+2024,Kamareddy,Wheat,R,1.69
+2024,Karimnagar,Arhar/Tur,K,0.69
+2024,Karimnagar,Arhar/Tur,R,0.58
+2024,Karimnagar,Bajra,K,1.0
+2024,Karimnagar,Bajra,R,0.97
+2024,Karimnagar,Banana,K,49.98
+2024,Karimnagar,Banana,WY,31.14
+2024,Karimnagar,Castor seed,K,0.69
+2024,Karimnagar,Castor seed,R,0.96
+2024,Karimnagar,Coriander,K,0.75
+2024,Karimnagar,Coriander,R,0.7
+2024,Karimnagar,Coriander,WY,0.49
+2024,Karimnagar,Cowpea(Lobia),K,0.83
+2024,Karimnagar,Cowpea(Lobia),R,1.44
+2024,Karimnagar,Dry chillies,K,4.34
+2024,Karimnagar,Dry chillies,R,5.1
+2024,Karimnagar,Garlic,R,3.76
+2024,Karimnagar,Ginger,K,7.81
+2024,Karimnagar,Ginger,R,6.5
+2024,Karimnagar,Gram,K,1.35
+2024,Karimnagar,Gram,R,1.28
+2024,Karimnagar,Groundnut,K,1.72
+2024,Karimnagar,Groundnut,R,2.1
+2024,Karimnagar,Horse-gram,K,1.23
+2024,Karimnagar,Horse-gram,R,1.22
+2024,Karimnagar,Jowar,K,0.76
+2024,Karimnagar,Jowar,R,2.31
+2024,Karimnagar,Maize,K,5.2
+2024,Karimnagar,Maize,R,6.64
+2024,Karimnagar,Moong(Green Gram),K,0.59
+2024,Karimnagar,Moong(Green Gram),R,0.6
+2024,Karimnagar,Oilseeds total,K,1.27
+2024,Karimnagar,Oilseeds total,R,1.09
+2024,Karimnagar,Onion,K,17.8
+2024,Karimnagar,Onion,R,30.12
+2024,Karimnagar,Other Kharif pulses,K,0.4
+2024,Karimnagar,Other Rabi pulses,R,1.61
+2024,Karimnagar,Rapeseed &Mustard,R,1.37
+2024,Karimnagar,Rice,K,3.36
+2024,Karimnagar,Rice,R,3.76
+2024,Karimnagar,Safflower,R,1.0
+2024,Karimnagar,Sesamum,K,0.22
+2024,Karimnagar,Sesamum,R,0.56
+2024,Karimnagar,Small millets,K,1.12
+2024,Karimnagar,Soyabean,K,1.56
+2024,Karimnagar,Soyabean,R,1.67
+2024,Karimnagar,Sugarcane,K,80.31
+2024,Karimnagar,Sunflower,K,3.03
+2024,Karimnagar,Sunflower,R,2.04
+2024,Karimnagar,Sweet potato,K,9.57
+2024,Karimnagar,Sweet potato,R,11.14
+2024,Karimnagar,Tobacco,K,4.02
+2024,Karimnagar,Tobacco,R,3.78
+2024,Karimnagar,Turmeric,K,6.79
+2024,Karimnagar,Turmeric,R,7.0
+2024,Karimnagar,Urad,K,0.74
+2024,Karimnagar,Urad,R,2.0
+2024,Karimnagar,Wheat,R,2.0
+2024,Khammam,Arhar/Tur,K,0.59
+2024,Khammam,Arhar/Tur,R,0.84
+2024,Khammam,Bajra,K,1.0
+2024,Khammam,Bajra,R,1.0
+2024,Khammam,Banana,K,49.74
+2024,Khammam,Banana,WY,31.14
+2024,Khammam,Cashewnut,K,0.49
+2024,Khammam,Castor seed,K,0.5
+2024,Khammam,Castor seed,R,1.67
+2024,Khammam,Cowpea(Lobia),K,0.67
+2024,Khammam,Cowpea(Lobia),R,1.12
+2024,Khammam,Dry chillies,K,5.28
+2024,Khammam,Dry chillies,R,3.91
+2024,Khammam,Ginger,K,9.2
+2024,Khammam,Ginger,R,8.03
+2024,Khammam,Gram,K,1.4
+2024,Khammam,Gram,R,1.28
+2024,Khammam,Groundnut,K,1.99
+2024,Khammam,Groundnut,R,2.12
+2024,Khammam,Horse-gram,K,1.5
+2024,Khammam,Horse-gram,R,1.45
+2024,Khammam,Jowar,K,0.93
+2024,Khammam,Jowar,R,1.69
+2024,Khammam,Maize,K,4.45
+2024,Khammam,Maize,R,7.57
+2024,Khammam,Moong(Green Gram),K,0.41
+2024,Khammam,Moong(Green Gram),R,0.84
+2024,Khammam,Oilseeds total,K,18.89
+2024,Khammam,Oilseeds total,R,2.57
+2024,Khammam,Onion,K,14.88
+2024,Khammam,Onion,R,30.07
+2024,Khammam,Ragi,K,1.5
+2024,Khammam,Rapeseed &Mustard,R,1.0
+2024,Khammam,Rice,K,3.2
+2024,Khammam,Rice,R,3.38
+2024,Khammam,Safflower,R,1.0
+2024,Khammam,Sesamum,K,0.23
+2024,Khammam,Sesamum,R,0.46
+2024,Khammam,Small millets,K,1.1
+2024,Khammam,Small millets,R,1.52
+2024,Khammam,Soyabean,K,1.4
+2024,Khammam,Soyabean,R,1.2
+2024,Khammam,Sugarcane,K,85.65
+2024,Khammam,Sunflower,R,1.83
+2024,Khammam,Sweet potato,K,7.5
+2024,Khammam,Sweet potato,R,10.69
+2024,Khammam,Tobacco,K,2.52
+2024,Khammam,Tobacco,R,3.74
+2024,Khammam,Turmeric,K,6.13
+2024,Khammam,Urad,K,0.71
+2024,Khammam,Urad,R,1.16
+2024,Khammam,other oilseeds,K,19.97
+2024,Komaram bheem asifabad,Arhar/Tur,K,1.06
+2024,Komaram bheem asifabad,Arhar/Tur,R,0.96
+2024,Komaram bheem asifabad,Bajra,K,1.44
+2024,Komaram bheem asifabad,Banana,K,49.7
+2024,Komaram bheem asifabad,Cashewnut,K,0.45
+2024,Komaram bheem asifabad,Castor seed,K,0.87
+2024,Komaram bheem asifabad,Coriander,K,1.0
+2024,Komaram bheem asifabad,Coriander,R,0.82
+2024,Komaram bheem asifabad,Cowpea(Lobia),K,0.72
+2024,Komaram bheem asifabad,Cowpea(Lobia),R,0.98
+2024,Komaram bheem asifabad,Dry chillies,K,4.46
+2024,Komaram bheem asifabad,Dry chillies,R,5.72
+2024,Komaram bheem asifabad,Gram,R,1.34
+2024,Komaram bheem asifabad,Groundnut,K,2.12
+2024,Komaram bheem asifabad,Groundnut,R,2.26
+2024,Komaram bheem asifabad,Horse-gram,K,1.27
+2024,Komaram bheem asifabad,Horse-gram,R,0.6
+2024,Komaram bheem asifabad,Jowar,K,0.65
+2024,Komaram bheem asifabad,Jowar,R,0.89
+2024,Komaram bheem asifabad,Maize,K,3.08
+2024,Komaram bheem asifabad,Maize,R,5.78
+2024,Komaram bheem asifabad,Moong(Green Gram),K,0.53
+2024,Komaram bheem asifabad,Moong(Green Gram),R,1.11
+2024,Komaram bheem asifabad,Onion,K,17.8
+2024,Komaram bheem asifabad,Onion,R,30.11
+2024,Komaram bheem asifabad,Potato,R,21.0
+2024,Komaram bheem asifabad,Ragi,K,1.29
+2024,Komaram bheem asifabad,Ragi,R,1.75
+2024,Komaram bheem asifabad,Rice,K,2.31
+2024,Komaram bheem asifabad,Rice,R,3.0
+2024,Komaram bheem asifabad,Safflower,R,0.94
+2024,Komaram bheem asifabad,Sesamum,K,0.21
+2024,Komaram bheem asifabad,Sesamum,R,0.65
+2024,Komaram bheem asifabad,Small millets,K,1.38
+2024,Komaram bheem asifabad,Small millets,R,1.0
+2024,Komaram bheem asifabad,Soyabean,K,1.26
+2024,Komaram bheem asifabad,Soyabean,R,1.25
+2024,Komaram bheem asifabad,Sugarcane,K,93.12
+2024,Komaram bheem asifabad,Sunflower,K,0.8
+2024,Komaram bheem asifabad,Sunflower,R,1.98
+2024,Komaram bheem asifabad,Sweet potato,K,16.0
+2024,Komaram bheem asifabad,Sweet potato,R,11.64
+2024,Komaram bheem asifabad,Turmeric,K,6.03
+2024,Komaram bheem asifabad,Turmeric,R,7.67
+2024,Komaram bheem asifabad,Urad,K,0.66
+2024,Komaram bheem asifabad,Urad,R,1.34
+2024,Komaram bheem asifabad,Wheat,R,1.83
+2024,Mahabubabad,Arhar/Tur,K,0.75
+2024,Mahabubabad,Arhar/Tur,R,0.88
+2024,Mahabubabad,Bajra,R,2.29
+2024,Mahabubabad,Banana,K,49.73
+2024,Mahabubabad,Castor seed,K,0.5
+2024,Mahabubabad,Cowpea(Lobia),K,0.75
+2024,Mahabubabad,Cowpea(Lobia),R,0.83
+2024,Mahabubabad,Dry chillies,K,3.33
+2024,Mahabubabad,Dry chillies,R,5.57
+2024,Mahabubabad,Ginger,K,9.0
+2024,Mahabubabad,Gram,R,1.41
+2024,Mahabubabad,Groundnut,K,2.69
+2024,Mahabubabad,Groundnut,R,1.68
+2024,Mahabubabad,Horse-gram,R,1.17
+2024,Mahabubabad,Jowar,K,0.84
+2024,Mahabubabad,Jowar,R,0.98
+2024,Mahabubabad,Maize,K,4.59
+2024,Mahabubabad,Maize,R,6.29
+2024,Mahabubabad,Moong(Green Gram),K,0.51
+2024,Mahabubabad,Moong(Green Gram),R,0.87
+2024,Mahabubabad,Onion,K,17.8
+2024,Mahabubabad,Onion,R,30.11
+2024,Mahabubabad,Ragi,K,1.6
+2024,Mahabubabad,Rice,K,2.91
+2024,Mahabubabad,Rice,R,3.25
+2024,Mahabubabad,Safflower,R,1.0
+2024,Mahabubabad,Sesamum,K,0.21
+2024,Mahabubabad,Sesamum,R,0.69
+2024,Mahabubabad,Small millets,R,0.5
+2024,Mahabubabad,Soyabean,K,1.51
+2024,Mahabubabad,Sugarcane,K,80.94
+2024,Mahabubabad,Sunflower,K,1.5
+2024,Mahabubabad,Sunflower,R,2.03
+2024,Mahabubabad,Sweet potato,K,9.49
+2024,Mahabubabad,Sweet potato,R,9.35
+2024,Mahabubabad,Tobacco,K,1.2
+2024,Mahabubabad,Tobacco,R,3.24
+2024,Mahabubabad,Turmeric,K,6.26
+2024,Mahabubabad,Turmeric,R,5.0
+2024,Mahabubabad,Urad,K,0.8
+2024,Mahabubabad,Urad,R,1.27
+2024,Mahabubabad,Wheat,R,2.0
+2024,Mahbubnagar,Arhar/Tur,K,0.56
+2024,Mahbubnagar,Arhar/Tur,R,0.49
+2024,Mahbubnagar,Bajra,K,1.08
+2024,Mahbubnagar,Banana,K,56.54
+2024,Mahbubnagar,Castor seed,K,0.64
+2024,Mahbubnagar,Castor seed,R,0.76
+2024,Mahbubnagar,Coriander,R,1.0
+2024,Mahbubnagar,Cowpea(Lobia),K,0.64
+2024,Mahbubnagar,Cowpea(Lobia),R,1.7
+2024,Mahbubnagar,Dry chillies,K,3.79
+2024,Mahbubnagar,Dry chillies,R,4.4
+2024,Mahbubnagar,Garlic,R,4.0
+2024,Mahbubnagar,Ginger,K,8.0
+2024,Mahbubnagar,Gram,R,1.09
+2024,Mahbubnagar,Groundnut,K,2.09
+2024,Mahbubnagar,Groundnut,R,2.29
+2024,Mahbubnagar,Horse-gram,K,0.94
+2024,Mahbubnagar,Horse-gram,R,1.07
+2024,Mahbubnagar,Jowar,K,0.91
+2024,Mahbubnagar,Jowar,R,1.75
+2024,Mahbubnagar,Maize,K,2.97
+2024,Mahbubnagar,Maize,R,5.97
+2024,Mahbubnagar,Moong(Green Gram),K,0.44
+2024,Mahbubnagar,Moong(Green Gram),R,0.8
+2024,Mahbubnagar,Oilseeds total,K,0.52
+2024,Mahbubnagar,Oilseeds total,R,1.6
+2024,Mahbubnagar,Onion,K,16.59
+2024,Mahbubnagar,Onion,R,32.74
+2024,Mahbubnagar,Potato,R,13.5
+2024,Mahbubnagar,Potato,WY,14.5
+2024,Mahbubnagar,Ragi,K,1.02
+2024,Mahbubnagar,Ragi,R,1.02
+2024,Mahbubnagar,Rice,K,2.72
+2024,Mahbubnagar,Rice,R,2.94
+2024,Mahbubnagar,Safflower,K,1.0
+2024,Mahbubnagar,Safflower,R,1.14
+2024,Mahbubnagar,Sesamum,K,0.16
+2024,Mahbubnagar,Sesamum,R,0.74
+2024,Mahbubnagar,Small millets,K,1.16
+2024,Mahbubnagar,Small millets,R,0.9
+2024,Mahbubnagar,Soyabean,K,1.52
+2024,Mahbubnagar,Sugarcane,K,72.28
+2024,Mahbubnagar,Sunflower,K,1.47
+2024,Mahbubnagar,Sunflower,R,1.74
+2024,Mahbubnagar,Sweet potato,K,7.0
+2024,Mahbubnagar,Sweet potato,R,12.0
+2024,Mahbubnagar,Tobacco,K,1.83
+2024,Mahbubnagar,Tobacco,R,1.83
+2024,Mahbubnagar,Turmeric,K,6.24
+2024,Mahbubnagar,Turmeric,R,8.0
+2024,Mahbubnagar,Urad,K,0.71
+2024,Mahbubnagar,Urad,R,1.23
+2024,Mahbubnagar,Wheat,K,1.0
+2024,Mahbubnagar,Wheat,R,1.85
+2024,Mancherial,Arhar/Tur,K,0.84
+2024,Mancherial,Arhar/Tur,R,0.89
+2024,Mancherial,Cashewnut,K,0.58
+2024,Mancherial,Castor seed,K,0.4
+2024,Mancherial,Castor seed,R,0.33
+2024,Mancherial,Coriander,R,1.04
+2024,Mancherial,Cowpea(Lobia),K,0.68
+2024,Mancherial,Cowpea(Lobia),R,0.92
+2024,Mancherial,Dry chillies,K,7.44
+2024,Mancherial,Dry chillies,R,5.59
+2024,Mancherial,Garlic,R,4.0
+2024,Mancherial,Gram,R,1.49
+2024,Mancherial,Groundnut,K,1.8
+2024,Mancherial,Groundnut,R,2.77
+2024,Mancherial,Horse-gram,K,1.35
+2024,Mancherial,Horse-gram,R,0.68
+2024,Mancherial,Jowar,K,0.99
+2024,Mancherial,Jowar,R,1.77
+2024,Mancherial,Maize,K,4.17
+2024,Mancherial,Maize,R,5.94
+2024,Mancherial,Moong(Green Gram),K,0.61
+2024,Mancherial,Moong(Green Gram),R,1.4
+2024,Mancherial,Onion,K,17.91
+2024,Mancherial,Onion,R,30.11
+2024,Mancherial,Rice,K,2.59
+2024,Mancherial,Rice,R,3.66
+2024,Mancherial,Safflower,R,0.76
+2024,Mancherial,Sesamum,K,0.21
+2024,Mancherial,Sesamum,R,0.69
+2024,Mancherial,Small millets,K,1.67
+2024,Mancherial,Soyabean,K,1.56
+2024,Mancherial,Soyabean,R,1.67
+2024,Mancherial,Sugarcane,K,104.0
+2024,Mancherial,Sunflower,R,2.07
+2024,Mancherial,Sweet potato,R,11.16
+2024,Mancherial,Turmeric,K,6.02
+2024,Mancherial,Urad,K,0.79
+2024,Mancherial,Urad,R,1.41
+2024,Mancherial,Wheat,R,2.08
+2024,Medak,Arhar/Tur,K,0.81
+2024,Medak,Arhar/Tur,R,0.66
+2024,Medak,Bajra,K,0.89
+2024,Medak,Bajra,R,2.12
+2024,Medak,Banana,K,49.69
+2024,Medak,Banana,WY,31.14
+2024,Medak,Cashewnut,K,1.0
+2024,Medak,Castor seed,K,0.85
+2024,Medak,Castor seed,R,0.98
+2024,Medak,Coriander,K,1.0
+2024,Medak,Coriander,R,0.7
+2024,Medak,Coriander,WY,0.49
+2024,Medak,Cowpea(Lobia),K,0.79
+2024,Medak,Cowpea(Lobia),R,1.09
+2024,Medak,Dry chillies,K,3.22
+2024,Medak,Dry chillies,R,4.45
+2024,Medak,Garlic,R,4.8
+2024,Medak,Ginger,K,8.06
+2024,Medak,Ginger,R,9.0
+2024,Medak,Gram,K,1.0
+2024,Medak,Gram,R,1.28
+2024,Medak,Groundnut,K,1.57
+2024,Medak,Groundnut,R,1.72
+2024,Medak,Horse-gram,K,0.92
+2024,Medak,Horse-gram,R,1.01
+2024,Medak,Jowar,K,0.93
+2024,Medak,Jowar,R,2.18
+2024,Medak,Linseed,R,0.45
+2024,Medak,Maize,K,2.97
+2024,Medak,Maize,R,4.94
+2024,Medak,Masoor,R,0.43
+2024,Medak,Moong(Green Gram),K,0.47
+2024,Medak,Moong(Green Gram),R,0.81
+2024,Medak,Oilseeds total,K,0.94
+2024,Medak,Oilseeds total,R,1.15
+2024,Medak,Onion,K,16.74
+2024,Medak,Onion,R,31.57
+2024,Medak,Other Kharif pulses,K,0.69
+2024,Medak,Potato,K,11.4
+2024,Medak,Potato,R,15.39
+2024,Medak,Potato,WY,12.96
+2024,Medak,Ragi,K,1.28
+2024,Medak,Ragi,R,1.61
+2024,Medak,Rapeseed &Mustard,R,0.75
+2024,Medak,Rice,K,3.5
+2024,Medak,Rice,R,3.96
+2024,Medak,Safflower,R,0.76
+2024,Medak,Sesamum,K,0.14
+2024,Medak,Sesamum,R,0.56
+2024,Medak,Small millets,K,1.12
+2024,Medak,Small millets,R,1.0
+2024,Medak,Soyabean,K,1.39
+2024,Medak,Soyabean,R,1.7
+2024,Medak,Sugarcane,K,80.84
+2024,Medak,Sunflower,K,1.45
+2024,Medak,Sunflower,R,1.77
+2024,Medak,Sweet potato,R,9.68
+2024,Medak,Tobacco,R,2.97
+2024,Medak,Turmeric,K,5.29
+2024,Medak,Turmeric,R,7.5
+2024,Medak,Urad,K,0.61
+2024,Medak,Urad,R,1.13
+2024,Medak,Wheat,K,2.0
+2024,Medak,Wheat,R,1.72
+2024,Medak,other oilseeds,K,1.52
+2024,Medchal,Arhar/Tur,K,0.78
+2024,Medchal,Arhar/Tur,R,1.0
+2024,Medchal,Bajra,K,1.1
+2024,Medchal,Bajra,R,2.13
+2024,Medchal,Banana,K,49.7
+2024,Medchal,Cashewnut,K,1.0
+2024,Medchal,Castor seed,K,0.8
+2024,Medchal,Castor seed,R,2.0
+2024,Medchal,Cowpea(Lobia),K,0.88
+2024,Medchal,Cowpea(Lobia),R,0.85
+2024,Medchal,Dry chillies,K,3.67
+2024,Medchal,Dry chillies,R,5.41
+2024,Medchal,Ginger,R,9.4
+2024,Medchal,Gram,R,1.44
+2024,Medchal,Groundnut,K,2.17
+2024,Medchal,Groundnut,R,2.2
+2024,Medchal,Horse-gram,K,1.21
+2024,Medchal,Horse-gram,R,1.02
+2024,Medchal,Jowar,K,1.0
+2024,Medchal,Jowar,R,1.94
+2024,Medchal,Maize,K,2.99
+2024,Medchal,Maize,R,7.28
+2024,Medchal,Moong(Green Gram),K,0.71
+2024,Medchal,Moong(Green Gram),R,1.0
+2024,Medchal,Onion,R,30.1
+2024,Medchal,Potato,R,18.19
+2024,Medchal,Ragi,K,1.68
+2024,Medchal,Rice,K,3.42
+2024,Medchal,Rice,R,3.65
+2024,Medchal,Safflower,K,1.0
+2024,Medchal,Safflower,R,1.0
+2024,Medchal,Sesamum,K,0.19
+2024,Medchal,Sesamum,R,0.72
+2024,Medchal,Small millets,K,0.63
+2024,Medchal,Small millets,R,0.5
+2024,Medchal,Soyabean,K,1.65
+2024,Medchal,Sugarcane,K,94.0
+2024,Medchal,Sunflower,K,1.76
+2024,Medchal,Sunflower,R,1.68
+2024,Medchal,Sweet potato,K,9.0
+2024,Medchal,Turmeric,K,7.0
+2024,Medchal,Urad,K,0.71
+2024,Medchal,Urad,R,1.66
+2024,Medchal,Wheat,K,2.0
+2024,Medchal,Wheat,R,2.03
+2024,Mulugu,Arhar/Tur,K,12.04
+2024,Mulugu,Arhar/Tur,R,0.76
+2024,Mulugu,Bajra,R,1.0
+2024,Mulugu,Banana,K,48.63
+2024,Mulugu,Cashewnut,K,0.43
+2024,Mulugu,Coriander,R,1.0
+2024,Mulugu,Cowpea(Lobia),K,0.85
+2024,Mulugu,Cowpea(Lobia),R,1.03
+2024,Mulugu,Dry chillies,K,4.37
+2024,Mulugu,Dry chillies,R,5.98
+2024,Mulugu,Ginger,K,9.0
+2024,Mulugu,Gram,R,1.59
+2024,Mulugu,Groundnut,K,2.2
+2024,Mulugu,Groundnut,R,1.97
+2024,Mulugu,Horse-gram,R,0.85
+2024,Mulugu,Jowar,K,0.6
+2024,Mulugu,Jowar,R,1.92
+2024,Mulugu,Maize,K,5.02
+2024,Mulugu,Maize,R,8.71
+2024,Mulugu,Moong(Green Gram),K,0.72
+2024,Mulugu,Moong(Green Gram),R,0.77
+2024,Mulugu,Onion,R,30.26
+2024,Mulugu,Ragi,K,1.5
+2024,Mulugu,Rice,K,3.23
+2024,Mulugu,Rice,R,3.45
+2024,Mulugu,Safflower,R,1.0
+2024,Mulugu,Sesamum,R,0.72
+2024,Mulugu,Soyabean,R,1.5
+2024,Mulugu,Sunflower,R,1.94
+2024,Mulugu,Tobacco,R,4.03
+2024,Mulugu,Turmeric,K,7.17
+2024,Mulugu,Turmeric,R,7.5
+2024,Mulugu,Urad,K,0.69
+2024,Mulugu,Urad,R,1.22
+2024,Mulugu,Wheat,R,2.0
+2024,Nagarkurnool,Arhar/Tur,K,0.66
+2024,Nagarkurnool,Arhar/Tur,R,0.79
+2024,Nagarkurnool,Bajra,K,0.74
+2024,Nagarkurnool,Bajra,R,2.16
+2024,Nagarkurnool,Banana,K,48.33
+2024,Nagarkurnool,Castor seed,K,1.1
+2024,Nagarkurnool,Castor seed,R,1.11
+2024,Nagarkurnool,Cowpea(Lobia),K,0.77
+2024,Nagarkurnool,Cowpea(Lobia),R,0.98
+2024,Nagarkurnool,Dry chillies,K,4.23
+2024,Nagarkurnool,Dry chillies,R,5.22
+2024,Nagarkurnool,Gram,K,1.5
+2024,Nagarkurnool,Gram,R,1.45
+2024,Nagarkurnool,Groundnut,K,1.99
+2024,Nagarkurnool,Groundnut,R,2.38
+2024,Nagarkurnool,Horse-gram,K,1.12
+2024,Nagarkurnool,Horse-gram,R,1.01
+2024,Nagarkurnool,Jowar,K,0.97
+2024,Nagarkurnool,Jowar,R,1.66
+2024,Nagarkurnool,Maize,K,2.6
+2024,Nagarkurnool,Maize,R,6.45
+2024,Nagarkurnool,Moong(Green Gram),K,0.61
+2024,Nagarkurnool,Moong(Green Gram),R,1.0
+2024,Nagarkurnool,Onion,K,16.79
+2024,Nagarkurnool,Onion,R,30.1
+2024,Nagarkurnool,Potato,K,12.0
+2024,Nagarkurnool,Potato,R,15.74
+2024,Nagarkurnool,Ragi,K,1.29
+2024,Nagarkurnool,Ragi,R,1.4
+2024,Nagarkurnool,Rice,K,2.77
+2024,Nagarkurnool,Rice,R,2.92
+2024,Nagarkurnool,Safflower,R,0.94
+2024,Nagarkurnool,Sesamum,K,0.16
+2024,Nagarkurnool,Sesamum,R,0.7
+2024,Nagarkurnool,Small millets,K,1.39
+2024,Nagarkurnool,Small millets,R,1.27
+2024,Nagarkurnool,Soyabean,K,1.39
+2024,Nagarkurnool,Sugarcane,K,91.78
+2024,Nagarkurnool,Sunflower,K,1.85
+2024,Nagarkurnool,Sunflower,R,2.07
+2024,Nagarkurnool,Sweet potato,K,12.0
+2024,Nagarkurnool,Sweet potato,R,12.35
+2024,Nagarkurnool,Turmeric,K,7.52
+2024,Nagarkurnool,Urad,K,1.22
+2024,Nagarkurnool,Urad,R,1.37
+2024,Nagarkurnool,Wheat,K,2.0
+2024,Nagarkurnool,Wheat,R,2.35
+2024,Nalgonda,Arhar/Tur,K,0.57
+2024,Nalgonda,Arhar/Tur,R,0.73
+2024,Nalgonda,Bajra,K,0.82
+2024,Nalgonda,Bajra,R,1.92
+2024,Nalgonda,Banana,K,41.2
+2024,Nalgonda,Banana,WY,31.18
+2024,Nalgonda,Cashewnut,K,0.44
+2024,Nalgonda,Castor seed,K,0.73
+2024,Nalgonda,Castor seed,R,0.84
+2024,Nalgonda,Coriander,R,0.63
+2024,Nalgonda,Coriander,WY,0.48
+2024,Nalgonda,Cowpea(Lobia),K,0.75
+2024,Nalgonda,Cowpea(Lobia),R,0.78
+2024,Nalgonda,Dry chillies,K,4.73
+2024,Nalgonda,Dry chillies,R,4.54
+2024,Nalgonda,Ginger,K,6.79
+2024,Nalgonda,Ginger,R,6.5
+2024,Nalgonda,Gram,K,2.0
+2024,Nalgonda,Gram,R,1.24
+2024,Nalgonda,Groundnut,K,1.9
+2024,Nalgonda,Groundnut,R,1.73
+2024,Nalgonda,Horse-gram,K,1.17
+2024,Nalgonda,Horse-gram,R,1.02
+2024,Nalgonda,Jowar,K,0.77
+2024,Nalgonda,Jowar,R,1.37
+2024,Nalgonda,Maize,K,2.86
+2024,Nalgonda,Maize,R,6.47
+2024,Nalgonda,Moong(Green Gram),K,0.57
+2024,Nalgonda,Moong(Green Gram),R,1.06
+2024,Nalgonda,Oilseeds total,K,1.77
+2024,Nalgonda,Oilseeds total,R,1.04
+2024,Nalgonda,Onion,K,16.0
+2024,Nalgonda,Onion,R,29.15
+2024,Nalgonda,Ragi,K,1.84
+2024,Nalgonda,Ragi,R,2.0
+2024,Nalgonda,Rice,K,3.08
+2024,Nalgonda,Rice,R,3.23
+2024,Nalgonda,Safflower,R,1.0
+2024,Nalgonda,Sesamum,K,0.17
+2024,Nalgonda,Sesamum,R,0.63
+2024,Nalgonda,Small millets,K,1.16
+2024,Nalgonda,Soyabean,K,1.44
+2024,Nalgonda,Sugarcane,K,88.22
+2024,Nalgonda,Sunflower,R,1.86
+2024,Nalgonda,Sweet potato,R,11.5
+2024,Nalgonda,Tobacco,K,4.09
+2024,Nalgonda,Tobacco,R,4.23
+2024,Nalgonda,Turmeric,K,6.31
+2024,Nalgonda,Urad,K,0.75
+2024,Nalgonda,Urad,R,1.17
+2024,Nalgonda,Wheat,R,1.98
+2024,Nalgonda,other oilseeds,K,19.97
+2024,Narayanapet,Arhar/Tur,K,0.72
+2024,Narayanapet,Arhar/Tur,R,0.98
+2024,Narayanapet,Bajra,K,1.17
+2024,Narayanapet,Bajra,R,2.2
+2024,Narayanapet,Banana,K,48.31
+2024,Narayanapet,Castor seed,K,1.01
+2024,Narayanapet,Castor seed,R,1.32
+2024,Narayanapet,Coriander,R,1.0
+2024,Narayanapet,Cowpea(Lobia),K,0.69
+2024,Narayanapet,Cowpea(Lobia),R,0.88
+2024,Narayanapet,Dry chillies,K,4.52
+2024,Narayanapet,Dry chillies,R,5.1
+2024,Narayanapet,Garlic,R,4.0
+2024,Narayanapet,Gram,K,1.0
+2024,Narayanapet,Gram,R,1.44
+2024,Narayanapet,Groundnut,K,2.2
+2024,Narayanapet,Groundnut,R,2.08
+2024,Narayanapet,Horse-gram,K,1.18
+2024,Narayanapet,Horse-gram,R,1.17
+2024,Narayanapet,Jowar,K,0.89
+2024,Narayanapet,Jowar,R,0.94
+2024,Narayanapet,Maize,K,3.68
+2024,Narayanapet,Maize,R,7.14
+2024,Narayanapet,Moong(Green Gram),K,0.49
+2024,Narayanapet,Moong(Green Gram),R,0.85
+2024,Narayanapet,Onion,K,16.66
+2024,Narayanapet,Onion,R,29.02
+2024,Narayanapet,Ragi,K,1.16
+2024,Narayanapet,Ragi,R,1.46
+2024,Narayanapet,Rice,K,2.91
+2024,Narayanapet,Rice,R,3.05
+2024,Narayanapet,Safflower,K,1.0
+2024,Narayanapet,Safflower,R,0.81
+2024,Narayanapet,Sesamum,K,0.33
+2024,Narayanapet,Sesamum,R,0.68
+2024,Narayanapet,Small millets,K,1.17
+2024,Narayanapet,Soyabean,K,1.5
+2024,Narayanapet,Soyabean,R,1.75
+2024,Narayanapet,Sugarcane,K,92.03
+2024,Narayanapet,Sunflower,K,2.02
+2024,Narayanapet,Sunflower,R,2.21
+2024,Narayanapet,Urad,K,0.81
+2024,Narayanapet,Urad,R,1.66
+2024,Narayanapet,Wheat,R,2.0
+2024,Nirmal,Arhar/Tur,K,1.05
+2024,Nirmal,Arhar/Tur,R,1.01
+2024,Nirmal,Bajra,R,1.27
+2024,Nirmal,Banana,K,49.74
+2024,Nirmal,Castor seed,K,0.42
+2024,Nirmal,Castor seed,R,1.02
+2024,Nirmal,Coriander,K,1.0
+2024,Nirmal,Coriander,R,0.77
+2024,Nirmal,Cowpea(Lobia),K,0.77
+2024,Nirmal,Cowpea(Lobia),R,0.9
+2024,Nirmal,Dry chillies,K,4.14
+2024,Nirmal,Dry chillies,R,5.63
+2024,Nirmal,Garlic,R,2.88
+2024,Nirmal,Ginger,K,9.0
+2024,Nirmal,Ginger,R,9.0
+2024,Nirmal,Gram,K,2.0
+2024,Nirmal,Gram,R,1.47
+2024,Nirmal,Groundnut,K,1.64
+2024,Nirmal,Groundnut,R,2.69
+2024,Nirmal,Horse-gram,K,1.6
+2024,Nirmal,Horse-gram,R,1.26
+2024,Nirmal,Jowar,K,0.94
+2024,Nirmal,Jowar,R,1.79
+2024,Nirmal,Maize,K,5.9
+2024,Nirmal,Maize,R,8.7
+2024,Nirmal,Moong(Green Gram),K,0.52
+2024,Nirmal,Moong(Green Gram),R,0.97
+2024,Nirmal,Onion,K,17.85
+2024,Nirmal,Onion,R,31.11
+2024,Nirmal,Ragi,K,1.67
+2024,Nirmal,Ragi,R,1.09
+2024,Nirmal,Rice,K,3.04
+2024,Nirmal,Rice,R,3.56
+2024,Nirmal,Safflower,R,0.86
+2024,Nirmal,Sesamum,R,0.56
+2024,Nirmal,Small millets,K,1.35
+2024,Nirmal,Small millets,R,1.0
+2024,Nirmal,Soyabean,K,1.56
+2024,Nirmal,Soyabean,R,1.34
+2024,Nirmal,Sugarcane,K,89.94
+2024,Nirmal,Sunflower,K,3.0
+2024,Nirmal,Sunflower,R,2.05
+2024,Nirmal,Tobacco,K,4.0
+2024,Nirmal,Tobacco,R,4.03
+2024,Nirmal,Turmeric,K,5.8
+2024,Nirmal,Turmeric,R,7.38
+2024,Nirmal,Urad,K,0.78
+2024,Nirmal,Urad,R,1.29
+2024,Nirmal,Wheat,R,1.48
+2024,Nizamabad,Arhar/Tur,K,0.91
+2024,Nizamabad,Arhar/Tur,R,0.9
+2024,Nizamabad,Bajra,K,1.01
+2024,Nizamabad,Bajra,R,1.92
+2024,Nizamabad,Banana,K,49.72
+2024,Nizamabad,Banana,WY,31.15
+2024,Nizamabad,Castor seed,K,0.76
+2024,Nizamabad,Castor seed,R,1.05
+2024,Nizamabad,Coriander,K,0.87
+2024,Nizamabad,Coriander,R,0.95
+2024,Nizamabad,Coriander,WY,0.49
+2024,Nizamabad,Cowpea(Lobia),K,0.68
+2024,Nizamabad,Cowpea(Lobia),R,1.67
+2024,Nizamabad,Dry chillies,K,4.38
+2024,Nizamabad,Dry chillies,R,4.49
+2024,Nizamabad,Garlic,R,3.97
+2024,Nizamabad,Ginger,K,7.79
+2024,Nizamabad,Gram,R,1.31
+2024,Nizamabad,Groundnut,K,2.17
+2024,Nizamabad,Groundnut,R,2.48
+2024,Nizamabad,Horse-gram,K,0.58
+2024,Nizamabad,Horse-gram,R,0.98
+2024,Nizamabad,Jowar,K,0.85
+2024,Nizamabad,Jowar,R,1.73
+2024,Nizamabad,Maize,K,5.47
+2024,Nizamabad,Maize,R,6.14
+2024,Nizamabad,Moong(Green Gram),K,0.59
+2024,Nizamabad,Moong(Green Gram),R,0.8
+2024,Nizamabad,Oilseeds total,K,1.07
+2024,Nizamabad,Oilseeds total,R,0.78
+2024,Nizamabad,Onion,K,16.7
+2024,Nizamabad,Onion,R,28.47
+2024,Nizamabad,Other Rabi pulses,R,0.93
+2024,Nizamabad,Ragi,R,1.52
+2024,Nizamabad,Rapeseed &Mustard,R,1.02
+2024,Nizamabad,Rice,K,3.42
+2024,Nizamabad,Rice,R,3.67
+2024,Nizamabad,Safflower,R,1.25
+2024,Nizamabad,Sesamum,R,0.7
+2024,Nizamabad,Small millets,K,1.02
+2024,Nizamabad,Soyabean,K,1.64
+2024,Nizamabad,Soyabean,R,1.4
+2024,Nizamabad,Sugarcane,K,82.28
+2024,Nizamabad,Sunflower,R,1.66
+2024,Nizamabad,Sweet potato,R,10.55
+2024,Nizamabad,Tobacco,K,2.89
+2024,Nizamabad,Tobacco,R,2.86
+2024,Nizamabad,Turmeric,K,4.6
+2024,Nizamabad,Turmeric,R,5.84
+2024,Nizamabad,Urad,K,0.59
+2024,Nizamabad,Urad,R,1.21
+2024,Nizamabad,Wheat,R,1.8
+2024,Peddapalli,Arhar/Tur,K,0.8
+2024,Peddapalli,Arhar/Tur,R,0.97
+2024,Peddapalli,Bajra,R,1.97
+2024,Peddapalli,Banana,K,49.73
+2024,Peddapalli,Castor seed,K,0.5
+2024,Peddapalli,Coriander,R,0.76
+2024,Peddapalli,Cowpea(Lobia),K,0.59
+2024,Peddapalli,Cowpea(Lobia),R,1.44
+2024,Peddapalli,Dry chillies,K,3.65
+2024,Peddapalli,Dry chillies,R,5.32
+2024,Peddapalli,Garlic,R,4.0
+2024,Peddapalli,Ginger,K,9.17
+2024,Peddapalli,Gram,R,1.5
+2024,Peddapalli,Groundnut,K,2.23
+2024,Peddapalli,Groundnut,R,2.29
+2024,Peddapalli,Horse-gram,K,1.52
+2024,Peddapalli,Horse-gram,R,1.0
+2024,Peddapalli,Jowar,K,0.93
+2024,Peddapalli,Jowar,R,2.08
+2024,Peddapalli,Maize,K,6.47
+2024,Peddapalli,Maize,R,8.19
+2024,Peddapalli,Moong(Green Gram),K,0.6
+2024,Peddapalli,Moong(Green Gram),R,0.91
+2024,Peddapalli,Onion,K,14.08
+2024,Peddapalli,Onion,R,30.17
+2024,Peddapalli,Ragi,K,1.84
+2024,Peddapalli,Rice,K,3.44
+2024,Peddapalli,Rice,R,4.08
+2024,Peddapalli,Safflower,R,1.0
+2024,Peddapalli,Sesamum,K,0.15
+2024,Peddapalli,Sesamum,R,0.69
+2024,Peddapalli,Small millets,K,1.7
+2024,Peddapalli,Soyabean,K,1.77
+2024,Peddapalli,Soyabean,R,1.35
+2024,Peddapalli,Sunflower,R,2.03
+2024,Peddapalli,Turmeric,K,7.16
+2024,Peddapalli,Turmeric,R,7.33
+2024,Peddapalli,Urad,K,0.88
+2024,Peddapalli,Urad,R,1.43
+2024,Peddapalli,Wheat,R,2.0
+2024,Rajanna,Arhar/Tur,K,0.81
+2024,Rajanna,Arhar/Tur,R,0.75
+2024,Rajanna,Bajra,K,1.0
+2024,Rajanna,Banana,K,38.12
+2024,Rajanna,Castor seed,K,0.85
+2024,Rajanna,Castor seed,R,0.97
+2024,Rajanna,Coriander,K,1.0
+2024,Rajanna,Coriander,R,0.88
+2024,Rajanna,Cowpea(Lobia),K,0.6
+2024,Rajanna,Cowpea(Lobia),R,1.42
+2024,Rajanna,Dry chillies,K,4.39
+2024,Rajanna,Dry chillies,R,5.08
+2024,Rajanna,Garlic,R,4.0
+2024,Rajanna,Ginger,K,9.0
+2024,Rajanna,Gram,R,1.41
+2024,Rajanna,Groundnut,K,2.01
+2024,Rajanna,Groundnut,R,2.29
+2024,Rajanna,Horse-gram,K,1.25
+2024,Rajanna,Horse-gram,R,0.96
+2024,Rajanna,Jowar,K,0.98
+2024,Rajanna,Jowar,R,2.3
+2024,Rajanna,Maize,K,5.01
+2024,Rajanna,Maize,R,6.21
+2024,Rajanna,Moong(Green Gram),K,0.61
+2024,Rajanna,Moong(Green Gram),R,0.9
+2024,Rajanna,Onion,K,17.63
+2024,Rajanna,Onion,R,30.09
+2024,Rajanna,Potato,R,24.0
+2024,Rajanna,Ragi,K,2.0
+2024,Rajanna,Ragi,R,1.5
+2024,Rajanna,Rice,K,3.69
+2024,Rajanna,Rice,R,3.79
+2024,Rajanna,Safflower,K,1.0
+2024,Rajanna,Safflower,R,1.0
+2024,Rajanna,Sesamum,R,0.62
+2024,Rajanna,Small millets,R,1.0
+2024,Rajanna,Soyabean,K,1.76
+2024,Rajanna,Soyabean,R,1.75
+2024,Rajanna,Sugarcane,K,89.26
+2024,Rajanna,Sunflower,R,2.04
+2024,Rajanna,Tobacco,R,3.0
+2024,Rajanna,Turmeric,K,7.17
+2024,Rajanna,Turmeric,R,7.38
+2024,Rajanna,Urad,K,0.76
+2024,Rajanna,Urad,R,1.69
+2024,Rajanna,Wheat,R,2.25
+2024,Rangareddi,Arhar/Tur,K,0.51
+2024,Rangareddi,Arhar/Tur,R,0.71
+2024,Rangareddi,Bajra,K,0.86
+2024,Rangareddi,Bajra,R,2.09
+2024,Rangareddi,Banana,K,49.76
+2024,Rangareddi,Banana,WY,31.14
+2024,Rangareddi,Cashewnut,K,0.33
+2024,Rangareddi,Castor seed,K,0.41
+2024,Rangareddi,Castor seed,R,0.87
+2024,Rangareddi,Coriander,K,0.76
+2024,Rangareddi,Coriander,R,0.76
+2024,Rangareddi,Coriander,WY,0.42
+2024,Rangareddi,Cowpea(Lobia),K,0.75
+2024,Rangareddi,Cowpea(Lobia),R,1.7
+2024,Rangareddi,Dry chillies,K,4.54
+2024,Rangareddi,Dry chillies,R,4.56
+2024,Rangareddi,Ginger,K,11.43
+2024,Rangareddi,Ginger,R,9.0
+2024,Rangareddi,Gram,K,1.41
+2024,Rangareddi,Gram,R,1.25
+2024,Rangareddi,Groundnut,K,1.35
+2024,Rangareddi,Groundnut,R,2.65
+2024,Rangareddi,Horse-gram,K,0.94
+2024,Rangareddi,Horse-gram,R,0.99
+2024,Rangareddi,Jowar,K,1.04
+2024,Rangareddi,Jowar,R,1.83
+2024,Rangareddi,Maize,K,2.3
+2024,Rangareddi,Maize,R,5.1
+2024,Rangareddi,Moong(Green Gram),K,0.65
+2024,Rangareddi,Moong(Green Gram),R,0.88
+2024,Rangareddi,Oilseeds total,K,0.8
+2024,Rangareddi,Oilseeds total,R,1.16
+2024,Rangareddi,Onion,K,15.74
+2024,Rangareddi,Onion,R,22.02
+2024,Rangareddi,Potato,K,18.14
+2024,Rangareddi,Potato,R,18.19
+2024,Rangareddi,Potato,WY,16.67
+2024,Rangareddi,Ragi,K,1.59
+2024,Rangareddi,Ragi,R,1.62
+2024,Rangareddi,Rice,K,2.96
+2024,Rangareddi,Rice,R,2.84
+2024,Rangareddi,Safflower,K,1.31
+2024,Rangareddi,Safflower,R,1.06
+2024,Rangareddi,Sesamum,K,0.14
+2024,Rangareddi,Sesamum,R,0.76
+2024,Rangareddi,Small millets,K,1.13
+2024,Rangareddi,Soyabean,K,1.4
+2024,Rangareddi,Soyabean,R,1.37
+2024,Rangareddi,Sugarcane,K,77.29
+2024,Rangareddi,Sunflower,K,2.02
+2024,Rangareddi,Sunflower,R,1.86
+2024,Rangareddi,Sweet potato,K,8.83
+2024,Rangareddi,Sweet potato,R,11.19
+2024,Rangareddi,Sweet potato,WY,8.74
+2024,Rangareddi,Turmeric,K,5.62
+2024,Rangareddi,Urad,K,0.79
+2024,Rangareddi,Urad,R,1.37
+2024,Rangareddi,Wheat,K,1.52
+2024,Rangareddi,Wheat,R,2.28
+2024,Rangareddi,other oilseeds,K,0.33
+2024,Sangareddy,Arhar/Tur,K,0.74
+2024,Sangareddy,Arhar/Tur,R,0.97
+2024,Sangareddy,Bajra,K,0.61
+2024,Sangareddy,Bajra,R,0.68
+2024,Sangareddy,Banana,K,50.74
+2024,Sangareddy,Cashewnut,K,0.67
+2024,Sangareddy,Castor seed,K,0.95
+2024,Sangareddy,Castor seed,R,0.99
+2024,Sangareddy,Coriander,K,0.71
+2024,Sangareddy,Coriander,R,0.73
+2024,Sangareddy,Cowpea(Lobia),K,0.84
+2024,Sangareddy,Cowpea(Lobia),R,0.83
+2024,Sangareddy,Dry chillies,K,4.45
+2024,Sangareddy,Dry chillies,R,5.71
+2024,Sangareddy,Garlic,K,3.0
+2024,Sangareddy,Garlic,R,2.36
+2024,Sangareddy,Ginger,K,8.08
+2024,Sangareddy,Ginger,R,9.18
+2024,Sangareddy,Gram,R,1.33
+2024,Sangareddy,Groundnut,K,2.24
+2024,Sangareddy,Groundnut,R,1.74
+2024,Sangareddy,Horse-gram,K,0.96
+2024,Sangareddy,Horse-gram,R,1.06
+2024,Sangareddy,Jowar,K,0.66
+2024,Sangareddy,Jowar,R,1.69
+2024,Sangareddy,Maize,K,3.54
+2024,Sangareddy,Maize,R,3.87
+2024,Sangareddy,Moong(Green Gram),K,0.74
+2024,Sangareddy,Moong(Green Gram),R,0.98
+2024,Sangareddy,Onion,K,11.89
+2024,Sangareddy,Onion,R,37.03
+2024,Sangareddy,Potato,K,19.2
+2024,Sangareddy,Potato,R,16.84
+2024,Sangareddy,Ragi,K,1.47
+2024,Sangareddy,Ragi,R,1.26
+2024,Sangareddy,Rice,K,3.55
+2024,Sangareddy,Rice,R,3.72
+2024,Sangareddy,Safflower,R,0.66
+2024,Sangareddy,Sesamum,K,0.2
+2024,Sangareddy,Sesamum,R,0.69
+2024,Sangareddy,Small millets,K,1.12
+2024,Sangareddy,Small millets,R,1.0
+2024,Sangareddy,Soyabean,K,1.3
+2024,Sangareddy,Soyabean,R,1.55
+2024,Sangareddy,Sugarcane,K,87.56
+2024,Sangareddy,Sunflower,K,1.85
+2024,Sangareddy,Sunflower,R,2.04
+2024,Sangareddy,Sweet potato,R,12.14
+2024,Sangareddy,Tobacco,R,3.39
+2024,Sangareddy,Turmeric,K,4.76
+2024,Sangareddy,Turmeric,R,7.52
+2024,Sangareddy,Urad,K,0.76
+2024,Sangareddy,Urad,R,1.62
+2024,Sangareddy,Wheat,K,2.0
+2024,Sangareddy,Wheat,R,1.73
+2024,Siddipet,Arhar/Tur,K,0.78
+2024,Siddipet,Arhar/Tur,R,0.94
+2024,Siddipet,Bajra,K,1.13
+2024,Siddipet,Bajra,R,2.27
+2024,Siddipet,Banana,K,49.78
+2024,Siddipet,Cashewnut,K,0.76
+2024,Siddipet,Castor seed,K,0.85
+2024,Siddipet,Castor seed,R,0.96
+2024,Siddipet,Coriander,K,1.26
+2024,Siddipet,Coriander,R,0.91
+2024,Siddipet,Cowpea(Lobia),K,0.98
+2024,Siddipet,Cowpea(Lobia),R,0.99
+2024,Siddipet,Dry chillies,K,4.52
+2024,Siddipet,Dry chillies,R,5.56
+2024,Siddipet,Garlic,R,3.4
+2024,Siddipet,Ginger,K,8.19
+2024,Siddipet,Ginger,R,8.12
+2024,Siddipet,Gram,K,1.04
+2024,Siddipet,Gram,R,1.68
+2024,Siddipet,Groundnut,K,1.94
+2024,Siddipet,Groundnut,R,1.88
+2024,Siddipet,Horse-gram,K,1.16
+2024,Siddipet,Horse-gram,R,1.06
+2024,Siddipet,Jowar,K,0.92
+2024,Siddipet,Jowar,R,2.32
+2024,Siddipet,Maize,K,3.83
+2024,Siddipet,Maize,R,6.01
+2024,Siddipet,Moong(Green Gram),K,0.64
+2024,Siddipet,Moong(Green Gram),R,0.92
+2024,Siddipet,Onion,K,17.68
+2024,Siddipet,Onion,R,18.44
+2024,Siddipet,Potato,K,18.49
+2024,Siddipet,Potato,R,18.57
+2024,Siddipet,Ragi,K,1.59
+2024,Siddipet,Ragi,R,2.0
+2024,Siddipet,Rice,K,3.41
+2024,Siddipet,Rice,R,3.36
+2024,Siddipet,Safflower,R,1.12
+2024,Siddipet,Sesamum,K,0.32
+2024,Siddipet,Sesamum,R,0.7
+2024,Siddipet,Small millets,K,0.5
+2024,Siddipet,Soyabean,K,1.43
+2024,Siddipet,Soyabean,R,1.6
+2024,Siddipet,Sugarcane,K,90.37
+2024,Siddipet,Sunflower,K,2.03
+2024,Siddipet,Sunflower,R,2.11
+2024,Siddipet,Tobacco,R,2.51
+2024,Siddipet,Turmeric,K,6.86
+2024,Siddipet,Turmeric,R,7.0
+2024,Siddipet,Urad,K,0.85
+2024,Siddipet,Urad,R,1.4
+2024,Siddipet,Wheat,K,2.0
+2024,Siddipet,Wheat,R,1.93
+2024,Suryapet,Arhar/Tur,K,0.67
+2024,Suryapet,Arhar/Tur,R,0.84
+2024,Suryapet,Bajra,K,1.0
+2024,Suryapet,Bajra,R,3.0
+2024,Suryapet,Banana,K,49.78
+2024,Suryapet,Castor seed,K,0.5
+2024,Suryapet,Castor seed,R,0.94
+2024,Suryapet,Coriander,K,1.0
+2024,Suryapet,Cowpea(Lobia),K,0.87
+2024,Suryapet,Cowpea(Lobia),R,0.62
+2024,Suryapet,Dry chillies,K,4.05
+2024,Suryapet,Dry chillies,R,7.57
+2024,Suryapet,Ginger,K,9.0
+2024,Suryapet,Gram,R,1.49
+2024,Suryapet,Groundnut,K,1.9
+2024,Suryapet,Groundnut,R,2.1
+2024,Suryapet,Horse-gram,K,1.77
+2024,Suryapet,Horse-gram,R,1.21
+2024,Suryapet,Jowar,K,0.94
+2024,Suryapet,Jowar,R,1.58
+2024,Suryapet,Maize,K,3.4
+2024,Suryapet,Maize,R,5.74
+2024,Suryapet,Moong(Green Gram),K,0.41
+2024,Suryapet,Moong(Green Gram),R,0.77
+2024,Suryapet,Onion,K,16.85
+2024,Suryapet,Onion,R,28.06
+2024,Suryapet,Ragi,R,1.35
+2024,Suryapet,Rice,K,3.36
+2024,Suryapet,Rice,R,3.54
+2024,Suryapet,Safflower,R,1.0
+2024,Suryapet,Sesamum,K,0.15
+2024,Suryapet,Sesamum,R,0.73
+2024,Suryapet,Small millets,K,1.7
+2024,Suryapet,Small millets,R,1.0
+2024,Suryapet,Sugarcane,K,89.0
+2024,Suryapet,Sunflower,K,1.0
+2024,Suryapet,Sunflower,R,1.83
+2024,Suryapet,Sweet potato,K,12.42
+2024,Suryapet,Sweet potato,R,11.15
+2024,Suryapet,Tobacco,R,3.33
+2024,Suryapet,Turmeric,K,7.03
+2024,Suryapet,Turmeric,R,6.0
+2024,Suryapet,Urad,K,0.84
+2024,Suryapet,Urad,R,1.29
+2024,Vikarabad,Arhar/Tur,K,0.73
+2024,Vikarabad,Arhar/Tur,R,0.83
+2024,Vikarabad,Bajra,K,0.89
+2024,Vikarabad,Bajra,R,2.03
+2024,Vikarabad,Banana,K,53.63
+2024,Vikarabad,Castor seed,K,0.85
+2024,Vikarabad,Castor seed,R,1.26
+2024,Vikarabad,Coriander,K,0.59
+2024,Vikarabad,Coriander,R,0.76
+2024,Vikarabad,Cowpea(Lobia),K,0.8
+2024,Vikarabad,Cowpea(Lobia),R,0.99
+2024,Vikarabad,Dry chillies,K,4.49
+2024,Vikarabad,Dry chillies,R,5.32
+2024,Vikarabad,Garlic,K,2.0
+2024,Vikarabad,Garlic,R,4.0
+2024,Vikarabad,Ginger,K,6.7
+2024,Vikarabad,Ginger,R,6.72
+2024,Vikarabad,Gram,K,1.61
+2024,Vikarabad,Gram,R,1.44
+2024,Vikarabad,Groundnut,K,1.9
+2024,Vikarabad,Groundnut,R,2.26
+2024,Vikarabad,Horse-gram,K,1.03
+2024,Vikarabad,Horse-gram,R,1.11
+2024,Vikarabad,Jowar,K,1.1
+2024,Vikarabad,Jowar,R,1.59
+2024,Vikarabad,Maize,K,4.2
+2024,Vikarabad,Maize,R,5.93
+2024,Vikarabad,Moong(Green Gram),K,0.71
+2024,Vikarabad,Moong(Green Gram),R,0.97
+2024,Vikarabad,Onion,K,15.71
+2024,Vikarabad,Onion,R,36.46
+2024,Vikarabad,Potato,K,24.33
+2024,Vikarabad,Potato,R,21.51
+2024,Vikarabad,Ragi,K,1.96
+2024,Vikarabad,Ragi,R,1.33
+2024,Vikarabad,Rice,K,2.88
+2024,Vikarabad,Rice,R,3.11
+2024,Vikarabad,Safflower,K,0.85
+2024,Vikarabad,Safflower,R,0.82
+2024,Vikarabad,Sesamum,K,0.23
+2024,Vikarabad,Sesamum,R,0.71
+2024,Vikarabad,Small millets,K,0.78
+2024,Vikarabad,Small millets,R,0.75
+2024,Vikarabad,Soyabean,K,1.71
+2024,Vikarabad,Soyabean,R,1.37
+2024,Vikarabad,Sugarcane,K,76.18
+2024,Vikarabad,Sunflower,K,3.0
+2024,Vikarabad,Sunflower,R,2.09
+2024,Vikarabad,Sweet potato,K,10.26
+2024,Vikarabad,Sweet potato,R,10.09
+2024,Vikarabad,Turmeric,K,8.45
+2024,Vikarabad,Turmeric,R,12.14
+2024,Vikarabad,Urad,K,0.76
+2024,Vikarabad,Urad,R,1.66
+2024,Vikarabad,Wheat,K,2.0
+2024,Vikarabad,Wheat,R,1.97
+2024,Wanaparthy,Arhar/Tur,K,0.56
+2024,Wanaparthy,Arhar/Tur,R,0.81
+2024,Wanaparthy,Bajra,K,1.0
+2024,Wanaparthy,Banana,K,47.0
+2024,Wanaparthy,Castor seed,K,0.92
+2024,Wanaparthy,Castor seed,R,0.95
+2024,Wanaparthy,Cowpea(Lobia),K,0.76
+2024,Wanaparthy,Cowpea(Lobia),R,1.0
+2024,Wanaparthy,Dry chillies,K,4.39
+2024,Wanaparthy,Dry chillies,R,5.64
+2024,Wanaparthy,Gram,R,1.85
+2024,Wanaparthy,Groundnut,K,2.09
+2024,Wanaparthy,Groundnut,R,2.65
+2024,Wanaparthy,Horse-gram,K,1.03
+2024,Wanaparthy,Horse-gram,R,1.07
+2024,Wanaparthy,Jowar,K,0.93
+2024,Wanaparthy,Jowar,R,1.88
+2024,Wanaparthy,Maize,K,3.24
+2024,Wanaparthy,Maize,R,6.22
+2024,Wanaparthy,Moong(Green Gram),K,0.6
+2024,Wanaparthy,Moong(Green Gram),R,0.92
+2024,Wanaparthy,Onion,K,23.04
+2024,Wanaparthy,Onion,R,30.1
+2024,Wanaparthy,Ragi,K,1.59
+2024,Wanaparthy,Ragi,R,1.42
+2024,Wanaparthy,Rice,K,2.89
+2024,Wanaparthy,Rice,R,3.32
+2024,Wanaparthy,Safflower,R,1.0
+2024,Wanaparthy,Sesamum,K,0.17
+2024,Wanaparthy,Sesamum,R,0.72
+2024,Wanaparthy,Small millets,K,1.14
+2024,Wanaparthy,Small millets,R,1.0
+2024,Wanaparthy,Soyabean,K,1.44
+2024,Wanaparthy,Soyabean,R,1.47
+2024,Wanaparthy,Sugarcane,K,76.3
+2024,Wanaparthy,Sunflower,R,1.84
+2024,Wanaparthy,Tobacco,K,3.0
+2024,Wanaparthy,Tobacco,R,5.21
+2024,Wanaparthy,Urad,K,0.83
+2024,Wanaparthy,Urad,R,1.46
+2024,Wanaparthy,Wheat,R,2.0
+2024,Warangal,Arhar/Tur,K,0.82
+2024,Warangal,Arhar/Tur,R,0.89
+2024,Warangal,Bajra,K,1.0
+2024,Warangal,Bajra,R,2.17
+2024,Warangal,Banana,K,51.82
+2024,Warangal,Banana,WY,31.14
+2024,Warangal,Cashewnut,K,1.0
+2024,Warangal,Castor seed,K,0.62
+2024,Warangal,Castor seed,R,1.0
+2024,Warangal,Coriander,K,1.0
+2024,Warangal,Coriander,R,3.27
+2024,Warangal,Coriander,WY,0.49
+2024,Warangal,Cowpea(Lobia),K,0.75
+2024,Warangal,Cowpea(Lobia),R,4.44
+2024,Warangal,Dry chillies,K,3.54
+2024,Warangal,Dry chillies,R,3.23
+2024,Warangal,Ginger,K,8.03
+2024,Warangal,Ginger,R,7.0
+2024,Warangal,Gram,K,1.0
+2024,Warangal,Gram,R,1.15
+2024,Warangal,Groundnut,K,3.14
+2024,Warangal,Groundnut,R,2.45
+2024,Warangal,Horse-gram,K,1.0
+2024,Warangal,Horse-gram,R,0.7
+2024,Warangal,Jowar,K,0.87
+2024,Warangal,Jowar,R,1.58
+2024,Warangal,Maize,K,5.37
+2024,Warangal,Maize,R,7.89
+2024,Warangal,Moong(Green Gram),K,0.71
+2024,Warangal,Moong(Green Gram),R,0.78
+2024,Warangal,Oilseeds total,K,1.25
+2024,Warangal,Oilseeds total,R,1.65
+2024,Warangal,Onion,K,18.01
+2024,Warangal,Onion,R,30.1
+2024,Warangal,Ragi,K,1.6
+2024,Warangal,Ragi,R,1.0
+2024,Warangal,Rice,K,2.98
+2024,Warangal,Rice,R,3.59
+2024,Warangal,Safflower,R,1.0
+2024,Warangal,Sesamum,K,0.16
+2024,Warangal,Sesamum,R,0.55
+2024,Warangal,Small millets,K,1.38
+2024,Warangal,Soyabean,K,1.43
+2024,Warangal,Soyabean,R,1.32
+2024,Warangal,Sugarcane,K,82.42
+2024,Warangal,Sunflower,K,2.0
+2024,Warangal,Sunflower,R,1.87
+2024,Warangal,Sweet potato,R,12.61
+2024,Warangal,Sweet potato,WY,6.4
+2024,Warangal,Tobacco,K,3.38
+2024,Warangal,Tobacco,R,3.27
+2024,Warangal,Turmeric,K,5.51
+2024,Warangal,Turmeric,R,5.61
+2024,Warangal,Urad,K,0.71
+2024,Warangal,Urad,R,1.16
+2024,Warangal urban,Arhar/Tur,K,0.67
+2024,Warangal urban,Arhar/Tur,R,0.79
+2024,Warangal urban,Bajra,K,1.0
+2024,Warangal urban,Bajra,R,3.0
+2024,Warangal urban,Banana,K,49.75
+2024,Warangal urban,Castor seed,K,0.76
+2024,Warangal urban,Coriander,R,1.0
+2024,Warangal urban,Cowpea(Lobia),K,0.71
+2024,Warangal urban,Cowpea(Lobia),R,0.91
+2024,Warangal urban,Dry chillies,K,4.0
+2024,Warangal urban,Dry chillies,R,5.57
+2024,Warangal urban,Garlic,R,1.72
+2024,Warangal urban,Ginger,K,9.0
+2024,Warangal urban,Gram,K,2.0
+2024,Warangal urban,Gram,R,1.27
+2024,Warangal urban,Groundnut,K,2.69
+2024,Warangal urban,Groundnut,R,1.65
+2024,Warangal urban,Horse-gram,K,0.93
+2024,Warangal urban,Horse-gram,R,1.07
+2024,Warangal urban,Jowar,K,0.92
+2024,Warangal urban,Jowar,R,2.26
+2024,Warangal urban,Maize,K,5.66
+2024,Warangal urban,Maize,R,7.26
+2024,Warangal urban,Moong(Green Gram),K,0.45
+2024,Warangal urban,Moong(Green Gram),R,0.92
+2024,Warangal urban,Onion,K,14.56
+2024,Warangal urban,Onion,R,30.1
+2024,Warangal urban,Potato,K,12.0
+2024,Warangal urban,Ragi,K,1.79
+2024,Warangal urban,Rice,K,3.04
+2024,Warangal urban,Rice,R,3.78
+2024,Warangal urban,Safflower,K,1.0
+2024,Warangal urban,Safflower,R,0.92
+2024,Warangal urban,Sesamum,K,0.31
+2024,Warangal urban,Sesamum,R,0.72
+2024,Warangal urban,Small millets,K,1.22
+2024,Warangal urban,Soyabean,K,1.6
+2024,Warangal urban,Soyabean,R,1.63
+2024,Warangal urban,Sunflower,R,2.07
+2024,Warangal urban,Tobacco,K,2.6
+2024,Warangal urban,Tobacco,R,2.82
+2024,Warangal urban,Turmeric,K,6.51
+2024,Warangal urban,Turmeric,R,6.39
+2024,Warangal urban,Urad,K,0.84
+2024,Warangal urban,Urad,R,1.43
+2024,Warangal urban,Wheat,R,2.0
+2024,Yadadri,Arhar/Tur,K,0.59
+2024,Yadadri,Arhar/Tur,R,0.88
+2024,Yadadri,Bajra,K,0.8
+2024,Yadadri,Bajra,R,1.0
+2024,Yadadri,Banana,K,49.73
+2024,Yadadri,Cashewnut,K,0.67
+2024,Yadadri,Castor seed,K,0.8
+2024,Yadadri,Castor seed,R,1.02
+2024,Yadadri,Coriander,R,0.76
+2024,Yadadri,Cowpea(Lobia),K,0.85
+2024,Yadadri,Cowpea(Lobia),R,0.83
+2024,Yadadri,Dry chillies,K,4.33
+2024,Yadadri,Dry chillies,R,5.57
+2024,Yadadri,Ginger,K,9.0
+2024,Yadadri,Gram,R,1.53
+2024,Yadadri,Groundnut,K,2.22
+2024,Yadadri,Groundnut,R,2.29
+2024,Yadadri,Horse-gram,K,1.1
+2024,Yadadri,Horse-gram,R,1.04
+2024,Yadadri,Jowar,K,0.73
+2024,Yadadri,Jowar,R,1.82
+2024,Yadadri,Maize,K,3.34
+2024,Yadadri,Maize,R,7.66
+2024,Yadadri,Moong(Green Gram),K,0.61
+2024,Yadadri,Moong(Green Gram),R,0.92
+2024,Yadadri,Onion,R,29.92
+2024,Yadadri,Potato,R,17.22
+2024,Yadadri,Ragi,K,1.76
+2024,Yadadri,Rice,K,3.31
+2024,Yadadri,Rice,R,3.61
+2024,Yadadri,Safflower,K,1.0
+2024,Yadadri,Safflower,R,0.94
+2024,Yadadri,Sesamum,K,0.18
+2024,Yadadri,Sesamum,R,0.76
+2024,Yadadri,Small millets,K,1.16
+2024,Yadadri,Small millets,R,1.41
+2024,Yadadri,Soyabean,K,1.6
+2024,Yadadri,Soyabean,R,1.5
+2024,Yadadri,Sugarcane,K,89.49
+2024,Yadadri,Sunflower,R,1.4
+2024,Yadadri,Sweet potato,K,12.37
+2024,Yadadri,Sweet potato,R,11.67
+2024,Yadadri,Tobacco,K,3.8
+2024,Yadadri,Tobacco,R,2.25
+2024,Yadadri,Turmeric,K,7.17
+2024,Yadadri,Urad,K,0.82
+2024,Yadadri,Urad,R,1.39
+2024,Yadadri,Wheat,R,2.03

@@ -1,7 +1,6 @@
-import os
 import pandas as pd
 
-predicted_yields_path = 'yield_predictions.csv'
+predicted_yields_path = 'yield_predictions_2024.csv'
 predicted_yields = pd.read_csv(predicted_yields_path)
 
 print(predicted_yields.head())
@@ -34,7 +33,7 @@ if season not in predicted_yields['season'].unique():
     exit()
 
 #filter the data based on user input
-filtered_data = predicted_yields[(predicted_yields['crop'] == crop_name) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district) & (predicted_yields['year'] == 2024)]
+filtered_data = predicted_yields[(predicted_yields['crop'] == crop_name) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district)]
 #check if data is available for the selected options
 if filtered_data.empty:
     print("Data not available for the selected options")
