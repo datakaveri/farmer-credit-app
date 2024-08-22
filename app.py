@@ -1,13 +1,15 @@
 import pandas as pd
+import validations as val
 
 predicted_yields_path = 'yield_predictions_2024.csv'
 predicted_yields = pd.read_csv(predicted_yields_path)
 
 print(predicted_yields.head())
 
-print("********* Yield Prediction System ********")
+print("********* Farmer Credit System ********")
 
 #take input from user
+# district will eventually come from Raitabandhu data
 print("Districts available: ", predicted_yields['district'].unique())
 district = input("Enter farmer district: ")
 
@@ -16,6 +18,7 @@ if district not in predicted_yields['district'].unique():
     print("Invalid district")
     exit()
 
+# ask user which crop he wants to grow
 print("Crops available: ", predicted_yields['crop'].unique())
 crop_name = input("Enter the crop name: ")
 
@@ -24,6 +27,15 @@ if crop_name not in predicted_yields['crop'].unique():
     print("Invalid crop name")
     exit()
 
+# take input crop area (in hectares)
+crop_area = float(input("Enter the area on which crop is to be planted(in hectares): "))
+# check if crop area is valid
+if not val.validate_area(crop_area):
+    print("Invalid crop area")
+    print("Not elegible for kissan loan")
+    exit()
+
+#take input season
 print("Seasons available: ", predicted_yields['season'].unique())
 season = input("Enter the season (K for Khareef, R for Rabi, WY for Whole Year): ")
 
@@ -32,23 +44,28 @@ if season not in predicted_yields['season'].unique():
     print("Invalid season")
     exit()
 
-#filter the data based on user input
-filtered_data = predicted_yields[(predicted_yields['crop'] == crop_name) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district)]
-#check if data is available for the selected options
-if filtered_data.empty:
-    print("Data not available for the selected options")
+# validate if crop is grown in the selected season & selected district
+if not val.validate_crop(crop_name, season, district):
+    print("Crop is not grown in the selected season & district")
+    print("Not elegible for kissan loan")
     exit()
+
+# do a check on if yield of crop is decreasing over the years
+# if yield is decreasing, then do not give loan
+if not val.yield_decreasing(crop_name):
+    print("Yield of the crop is decreasing over the years")
+    print("Not elegible for kissan loan")
+    exit()
+
+# filter the data based on the inputs
+filtered_data = predicted_yields[(predicted_yields['crop'] == crop_name) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district)]
 
 #display the filtered data
 print(filtered_data)
 
 #give yield prediction
-print("Predicted yield for year 2024: ", filtered_data['yield'].values[0])
+yield_prediction = filtered_data['yield'].values[0] 
+print("Predicted yield for year 2024: ", yield_prediction, " tonnes/hectares")
 
-#take input land area (in hectares)
-land_area = float(input("Enter land area on which crop is to be grown (in hectares): "))
-#calculate the predicted yield in tonnes
-predicted_yield = filtered_data['yield'].values[0] * land_area
-print("Predicted yield for year 2024 for ", land_area, " hectares: ", predicted_yield, " tonnes")
-
-#get the price of the crop from price data (district, crop)
+predicted_yield = filtered_data['yield'].values[0] * crop_area
+print("Predicted yield for the farmer: ", predicted_yield, " tonnes")
