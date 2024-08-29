@@ -1,8 +1,4 @@
 # Ignoring deprecated files from config and scripts
-config/
-data/spatioTemporalChunks
-data/syntheticMedicalChunks
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
