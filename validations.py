@@ -28,5 +28,5 @@ def validate_crop(crop_name, season, district):
         return False
     return True
 
-def yield_decreasing(yield_data, crop_name):
+#def yield_decreasing(yield_data, crop_name):
     # check if yield of crop is decreasing over the years
