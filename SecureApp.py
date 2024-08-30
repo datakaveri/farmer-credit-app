@@ -1,7 +1,6 @@
 import subprocess
 import os
 import PPDX_SDK
-import sys
 import json
 import shutil
 
@@ -47,6 +46,7 @@ if __name__ == "__main__":
         context = json.load(f)
 
     sha_digest = context["sha_digest"]
+    ppb_number = context["ppb_number"]
 
     # Step 4 - Key generation
     print("\nStep 4") 
@@ -76,31 +76,30 @@ if __name__ == "__main__":
     PPDX_SDK.getAttestationToken(config)
     print("Attestation token received from APD")
 
-    # Call APD for accessing predicted yield data
+    # Call APD for getting ADEX data access tokens
     PPDX_SDK.getYieldDataToken(config)
+    print("Yield data token received from APD")
+    PPDX_SDK.getAPMCDataToken(config)
+    print("APMC data token received from APD")
+    PPDX_SDK.getSOFDataToken(config)
+    print("SOF data token received from APD")
 
-    # Step 7 - Docker image pulling
-    print("\nStep 7")
-    box_out("Getting files from RS...")
-    PPDX_SDK.setState("Step 7","Getting files from RS...",7,10,address)
-    #PPDX_SDK.profiling_steps('Step 7', 7)
-    PPDX_SDK.getFileFromResourceServer()
+    # Call APD for getting Rythabandhu data access token
+    PPDX_SDK.getFarmerDataToken(config, ppb_number)
+    print("Farmer data token received from APD")
 
-    # Step 8 - Docker image pulling
+    # Step 8 - Getting files from RS
     print("\nStep 8")
-    box_out("Decrypting & storing files...")
-    PPDX_SDK.setState("Step 8","Decrypting & storing files...",8,10,address)
-    #PPDX_SDK.profiling_steps('Step 8', 8)
-    PPDX_SDK.decryptFile()
-    #PPDX_SDK.profiling_inputImages()
-    print("Files decrypted and stored in /tmp/inputdata")
+    box_out("Getting files from RS...")
+    PPDX_SDK.setState("Step 8","Getting files from RS...",8,10,address)
+    PPDX_SDK.getFilesFromResourceServer(config)
 
     # Executing the application in the docker
     print("\nStep 9")
     box_out("Running the Application...")
     PPDX_SDK.setState("Step 9","Running Application...",9,10,address)
     #PPDX_SDK.profiling_steps('Step 9', 9)
-    subprocess.run(["sudo", "docker", "compose", 'up'])
+    subprocess.run(["python3", "app.py"])
 
     print("\nStep 10")
     PPDX_SDK.setState("Step 10","Finished Application Execution",10,10,address)

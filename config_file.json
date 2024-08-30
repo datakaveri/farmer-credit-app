@@ -8,6 +8,7 @@
     "yieldData_itemID": "<item ID for yield data>",
     "APMCData_itemID": "<item ID for APMC data>",
     "SOFData_itemID": "<item ID for SOF data>",
+    "FarmerData_itemID": "c5422a0f-e60f-48e4-9d1e-1fa4b1714900",
     "itemType": "resource",
     "role": "consumer",
     "rs_url": "https://authenclave.iudx.io/resource_server/encrypted.store"

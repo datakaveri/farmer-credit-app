@@ -9,7 +9,6 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 import Crypto
 from Crypto.PublicKey import RSA
 import base64
-import hashlib
 import json
 import requests
 import _pickle as pickle
@@ -17,6 +16,9 @@ from Crypto.Cipher import PKCS1_OAEP
 from cryptography.fernet import Fernet
 import tarfile
 import shutil
+import urllib
+import urllib.parse
+
 #AMD:
 # 1. generate key pair - DONE
 # 2. measure docker & store in vTPM
@@ -176,10 +178,10 @@ def getAttestationToken(config):
         # create tokens.json in the same directory & append to it as attestationToken
         with open('tokens.json', 'w') as file:
             json.dump({"attestationToken": token}, file)
-        print("Token written to tokens.json file.")
+        print("Attestation token written to tokens.json file.")
     
     else:
-        print("Token verification failed.", r.text)
+        print("Attestation Token fetching failed.", r.text)
         sys.exit() 
 
 def getYieldDataToken(config):
@@ -187,19 +189,12 @@ def getYieldDataToken(config):
     auth_server_url=config["auth_server_url"]
     headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
 
-    with open('keys/jwt-response.txt', 'r') as file:
-        token = file.read().strip()
-
-    context={
-                "jwtMAA": token
-            }
-
     data={
-            "itemId": config["itemId"],
-            "itemType": config["itemType"],
-            "role": config["role"],
-            "context": context
-         }
+        "itemId": config["yieldData_itemID"],
+        "itemType": config["itemType"],
+        "role": config["role"]
+    }
+    
     dataJson=json.dumps(data)
     r= requests.post(auth_server_url,headers=headers,data=dataJson)
 
@@ -209,17 +204,123 @@ def getYieldDataToken(config):
         token=jsonResponse.get('results').get('accessToken')
         print(token)
 
-        # create tokens.json in the same directory & append to it as attestationToken
+        # append yield data access token to tokens.json file
+        with open('tokens.json', 'r') as file:
+            tokens = json.load(file)
+            tokens["yieldDataToken"] = token
         with open('tokens.json', 'w') as file:
-            json.dump({"attestationToken": token}, file)
-        print("Token written to tokens.json file.")
+            json.dump(tokens, file)
+        print("Yield data access Token written to tokens.json file.")
     
     else:
-        print("Token verification failed.", r.text)
+        print("Yield data access Token fetching failed.", r.text)
         sys.exit() 
 
+def getAPMCDataToken(config):
+
+    auth_server_url=config["auth_server_url"]
+    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
+
+    data={
+        "itemId": config["APMCData_itemID"],
+        "itemType": config["itemType"],
+        "role": config["role"]
+    }
+    
+    dataJson=json.dumps(data)
+    r= requests.post(auth_server_url,headers=headers,data=dataJson)
+
+    if(r.status_code==200):
+        print("Token verified and Token recieved.")
+        jsonResponse=r.json()
+        token=jsonResponse.get('results').get('accessToken')
+        print(token)
+
+        # append APMC data access token to tokens.json file
+        with open('tokens.json', 'r') as file:
+            tokens = json.load(file)
+            tokens["APMCDataToken"] = token
+        with open('tokens.json', 'w') as file:
+            json.dump(tokens, file)
+        print("APMC data access Token written to tokens.json file.")
+    
+    else:
+        print("APMC data access Token fetching failed.", r.text)
+        sys.exit() 
+
+
+def getSOFDataToken(config):
+
+    auth_server_url=config["auth_server_url"]
+    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
+
+    data={
+        "itemId": config["SOFData_itemID"],
+        "itemType": config["itemType"],
+        "role": config["role"]
+    }
+    
+    dataJson=json.dumps(data)
+    r= requests.post(auth_server_url,headers=headers,data=dataJson)
+
+    if(r.status_code==200):
+        print("Token verified and Token recieved.")
+        jsonResponse=r.json()
+        token=jsonResponse.get('results').get('accessToken')
+        print(token)
+
+        # append SOF data access token to tokens.json file
+        with open('tokens.json', 'r') as file:
+            tokens = json.load(file)
+            tokens["SOFDataToken"] = token
+        with open('tokens.json', 'w') as file:
+            json.dump(tokens, file)
+        print("SOF data access Token written to tokens.json file.")
+    
+    else:
+        print("SOF data access Token fetching failed.", r.text)
+        sys.exit() 
+
+
+def getFarmerDataToken(config, ppb_number):
+
+    auth_server_url=config["auth_server_url"]
+    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
+
+    context = {
+        "ppbNumber": ppb_number
+    }
+    data={
+        "itemId": config["FarmerData_itemID"],
+        "itemType": config["itemType"],
+        "role": config["role"],
+        "context": context
+    }
+    
+    dataJson=json.dumps(data)
+    r= requests.post(auth_server_url,headers=headers,data=dataJson)
+
+    if(r.status_code==200):
+        print("Token verified and Token recieved.")
+        jsonResponse=r.json()
+        token=jsonResponse.get('results').get('accessToken')
+        print(token)
+
+        # append SOF data access token to tokens.json file
+        with open('tokens.json', 'r') as file:
+            tokens = json.load(file)
+            tokens["FarmerDataToken"] = token
+        with open('tokens.json', 'w') as file:
+            json.dump(tokens, file)
+        print("Farmer data access Token written to tokens.json file.")
+    
+    else:
+        print("Farmer data access Token fetching failed.", r.text)
+        sys.exit() 
+
+
 #Send token to resource server for verification & get encrypted images  
-def getFileFromResourceServer(token):
+def getFilesFromResourceServer(token):
     rs_url = "https://authenclave.iudx.io/resource_server/encrypted.store"
     rs_headers={'Authorization': f'Bearer {token}'}
     rs=requests.get(rs_url,headers=rs_headers)
