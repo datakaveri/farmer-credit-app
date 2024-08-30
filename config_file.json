@@ -1,0 +1,14 @@
+{
+    "address": "http://0.0.0.0:4000",
+    "auth_server_url": "https://ts.adex.org.in/auth/v1/token",
+    "clientId": "ec3e85c5-dc2f-406b-9772-50fcbcba7047",
+    "clientSecret": "7718a228cd2acb578e5f28d9241cb1d466b96151",
+    "Content-Type": "application/json",
+    "AttestationitemId": "<dummy item ID for attestation>",
+    "yieldData_itemID": "<item ID for yield data>",
+    "APMCData_itemID": "<item ID for APMC data>",
+    "SOFData_itemID": "<item ID for SOF data>",
+    "itemType": "resource",
+    "role": "consumer",
+    "rs_url": "https://authenclave.iudx.io/resource_server/encrypted.store"
+}

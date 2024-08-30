@@ -8,17 +8,6 @@ import shutil
 # Simulate sourcing external scripts -  
 # You'd integrate the necessary functions from setState.sh and profilingStep.sh here 
 
-
-def load_config(filename):
-    """Loads configuration data from a JSON file."""
-    try:
-        with open(filename, 'r') as file:
-            return json.load(file)
-    except FileNotFoundError:
-        raise FileNotFoundError(f"Configuration file '{filename}' not found.")
-    except json.JSONDecodeError:
-        raise ValueError(f"Invalid JSON format in configuration file '{filename}'.")
-
 def box_out(message):
     """Prints a box around a message using text characters."""
 
@@ -35,34 +24,8 @@ def box_out(message):
     # Bottom border
     print("+" + "-" * (max_width + 2) + "+")
 
-
-def remove_profiling_file():
-    if os.path.exists("profiling.json"):
-        os.remove("profiling.json")
-
 def remove_files():
-    file_path = os.path.join('.','docker-compose.yml')
-    if os.path.exists(file_path):
-        os.remove(file_path)
-        print(f"Removed file: {file_path}")
-    else:
-        print(f"File not found: {file_path}")
-
     folder_path = os.path.join('.', 'keys')
-    if os.path.exists(folder_path):
-        shutil.rmtree(folder_path)
-        print(f"Removed folder and contents: {folder_path}")
-    else:
-        print(f"Folder not found: {folder_path}")
-
-    folder_path = os.path.join('/tmp', 'inputdata')
-    if os.path.exists(folder_path):
-        shutil.rmtree(folder_path)
-        print(f"Removed folder and contents: {folder_path}")
-    else:
-        print(f"Folder not found: {folder_path}")
-    
-    folder_path = os.path.join('/tmp', 'output')
     if os.path.exists(folder_path):
         shutil.rmtree(folder_path)
         print(f"Removed folder and contents: {folder_path}")
@@ -72,80 +35,56 @@ def remove_files():
 # Start the main process
 if __name__ == "__main__":
     config_file = "config_file.json"
-    config = load_config(config_file)  # Loads configuration into a dictionary
-    address = config["enclaveManagerAddress"]
+    with open(config_file) as f:
+        config = json.load(f)
+    address = config["address"]
     
-    #PPDX_SDK.profiling_steps('Application Start', 0)
-    #remove_profiling_file()
     remove_files()
 
-    if len(sys.argv) < 2:
-        print("Error: Missing GitHub raw link argument.")
-        print("Usage: sudo python3 deploy_enclave.py <github_raw_link>")
-        sys.exit(1)  # Exit with an error code
+    # read the json context file stored in the context folder
+    json_context = "./UIcontext/context.json"
+    with open(json_context) as f:
+        context = json.load(f)
 
-    github_raw_link = sys.argv[1]
-    json_context = sys.argv[2]
-    if not github_raw_link.startswith("https://raw.githubusercontent.com/"):
-        print("Error: Invalid GitHub raw link format.")
-        sys.exit(1)
+    sha_digest = context["sha_digest"]
 
-    # Step 1 - Pulling docker compose & extracting docker image link
-    print("\nStep 1")
-    box_out("Pulling Docker Compose from GitHub...")
-    PPDX_SDK.setState("Step 1","Pulling Docker Compose from GitHub...",1,10,address)
-    #PPDX_SDK.profiling_steps('Step 1', 1)
-    PPDX_SDK.pull_compose_file(github_raw_link)
-    print('Extracting docker link...')
-    link = subprocess.check_output(["sudo", "docker", "compose", "config", "--images"]).decode().strip()
-    print("Image information:", link)
-
-
-    # Step 2 - Key generation
-    print("\nStep 2") 
+    # Step 4 - Key generation
+    print("\nStep 4") 
     box_out("Generating and saving key pair...")
-    PPDX_SDK.setState("Step 2","Generating and saving key pair...",2,10,address)
-    #PPDX_SDK.profiling_steps('Step 2', 2)
+    PPDX_SDK.setState("Step 4","Generating and saving key pair...",4,10,address)
     PPDX_SDK.generate_and_save_key_pair()
+    print("Key pair generated and saved")
 
-    # Step 3 - Docker image pulling
-    print("\nStep 3")
-    box_out("Pulling docker image...")
-    PPDX_SDK.setState("Step 3","Pulling docker image...",3,10,address)
-    #PPDX_SDK.profiling_steps('Step 3', 3)
-    PPDX_SDK.pull_docker_image(link)
-    print("Pulled docker")
-
-    # Step 4 - Measuring image and storing in vTPM
-    print("\nStep 4")
+    # Step 5 - storing image digest in vTPM
+    print("\nStep 5")
     box_out("Measuring Docker image into vTPM...")
-    PPDX_SDK.setState("Step 4","Measuring Docker image into vTPM...",4,10,address)
-    #PPDX_SDK.profiling_steps('Step 4', 4)
-    PPDX_SDK.measureDockervTPM(link)
+    PPDX_SDK.setState("Step 5","Measuring Docker image into vTPM...",5,10,address)
+    PPDX_SDK.measureDockervTPM(sha_digest)
     print("Measured and stored in vTPM")
 
-    # Step 5 - Send VTPM & public key to MAA & get attestation token
-    print("\nStep 5")
+    # Step 6 - Send VTPM & public key to MAA & get attestation token
+    print("\nStep 6")
     box_out("Guest Attestation Executing...")
-    PPDX_SDK.setState("Step 5","Guest Attestation Executing...",5,10,address)
-    #PPDX_SDK.profiling_steps('Step 5', 5)
+    PPDX_SDK.setState("Step 6","Guest Attestation Executing...",6,10,address)
     PPDX_SDK.execute_guest_attestation()
     print("Guest Attestation complete. JWT received from MAA")
 
     # Step 6 - Send the JWT to APD
-    print("\nStep 6")
+    print("\nStep 7")
     box_out("Sending JWT to APD for verification...")
-    PPDX_SDK.setState("Step 6","Sending JWT to APD for verification...",6,10,address)
-    #PPDX_SDK.profiling_steps('Step 6', 6)
-    token=PPDX_SDK.getTokenFromAPD('jwt-response.txt', 'config_file.json')
-    print("Access token received from APD")
+    PPDX_SDK.setState("Step 7","Sending JWT to APD for verification...",7,10,address)
+    PPDX_SDK.getAttestationToken(config)
+    print("Attestation token received from APD")
+
+    # Call APD for accessing predicted yield data
+    PPDX_SDK.getYieldDataToken(config)
 
     # Step 7 - Docker image pulling
     print("\nStep 7")
     box_out("Getting files from RS...")
     PPDX_SDK.setState("Step 7","Getting files from RS...",7,10,address)
     #PPDX_SDK.profiling_steps('Step 7', 7)
-    PPDX_SDK.getFileFromResourceServer(token)
+    PPDX_SDK.getFileFromResourceServer()
 
     # Step 8 - Docker image pulling
     print("\nStep 8")

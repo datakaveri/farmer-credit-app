@@ -1,0 +1,3 @@
+/home/ubuntu/sgx-enclave-manager/guest_attestation/cvm-attestation-sample-app/CMakeFiles/AttestationClient.dir
+/home/ubuntu/sgx-enclave-manager/guest_attestation/cvm-attestation-sample-app/CMakeFiles/edit_cache.dir
+/home/ubuntu/sgx-enclave-manager/guest_attestation/cvm-attestation-sample-app/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/AttestationClient.dir/main.cpp.o CMakeFiles/AttestationClient.dir/Utils.cpp.o CMakeFiles/AttestationClient.dir/Logger.cpp.o -o AttestationClient  -lazguestattestation -lcurl -ljsoncpp 

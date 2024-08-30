@@ -90,33 +90,14 @@ def generate_and_save_key_pair():
     with open(os.path.join('keys', public_key_file), 'w') as file:
         file.writelines(new_lines)
 
-def pull_docker_image(app_name):
-    # Docker login
-    print("Logging in to docker hub")
-    subprocess.run(["sudo", "docker", "login"])
-    # Pull Docker image
-    print("Pulling docker image")
-    subprocess.run(["sudo", "docker", "pull", app_name])
 
-def measureDockervTPM(link):
+def measureDockervTPM(sha_digest):
+    # Extend docker image hash to PCR 15
     try:
-        docker_image = link
-        
-        print(f"Fetching SHA256 digest for Docker image '{docker_image}'...")
-        repo_name, tag = docker_image.split(':')
-        # Query Docker Hub API to get image info
-        response = requests.get(f"https://registry.hub.docker.com/v2/repositories/{repo_name}/tags/{tag}")
-        if response.status_code == 200:
-            data = response.json()
-            sha256_digest = data['images'][0]['digest'].replace('sha256:', '')
-            print(f"SHA256 digest for image '{docker_image}' is: {sha256_digest}")
-
-            print("Extending the measurement to PCR 15 using TPM2 tools...")
-            # Extend the measurement to PCR 15 using TPM2 tools
-            subprocess.run(['sudo', 'tpm2_pcrextend', f'15:sha256={sha256_digest}'])
-            print("Measurement extended successfully to PCR 15.")
-        else:
-            print(f"Error: Image '{docker_image}' not found.")
+        print("Extending the measurement to PCR 15 using TPM2 tools...")
+        # Extend the measurement to PCR 15 using TPM2 tools
+        subprocess.run(['sudo', 'tpm2_pcrextend', f'15:sha256={sha_digest}'])
+        print("Measurement extended successfully to PCR 15.")
     except Exception as e:
         print("Error:", e)
 
@@ -139,10 +120,7 @@ def measureDockervTPM(link):
                 else:
                     print("Unexpected output format:", line)
             json_string = json.dumps(pcr_values)
-            # Write the PCR values to a text file
-            # with open(os.path.join('keys', 'pcr_values.txt'), 'w') as file:
-            #     for pcr_number, pcr_value in pcr_values.items():
-            #         file.write(f"{pcr_number}: {pcr_value}\n")
+
             with open(os.path.join('keys', 'pcr_values.json'), 'w') as file:
                 file.write(json_string)
             print("PCR values written to file successfully!")
@@ -168,15 +146,12 @@ def execute_guest_attestation():
 
 
 #APD verifies quote and releases token
-def getTokenFromAPD(jwt_file,config_file):
+def getAttestationToken(config):
 
-    with open(config_file, 'r') as file:
-        config = json.load(file)
-
-    apd_url=config["apd_url"]
+    auth_server_url=config["auth_server_url"]
     headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
 
-    with open('keys/'+jwt_file, 'r') as file:
+    with open('keys/jwt-response.txt', 'r') as file:
         token = file.read().strip()
 
     context={
@@ -190,13 +165,55 @@ def getTokenFromAPD(jwt_file,config_file):
             "context": context
          }
     dataJson=json.dumps(data)
-    r= requests.post(apd_url,headers=headers,data=dataJson)
+    r= requests.post(auth_server_url,headers=headers,data=dataJson)
+
     if(r.status_code==200):
         print("Token verified and Token recieved.")
         jsonResponse=r.json()
         token=jsonResponse.get('results').get('accessToken')
         print(token)
-        return token
+
+        # create tokens.json in the same directory & append to it as attestationToken
+        with open('tokens.json', 'w') as file:
+            json.dump({"attestationToken": token}, file)
+        print("Token written to tokens.json file.")
+    
+    else:
+        print("Token verification failed.", r.text)
+        sys.exit() 
+
+def getYieldDataToken(config):
+
+    auth_server_url=config["auth_server_url"]
+    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
+
+    with open('keys/jwt-response.txt', 'r') as file:
+        token = file.read().strip()
+
+    context={
+                "jwtMAA": token
+            }
+
+    data={
+            "itemId": config["itemId"],
+            "itemType": config["itemType"],
+            "role": config["role"],
+            "context": context
+         }
+    dataJson=json.dumps(data)
+    r= requests.post(auth_server_url,headers=headers,data=dataJson)
+
+    if(r.status_code==200):
+        print("Token verified and Token recieved.")
+        jsonResponse=r.json()
+        token=jsonResponse.get('results').get('accessToken')
+        print(token)
+
+        # create tokens.json in the same directory & append to it as attestationToken
+        with open('tokens.json', 'w') as file:
+            json.dump({"attestationToken": token}, file)
+        print("Token written to tokens.json file.")
+    
     else:
         print("Token verification failed.", r.text)
         sys.exit() 
@@ -263,3 +280,21 @@ def decryptFile():
     tar.extractall(extracted_data_path)
     print("Images decrypted.",os.listdir(extracted_data_path))
     print("Images stored in tmp directory")
+
+#function to set state of enclave
+def setState(title,description,step,maxSteps,address):
+    state= {"title":title,"description":description,"step":step,"maxSteps":maxSteps}
+    call_set_state_endpoint(state, address)
+
+#function to call set state endpoint
+def call_set_state_endpoint(state, address):
+    #define enpoint url
+    endpoint_url=urllib.parse.urljoin(address, '/enclave/setstate')
+
+    #create Json payload
+    payload = { "state": state }
+    #create POST request
+    r = requests.post(endpoint_url, json=payload)
+
+    #print response
+    print(r.text)
