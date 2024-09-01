@@ -32,9 +32,9 @@ def test_server():
 @app.route("/process_app", methods = ["POST"])
 def process_dp():
     try:
-        config = json.loads(request.get_data().decode())    
-        main_app_obj = MainApp()
-        status, output = main_app_obj.main_process(config=config)
+        config = json.loads(request.get_data().decode())
+        main_app_obj = MainApp(config)
+        status, output = main_app_obj.main_process()
         response = send_response(status=status, response=output)
     except Exception as e:
         print(e)
