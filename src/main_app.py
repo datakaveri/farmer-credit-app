@@ -1,112 +1,57 @@
 import pandas as pd
-import validator as val
+from validator import AppValidator
+from loan_amount_calculator import loanCalculator
+from pre_processing import pre_process_datasets
 
 class MainApp:
-    def __init__(self):
+    def __init__(self, config):
         # yield_df = pd.DataFrame()
         # sof_df = pd.DataFrame()
         # apmc_df = pd.DataFrame()
         self.yield_df = self.load_datasets('dataset/yield_pred_2023_2024.csv', 'csv')
         self.sof_df = self.load_datasets('dataset/SOF-TS.xlsx', 'xlsx')
         self.apmc_df = self.load_datasets('dataset/apmc_historical_data.csv', 'csv')
-        self.crop_name = ''
-        self.crop_area = ''
-        self.district = ''
-        self.season = ''
+        self.crop_name = config['crop_name']
+        self.crop_area = float(config['area_in_hectares'])
+        self.district = config['district']
+        self.season = config['season']
+        self.year = config['year']
+        
 
     def load_datasets(self, filename, file_format):
         if file_format == 'csv':
-            df =  pd.read_csv(filename)
+            df =  pd.read_csv(filename, dtype='str')
         if file_format == 'xlsx':
-            df = pd.read_excel(filename, sheet_name='2023-2025')
+            df = pd.read_excel(filename, sheet_name='2023-2025', dtype='str')
+        df.fillna('', inplace=True)
         return df
     
-    def pre_process_datasets(self, df):
-        return df
-
-
-    def main_process(self, config):
+    def main_process(self):
         #get PPB 
         status = "success"
-        response = {"kissan_loan_amount":0.0,
-                    "consumer_loan_amount": 0.0}
+        kissan_loan = 0.0 
+        consumer_loan = 0.0 
+        response = {"kissan_loan_amount":kissan_loan,
+                    "consumer_loan_amount": consumer_loan}
         
-
-        ##################### Start: Read Config Params #####################
-        
-        self.crop_name = config['crop_name']
-        self.crop_area = float(config['area_in_hectares'])
-        self.season = config['season']
-        self.district = config['district']
-
-        ##################### End: Read Config Params #####################
+        ##################### Start: Preprocess Datasets #####################
+        self.yield_df, self.sof_df, self.apmc_df = pre_process_datasets(self.yield_df, self.sof_df, self.apmc_df)
+        ##################### End: Preprocess Datasets #####################
 
         ##################### Start: Validations #####################
-        
-        if self.crop_name not in self.yield_df['crop'].unique():
-            print("Invalid crop name")
-            status='failed'
-
-        # check if crop area is valid
-        if not val.validate_area(self.crop_area):
-            print("Invalid crop area")
-            print("Not elegible for kissan loan")
+        validator_obj = AppValidator(self.crop_name, self.crop_area, self.season, self.district)
+        if not validator_obj.validate(self.yield_df):
             status='failed'
             response = {}
-        
-        #check if season is valid
-        if self.season not in self.yield_df['season'].unique():
-            print("Invalid season")
-            status='failed'
-            response = {}
-
-        # validate if crop is grown in the selected season & selected district
-        if not val.validate_crop(self.crop_name, self.season, self.district, self.yield_df):
-            print("Crop is not grown in the selected season & district")
-            print("Not elegible for kissan loan")
-            status='failed'
-            response = {}
-
-        # do a check on if yield of crop is decreasing over the years
-        # if yield is decreasing, then do not give loan
-        if not val.yield_decreasing(self.crop_name):
-            print("Yield of the crop is decreasing over the years")
-            print("Not elegible for kissan loan")
-            status='failed'
-            response = {}
+            return status, response        
         print('Completed validations successfully')
         ##################### End: Validations #####################
 
-
-        ##################### Start: Preprocess Datasets #####################
-        #yield is in hectares
-        #requested area for loan is in hectares
-        #sof is in Rs/Acre
-        #apmc is in Rs/quintal
-        #convert yield year to 2024 or 2023
-        self.yield_df['year'] = self.yield_df.apply(lambda row: '2023' if row['year']=='2023-01-01' else '2024', axis=1)
-        self.yield_df['district'] = self.yield_df['district'].apply(str.lower)
-        self.yield_df['crop'] = self.yield_df['crop'].apply(str.lower)
-        self.yield_df['season'] = self.yield_df['season'].apply(str.lower)
-
-        self.sof_df['Crop'] = self.sof_df['Crop'].apply(str.lower)
-
-        # self.apmc_df['year'] = self.apmc_df.apply(lambda row: '2023' if row['year']=='2023-01-01' else '2024', axis=1)
-        self.apmc_df['district'] = self.apmc_df['district'].apply(str.lower)
-        self.apmc_df['crop'] = self.apmc_df['crop'].apply(str.lower)
-        self.apmc_df['season'] = self.apmc_df['season'].apply(str.lower)
-
-        ##################### End: Preprocess Datasets #####################
-
-
-        ##################### Start: Calculate Loan #####################
-        kissan_loan = 0.0 #TODO: get the amount from a function
-        consumer_loan = 0.0 #TODO: get the amount from a function
-
+        ##################### Start: Calculate Loan #####################        
+        loan_calculator_obj = loanCalculator(self.crop_name, self.crop_area, self.season, self.district, self.year)
+        kissan_loan, consumer_loan = loan_calculator_obj.get_loan_amount(self.yield_df, self.sof_df, self.apmc_df)        
         response = {"kissan_loan_amount": kissan_loan,
                     "consumer_loan_amount": consumer_loan}
-
         ##################### End: Calculate Loan #####################
-
                 
         return status, response

@@ -1,9 +1,9 @@
 {
     "ppb_no":"12345",
     "crop_name":"bajra",
-    "season": "kharif",
-    "year": "2025",
-    "district": "adilabad",
+    "season": "rabi",
+    "year": "2024-01-01",
+    "district": "karimnagar",
     "area_in_hectares":"1000",
     "type of land":"ui"
 }
