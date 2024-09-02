@@ -5,6 +5,7 @@ def modifyPredictedYieldsData():
     predicted_yields_path = '../data/predictedYields.csv'
     predicted_yields = pd.read_csv(predicted_yields_path)
 
+    predicted_yields_filtered['year'] = pd.to_datetime(predicted_yields_filtered['year']).dt.year
     predicted_yields_filtered = predicted_yields[predicted_yields['year'] != 2023]
 
     # Save the filtered data back to the CSV file (or a new file)
@@ -25,6 +26,11 @@ def modifySOFData():
 
     print("Modified SOF data saved")
 
+def modifyAPMCData():
+    predictedPrices_path = '../data/predictedPrices.csv'
+    predictedPrices = pd.read_csv(predictedPrices_path)
+
+    
 
 # Function to pick a random value from the range
 def pick_random_from_range(range_str):
