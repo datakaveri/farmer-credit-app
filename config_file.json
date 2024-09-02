@@ -11,5 +11,6 @@
     "FarmerData_itemID": "c5422a0f-e60f-48e4-9d1e-1fa4b1714900",
     "itemType": "resource",
     "role": "consumer",
-    "rs_url": "https://authenclave.iudx.io/resource_server/encrypted.store"
+    "adex_url" : "<adex_url>", 
+    "farmer_data_url": "https://gateway.adex.org.in/ngsi-ld/v1/temporal/entities"
 }

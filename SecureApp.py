@@ -78,21 +78,22 @@ if __name__ == "__main__":
 
     # Call APD for getting ADEX data access tokens
     PPDX_SDK.getYieldDataToken(config)
-    print("Yield data token received from APD")
     PPDX_SDK.getAPMCDataToken(config)
-    print("APMC data token received from APD")
     PPDX_SDK.getSOFDataToken(config)
-    print("SOF data token received from APD")
 
     # Call APD for getting Rythabandhu data access token
     PPDX_SDK.getFarmerDataToken(config, ppb_number)
-    print("Farmer data token received from APD")
 
     # Step 8 - Getting files from RS
     print("\nStep 8")
     box_out("Getting files from RS...")
     PPDX_SDK.setState("Step 8","Getting files from RS...",8,10,address)
+
+    # getting files from ADEX
     PPDX_SDK.getFilesFromResourceServer(config)
+
+    # getting Rytabandhu farmer data
+    PPDX_SDK.getFarmerData(config, ppb_number)
 
     # Executing the application in the docker
     print("\nStep 9")

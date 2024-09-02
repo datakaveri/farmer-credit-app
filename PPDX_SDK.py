@@ -320,8 +320,18 @@ def getFarmerDataToken(config, ppb_number):
 
 
 #Send token to resource server for verification & get encrypted images  
-def getFilesFromResourceServer(token):
-    rs_url = "https://authenclave.iudx.io/resource_server/encrypted.store"
+def getFilesFromResourceServer(config):
+    rs_url = config["adex_url"]
+
+    # get all access tokens from tokens.json
+    with open("tokens.json", "r") as file:
+        tokens = json.load(file)
+        token = tokens["attestationToken"]
+        yieldDataToken = tokens["yieldDataToken"]
+        APMCDataToken = tokens["APMCDataToken"]
+        SOFDataToken = tokens["SOFDataToken"]
+    
+
     rs_headers={'Authorization': f'Bearer {token}'}
     rs=requests.get(rs_url,headers=rs_headers)
     if rs.status_code == 200:
@@ -335,52 +345,49 @@ def getFilesFromResourceServer(token):
         print("Token authentication failed.",rs.text)
         sys.exit()
 
-#Decrypt images recieved using enclave's private key
-def decryptFile():
-    print("In decryptFile")
-    
-    with open('keys/private_key.pem', "r") as pem_file:
-        private_key = pem_file.read()
-        print('Using Private Key to Decrypt data')
-    
-    key = RSA.import_key(private_key)
 
-    # Read the loadedDict from the file
-    with open("loadedDict.pkl", "rb") as file:
-        loadedDict = pickle.load(file)
-    b64encryptedKey=loadedDict["encryptedKey"]
-    encData=loadedDict["encData"]
-    encryptedKey=base64.b64decode(b64encryptedKey)
-    decryptor = PKCS1_OAEP.new(key)
-    plainKey=decryptor.decrypt(encryptedKey)
-    print("Symmetric key decrypted using the enclave's private RSA key.")
-    fernetKey = Fernet(plainKey)
-    decryptedData = fernetKey.decrypt(encData)
+def getFarmerData(config, ppb_number):
+    # Define the URL and parameters
+    url = config["farmer_data_url"]
+    params = {
+        "id": "c5422a0f-e60f-48e4-9d1e-1fa4b1714900",
+        "q": f"Ppbno=={ppb_number}",
+        "time": "2023-01-25T12:01:05Z",
+        "endtime": "2023-02-01T12:01:05Z",
+        "timerel": "during"
+    }
 
-    temp_dir = os.path.expanduser("/tmp")
+    # read farmer data token from tokens.json
+    with open('tokens.json', 'r') as file:
+        tokens = json.load(file)
+        token = tokens["FarmerDataToken"]
 
-    decrypted_data_path = os.path.join(temp_dir, "decryptedData.tar.gz")
-    extracted_data_path = os.path.join(temp_dir, "inputdata")
+    # Define the headers
+    headers = {
+        "token": token  # Replace <token> with your actual token
+    }
 
-    # Remove existing content from the data paths if they exist
-    for data_path in [decrypted_data_path, extracted_data_path]:
-        if os.path.exists(data_path):
-            if os.path.isdir(data_path):
-                shutil.rmtree(data_path)
-            else:
-                os.remove(data_path)
+    try:
+        # Make the GET request
+        response = requests.get(url, headers=headers, params=params)
 
-    # Create the directories if they don't exist
-    os.makedirs(extracted_data_path, exist_ok=True)
-    # Write the decrypted data to a file
-    with open(decrypted_data_path, "wb") as f:
-        f.write(decryptedData)
-    print("Data written")
-    # Extract the contents of the tar.gz file
-    tar=tarfile.open(decrypted_data_path)
-    tar.extractall(extracted_data_path)
-    print("Images decrypted.",os.listdir(extracted_data_path))
-    print("Images stored in tmp directory")
+        # Check if the request was successful
+        if response.status_code == 200:
+            print("Farmer data fetched successfully.")
+            # Ensure the 'data' directory exists
+            os.makedirs("data", exist_ok=True)
+            # Write the response content to a file
+            with open("data/farmer_data.json", "wb") as file:
+                file.write(response.content)
+            print("Farmer data written to farmer_data.json file.")
+        else:
+            # Handle non-200 status codes
+            print(f"Failed to fetch farmer data. Status code: {response.status_code}")
+            print(f"Response content: {response.text}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred while making the request: {e}")
+
 
 #function to set state of enclave
 def setState(title,description,step,maxSteps,address):
