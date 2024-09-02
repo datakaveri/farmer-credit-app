@@ -2,7 +2,8 @@
     "ppb_number" : "T01050090085",
     "crop" : "Bajra",
     "district" : "Adilabad",
-    "season": "K",
+    "season": "Kharif",
     "crop_area": 2.0,
+    "land_type" : "Irrigated",
     "sha_digest": "hf8"
 }
