@@ -95,12 +95,12 @@ if __name__ == "__main__":
     # getting Rytabandhu farmer data
     PPDX_SDK.getFarmerData(config, ppb_number)
 
-    # Executing the application in the docker
+    # Executing the application  
     print("\nStep 9")
     box_out("Running the Application...")
     PPDX_SDK.setState("Step 9","Running Application...",9,10,address)
-    #PPDX_SDK.profiling_steps('Step 9', 9)
     subprocess.run(["python3", "app.py"])
+    # check for synchronous execution
 
     print("\nStep 10")
     PPDX_SDK.setState("Step 10","Finished Application Execution",10,10,address)
