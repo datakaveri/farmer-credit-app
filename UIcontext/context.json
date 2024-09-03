@@ -1,9 +1,9 @@
 {
     "ppb_number" : "T01050090085",
-    "crop" : "Bajra",
+    "crop" : "Coriander",
     "district" : "Adilabad",
-    "season": "Kharif",
+    "season": "Rabi",
     "crop_area": 2.0,
-    "land_type" : "Irrigated",
+    "land_type" : "Irr",
     "sha_digest": "hf8"
 }

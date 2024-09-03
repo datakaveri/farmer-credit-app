@@ -10,3 +10,4 @@ __pycache__
 docker-compose.yml
 loadedDict.pkl
 tokens.json
+output/output.json
