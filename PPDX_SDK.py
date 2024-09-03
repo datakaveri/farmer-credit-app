@@ -8,23 +8,11 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 import Crypto
 from Crypto.PublicKey import RSA
-import base64
 import json
 import requests
 import _pickle as pickle
-from Crypto.Cipher import PKCS1_OAEP
-from cryptography.fernet import Fernet
 import urllib
 import urllib.parse
-
-#AMD:
-# 1. generate key pair - DONE
-# 2. measure docker & store in vTPM
-# 3. combine public key & vTPM report & send to MAA & return jwt token
-# 4. send attestation token (public key embedded) to APD & get back access token
-# rest steps are same
-# steps 3 & 4 : use hardcoded token
-# docker compose
 
 def pull_compose_file(url, filename='docker-compose.yml'):
     try:
@@ -308,6 +296,7 @@ def getFarmerDataToken(config, ppb_number):
         with open('tokens.json', 'r') as file:
             tokens = json.load(file)
             tokens["FarmerDataToken"] = token
+        
         with open('tokens.json', 'w') as file:
             json.dump(tokens, file)
         print("Farmer data access Token written to tokens.json file.")
@@ -329,6 +318,7 @@ def getFilesFromResourceServer(config):
         APMCDataToken = tokens["APMCDataToken"]
         SOFDataToken = tokens["SOFDataToken"]
     
+    # Get individual data & store in data/
 
     rs_headers={'Authorization': f'Bearer {token}'}
     rs=requests.get(rs_url,headers=rs_headers)
@@ -362,7 +352,7 @@ def getFarmerData(config, ppb_number):
 
     # Define the headers
     headers = {
-        "token": token  # Replace <token> with your actual token
+        "token": token
     }
 
     try:

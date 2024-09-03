@@ -3,7 +3,7 @@ import src.validations as val
 import json
 import src.loan_amount_calculator as lac
 import src.helper as helper
-import src.modify_data as preProcessor
+import src.data_preprocessing as preProcessor
 
 print("********* Farmer Credit System ********")
 
@@ -17,6 +17,10 @@ print("Data pre-processing complete")
 predicted_yields_path = 'data/predictedYields.csv'
 predicted_yields = pd.read_csv(predicted_yields_path)
 
+farmer_data_path = 'data/farmer_data.json'
+with open(farmer_data_path) as f:
+    farmer_data = json.load(f)
+
 UIcontext_path = './UIcontext/context.json'
 with open(UIcontext_path) as f:
     context = json.load(f)
@@ -26,12 +30,25 @@ season = context['season']
 crop_area = context['crop_area']
 land_type = context['land_type']
 
-#eventually take from farmer data
-district = context['district']
+#take district from farmer data
+if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
+    # Get the districtName from the first item
+    district = farmer_data['results'][0].get('districtName')
+    print(f"District Name: {district}")
+else:
+    print("No results found or 'results' is not a list.")
+
+# convert district to first letter capital
+district = district.title()
+
+# if district is Narayanpet, change it to Narayanapet
+if district == 'Narayanpet':
+    district = 'Narayanapet'
+
 
 #check if district is valid
 if val.validate_district(district)!=True:
-    print("Invalid crop name")
+    print("District information not available")
     exit()
 
 #check if crop area is valid
