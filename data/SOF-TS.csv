@@ -7,8 +7,8 @@ Jowar,UI,17000-19000
 Jowar,Seed Production,24000-26000
 Bajra,Irr,15000-17000
 Bajra,UI,15000-17000
-Raagi,Irr,15000-17000
-Raagi,UI,15000-17000
+Ragi,Irr,15000-17000
+Ragi,UI,15000-17000
 Maize,Irr,32000-34000
 Maize,UI,26000-28000
 Wheat,Irr,19000-21000
@@ -16,30 +16,30 @@ Minor Millets,,18000-20000
 Red gram,Irr,22000-24000
 Red gram,UI,19000-21000
 Red gram,Organic,21000-23000
-Black gram,Irr,19000-21000
-Black gram,UI,15000-17000
-Black gram,Organic,19000-21000
-Green gram,Irr,20000-22000
-Green gram,UI,16000-18000
-Green gram,Organic,20000-22000
+Gram,Irr,19000-21000
+Gram,UI,15000-17000
+Gram,Organic,19000-21000
+Moong(Green Gram),Irr,20000-22000
+Moong(Green Gram),UI,16000-18000
+Moong(Green Gram),Organic,20000-22000
 Bengal gram,,24000-26000
-Cow Pea,,11000-13000
+Cowpea(Lobia),,11000-13000
 Sunflower,,27000-29000
 Soyabean,,28000-30000
 Soyabean,Seed Production,34000-36000
 Groundnut,Irr,28000-30000
 Groundnut,UI,24000-26000
-Seasamun/Gingelly,,19000-21000
-Safflower/Kusumalu,,18000-20000
+Sesamum,,19000-21000
+Safflower,,18000-20000
 Mustard,,14000-15000
-Castor,Irr,19000-21000
-Castor,UI,17000-19000
+Castor seed,Irr,19000-21000
+Castor seed,UI,17000-19000
 Cotton,UI,44000-46000
 Cotton,Seed Production,140000-150000
 Sugarcane,Pltn,78000-80000
 Sugarcane,Ratoon,64000-66000
 Oil palm (from 5th year onwards),,42000-44000
-Chillies,,82000-84000
+Dry chillies,,82000-84000
 Tobacco,,33000-35000
 Tomato,Irr,53000-55000
 Tomato,UI,38000-40000
@@ -66,8 +66,7 @@ Turmeric,,85000-87000
 Vegetables (other than mentioned in the list),,35000-37000
 Vegetables Shade net (excluding structure),,65000-67000
 Capsicum,,48000-50000
-Banana,Ratoon,45000-47000
-Banana,Tissue culture,95000-97000
+Banana,,70000-72000
 Citrus,,43000-45000
 Acid Lime,,48000-50000
 Cashewnut,,38000-40000

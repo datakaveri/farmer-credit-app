@@ -38,7 +38,7 @@ year,district,crop,season,yield
 2024,Adilabad,Other Rabi pulses,Rabi,0.27
 2024,Adilabad,Potato,Rabi,10.0
 2024,Adilabad,Ragi,Rabi,0.82
-2024,Adilabad,Rapeseed &Mustard,Rabi,1.19
+2024,Adilabad,Mustard,Rabi,1.19
 2024,Adilabad,Rice,Kharif,2.97
 2024,Adilabad,Rice,Rabi,3.4
 2024,Adilabad,Safflower,Rabi,0.89
@@ -370,7 +370,7 @@ year,district,crop,season,yield
 2024,Karimnagar,Onion,Rabi,30.12
 2024,Karimnagar,Other Kharif pulses,Kharif,0.4
 2024,Karimnagar,Other Rabi pulses,Rabi,1.61
-2024,Karimnagar,Rapeseed &Mustard,Rabi,1.37
+2024,Karimnagar,Mustard,Rabi,1.37
 2024,Karimnagar,Rice,Kharif,3.36
 2024,Karimnagar,Rice,Rabi,3.76
 2024,Karimnagar,Safflower,Rabi,1.0
@@ -423,7 +423,7 @@ year,district,crop,season,yield
 2024,Khammam,Onion,Kharif,14.88
 2024,Khammam,Onion,Rabi,30.07
 2024,Khammam,Ragi,Kharif,1.5
-2024,Khammam,Rapeseed &Mustard,Rabi,1.0
+2024,Khammam,Mustard,Rabi,1.0
 2024,Khammam,Rice,Kharif,3.2
 2024,Khammam,Rice,Rabi,3.38
 2024,Khammam,Safflower,Rabi,1.0
@@ -668,7 +668,7 @@ year,district,crop,season,yield
 2024,Medak,Potato,Whole Year,12.96
 2024,Medak,Ragi,Kharif,1.28
 2024,Medak,Ragi,Rabi,1.61
-2024,Medak,Rapeseed &Mustard,Rabi,0.75
+2024,Medak,Mustard,Rabi,0.75
 2024,Medak,Rice,Kharif,3.5
 2024,Medak,Rice,Rabi,3.96
 2024,Medak,Safflower,Rabi,0.76
@@ -996,7 +996,7 @@ year,district,crop,season,yield
 2024,Nizamabad,Onion,Rabi,28.47
 2024,Nizamabad,Other Rabi pulses,Rabi,0.93
 2024,Nizamabad,Ragi,Rabi,1.52
-2024,Nizamabad,Rapeseed &Mustard,Rabi,1.02
+2024,Nizamabad,Mustard,Rabi,1.02
 2024,Nizamabad,Rice,Kharif,3.42
 2024,Nizamabad,Rice,Rabi,3.67
 2024,Nizamabad,Safflower,Rabi,1.25
