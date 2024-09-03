@@ -14,8 +14,6 @@ import requests
 import _pickle as pickle
 from Crypto.Cipher import PKCS1_OAEP
 from cryptography.fernet import Fernet
-import tarfile
-import shutil
 import urllib
 import urllib.parse
 

@@ -31,6 +31,15 @@ def remove_files():
     else:
         print(f"Folder not found: {folder_path}")
 
+    folder_path = os.path.join('.', 'output')
+    if os.path.exists(folder_path):
+        shutil.rmtree(folder_path)
+        print(f"Removed folder and contents: {folder_path}")
+    else:
+        print(f"Folder not found: {folder_path}")
+    # create the output folder
+    os.makedirs(folder_path)
+
 # Start the main process
 if __name__ == "__main__":
     config_file = "config_file.json"
@@ -104,7 +113,4 @@ if __name__ == "__main__":
 
     print("\nStep 10")
     PPDX_SDK.setState("Step 10","Finished Application Execution",10,10,address)
-    #PPDX_SDK.profiling_steps('Step 10', 10)
-    #PPDX_SDK.profiling_totalTime()
     print('DONE')
-    print('Output saved to /tmp/output')
