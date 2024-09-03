@@ -3,11 +3,19 @@ import src.validations as val
 import json
 import src.loan_amount_calculator as lac
 import src.helper as helper
-
-predicted_yields_path = 'data/predictedYields.csv'
-predicted_yields = pd.read_csv(predicted_yields_path)
+import src.modify_data as preProcessor
 
 print("********* Farmer Credit System ********")
+
+print("Pre-processing data...")
+# preProcessor.modifyPredictedYieldsData()
+# preProcessor.modifySOFData()
+# preProcessor.modifyAPMCData()
+print("Data pre-processing complete")
+
+# Load the data
+predicted_yields_path = 'data/predictedYields.csv'
+predicted_yields = pd.read_csv(predicted_yields_path)
 
 UIcontext_path = './UIcontext/context.json'
 with open(UIcontext_path) as f:
@@ -64,22 +72,53 @@ print("Predicted yield for the farmer: ", predicted_yield, " tonnes")
 
 
 # Get SOF for crop
-SOF_path = 'data/SOF.csv'
+SOF_path = 'data/SOF-TS.csv'
 sof_df = pd.read_csv(SOF_path)
 
 # get SOF as crop, irrigation type & SOF
-crop_cost = helper.get_sof_of_crop(sof_df, crop, land_type)
+crop_sof = helper.get_sof_of_crop(sof_df, crop, land_type)
+print("Scale of Finance: ", crop_sof, " Rs per acre")
 
 #calculate the kisaan loan amount
-kisaan_loan_amount = lac.calcKisaanLoan(predicted_yield, crop_cost)
-print("Kissan loan amount: ", kisaan_loan_amount)
+total_crop_cost = lac.calcKisaanLoan(crop_area, crop_sof)
+kisaan_loan_amount = total_crop_cost
+print("Kissan loan amount: Rs. ", kisaan_loan_amount)
 
 # get APMC price for the crop
-APMC_path = 'data/APMC.csv'
+APMC_path = 'data/predictedPrices.csv'
 apmc_df = pd.read_csv(APMC_path)
 
 # get APMC price for the crop
-crop_price = helper.get_apmc_price(apmc_df, crop, district)
+crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
+
+if crop_price == 0:
+    print("Crop is not grown in the selected season & district")
+    print("Not elegible for consumer loan")
+    consumer_loan_amount = 0
+
+consumer_loan_amount = lac.calcConsumerLoan(predicted_yield, total_crop_cost, crop_price)
+print("Consumer loan amount: Rs. ", consumer_loan_amount)
+
+status_code = "0000"
+status = "Success"
+# save output to json file
+response = {
+    "output": {
+        "kisaan_loan_amount": kisaan_loan_amount,
+        "consumer_loan_amount": consumer_loan_amount
+    },
+    "status": status,
+    "status_code": status_code  
+}
+
+output_path = './output/output.json'
+with open(output_path, 'w') as f:
+    json.dump(response, f)
+
+print("Output saved to output.json")
+
+print("********* Farmer Credit System EXIT ********")
+
 
 
 
