@@ -1,3119 +1,375 @@
-year,district,crop,season,yield
-2023,Adilabad,Arhar/Tur,Kharif,1.0
-2023,Adilabad,Arhar/Tur,Rabi,1.22
-2024,Adilabad,Arhar/Tur,Kharif,1.02
-2024,Adilabad,Arhar/Tur,Rabi,1.24
-2023,Adilabad,Bajra,Kharif,1.21
-2023,Adilabad,Bajra,Rabi,0.96
-2024,Adilabad,Bajra,Kharif,1.21
-2024,Adilabad,Bajra,Rabi,0.96
-2023,Adilabad,Banana,Kharif,49.36
-2024,Adilabad,Banana,Kharif,49.97
-2023,Adilabad,Cashewnut,Kharif,0.6
-2024,Adilabad,Cashewnut,Kharif,0.61
-2023,Adilabad,Castor seed,Kharif,0.83
-2023,Adilabad,Castor seed,Rabi,0.96
-2024,Adilabad,Castor seed,Kharif,0.85
-2024,Adilabad,Castor seed,Rabi,0.97
-2023,Adilabad,Coriander,Kharif,1.0
-2023,Adilabad,Coriander,Rabi,1.31
-2023,Adilabad,Coriander,Whole Year,0.48
-2024,Adilabad,Coriander,Kharif,1.0
-2024,Adilabad,Coriander,Rabi,1.33
-2024,Adilabad,Coriander,Whole Year,0.49
-2023,Adilabad,Cowpea(Lobia),Kharif,0.86
-2023,Adilabad,Cowpea(Lobia),Rabi,1.68
-2024,Adilabad,Cowpea(Lobia),Kharif,0.88
-2024,Adilabad,Cowpea(Lobia),Rabi,1.7
-2023,Adilabad,Dry chillies,Kharif,3.77
-2023,Adilabad,Dry chillies,Rabi,4.43
-2024,Adilabad,Dry chillies,Kharif,3.9
-2024,Adilabad,Dry chillies,Rabi,4.49
-2023,Adilabad,Garlic,Kharif,4.0
-2023,Adilabad,Garlic,Rabi,2.95
-2024,Adilabad,Garlic,Kharif,4.0
-2024,Adilabad,Garlic,Rabi,3.0
-2023,Adilabad,Ginger,Kharif,7.84
-2023,Adilabad,Ginger,Rabi,9.0
-2024,Adilabad,Ginger,Kharif,7.89
-2024,Adilabad,Ginger,Rabi,9.0
-2023,Adilabad,Gram,Kharif,1.5
-2023,Adilabad,Gram,Rabi,1.53
-2024,Adilabad,Gram,Kharif,1.5
-2024,Adilabad,Gram,Rabi,1.54
-2023,Adilabad,Groundnut,Kharif,1.75
-2023,Adilabad,Groundnut,Rabi,2.1
-2024,Adilabad,Groundnut,Kharif,1.79
-2024,Adilabad,Groundnut,Rabi,2.11
-2023,Adilabad,Horse-gram,Rabi,0.43
-2024,Adilabad,Horse-gram,Rabi,0.43
-2023,Adilabad,Jowar,Kharif,0.79
-2023,Adilabad,Jowar,Rabi,1.74
-2024,Adilabad,Jowar,Kharif,0.81
-2024,Adilabad,Jowar,Rabi,1.77
-2023,Adilabad,Linseed,Rabi,0.49
-2024,Adilabad,Linseed,Rabi,0.49
-2023,Adilabad,Maize,Kharif,3.73
-2023,Adilabad,Maize,Rabi,7.11
-2024,Adilabad,Maize,Kharif,3.78
-2024,Adilabad,Maize,Rabi,7.19
-2023,Adilabad,Moong(Green Gram),Kharif,0.61
-2023,Adilabad,Moong(Green Gram),Rabi,0.83
-2024,Adilabad,Moong(Green Gram),Kharif,0.62
-2024,Adilabad,Moong(Green Gram),Rabi,0.83
-2023,Adilabad,Oilseeds total,Kharif,1.0
-2023,Adilabad,Oilseeds total,Rabi,0.83
-2024,Adilabad,Oilseeds total,Kharif,1.0
-2024,Adilabad,Oilseeds total,Rabi,0.83
-2023,Adilabad,Onion,Kharif,17.51
-2023,Adilabad,Onion,Rabi,29.93
-2024,Adilabad,Onion,Kharif,17.71
-2024,Adilabad,Onion,Rabi,30.1
-2023,Adilabad,Other Kharif pulses,Kharif,0.29
-2024,Adilabad,Other Kharif pulses,Kharif,0.29
-2023,Adilabad,Other Rabi pulses,Rabi,0.27
-2024,Adilabad,Other Rabi pulses,Rabi,0.27
-2023,Adilabad,Potato,Rabi,10.0
-2024,Adilabad,Potato,Rabi,10.0
-2023,Adilabad,Ragi,Rabi,0.82
-2024,Adilabad,Ragi,Rabi,0.82
-2023,Adilabad,Rapeseed &Mustard,Rabi,1.18
-2024,Adilabad,Rapeseed &Mustard,Rabi,1.19
-2023,Adilabad,Rice,Kharif,2.94
-2023,Adilabad,Rice,Rabi,3.38
-2024,Adilabad,Rice,Kharif,2.97
-2024,Adilabad,Rice,Rabi,3.4
-2023,Adilabad,Safflower,Rabi,0.88
-2024,Adilabad,Safflower,Rabi,0.89
-2023,Adilabad,Sesamum,Kharif,0.14
-2023,Adilabad,Sesamum,Rabi,0.53
-2024,Adilabad,Sesamum,Kharif,0.14
-2024,Adilabad,Sesamum,Rabi,0.54
-2023,Adilabad,Small millets,Kharif,1.72
-2023,Adilabad,Small millets,Rabi,1.0
-2024,Adilabad,Small millets,Kharif,1.72
-2024,Adilabad,Small millets,Rabi,1.0
-2023,Adilabad,Soyabean,Kharif,1.32
-2023,Adilabad,Soyabean,Rabi,1.45
-2024,Adilabad,Soyabean,Kharif,1.34
-2024,Adilabad,Soyabean,Rabi,1.46
-2023,Adilabad,Sugarcane,Kharif,87.04
-2024,Adilabad,Sugarcane,Kharif,87.82
-2023,Adilabad,Sunflower,Rabi,2.68
-2024,Adilabad,Sunflower,Rabi,2.72
-2023,Adilabad,Sweet potato,Rabi,10.93
-2024,Adilabad,Sweet potato,Rabi,11.06
-2023,Adilabad,Tobacco,Kharif,3.75
-2023,Adilabad,Tobacco,Rabi,3.19
-2024,Adilabad,Tobacco,Kharif,3.78
-2024,Adilabad,Tobacco,Rabi,3.21
-2023,Adilabad,Turmeric,Kharif,5.96
-2023,Adilabad,Turmeric,Rabi,7.0
-2024,Adilabad,Turmeric,Kharif,6.05
-2024,Adilabad,Turmeric,Rabi,7.0
-2023,Adilabad,Urad,Kharif,0.61
-2023,Adilabad,Urad,Rabi,1.14
-2024,Adilabad,Urad,Kharif,0.62
-2024,Adilabad,Urad,Rabi,1.16
-2023,Adilabad,Wheat,Kharif,2.05
-2023,Adilabad,Wheat,Rabi,2.55
-2024,Adilabad,Wheat,Kharif,2.05
-2024,Adilabad,Wheat,Rabi,2.61
-2023,Bhadradri,Arhar/Tur,Kharif,0.85
-2023,Bhadradri,Arhar/Tur,Rabi,0.86
-2024,Bhadradri,Arhar/Tur,Kharif,0.86
-2024,Bhadradri,Arhar/Tur,Rabi,0.87
-2023,Bhadradri,Bajra,Rabi,0.93
-2024,Bhadradri,Bajra,Rabi,0.93
-2023,Bhadradri,Banana,Kharif,46.16
-2024,Bhadradri,Banana,Kharif,46.61
-2023,Bhadradri,Cashewnut,Kharif,0.42
-2024,Bhadradri,Cashewnut,Kharif,0.43
-2023,Bhadradri,Castor seed,Rabi,1.0
-2024,Bhadradri,Castor seed,Rabi,1.0
-2023,Bhadradri,Cowpea(Lobia),Kharif,0.9
-2023,Bhadradri,Cowpea(Lobia),Rabi,1.12
-2024,Bhadradri,Cowpea(Lobia),Kharif,0.91
-2024,Bhadradri,Cowpea(Lobia),Rabi,1.13
-2023,Bhadradri,Dry chillies,Kharif,6.12
-2023,Bhadradri,Dry chillies,Rabi,7.28
-2024,Bhadradri,Dry chillies,Kharif,6.17
-2024,Bhadradri,Dry chillies,Rabi,7.36
-2023,Bhadradri,Ginger,Kharif,9.0
-2024,Bhadradri,Ginger,Kharif,9.0
-2023,Bhadradri,Gram,Rabi,1.72
-2024,Bhadradri,Gram,Rabi,1.73
-2023,Bhadradri,Groundnut,Kharif,2.21
-2023,Bhadradri,Groundnut,Rabi,3.49
-2024,Bhadradri,Groundnut,Kharif,2.23
-2024,Bhadradri,Groundnut,Rabi,3.53
-2023,Bhadradri,Horse-gram,Rabi,1.89
-2024,Bhadradri,Horse-gram,Rabi,1.91
-2023,Bhadradri,Jowar,Kharif,0.92
-2023,Bhadradri,Jowar,Rabi,1.86
-2024,Bhadradri,Jowar,Kharif,0.93
-2024,Bhadradri,Jowar,Rabi,1.88
-2023,Bhadradri,Maize,Kharif,3.88
-2023,Bhadradri,Maize,Rabi,7.29
-2024,Bhadradri,Maize,Kharif,3.92
-2024,Bhadradri,Maize,Rabi,7.32
-2023,Bhadradri,Moong(Green Gram),Kharif,0.45
-2023,Bhadradri,Moong(Green Gram),Rabi,0.89
-2024,Bhadradri,Moong(Green Gram),Kharif,0.46
-2024,Bhadradri,Moong(Green Gram),Rabi,0.9
-2023,Bhadradri,Onion,Kharif,16.0
-2023,Bhadradri,Onion,Rabi,29.98
-2024,Bhadradri,Onion,Kharif,16.0
-2024,Bhadradri,Onion,Rabi,30.17
-2023,Bhadradri,Ragi,Kharif,1.5
-2023,Bhadradri,Ragi,Rabi,1.67
-2024,Bhadradri,Ragi,Kharif,1.5
-2024,Bhadradri,Ragi,Rabi,1.67
-2023,Bhadradri,Rice,Kharif,3.38
-2023,Bhadradri,Rice,Rabi,2.83
-2024,Bhadradri,Rice,Kharif,3.38
-2024,Bhadradri,Rice,Rabi,2.87
-2023,Bhadradri,Safflower,Rabi,1.0
-2024,Bhadradri,Safflower,Rabi,1.0
-2023,Bhadradri,Sesamum,Kharif,0.3
-2023,Bhadradri,Sesamum,Rabi,0.69
-2024,Bhadradri,Sesamum,Kharif,0.31
-2024,Bhadradri,Sesamum,Rabi,0.69
-2023,Bhadradri,Small millets,Kharif,1.25
-2023,Bhadradri,Small millets,Rabi,1.0
-2024,Bhadradri,Small millets,Kharif,1.26
-2024,Bhadradri,Small millets,Rabi,1.0
-2023,Bhadradri,Soyabean,Kharif,1.33
-2023,Bhadradri,Soyabean,Rabi,2.0
-2024,Bhadradri,Soyabean,Kharif,1.34
-2024,Bhadradri,Soyabean,Rabi,2.0
-2023,Bhadradri,Sugarcane,Kharif,79.81
-2024,Bhadradri,Sugarcane,Kharif,80.51
-2023,Bhadradri,Sunflower,Rabi,2.02
-2024,Bhadradri,Sunflower,Rabi,2.04
-2023,Bhadradri,Sweet potato,Rabi,9.37
-2024,Bhadradri,Sweet potato,Rabi,9.45
-2023,Bhadradri,Tobacco,Kharif,3.0
-2023,Bhadradri,Tobacco,Rabi,2.62
-2024,Bhadradri,Tobacco,Kharif,3.0
-2024,Bhadradri,Tobacco,Rabi,2.64
-2023,Bhadradri,Turmeric,Kharif,6.84
-2023,Bhadradri,Turmeric,Rabi,6.76
-2024,Bhadradri,Turmeric,Kharif,6.87
-2024,Bhadradri,Turmeric,Rabi,6.77
-2023,Bhadradri,Urad,Kharif,1.41
-2023,Bhadradri,Urad,Rabi,1.37
-2024,Bhadradri,Urad,Kharif,1.42
-2024,Bhadradri,Urad,Rabi,1.38
-2023,Bhadradri,Wheat,Rabi,2.0
-2024,Bhadradri,Wheat,Rabi,2.0
-2023,Jagitial,Arhar/Tur,Kharif,1.15
-2023,Jagitial,Arhar/Tur,Rabi,1.38
-2024,Jagitial,Arhar/Tur,Kharif,1.16
-2024,Jagitial,Arhar/Tur,Rabi,1.4
-2023,Jagitial,Bajra,Rabi,1.9
-2024,Jagitial,Bajra,Rabi,1.93
-2023,Jagitial,Banana,Kharif,49.31
-2024,Jagitial,Banana,Kharif,49.73
-2023,Jagitial,Castor seed,Kharif,1.0
-2024,Jagitial,Castor seed,Kharif,1.0
-2023,Jagitial,Coriander,Rabi,1.0
-2024,Jagitial,Coriander,Rabi,1.0
-2023,Jagitial,Cowpea(Lobia),Kharif,0.58
-2023,Jagitial,Cowpea(Lobia),Rabi,1.42
-2024,Jagitial,Cowpea(Lobia),Kharif,0.59
-2024,Jagitial,Cowpea(Lobia),Rabi,1.43
-2023,Jagitial,Dry chillies,Kharif,2.13
-2023,Jagitial,Dry chillies,Rabi,5.09
-2024,Jagitial,Dry chillies,Kharif,2.15
-2024,Jagitial,Dry chillies,Rabi,5.1
-2023,Jagitial,Garlic,Rabi,3.5
-2024,Jagitial,Garlic,Rabi,3.52
-2023,Jagitial,Ginger,Kharif,9.5
-2024,Jagitial,Ginger,Kharif,9.5
-2023,Jagitial,Gram,Rabi,1.68
-2024,Jagitial,Gram,Rabi,1.69
-2023,Jagitial,Groundnut,Kharif,2.2
-2023,Jagitial,Groundnut,Rabi,1.58
-2024,Jagitial,Groundnut,Kharif,2.2
-2024,Jagitial,Groundnut,Rabi,1.58
-2023,Jagitial,Horse-gram,Kharif,1.0
-2023,Jagitial,Horse-gram,Rabi,0.71
-2024,Jagitial,Horse-gram,Kharif,1.0
-2024,Jagitial,Horse-gram,Rabi,0.71
-2023,Jagitial,Jowar,Kharif,0.88
-2023,Jagitial,Jowar,Rabi,1.92
-2024,Jagitial,Jowar,Kharif,0.88
-2024,Jagitial,Jowar,Rabi,1.94
-2023,Jagitial,Maize,Kharif,5.51
-2023,Jagitial,Maize,Rabi,6.44
-2024,Jagitial,Maize,Kharif,5.55
-2024,Jagitial,Maize,Rabi,6.5
-2023,Jagitial,Moong(Green Gram),Kharif,0.69
-2023,Jagitial,Moong(Green Gram),Rabi,0.97
-2024,Jagitial,Moong(Green Gram),Kharif,0.69
-2024,Jagitial,Moong(Green Gram),Rabi,0.97
-2023,Jagitial,Onion,Kharif,17.69
-2023,Jagitial,Onion,Rabi,29.94
-2024,Jagitial,Onion,Kharif,17.86
-2024,Jagitial,Onion,Rabi,30.11
-2023,Jagitial,Potato,Rabi,24.0
-2024,Jagitial,Potato,Rabi,24.0
-2023,Jagitial,Rice,Kharif,3.59
-2023,Jagitial,Rice,Rabi,3.9
-2024,Jagitial,Rice,Kharif,3.62
-2024,Jagitial,Rice,Rabi,3.91
-2023,Jagitial,Safflower,Rabi,1.0
-2024,Jagitial,Safflower,Rabi,1.0
-2023,Jagitial,Sesamum,Rabi,0.71
-2024,Jagitial,Sesamum,Rabi,0.71
-2023,Jagitial,Soyabean,Kharif,1.66
-2023,Jagitial,Soyabean,Rabi,2.0
-2024,Jagitial,Soyabean,Kharif,1.66
-2024,Jagitial,Soyabean,Rabi,2.0
-2023,Jagitial,Sugarcane,Kharif,68.42
-2024,Jagitial,Sugarcane,Kharif,69.78
-2023,Jagitial,Sunflower,Rabi,2.71
-2024,Jagitial,Sunflower,Rabi,2.74
-2023,Jagitial,Sweet potato,Kharif,12.0
-2024,Jagitial,Sweet potato,Kharif,12.0
-2023,Jagitial,Turmeric,Kharif,10.1
-2024,Jagitial,Turmeric,Kharif,10.19
-2023,Jagitial,Urad,Kharif,0.87
-2023,Jagitial,Urad,Rabi,1.03
-2024,Jagitial,Urad,Kharif,0.88
-2024,Jagitial,Urad,Rabi,1.03
-2023,Jagitial,Wheat,Rabi,2.0
-2024,Jagitial,Wheat,Rabi,2.01
-2023,Jangoan,Arhar/Tur,Kharif,0.77
-2023,Jangoan,Arhar/Tur,Rabi,0.82
-2024,Jangoan,Arhar/Tur,Kharif,0.78
-2024,Jangoan,Arhar/Tur,Rabi,0.82
-2023,Jangoan,Bajra,Kharif,1.0
-2024,Jangoan,Bajra,Kharif,1.0
-2023,Jangoan,Banana,Kharif,47.88
-2024,Jangoan,Banana,Kharif,48.28
-2023,Jangoan,Castor seed,Kharif,0.83
-2023,Jangoan,Castor seed,Rabi,1.41
-2024,Jangoan,Castor seed,Kharif,0.84
-2024,Jangoan,Castor seed,Rabi,1.42
-2023,Jangoan,Coriander,Kharif,1.0
-2023,Jangoan,Coriander,Rabi,0.83
-2024,Jangoan,Coriander,Kharif,1.0
-2024,Jangoan,Coriander,Rabi,0.84
-2023,Jangoan,Cowpea(Lobia),Kharif,0.84
-2023,Jangoan,Cowpea(Lobia),Rabi,0.9
-2024,Jangoan,Cowpea(Lobia),Kharif,0.85
-2024,Jangoan,Cowpea(Lobia),Rabi,0.91
-2023,Jangoan,Dry chillies,Kharif,5.18
-2023,Jangoan,Dry chillies,Rabi,4.27
-2024,Jangoan,Dry chillies,Kharif,5.24
-2024,Jangoan,Dry chillies,Rabi,4.33
-2023,Jangoan,Ginger,Kharif,6.54
-2023,Jangoan,Ginger,Rabi,9.17
-2024,Jangoan,Ginger,Kharif,6.6
-2024,Jangoan,Ginger,Rabi,9.17
-2023,Jangoan,Gram,Kharif,1.0
-2023,Jangoan,Gram,Rabi,1.11
-2024,Jangoan,Gram,Kharif,1.0
-2024,Jangoan,Gram,Rabi,1.13
-2023,Jangoan,Groundnut,Kharif,2.66
-2023,Jangoan,Groundnut,Rabi,1.63
-2024,Jangoan,Groundnut,Kharif,2.68
-2024,Jangoan,Groundnut,Rabi,1.63
-2023,Jangoan,Horse-gram,Kharif,1.07
-2023,Jangoan,Horse-gram,Rabi,1.09
-2024,Jangoan,Horse-gram,Kharif,1.09
-2024,Jangoan,Horse-gram,Rabi,1.1
-2023,Jangoan,Jowar,Kharif,0.93
-2023,Jangoan,Jowar,Rabi,1.86
-2024,Jangoan,Jowar,Kharif,0.93
-2024,Jangoan,Jowar,Rabi,1.88
-2023,Jangoan,Maize,Kharif,4.98
-2023,Jangoan,Maize,Rabi,6.72
-2024,Jangoan,Maize,Kharif,5.0
-2024,Jangoan,Maize,Rabi,6.76
-2023,Jangoan,Moong(Green Gram),Kharif,0.47
-2023,Jangoan,Moong(Green Gram),Rabi,0.59
-2024,Jangoan,Moong(Green Gram),Kharif,0.48
-2024,Jangoan,Moong(Green Gram),Rabi,0.61
-2023,Jangoan,Onion,Kharif,16.68
-2023,Jangoan,Onion,Rabi,29.93
-2024,Jangoan,Onion,Kharif,16.84
-2024,Jangoan,Onion,Rabi,30.1
-2023,Jangoan,Ragi,Kharif,1.67
-2024,Jangoan,Ragi,Kharif,1.67
-2023,Jangoan,Rice,Kharif,2.98
-2023,Jangoan,Rice,Rabi,2.98
-2024,Jangoan,Rice,Kharif,2.99
-2024,Jangoan,Rice,Rabi,3.0
-2023,Jangoan,Safflower,Kharif,1.0
-2023,Jangoan,Safflower,Rabi,0.99
-2024,Jangoan,Safflower,Kharif,1.0
-2024,Jangoan,Safflower,Rabi,0.99
-2023,Jangoan,Sesamum,Kharif,0.25
-2023,Jangoan,Sesamum,Rabi,0.7
-2024,Jangoan,Sesamum,Kharif,0.25
-2024,Jangoan,Sesamum,Rabi,0.7
-2023,Jangoan,Small millets,Kharif,1.19
-2023,Jangoan,Small millets,Rabi,1.0
-2024,Jangoan,Small millets,Kharif,1.21
-2024,Jangoan,Small millets,Rabi,1.0
-2023,Jangoan,Soyabean,Kharif,1.46
-2023,Jangoan,Soyabean,Rabi,1.75
-2024,Jangoan,Soyabean,Kharif,1.46
-2024,Jangoan,Soyabean,Rabi,1.75
-2023,Jangoan,Sugarcane,Kharif,87.31
-2024,Jangoan,Sugarcane,Kharif,87.6
-2023,Jangoan,Sunflower,Kharif,1.85
-2023,Jangoan,Sunflower,Rabi,2.1
-2024,Jangoan,Sunflower,Kharif,1.85
-2024,Jangoan,Sunflower,Rabi,2.12
-2023,Jangoan,Sweet potato,Kharif,10.51
-2023,Jangoan,Sweet potato,Rabi,10.8
-2024,Jangoan,Sweet potato,Kharif,10.55
-2024,Jangoan,Sweet potato,Rabi,10.91
-2023,Jangoan,Tobacco,Kharif,3.63
-2023,Jangoan,Tobacco,Rabi,3.36
-2024,Jangoan,Tobacco,Kharif,3.66
-2024,Jangoan,Tobacco,Rabi,3.41
-2023,Jangoan,Turmeric,Kharif,6.94
-2023,Jangoan,Turmeric,Rabi,7.0
-2024,Jangoan,Turmeric,Kharif,6.98
-2024,Jangoan,Turmeric,Rabi,7.0
-2023,Jangoan,Urad,Kharif,0.81
-2023,Jangoan,Urad,Rabi,1.35
-2024,Jangoan,Urad,Kharif,0.81
-2024,Jangoan,Urad,Rabi,1.36
-2023,Jangoan,Wheat,Kharif,2.0
-2023,Jangoan,Wheat,Rabi,2.5
-2024,Jangoan,Wheat,Kharif,2.0
-2024,Jangoan,Wheat,Rabi,2.52
-2023,Jayashankar,Arhar/Tur,Kharif,0.73
-2023,Jayashankar,Arhar/Tur,Rabi,0.78
-2024,Jayashankar,Arhar/Tur,Kharif,0.74
-2024,Jayashankar,Arhar/Tur,Rabi,0.78
-2023,Jayashankar,Bajra,Kharif,1.0
-2023,Jayashankar,Bajra,Rabi,1.0
-2024,Jayashankar,Bajra,Kharif,1.0
-2024,Jayashankar,Bajra,Rabi,1.0
-2023,Jayashankar,Banana,Kharif,49.34
-2024,Jayashankar,Banana,Kharif,49.73
-2023,Jayashankar,Cashewnut,Kharif,0.37
-2024,Jayashankar,Cashewnut,Kharif,0.37
-2023,Jayashankar,Castor seed,Kharif,1.0
-2023,Jayashankar,Castor seed,Rabi,1.37
-2024,Jayashankar,Castor seed,Kharif,1.0
-2024,Jayashankar,Castor seed,Rabi,1.38
-2023,Jayashankar,Coriander,Rabi,0.82
-2024,Jayashankar,Coriander,Rabi,0.83
-2023,Jayashankar,Cowpea(Lobia),Kharif,0.67
-2023,Jayashankar,Cowpea(Lobia),Rabi,0.9
-2024,Jayashankar,Cowpea(Lobia),Kharif,0.67
-2024,Jayashankar,Cowpea(Lobia),Rabi,0.91
-2023,Jayashankar,Dry chillies,Kharif,6.21
-2023,Jayashankar,Dry chillies,Rabi,5.37
-2024,Jayashankar,Dry chillies,Kharif,6.27
-2024,Jayashankar,Dry chillies,Rabi,5.41
-2023,Jayashankar,Gram,Kharif,1.33
-2023,Jayashankar,Gram,Rabi,1.47
-2024,Jayashankar,Gram,Kharif,1.33
-2024,Jayashankar,Gram,Rabi,1.47
-2023,Jayashankar,Groundnut,Kharif,2.66
-2023,Jayashankar,Groundnut,Rabi,1.91
-2024,Jayashankar,Groundnut,Kharif,2.68
-2024,Jayashankar,Groundnut,Rabi,1.93
-2023,Jayashankar,Horse-gram,Kharif,1.8
-2023,Jayashankar,Horse-gram,Rabi,0.75
-2024,Jayashankar,Horse-gram,Kharif,1.8
-2024,Jayashankar,Horse-gram,Rabi,0.76
-2023,Jayashankar,Jowar,Kharif,0.64
-2023,Jayashankar,Jowar,Rabi,2.08
-2024,Jayashankar,Jowar,Kharif,0.64
-2024,Jayashankar,Jowar,Rabi,2.1
-2023,Jayashankar,Maize,Kharif,5.64
-2023,Jayashankar,Maize,Rabi,7.88
-2024,Jayashankar,Maize,Kharif,5.67
-2024,Jayashankar,Maize,Rabi,7.93
-2023,Jayashankar,Moong(Green Gram),Kharif,0.64
-2023,Jayashankar,Moong(Green Gram),Rabi,0.9
-2024,Jayashankar,Moong(Green Gram),Kharif,0.65
-2024,Jayashankar,Moong(Green Gram),Rabi,0.91
-2023,Jayashankar,Onion,Rabi,29.92
-2024,Jayashankar,Onion,Rabi,30.1
-2023,Jayashankar,Ragi,Kharif,1.53
-2023,Jayashankar,Ragi,Rabi,0.94
-2024,Jayashankar,Ragi,Kharif,1.54
-2024,Jayashankar,Ragi,Rabi,0.94
-2023,Jayashankar,Rice,Kharif,3.06
-2023,Jayashankar,Rice,Rabi,3.36
-2024,Jayashankar,Rice,Kharif,3.08
-2024,Jayashankar,Rice,Rabi,3.38
-2023,Jayashankar,Sesamum,Kharif,0.18
-2023,Jayashankar,Sesamum,Rabi,0.68
-2024,Jayashankar,Sesamum,Kharif,0.18
-2024,Jayashankar,Sesamum,Rabi,0.68
-2023,Jayashankar,Small millets,Kharif,1.7
-2023,Jayashankar,Small millets,Rabi,1.0
-2024,Jayashankar,Small millets,Kharif,1.7
-2024,Jayashankar,Small millets,Rabi,1.0
-2023,Jayashankar,Soyabean,Kharif,1.59
-2023,Jayashankar,Soyabean,Rabi,1.5
-2024,Jayashankar,Soyabean,Kharif,1.6
-2024,Jayashankar,Soyabean,Rabi,1.5
-2023,Jayashankar,Sugarcane,Kharif,84.0
-2024,Jayashankar,Sugarcane,Kharif,84.0
-2023,Jayashankar,Sunflower,Kharif,3.0
-2023,Jayashankar,Sunflower,Rabi,2.11
-2024,Jayashankar,Sunflower,Kharif,3.0
-2024,Jayashankar,Sunflower,Rabi,2.13
-2023,Jayashankar,Tobacco,Kharif,3.82
-2023,Jayashankar,Tobacco,Rabi,3.32
-2024,Jayashankar,Tobacco,Kharif,3.84
-2024,Jayashankar,Tobacco,Rabi,3.36
-2023,Jayashankar,Turmeric,Kharif,6.84
-2023,Jayashankar,Turmeric,Rabi,7.33
-2024,Jayashankar,Turmeric,Kharif,6.87
-2024,Jayashankar,Turmeric,Rabi,7.33
-2023,Jayashankar,Urad,Kharif,0.87
-2023,Jayashankar,Urad,Rabi,1.28
-2024,Jayashankar,Urad,Kharif,0.87
-2024,Jayashankar,Urad,Rabi,1.3
-2023,Jayashankar,Wheat,Rabi,2.0
-2024,Jayashankar,Wheat,Rabi,2.0
-2023,Jogulamba,Arhar/Tur,Kharif,0.59
-2023,Jogulamba,Arhar/Tur,Rabi,0.74
-2024,Jogulamba,Arhar/Tur,Kharif,0.6
-2024,Jogulamba,Arhar/Tur,Rabi,0.75
-2023,Jogulamba,Bajra,Kharif,1.0
-2023,Jogulamba,Bajra,Rabi,2.13
-2024,Jogulamba,Bajra,Kharif,1.02
-2024,Jogulamba,Bajra,Rabi,2.15
-2023,Jogulamba,Banana,Kharif,49.26
-2024,Jogulamba,Banana,Kharif,49.71
-2023,Jogulamba,Castor seed,Kharif,0.83
-2023,Jogulamba,Castor seed,Rabi,0.9
-2024,Jogulamba,Castor seed,Kharif,0.84
-2024,Jogulamba,Castor seed,Rabi,0.92
-2023,Jogulamba,Coriander,Rabi,0.58
-2024,Jogulamba,Coriander,Rabi,0.59
-2023,Jogulamba,Cowpea(Lobia),Kharif,0.85
-2023,Jogulamba,Cowpea(Lobia),Rabi,1.44
-2024,Jogulamba,Cowpea(Lobia),Kharif,0.85
-2024,Jogulamba,Cowpea(Lobia),Rabi,1.45
-2023,Jogulamba,Dry chillies,Kharif,3.4
-2023,Jogulamba,Dry chillies,Rabi,3.94
-2024,Jogulamba,Dry chillies,Kharif,3.46
-2024,Jogulamba,Dry chillies,Rabi,4.01
-2023,Jogulamba,Gram,Rabi,1.05
-2024,Jogulamba,Gram,Rabi,1.07
-2023,Jogulamba,Groundnut,Kharif,1.93
-2023,Jogulamba,Groundnut,Rabi,2.44
-2024,Jogulamba,Groundnut,Kharif,1.94
-2024,Jogulamba,Groundnut,Rabi,2.45
-2023,Jogulamba,Horse-gram,Kharif,1.0
-2023,Jogulamba,Horse-gram,Rabi,1.0
-2024,Jogulamba,Horse-gram,Kharif,1.01
-2024,Jogulamba,Horse-gram,Rabi,1.02
-2023,Jogulamba,Jowar,Kharif,0.93
-2023,Jogulamba,Jowar,Rabi,2.0
-2024,Jogulamba,Jowar,Kharif,0.93
-2024,Jogulamba,Jowar,Rabi,2.03
-2023,Jogulamba,Maize,Kharif,3.37
-2023,Jogulamba,Maize,Rabi,5.18
-2024,Jogulamba,Maize,Kharif,3.44
-2024,Jogulamba,Maize,Rabi,5.22
-2023,Jogulamba,Moong(Green Gram),Kharif,0.55
-2023,Jogulamba,Moong(Green Gram),Rabi,0.95
-2024,Jogulamba,Moong(Green Gram),Kharif,0.55
-2024,Jogulamba,Moong(Green Gram),Rabi,0.96
-2023,Jogulamba,Onion,Kharif,14.46
-2023,Jogulamba,Onion,Rabi,27.69
-2024,Jogulamba,Onion,Kharif,14.62
-2024,Jogulamba,Onion,Rabi,27.91
-2023,Jogulamba,Ragi,Kharif,1.59
-2024,Jogulamba,Ragi,Kharif,1.59
-2023,Jogulamba,Rice,Kharif,2.84
-2023,Jogulamba,Rice,Rabi,2.86
-2024,Jogulamba,Rice,Kharif,2.86
-2024,Jogulamba,Rice,Rabi,2.87
-2023,Jogulamba,Safflower,Rabi,1.0
-2024,Jogulamba,Safflower,Rabi,1.0
-2023,Jogulamba,Sesamum,Kharif,0.25
-2023,Jogulamba,Sesamum,Rabi,0.64
-2024,Jogulamba,Sesamum,Kharif,0.25
-2024,Jogulamba,Sesamum,Rabi,0.64
-2023,Jogulamba,Small millets,Kharif,0.95
-2023,Jogulamba,Small millets,Rabi,0.95
-2024,Jogulamba,Small millets,Kharif,0.97
-2024,Jogulamba,Small millets,Rabi,0.96
-2023,Jogulamba,Soyabean,Kharif,1.46
-2023,Jogulamba,Soyabean,Rabi,1.52
-2024,Jogulamba,Soyabean,Kharif,1.47
-2024,Jogulamba,Soyabean,Rabi,1.53
-2023,Jogulamba,Sugarcane,Kharif,71.79
-2024,Jogulamba,Sugarcane,Kharif,72.82
-2023,Jogulamba,Sunflower,Kharif,1.72
-2023,Jogulamba,Sunflower,Rabi,2.08
-2024,Jogulamba,Sunflower,Kharif,1.75
-2024,Jogulamba,Sunflower,Rabi,2.1
-2023,Jogulamba,Tobacco,Kharif,2.21
-2023,Jogulamba,Tobacco,Rabi,2.21
-2024,Jogulamba,Tobacco,Kharif,2.23
-2024,Jogulamba,Tobacco,Rabi,2.24
-2023,Jogulamba,Urad,Kharif,0.85
-2023,Jogulamba,Urad,Rabi,1.35
-2024,Jogulamba,Urad,Kharif,0.85
-2024,Jogulamba,Urad,Rabi,1.37
-2023,Jogulamba,Wheat,Rabi,2.21
-2024,Jogulamba,Wheat,Rabi,2.22
-2023,Kamareddy,Arhar/Tur,Kharif,1.0
-2023,Kamareddy,Arhar/Tur,Rabi,1.13
-2024,Kamareddy,Arhar/Tur,Kharif,1.01
-2024,Kamareddy,Arhar/Tur,Rabi,1.14
-2023,Kamareddy,Bajra,Kharif,0.83
-2023,Kamareddy,Bajra,Rabi,0.9
-2024,Kamareddy,Bajra,Kharif,0.83
-2024,Kamareddy,Bajra,Rabi,0.9
-2023,Kamareddy,Banana,Kharif,49.36
-2024,Kamareddy,Banana,Kharif,49.75
-2023,Kamareddy,Cashewnut,Kharif,0.5
-2024,Kamareddy,Cashewnut,Kharif,0.5
-2023,Kamareddy,Castor seed,Kharif,0.71
-2023,Kamareddy,Castor seed,Rabi,0.98
-2024,Kamareddy,Castor seed,Kharif,0.71
-2024,Kamareddy,Castor seed,Rabi,1.0
-2023,Kamareddy,Coriander,Kharif,1.0
-2023,Kamareddy,Coriander,Rabi,0.74
-2024,Kamareddy,Coriander,Kharif,1.0
-2024,Kamareddy,Coriander,Rabi,0.75
-2023,Kamareddy,Cowpea(Lobia),Kharif,0.65
-2023,Kamareddy,Cowpea(Lobia),Rabi,0.89
-2024,Kamareddy,Cowpea(Lobia),Kharif,0.66
-2024,Kamareddy,Cowpea(Lobia),Rabi,0.9
-2023,Kamareddy,Dry chillies,Kharif,5.08
-2023,Kamareddy,Dry chillies,Rabi,6.21
-2024,Kamareddy,Dry chillies,Kharif,5.13
-2024,Kamareddy,Dry chillies,Rabi,6.24
-2023,Kamareddy,Garlic,Rabi,4.5
-2024,Kamareddy,Garlic,Rabi,4.5
-2023,Kamareddy,Ginger,Kharif,9.2
-2023,Kamareddy,Ginger,Rabi,9.0
-2024,Kamareddy,Ginger,Kharif,9.21
-2024,Kamareddy,Ginger,Rabi,9.0
-2023,Kamareddy,Gram,Rabi,1.55
-2024,Kamareddy,Gram,Rabi,1.55
-2023,Kamareddy,Groundnut,Kharif,1.9
-2023,Kamareddy,Groundnut,Rabi,1.83
-2024,Kamareddy,Groundnut,Kharif,1.91
-2024,Kamareddy,Groundnut,Rabi,1.85
-2023,Kamareddy,Horse-gram,Kharif,1.0
-2023,Kamareddy,Horse-gram,Rabi,1.15
-2024,Kamareddy,Horse-gram,Kharif,1.0
-2024,Kamareddy,Horse-gram,Rabi,1.16
-2023,Kamareddy,Jowar,Kharif,0.88
-2023,Kamareddy,Jowar,Rabi,2.73
-2024,Kamareddy,Jowar,Kharif,0.89
-2024,Kamareddy,Jowar,Rabi,2.77
-2023,Kamareddy,Maize,Kharif,5.3
-2023,Kamareddy,Maize,Rabi,6.45
-2024,Kamareddy,Maize,Kharif,5.32
-2024,Kamareddy,Maize,Rabi,6.5
-2023,Kamareddy,Moong(Green Gram),Kharif,0.84
-2023,Kamareddy,Moong(Green Gram),Rabi,0.92
-2024,Kamareddy,Moong(Green Gram),Kharif,0.84
-2024,Kamareddy,Moong(Green Gram),Rabi,0.92
-2023,Kamareddy,Onion,Kharif,16.54
-2023,Kamareddy,Onion,Rabi,24.67
-2024,Kamareddy,Onion,Kharif,16.69
-2024,Kamareddy,Onion,Rabi,24.94
-2023,Kamareddy,Potato,Rabi,18.05
-2024,Kamareddy,Potato,Rabi,18.19
-2023,Kamareddy,Ragi,Kharif,1.5
-2024,Kamareddy,Ragi,Kharif,1.52
-2023,Kamareddy,Rice,Kharif,3.77
-2023,Kamareddy,Rice,Rabi,3.94
-2024,Kamareddy,Rice,Kharif,3.79
-2024,Kamareddy,Rice,Rabi,3.95
-2023,Kamareddy,Safflower,Rabi,0.61
-2024,Kamareddy,Safflower,Rabi,0.62
-2023,Kamareddy,Sesamum,Kharif,0.17
-2023,Kamareddy,Sesamum,Rabi,0.46
-2024,Kamareddy,Sesamum,Kharif,0.17
-2024,Kamareddy,Sesamum,Rabi,0.48
-2023,Kamareddy,Small millets,Kharif,1.34
-2024,Kamareddy,Small millets,Kharif,1.35
-2023,Kamareddy,Soyabean,Kharif,1.51
-2023,Kamareddy,Soyabean,Rabi,1.39
-2024,Kamareddy,Soyabean,Kharif,1.53
-2024,Kamareddy,Soyabean,Rabi,1.4
-2023,Kamareddy,Sugarcane,Kharif,85.89
-2024,Kamareddy,Sugarcane,Kharif,86.13
-2023,Kamareddy,Sunflower,Kharif,1.36
-2023,Kamareddy,Sunflower,Rabi,2.02
-2024,Kamareddy,Sunflower,Kharif,1.36
-2024,Kamareddy,Sunflower,Rabi,2.04
-2023,Kamareddy,Sweet potato,Rabi,9.41
-2024,Kamareddy,Sweet potato,Rabi,9.49
-2023,Kamareddy,Tobacco,Kharif,2.62
-2023,Kamareddy,Tobacco,Rabi,3.74
-2024,Kamareddy,Tobacco,Kharif,2.64
-2024,Kamareddy,Tobacco,Rabi,3.78
-2023,Kamareddy,Turmeric,Kharif,6.62
-2023,Kamareddy,Turmeric,Rabi,7.7
-2024,Kamareddy,Turmeric,Kharif,6.66
-2024,Kamareddy,Turmeric,Rabi,7.71
-2023,Kamareddy,Urad,Kharif,0.88
-2023,Kamareddy,Urad,Rabi,1.41
-2024,Kamareddy,Urad,Kharif,0.89
-2024,Kamareddy,Urad,Rabi,1.43
-2023,Kamareddy,Wheat,Rabi,1.67
-2024,Kamareddy,Wheat,Rabi,1.69
-2023,Karimnagar,Arhar/Tur,Kharif,0.68
-2023,Karimnagar,Arhar/Tur,Rabi,0.57
-2024,Karimnagar,Arhar/Tur,Kharif,0.69
-2024,Karimnagar,Arhar/Tur,Rabi,0.58
-2023,Karimnagar,Bajra,Kharif,1.0
-2023,Karimnagar,Bajra,Rabi,0.97
-2024,Karimnagar,Bajra,Kharif,1.0
-2024,Karimnagar,Bajra,Rabi,0.97
-2023,Karimnagar,Banana,Kharif,49.32
-2023,Karimnagar,Banana,Whole Year,31.14
-2024,Karimnagar,Banana,Kharif,49.98
-2024,Karimnagar,Banana,Whole Year,31.14
-2023,Karimnagar,Castor seed,Kharif,0.68
-2023,Karimnagar,Castor seed,Rabi,0.94
-2024,Karimnagar,Castor seed,Kharif,0.69
-2024,Karimnagar,Castor seed,Rabi,0.96
-2023,Karimnagar,Coriander,Kharif,0.75
-2023,Karimnagar,Coriander,Rabi,0.69
-2023,Karimnagar,Coriander,Whole Year,0.49
-2024,Karimnagar,Coriander,Kharif,0.75
-2024,Karimnagar,Coriander,Rabi,0.7
-2024,Karimnagar,Coriander,Whole Year,0.49
-2023,Karimnagar,Cowpea(Lobia),Kharif,0.8
-2023,Karimnagar,Cowpea(Lobia),Rabi,1.42
-2024,Karimnagar,Cowpea(Lobia),Kharif,0.83
-2024,Karimnagar,Cowpea(Lobia),Rabi,1.44
-2023,Karimnagar,Dry chillies,Kharif,4.27
-2023,Karimnagar,Dry chillies,Rabi,5.05
-2024,Karimnagar,Dry chillies,Kharif,4.34
-2024,Karimnagar,Dry chillies,Rabi,5.1
-2023,Karimnagar,Garlic,Rabi,3.75
-2024,Karimnagar,Garlic,Rabi,3.76
-2023,Karimnagar,Ginger,Kharif,7.75
-2023,Karimnagar,Ginger,Rabi,6.5
-2024,Karimnagar,Ginger,Kharif,7.81
-2024,Karimnagar,Ginger,Rabi,6.5
-2023,Karimnagar,Gram,Kharif,1.35
-2023,Karimnagar,Gram,Rabi,1.27
-2024,Karimnagar,Gram,Kharif,1.35
-2024,Karimnagar,Gram,Rabi,1.28
-2023,Karimnagar,Groundnut,Kharif,1.68
-2023,Karimnagar,Groundnut,Rabi,2.08
-2024,Karimnagar,Groundnut,Kharif,1.72
-2024,Karimnagar,Groundnut,Rabi,2.1
-2023,Karimnagar,Horse-gram,Kharif,1.21
-2023,Karimnagar,Horse-gram,Rabi,1.21
-2024,Karimnagar,Horse-gram,Kharif,1.23
-2024,Karimnagar,Horse-gram,Rabi,1.22
-2023,Karimnagar,Jowar,Kharif,0.75
-2023,Karimnagar,Jowar,Rabi,2.28
-2024,Karimnagar,Jowar,Kharif,0.76
-2024,Karimnagar,Jowar,Rabi,2.31
-2023,Karimnagar,Maize,Kharif,5.17
-2023,Karimnagar,Maize,Rabi,6.59
-2024,Karimnagar,Maize,Kharif,5.2
-2024,Karimnagar,Maize,Rabi,6.64
-2023,Karimnagar,Moong(Green Gram),Kharif,0.58
-2023,Karimnagar,Moong(Green Gram),Rabi,0.59
-2024,Karimnagar,Moong(Green Gram),Kharif,0.59
-2024,Karimnagar,Moong(Green Gram),Rabi,0.6
-2023,Karimnagar,Oilseeds total,Kharif,1.27
-2023,Karimnagar,Oilseeds total,Rabi,1.09
-2024,Karimnagar,Oilseeds total,Kharif,1.27
-2024,Karimnagar,Oilseeds total,Rabi,1.09
-2023,Karimnagar,Onion,Kharif,17.7
-2023,Karimnagar,Onion,Rabi,29.95
-2024,Karimnagar,Onion,Kharif,17.8
-2024,Karimnagar,Onion,Rabi,30.12
-2023,Karimnagar,Other Kharif pulses,Kharif,0.4
-2024,Karimnagar,Other Kharif pulses,Kharif,0.4
-2023,Karimnagar,Other Rabi pulses,Rabi,1.6
-2024,Karimnagar,Other Rabi pulses,Rabi,1.61
-2023,Karimnagar,Rapeseed &Mustard,Rabi,1.35
-2024,Karimnagar,Rapeseed &Mustard,Rabi,1.37
-2023,Karimnagar,Rice,Kharif,3.35
-2023,Karimnagar,Rice,Rabi,3.75
-2024,Karimnagar,Rice,Kharif,3.36
-2024,Karimnagar,Rice,Rabi,3.76
-2023,Karimnagar,Safflower,Rabi,1.0
-2024,Karimnagar,Safflower,Rabi,1.0
-2023,Karimnagar,Sesamum,Kharif,0.22
-2023,Karimnagar,Sesamum,Rabi,0.55
-2024,Karimnagar,Sesamum,Kharif,0.22
-2024,Karimnagar,Sesamum,Rabi,0.56
-2023,Karimnagar,Small millets,Kharif,1.1
-2024,Karimnagar,Small millets,Kharif,1.12
-2023,Karimnagar,Soyabean,Kharif,1.54
-2023,Karimnagar,Soyabean,Rabi,1.67
-2024,Karimnagar,Soyabean,Kharif,1.56
-2024,Karimnagar,Soyabean,Rabi,1.67
-2023,Karimnagar,Sugarcane,Kharif,80.29
-2024,Karimnagar,Sugarcane,Kharif,80.31
-2023,Karimnagar,Sunflower,Kharif,3.0
-2023,Karimnagar,Sunflower,Rabi,2.02
-2024,Karimnagar,Sunflower,Kharif,3.03
-2024,Karimnagar,Sunflower,Rabi,2.04
-2023,Karimnagar,Sweet potato,Kharif,9.52
-2023,Karimnagar,Sweet potato,Rabi,11.04
-2024,Karimnagar,Sweet potato,Kharif,9.57
-2024,Karimnagar,Sweet potato,Rabi,11.14
-2023,Karimnagar,Tobacco,Kharif,3.99
-2023,Karimnagar,Tobacco,Rabi,3.74
-2024,Karimnagar,Tobacco,Kharif,4.02
-2024,Karimnagar,Tobacco,Rabi,3.78
-2023,Karimnagar,Turmeric,Kharif,6.74
-2023,Karimnagar,Turmeric,Rabi,7.0
-2024,Karimnagar,Turmeric,Kharif,6.79
-2024,Karimnagar,Turmeric,Rabi,7.0
-2023,Karimnagar,Urad,Kharif,0.73
-2023,Karimnagar,Urad,Rabi,1.96
-2024,Karimnagar,Urad,Kharif,0.74
-2024,Karimnagar,Urad,Rabi,2.0
-2023,Karimnagar,Wheat,Rabi,2.0
-2024,Karimnagar,Wheat,Rabi,2.0
-2023,Khammam,Arhar/Tur,Kharif,0.58
-2023,Khammam,Arhar/Tur,Rabi,0.83
-2024,Khammam,Arhar/Tur,Kharif,0.59
-2024,Khammam,Arhar/Tur,Rabi,0.84
-2023,Khammam,Bajra,Kharif,1.0
-2023,Khammam,Bajra,Rabi,1.0
-2024,Khammam,Bajra,Kharif,1.0
-2024,Khammam,Bajra,Rabi,1.0
-2023,Khammam,Banana,Kharif,49.33
-2023,Khammam,Banana,Whole Year,31.14
-2024,Khammam,Banana,Kharif,49.74
-2024,Khammam,Banana,Whole Year,31.14
-2023,Khammam,Cashewnut,Kharif,0.48
-2024,Khammam,Cashewnut,Kharif,0.49
-2023,Khammam,Castor seed,Kharif,0.5
-2023,Khammam,Castor seed,Rabi,1.67
-2024,Khammam,Castor seed,Kharif,0.5
-2024,Khammam,Castor seed,Rabi,1.67
-2023,Khammam,Cowpea(Lobia),Kharif,0.67
-2023,Khammam,Cowpea(Lobia),Rabi,1.11
-2024,Khammam,Cowpea(Lobia),Kharif,0.67
-2024,Khammam,Cowpea(Lobia),Rabi,1.12
-2023,Khammam,Dry chillies,Kharif,5.2
-2023,Khammam,Dry chillies,Rabi,3.85
-2024,Khammam,Dry chillies,Kharif,5.28
-2024,Khammam,Dry chillies,Rabi,3.91
-2023,Khammam,Ginger,Kharif,9.2
-2023,Khammam,Ginger,Rabi,8.0
-2024,Khammam,Ginger,Kharif,9.2
-2024,Khammam,Ginger,Rabi,8.03
-2023,Khammam,Gram,Kharif,1.4
-2023,Khammam,Gram,Rabi,1.26
-2024,Khammam,Gram,Kharif,1.4
-2024,Khammam,Gram,Rabi,1.28
-2023,Khammam,Groundnut,Kharif,1.96
-2023,Khammam,Groundnut,Rabi,2.11
-2024,Khammam,Groundnut,Kharif,1.99
-2024,Khammam,Groundnut,Rabi,2.12
-2023,Khammam,Horse-gram,Kharif,1.5
-2023,Khammam,Horse-gram,Rabi,1.42
-2024,Khammam,Horse-gram,Kharif,1.5
-2024,Khammam,Horse-gram,Rabi,1.45
-2023,Khammam,Jowar,Kharif,0.92
-2023,Khammam,Jowar,Rabi,1.66
-2024,Khammam,Jowar,Kharif,0.93
-2024,Khammam,Jowar,Rabi,1.69
-2023,Khammam,Maize,Kharif,4.42
-2023,Khammam,Maize,Rabi,7.53
-2024,Khammam,Maize,Kharif,4.45
-2024,Khammam,Maize,Rabi,7.57
-2023,Khammam,Moong(Green Gram),Kharif,0.4
-2023,Khammam,Moong(Green Gram),Rabi,0.83
-2024,Khammam,Moong(Green Gram),Kharif,0.41
-2024,Khammam,Moong(Green Gram),Rabi,0.84
-2023,Khammam,Oilseeds total,Kharif,18.89
-2023,Khammam,Oilseeds total,Rabi,2.57
-2024,Khammam,Oilseeds total,Kharif,18.89
-2024,Khammam,Oilseeds total,Rabi,2.57
-2023,Khammam,Onion,Kharif,14.78
-2023,Khammam,Onion,Rabi,29.91
-2024,Khammam,Onion,Kharif,14.88
-2024,Khammam,Onion,Rabi,30.07
-2023,Khammam,Ragi,Kharif,1.5
-2024,Khammam,Ragi,Kharif,1.5
-2023,Khammam,Rapeseed &Mustard,Rabi,1.0
-2024,Khammam,Rapeseed &Mustard,Rabi,1.0
-2023,Khammam,Rice,Kharif,3.19
-2023,Khammam,Rice,Rabi,3.36
-2024,Khammam,Rice,Kharif,3.2
-2024,Khammam,Rice,Rabi,3.38
-2023,Khammam,Safflower,Rabi,1.0
-2024,Khammam,Safflower,Rabi,1.0
-2023,Khammam,Sesamum,Kharif,0.23
-2023,Khammam,Sesamum,Rabi,0.45
-2024,Khammam,Sesamum,Kharif,0.23
-2024,Khammam,Sesamum,Rabi,0.46
-2023,Khammam,Small millets,Kharif,1.09
-2023,Khammam,Small millets,Rabi,1.5
-2024,Khammam,Small millets,Kharif,1.1
-2024,Khammam,Small millets,Rabi,1.52
-2023,Khammam,Soyabean,Kharif,1.39
-2023,Khammam,Soyabean,Rabi,1.2
-2024,Khammam,Soyabean,Kharif,1.4
-2024,Khammam,Soyabean,Rabi,1.2
-2023,Khammam,Sugarcane,Kharif,84.83
-2024,Khammam,Sugarcane,Kharif,85.65
-2023,Khammam,Sunflower,Rabi,1.81
-2024,Khammam,Sunflower,Rabi,1.83
-2023,Khammam,Sweet potato,Kharif,7.5
-2023,Khammam,Sweet potato,Rabi,10.56
-2024,Khammam,Sweet potato,Kharif,7.5
-2024,Khammam,Sweet potato,Rabi,10.69
-2023,Khammam,Tobacco,Kharif,2.5
-2023,Khammam,Tobacco,Rabi,3.7
-2024,Khammam,Tobacco,Kharif,2.52
-2024,Khammam,Tobacco,Rabi,3.74
-2023,Khammam,Turmeric,Kharif,6.07
-2024,Khammam,Turmeric,Kharif,6.13
-2023,Khammam,Urad,Kharif,0.7
-2023,Khammam,Urad,Rabi,1.14
-2024,Khammam,Urad,Kharif,0.71
-2024,Khammam,Urad,Rabi,1.16
-2023,Khammam,other oilseeds,Kharif,19.75
-2024,Khammam,other oilseeds,Kharif,19.97
-2023,Komaram bheem asifabad,Arhar/Tur,Kharif,1.05
-2023,Komaram bheem asifabad,Arhar/Tur,Rabi,0.95
-2024,Komaram bheem asifabad,Arhar/Tur,Kharif,1.06
-2024,Komaram bheem asifabad,Arhar/Tur,Rabi,0.96
-2023,Komaram bheem asifabad,Bajra,Kharif,1.43
-2024,Komaram bheem asifabad,Bajra,Kharif,1.44
-2023,Komaram bheem asifabad,Banana,Kharif,49.31
-2024,Komaram bheem asifabad,Banana,Kharif,49.7
-2023,Komaram bheem asifabad,Cashewnut,Kharif,0.44
-2024,Komaram bheem asifabad,Cashewnut,Kharif,0.45
-2023,Komaram bheem asifabad,Castor seed,Kharif,0.86
-2024,Komaram bheem asifabad,Castor seed,Kharif,0.87
-2023,Komaram bheem asifabad,Coriander,Kharif,1.0
-2023,Komaram bheem asifabad,Coriander,Rabi,0.81
-2024,Komaram bheem asifabad,Coriander,Kharif,1.0
-2024,Komaram bheem asifabad,Coriander,Rabi,0.82
-2023,Komaram bheem asifabad,Cowpea(Lobia),Kharif,0.72
-2023,Komaram bheem asifabad,Cowpea(Lobia),Rabi,0.98
-2024,Komaram bheem asifabad,Cowpea(Lobia),Kharif,0.72
-2024,Komaram bheem asifabad,Cowpea(Lobia),Rabi,0.98
-2023,Komaram bheem asifabad,Dry chillies,Kharif,4.42
-2023,Komaram bheem asifabad,Dry chillies,Rabi,5.7
-2024,Komaram bheem asifabad,Dry chillies,Kharif,4.46
-2024,Komaram bheem asifabad,Dry chillies,Rabi,5.72
-2023,Komaram bheem asifabad,Gram,Rabi,1.32
-2024,Komaram bheem asifabad,Gram,Rabi,1.34
-2023,Komaram bheem asifabad,Groundnut,Kharif,2.1
-2023,Komaram bheem asifabad,Groundnut,Rabi,2.26
-2024,Komaram bheem asifabad,Groundnut,Kharif,2.12
-2024,Komaram bheem asifabad,Groundnut,Rabi,2.26
-2023,Komaram bheem asifabad,Horse-gram,Kharif,1.25
-2023,Komaram bheem asifabad,Horse-gram,Rabi,0.6
-2024,Komaram bheem asifabad,Horse-gram,Kharif,1.27
-2024,Komaram bheem asifabad,Horse-gram,Rabi,0.6
-2023,Komaram bheem asifabad,Jowar,Kharif,0.63
-2023,Komaram bheem asifabad,Jowar,Rabi,0.89
-2024,Komaram bheem asifabad,Jowar,Kharif,0.65
-2024,Komaram bheem asifabad,Jowar,Rabi,0.89
-2023,Komaram bheem asifabad,Maize,Kharif,3.03
-2023,Komaram bheem asifabad,Maize,Rabi,5.71
-2024,Komaram bheem asifabad,Maize,Kharif,3.08
-2024,Komaram bheem asifabad,Maize,Rabi,5.78
-2023,Komaram bheem asifabad,Moong(Green Gram),Kharif,0.52
-2023,Komaram bheem asifabad,Moong(Green Gram),Rabi,1.09
-2024,Komaram bheem asifabad,Moong(Green Gram),Kharif,0.53
-2024,Komaram bheem asifabad,Moong(Green Gram),Rabi,1.11
-2023,Komaram bheem asifabad,Onion,Kharif,17.71
-2023,Komaram bheem asifabad,Onion,Rabi,29.94
-2024,Komaram bheem asifabad,Onion,Kharif,17.8
-2024,Komaram bheem asifabad,Onion,Rabi,30.11
-2023,Komaram bheem asifabad,Potato,Rabi,21.0
-2024,Komaram bheem asifabad,Potato,Rabi,21.0
-2023,Komaram bheem asifabad,Ragi,Kharif,1.29
-2023,Komaram bheem asifabad,Ragi,Rabi,1.75
-2024,Komaram bheem asifabad,Ragi,Kharif,1.29
-2024,Komaram bheem asifabad,Ragi,Rabi,1.75
-2023,Komaram bheem asifabad,Rice,Kharif,2.29
-2023,Komaram bheem asifabad,Rice,Rabi,2.98
-2024,Komaram bheem asifabad,Rice,Kharif,2.31
-2024,Komaram bheem asifabad,Rice,Rabi,3.0
-2023,Komaram bheem asifabad,Safflower,Rabi,0.94
-2024,Komaram bheem asifabad,Safflower,Rabi,0.94
-2023,Komaram bheem asifabad,Sesamum,Kharif,0.21
-2023,Komaram bheem asifabad,Sesamum,Rabi,0.65
-2024,Komaram bheem asifabad,Sesamum,Kharif,0.21
-2024,Komaram bheem asifabad,Sesamum,Rabi,0.65
-2023,Komaram bheem asifabad,Small millets,Kharif,1.37
-2023,Komaram bheem asifabad,Small millets,Rabi,1.0
-2024,Komaram bheem asifabad,Small millets,Kharif,1.38
-2024,Komaram bheem asifabad,Small millets,Rabi,1.0
-2023,Komaram bheem asifabad,Soyabean,Kharif,1.26
-2023,Komaram bheem asifabad,Soyabean,Rabi,1.25
-2024,Komaram bheem asifabad,Soyabean,Kharif,1.26
-2024,Komaram bheem asifabad,Soyabean,Rabi,1.25
-2023,Komaram bheem asifabad,Sugarcane,Kharif,92.82
-2024,Komaram bheem asifabad,Sugarcane,Kharif,93.12
-2023,Komaram bheem asifabad,Sunflower,Kharif,0.8
-2023,Komaram bheem asifabad,Sunflower,Rabi,1.97
-2024,Komaram bheem asifabad,Sunflower,Kharif,0.8
-2024,Komaram bheem asifabad,Sunflower,Rabi,1.98
-2023,Komaram bheem asifabad,Sweet potato,Kharif,16.0
-2023,Komaram bheem asifabad,Sweet potato,Rabi,11.5
-2024,Komaram bheem asifabad,Sweet potato,Kharif,16.0
-2024,Komaram bheem asifabad,Sweet potato,Rabi,11.64
-2023,Komaram bheem asifabad,Turmeric,Kharif,5.97
-2023,Komaram bheem asifabad,Turmeric,Rabi,7.67
-2024,Komaram bheem asifabad,Turmeric,Kharif,6.03
-2024,Komaram bheem asifabad,Turmeric,Rabi,7.67
-2023,Komaram bheem asifabad,Urad,Kharif,0.65
-2023,Komaram bheem asifabad,Urad,Rabi,1.32
-2024,Komaram bheem asifabad,Urad,Kharif,0.66
-2024,Komaram bheem asifabad,Urad,Rabi,1.34
-2023,Komaram bheem asifabad,Wheat,Rabi,1.81
-2024,Komaram bheem asifabad,Wheat,Rabi,1.83
-2023,Mahabubabad,Arhar/Tur,Kharif,0.74
-2023,Mahabubabad,Arhar/Tur,Rabi,0.87
-2024,Mahabubabad,Arhar/Tur,Kharif,0.75
-2024,Mahabubabad,Arhar/Tur,Rabi,0.88
-2023,Mahabubabad,Bajra,Rabi,2.26
-2024,Mahabubabad,Bajra,Rabi,2.29
-2023,Mahabubabad,Banana,Kharif,49.3
-2024,Mahabubabad,Banana,Kharif,49.73
-2023,Mahabubabad,Castor seed,Kharif,0.5
-2024,Mahabubabad,Castor seed,Kharif,0.5
-2023,Mahabubabad,Cowpea(Lobia),Kharif,0.75
-2023,Mahabubabad,Cowpea(Lobia),Rabi,0.82
-2024,Mahabubabad,Cowpea(Lobia),Kharif,0.75
-2024,Mahabubabad,Cowpea(Lobia),Rabi,0.83
-2023,Mahabubabad,Dry chillies,Kharif,3.29
-2023,Mahabubabad,Dry chillies,Rabi,5.51
-2024,Mahabubabad,Dry chillies,Kharif,3.33
-2024,Mahabubabad,Dry chillies,Rabi,5.57
-2023,Mahabubabad,Ginger,Kharif,9.0
-2024,Mahabubabad,Ginger,Kharif,9.0
-2023,Mahabubabad,Gram,Rabi,1.4
-2024,Mahabubabad,Gram,Rabi,1.41
-2023,Mahabubabad,Groundnut,Kharif,2.66
-2023,Mahabubabad,Groundnut,Rabi,1.67
-2024,Mahabubabad,Groundnut,Kharif,2.69
-2024,Mahabubabad,Groundnut,Rabi,1.68
-2023,Mahabubabad,Horse-gram,Rabi,1.16
-2024,Mahabubabad,Horse-gram,Rabi,1.17
-2023,Mahabubabad,Jowar,Kharif,0.84
-2023,Mahabubabad,Jowar,Rabi,0.96
-2024,Mahabubabad,Jowar,Kharif,0.84
-2024,Mahabubabad,Jowar,Rabi,0.98
-2023,Mahabubabad,Maize,Kharif,4.56
-2023,Mahabubabad,Maize,Rabi,6.27
-2024,Mahabubabad,Maize,Kharif,4.59
-2024,Mahabubabad,Maize,Rabi,6.29
-2023,Mahabubabad,Moong(Green Gram),Kharif,0.5
-2023,Mahabubabad,Moong(Green Gram),Rabi,0.87
-2024,Mahabubabad,Moong(Green Gram),Kharif,0.51
-2024,Mahabubabad,Moong(Green Gram),Rabi,0.87
-2023,Mahabubabad,Onion,Kharif,17.71
-2023,Mahabubabad,Onion,Rabi,29.94
-2024,Mahabubabad,Onion,Kharif,17.8
-2024,Mahabubabad,Onion,Rabi,30.11
-2023,Mahabubabad,Ragi,Kharif,1.6
-2024,Mahabubabad,Ragi,Kharif,1.6
-2023,Mahabubabad,Rice,Kharif,2.89
-2023,Mahabubabad,Rice,Rabi,3.24
-2024,Mahabubabad,Rice,Kharif,2.91
-2024,Mahabubabad,Rice,Rabi,3.25
-2023,Mahabubabad,Safflower,Rabi,1.0
-2024,Mahabubabad,Safflower,Rabi,1.0
-2023,Mahabubabad,Sesamum,Kharif,0.21
-2023,Mahabubabad,Sesamum,Rabi,0.69
-2024,Mahabubabad,Sesamum,Kharif,0.21
-2024,Mahabubabad,Sesamum,Rabi,0.69
-2023,Mahabubabad,Small millets,Rabi,0.5
-2024,Mahabubabad,Small millets,Rabi,0.5
-2023,Mahabubabad,Soyabean,Kharif,1.5
-2024,Mahabubabad,Soyabean,Kharif,1.51
-2023,Mahabubabad,Sugarcane,Kharif,80.18
-2024,Mahabubabad,Sugarcane,Kharif,80.94
-2023,Mahabubabad,Sunflower,Kharif,1.5
-2023,Mahabubabad,Sunflower,Rabi,2.01
-2024,Mahabubabad,Sunflower,Kharif,1.5
-2024,Mahabubabad,Sunflower,Rabi,2.03
-2023,Mahabubabad,Sweet potato,Kharif,9.41
-2023,Mahabubabad,Sweet potato,Rabi,9.3
-2024,Mahabubabad,Sweet potato,Kharif,9.49
-2024,Mahabubabad,Sweet potato,Rabi,9.35
-2023,Mahabubabad,Tobacco,Kharif,1.2
-2023,Mahabubabad,Tobacco,Rabi,3.18
-2024,Mahabubabad,Tobacco,Kharif,1.2
-2024,Mahabubabad,Tobacco,Rabi,3.24
-2023,Mahabubabad,Turmeric,Kharif,6.24
-2023,Mahabubabad,Turmeric,Rabi,5.0
-2024,Mahabubabad,Turmeric,Kharif,6.26
-2024,Mahabubabad,Turmeric,Rabi,5.0
-2023,Mahabubabad,Urad,Kharif,0.8
-2023,Mahabubabad,Urad,Rabi,1.25
-2024,Mahabubabad,Urad,Kharif,0.8
-2024,Mahabubabad,Urad,Rabi,1.27
-2023,Mahabubabad,Wheat,Rabi,2.0
-2024,Mahabubabad,Wheat,Rabi,2.0
-2023,Mahbubnagar,Arhar/Tur,Kharif,0.55
-2023,Mahbubnagar,Arhar/Tur,Rabi,0.48
-2024,Mahbubnagar,Arhar/Tur,Kharif,0.56
-2024,Mahbubnagar,Arhar/Tur,Rabi,0.49
-2023,Mahbubnagar,Bajra,Kharif,1.08
-2024,Mahbubnagar,Bajra,Kharif,1.08
-2023,Mahbubnagar,Banana,Kharif,56.23
-2024,Mahbubnagar,Banana,Kharif,56.54
-2023,Mahbubnagar,Castor seed,Kharif,0.64
-2023,Mahbubnagar,Castor seed,Rabi,0.75
-2024,Mahbubnagar,Castor seed,Kharif,0.64
-2024,Mahbubnagar,Castor seed,Rabi,0.76
-2023,Mahbubnagar,Coriander,Rabi,1.0
-2024,Mahbubnagar,Coriander,Rabi,1.0
-2023,Mahbubnagar,Cowpea(Lobia),Kharif,0.63
-2023,Mahbubnagar,Cowpea(Lobia),Rabi,1.68
-2024,Mahbubnagar,Cowpea(Lobia),Kharif,0.64
-2024,Mahbubnagar,Cowpea(Lobia),Rabi,1.7
-2023,Mahbubnagar,Dry chillies,Kharif,3.72
-2023,Mahbubnagar,Dry chillies,Rabi,4.34
-2024,Mahbubnagar,Dry chillies,Kharif,3.79
-2024,Mahbubnagar,Dry chillies,Rabi,4.4
-2023,Mahbubnagar,Garlic,Rabi,4.0
-2024,Mahbubnagar,Garlic,Rabi,4.0
-2023,Mahbubnagar,Ginger,Kharif,8.0
-2024,Mahbubnagar,Ginger,Kharif,8.0
-2023,Mahbubnagar,Gram,Rabi,1.06
-2024,Mahbubnagar,Gram,Rabi,1.09
-2023,Mahbubnagar,Groundnut,Kharif,2.07
-2023,Mahbubnagar,Groundnut,Rabi,2.27
-2024,Mahbubnagar,Groundnut,Kharif,2.09
-2024,Mahbubnagar,Groundnut,Rabi,2.29
-2023,Mahbubnagar,Horse-gram,Kharif,0.92
-2023,Mahbubnagar,Horse-gram,Rabi,1.05
-2024,Mahbubnagar,Horse-gram,Kharif,0.94
-2024,Mahbubnagar,Horse-gram,Rabi,1.07
-2023,Mahbubnagar,Jowar,Kharif,0.91
-2023,Mahbubnagar,Jowar,Rabi,1.72
-2024,Mahbubnagar,Jowar,Kharif,0.91
-2024,Mahbubnagar,Jowar,Rabi,1.75
-2023,Mahbubnagar,Maize,Kharif,2.92
-2023,Mahbubnagar,Maize,Rabi,5.91
-2024,Mahbubnagar,Maize,Kharif,2.97
-2024,Mahbubnagar,Maize,Rabi,5.97
-2023,Mahbubnagar,Moong(Green Gram),Kharif,0.43
-2023,Mahbubnagar,Moong(Green Gram),Rabi,0.79
-2024,Mahbubnagar,Moong(Green Gram),Kharif,0.44
-2024,Mahbubnagar,Moong(Green Gram),Rabi,0.8
-2023,Mahbubnagar,Oilseeds total,Kharif,0.52
-2023,Mahbubnagar,Oilseeds total,Rabi,1.6
-2024,Mahbubnagar,Oilseeds total,Kharif,0.52
-2024,Mahbubnagar,Oilseeds total,Rabi,1.6
-2023,Mahbubnagar,Onion,Kharif,16.44
-2023,Mahbubnagar,Onion,Rabi,32.48
-2024,Mahbubnagar,Onion,Kharif,16.59
-2024,Mahbubnagar,Onion,Rabi,32.74
-2023,Mahbubnagar,Potato,Rabi,13.5
-2023,Mahbubnagar,Potato,Whole Year,14.5
-2024,Mahbubnagar,Potato,Rabi,13.5
-2024,Mahbubnagar,Potato,Whole Year,14.5
-2023,Mahbubnagar,Ragi,Kharif,1.0
-2023,Mahbubnagar,Ragi,Rabi,1.0
-2024,Mahbubnagar,Ragi,Kharif,1.02
-2024,Mahbubnagar,Ragi,Rabi,1.02
-2023,Mahbubnagar,Rice,Kharif,2.7
-2023,Mahbubnagar,Rice,Rabi,2.91
-2024,Mahbubnagar,Rice,Kharif,2.72
-2024,Mahbubnagar,Rice,Rabi,2.94
-2023,Mahbubnagar,Safflower,Kharif,1.0
-2023,Mahbubnagar,Safflower,Rabi,1.12
-2024,Mahbubnagar,Safflower,Kharif,1.0
-2024,Mahbubnagar,Safflower,Rabi,1.14
-2023,Mahbubnagar,Sesamum,Kharif,0.16
-2023,Mahbubnagar,Sesamum,Rabi,0.74
-2024,Mahbubnagar,Sesamum,Kharif,0.16
-2024,Mahbubnagar,Sesamum,Rabi,0.74
-2023,Mahbubnagar,Small millets,Kharif,1.15
-2023,Mahbubnagar,Small millets,Rabi,0.9
-2024,Mahbubnagar,Small millets,Kharif,1.16
-2024,Mahbubnagar,Small millets,Rabi,0.9
-2023,Mahbubnagar,Soyabean,Kharif,1.5
-2024,Mahbubnagar,Soyabean,Kharif,1.52
-2023,Mahbubnagar,Sugarcane,Kharif,71.22
-2024,Mahbubnagar,Sugarcane,Kharif,72.28
-2023,Mahbubnagar,Sunflower,Kharif,1.45
-2023,Mahbubnagar,Sunflower,Rabi,1.7
-2024,Mahbubnagar,Sunflower,Kharif,1.47
-2024,Mahbubnagar,Sunflower,Rabi,1.74
-2023,Mahbubnagar,Sweet potato,Kharif,7.0
-2023,Mahbubnagar,Sweet potato,Rabi,12.0
-2024,Mahbubnagar,Sweet potato,Kharif,7.0
-2024,Mahbubnagar,Sweet potato,Rabi,12.0
-2023,Mahbubnagar,Tobacco,Kharif,1.81
-2023,Mahbubnagar,Tobacco,Rabi,1.81
-2024,Mahbubnagar,Tobacco,Kharif,1.83
-2024,Mahbubnagar,Tobacco,Rabi,1.83
-2023,Mahbubnagar,Turmeric,Kharif,6.21
-2023,Mahbubnagar,Turmeric,Rabi,8.0
-2024,Mahbubnagar,Turmeric,Kharif,6.24
-2024,Mahbubnagar,Turmeric,Rabi,8.0
-2023,Mahbubnagar,Urad,Kharif,0.7
-2023,Mahbubnagar,Urad,Rabi,1.21
-2024,Mahbubnagar,Urad,Kharif,0.71
-2024,Mahbubnagar,Urad,Rabi,1.23
-2023,Mahbubnagar,Wheat,Kharif,1.0
-2023,Mahbubnagar,Wheat,Rabi,1.82
-2024,Mahbubnagar,Wheat,Kharif,1.0
-2024,Mahbubnagar,Wheat,Rabi,1.85
-2023,Mancherial,Arhar/Tur,Kharif,0.84
-2023,Mancherial,Arhar/Tur,Rabi,0.88
-2024,Mancherial,Arhar/Tur,Kharif,0.84
-2024,Mancherial,Arhar/Tur,Rabi,0.89
-2023,Mancherial,Cashewnut,Kharif,0.58
-2024,Mancherial,Cashewnut,Kharif,0.58
-2023,Mancherial,Castor seed,Kharif,0.4
-2023,Mancherial,Castor seed,Rabi,0.33
-2024,Mancherial,Castor seed,Kharif,0.4
-2024,Mancherial,Castor seed,Rabi,0.33
-2023,Mancherial,Coriander,Rabi,1.04
-2024,Mancherial,Coriander,Rabi,1.04
-2023,Mancherial,Cowpea(Lobia),Kharif,0.68
-2023,Mancherial,Cowpea(Lobia),Rabi,0.92
-2024,Mancherial,Cowpea(Lobia),Kharif,0.68
-2024,Mancherial,Cowpea(Lobia),Rabi,0.92
-2023,Mancherial,Dry chillies,Kharif,7.35
-2023,Mancherial,Dry chillies,Rabi,5.57
-2024,Mancherial,Dry chillies,Kharif,7.44
-2024,Mancherial,Dry chillies,Rabi,5.59
-2023,Mancherial,Garlic,Rabi,4.0
-2024,Mancherial,Garlic,Rabi,4.0
-2023,Mancherial,Gram,Rabi,1.48
-2024,Mancherial,Gram,Rabi,1.49
-2023,Mancherial,Groundnut,Kharif,1.79
-2023,Mancherial,Groundnut,Rabi,2.75
-2024,Mancherial,Groundnut,Kharif,1.8
-2024,Mancherial,Groundnut,Rabi,2.77
-2023,Mancherial,Horse-gram,Kharif,1.34
-2023,Mancherial,Horse-gram,Rabi,0.66
-2024,Mancherial,Horse-gram,Kharif,1.35
-2024,Mancherial,Horse-gram,Rabi,0.68
-2023,Mancherial,Jowar,Kharif,0.99
-2023,Mancherial,Jowar,Rabi,1.74
-2024,Mancherial,Jowar,Kharif,0.99
-2024,Mancherial,Jowar,Rabi,1.77
-2023,Mancherial,Maize,Kharif,4.15
-2023,Mancherial,Maize,Rabi,5.88
-2024,Mancherial,Maize,Kharif,4.17
-2024,Mancherial,Maize,Rabi,5.94
-2023,Mancherial,Moong(Green Gram),Kharif,0.6
-2023,Mancherial,Moong(Green Gram),Rabi,1.39
-2024,Mancherial,Moong(Green Gram),Kharif,0.61
-2024,Mancherial,Moong(Green Gram),Rabi,1.4
-2023,Mancherial,Onion,Kharif,17.76
-2023,Mancherial,Onion,Rabi,29.94
-2024,Mancherial,Onion,Kharif,17.91
-2024,Mancherial,Onion,Rabi,30.11
-2023,Mancherial,Rice,Kharif,2.57
-2023,Mancherial,Rice,Rabi,3.65
-2024,Mancherial,Rice,Kharif,2.59
-2024,Mancherial,Rice,Rabi,3.66
-2023,Mancherial,Safflower,Rabi,0.75
-2024,Mancherial,Safflower,Rabi,0.76
-2023,Mancherial,Sesamum,Kharif,0.21
-2023,Mancherial,Sesamum,Rabi,0.69
-2024,Mancherial,Sesamum,Kharif,0.21
-2024,Mancherial,Sesamum,Rabi,0.69
-2023,Mancherial,Small millets,Kharif,1.67
-2024,Mancherial,Small millets,Kharif,1.67
-2023,Mancherial,Soyabean,Kharif,1.55
-2023,Mancherial,Soyabean,Rabi,1.67
-2024,Mancherial,Soyabean,Kharif,1.56
-2024,Mancherial,Soyabean,Rabi,1.67
-2023,Mancherial,Sugarcane,Kharif,104.0
-2024,Mancherial,Sugarcane,Kharif,104.0
-2023,Mancherial,Sunflower,Rabi,2.05
-2024,Mancherial,Sunflower,Rabi,2.07
-2023,Mancherial,Sweet potato,Rabi,11.05
-2024,Mancherial,Sweet potato,Rabi,11.16
-2023,Mancherial,Turmeric,Kharif,5.96
-2024,Mancherial,Turmeric,Kharif,6.02
-2023,Mancherial,Urad,Kharif,0.79
-2023,Mancherial,Urad,Rabi,1.39
-2024,Mancherial,Urad,Kharif,0.79
-2024,Mancherial,Urad,Rabi,1.41
-2023,Mancherial,Wheat,Rabi,2.07
-2024,Mancherial,Wheat,Rabi,2.08
-2023,Medak,Arhar/Tur,Kharif,0.8
-2023,Medak,Arhar/Tur,Rabi,0.64
-2024,Medak,Arhar/Tur,Kharif,0.81
-2024,Medak,Arhar/Tur,Rabi,0.66
-2023,Medak,Bajra,Kharif,0.88
-2023,Medak,Bajra,Rabi,2.09
-2024,Medak,Bajra,Kharif,0.89
-2024,Medak,Bajra,Rabi,2.12
-2023,Medak,Banana,Kharif,49.31
-2023,Medak,Banana,Whole Year,31.14
-2024,Medak,Banana,Kharif,49.69
-2024,Medak,Banana,Whole Year,31.14
-2023,Medak,Cashewnut,Kharif,1.0
-2024,Medak,Cashewnut,Kharif,1.0
-2023,Medak,Castor seed,Kharif,0.84
-2023,Medak,Castor seed,Rabi,0.96
-2024,Medak,Castor seed,Kharif,0.85
-2024,Medak,Castor seed,Rabi,0.98
-2023,Medak,Coriander,Kharif,1.0
-2023,Medak,Coriander,Rabi,0.69
-2023,Medak,Coriander,Whole Year,0.48
-2024,Medak,Coriander,Kharif,1.0
-2024,Medak,Coriander,Rabi,0.7
-2024,Medak,Coriander,Whole Year,0.49
-2023,Medak,Cowpea(Lobia),Kharif,0.79
-2023,Medak,Cowpea(Lobia),Rabi,1.08
-2024,Medak,Cowpea(Lobia),Kharif,0.79
-2024,Medak,Cowpea(Lobia),Rabi,1.09
-2023,Medak,Dry chillies,Kharif,3.13
-2023,Medak,Dry chillies,Rabi,4.38
-2024,Medak,Dry chillies,Kharif,3.22
-2024,Medak,Dry chillies,Rabi,4.45
-2023,Medak,Garlic,Rabi,4.8
-2024,Medak,Garlic,Rabi,4.8
-2023,Medak,Ginger,Kharif,8.02
-2023,Medak,Ginger,Rabi,9.0
-2024,Medak,Ginger,Kharif,8.06
-2024,Medak,Ginger,Rabi,9.0
-2023,Medak,Gram,Kharif,1.0
-2023,Medak,Gram,Rabi,1.27
-2024,Medak,Gram,Kharif,1.0
-2024,Medak,Gram,Rabi,1.28
-2023,Medak,Groundnut,Kharif,1.54
-2023,Medak,Groundnut,Rabi,1.69
-2024,Medak,Groundnut,Kharif,1.57
-2024,Medak,Groundnut,Rabi,1.72
-2023,Medak,Horse-gram,Kharif,0.9
-2023,Medak,Horse-gram,Rabi,0.99
-2024,Medak,Horse-gram,Kharif,0.92
-2024,Medak,Horse-gram,Rabi,1.01
-2023,Medak,Jowar,Kharif,0.92
-2023,Medak,Jowar,Rabi,2.14
-2024,Medak,Jowar,Kharif,0.93
-2024,Medak,Jowar,Rabi,2.18
-2023,Medak,Linseed,Rabi,0.45
-2024,Medak,Linseed,Rabi,0.45
-2023,Medak,Maize,Kharif,2.92
-2023,Medak,Maize,Rabi,4.88
-2024,Medak,Maize,Kharif,2.97
-2024,Medak,Maize,Rabi,4.94
-2023,Medak,Masoor,Rabi,0.43
-2024,Medak,Masoor,Rabi,0.43
-2023,Medak,Moong(Green Gram),Kharif,0.46
-2023,Medak,Moong(Green Gram),Rabi,0.8
-2024,Medak,Moong(Green Gram),Kharif,0.47
-2024,Medak,Moong(Green Gram),Rabi,0.81
-2023,Medak,Oilseeds total,Kharif,0.94
-2023,Medak,Oilseeds total,Rabi,1.15
-2024,Medak,Oilseeds total,Kharif,0.94
-2024,Medak,Oilseeds total,Rabi,1.15
-2023,Medak,Onion,Kharif,16.57
-2023,Medak,Onion,Rabi,31.28
-2024,Medak,Onion,Kharif,16.74
-2024,Medak,Onion,Rabi,31.57
-2023,Medak,Other Kharif pulses,Kharif,0.68
-2024,Medak,Other Kharif pulses,Kharif,0.69
-2023,Medak,Potato,Kharif,11.36
-2023,Medak,Potato,Rabi,15.26
-2023,Medak,Potato,Whole Year,12.96
-2024,Medak,Potato,Kharif,11.4
-2024,Medak,Potato,Rabi,15.39
-2024,Medak,Potato,Whole Year,12.96
-2023,Medak,Ragi,Kharif,1.25
-2023,Medak,Ragi,Rabi,1.61
-2024,Medak,Ragi,Kharif,1.28
-2024,Medak,Ragi,Rabi,1.61
-2023,Medak,Rapeseed &Mustard,Rabi,0.75
-2024,Medak,Rapeseed &Mustard,Rabi,0.75
-2023,Medak,Rice,Kharif,3.48
-2023,Medak,Rice,Rabi,3.94
-2024,Medak,Rice,Kharif,3.5
-2024,Medak,Rice,Rabi,3.96
-2023,Medak,Safflower,Rabi,0.75
-2024,Medak,Safflower,Rabi,0.76
-2023,Medak,Sesamum,Kharif,0.14
-2023,Medak,Sesamum,Rabi,0.55
-2024,Medak,Sesamum,Kharif,0.14
-2024,Medak,Sesamum,Rabi,0.56
-2023,Medak,Small millets,Kharif,1.11
-2023,Medak,Small millets,Rabi,1.0
-2024,Medak,Small millets,Kharif,1.12
-2024,Medak,Small millets,Rabi,1.0
-2023,Medak,Soyabean,Kharif,1.38
-2023,Medak,Soyabean,Rabi,1.7
-2024,Medak,Soyabean,Kharif,1.39
-2024,Medak,Soyabean,Rabi,1.7
-2023,Medak,Sugarcane,Kharif,80.4
-2024,Medak,Sugarcane,Kharif,80.84
-2023,Medak,Sunflower,Kharif,1.43
-2023,Medak,Sunflower,Rabi,1.74
-2024,Medak,Sunflower,Kharif,1.45
-2024,Medak,Sunflower,Rabi,1.77
-2023,Medak,Sweet potato,Rabi,9.59
-2024,Medak,Sweet potato,Rabi,9.68
-2023,Medak,Tobacco,Rabi,2.9
-2024,Medak,Tobacco,Rabi,2.97
-2023,Medak,Turmeric,Kharif,5.18
-2023,Medak,Turmeric,Rabi,7.5
-2024,Medak,Turmeric,Kharif,5.29
-2024,Medak,Turmeric,Rabi,7.5
-2023,Medak,Urad,Kharif,0.6
-2023,Medak,Urad,Rabi,1.11
-2024,Medak,Urad,Kharif,0.61
-2024,Medak,Urad,Rabi,1.13
-2023,Medak,Wheat,Kharif,2.0
-2023,Medak,Wheat,Rabi,1.69
-2024,Medak,Wheat,Kharif,2.0
-2024,Medak,Wheat,Rabi,1.72
-2023,Medak,other oilseeds,Kharif,1.52
-2024,Medak,other oilseeds,Kharif,1.52
-2023,Medchal,Arhar/Tur,Kharif,0.78
-2023,Medchal,Arhar/Tur,Rabi,1.0
-2024,Medchal,Arhar/Tur,Kharif,0.78
-2024,Medchal,Arhar/Tur,Rabi,1.0
-2023,Medchal,Bajra,Kharif,1.1
-2023,Medchal,Bajra,Rabi,2.11
-2024,Medchal,Bajra,Kharif,1.1
-2024,Medchal,Bajra,Rabi,2.13
-2023,Medchal,Banana,Kharif,49.31
-2024,Medchal,Banana,Kharif,49.7
-2023,Medchal,Cashewnut,Kharif,1.0
-2024,Medchal,Cashewnut,Kharif,1.0
-2023,Medchal,Castor seed,Kharif,0.79
-2023,Medchal,Castor seed,Rabi,2.0
-2024,Medchal,Castor seed,Kharif,0.8
-2024,Medchal,Castor seed,Rabi,2.0
-2023,Medchal,Cowpea(Lobia),Kharif,0.88
-2023,Medchal,Cowpea(Lobia),Rabi,0.85
-2024,Medchal,Cowpea(Lobia),Kharif,0.88
-2024,Medchal,Cowpea(Lobia),Rabi,0.85
-2023,Medchal,Dry chillies,Kharif,3.67
-2023,Medchal,Dry chillies,Rabi,5.4
-2024,Medchal,Dry chillies,Kharif,3.67
-2024,Medchal,Dry chillies,Rabi,5.41
-2023,Medchal,Ginger,Rabi,9.4
-2024,Medchal,Ginger,Rabi,9.4
-2023,Medchal,Gram,Rabi,1.44
-2024,Medchal,Gram,Rabi,1.44
-2023,Medchal,Groundnut,Kharif,2.17
-2023,Medchal,Groundnut,Rabi,2.2
-2024,Medchal,Groundnut,Kharif,2.17
-2024,Medchal,Groundnut,Rabi,2.2
-2023,Medchal,Horse-gram,Kharif,1.2
-2023,Medchal,Horse-gram,Rabi,1.0
-2024,Medchal,Horse-gram,Kharif,1.21
-2024,Medchal,Horse-gram,Rabi,1.02
-2023,Medchal,Jowar,Kharif,1.0
-2023,Medchal,Jowar,Rabi,1.92
-2024,Medchal,Jowar,Kharif,1.0
-2024,Medchal,Jowar,Rabi,1.94
-2023,Medchal,Maize,Kharif,2.94
-2023,Medchal,Maize,Rabi,7.26
-2024,Medchal,Maize,Kharif,2.99
-2024,Medchal,Maize,Rabi,7.28
-2023,Medchal,Moong(Green Gram),Kharif,0.7
-2023,Medchal,Moong(Green Gram),Rabi,1.0
-2024,Medchal,Moong(Green Gram),Kharif,0.71
-2024,Medchal,Moong(Green Gram),Rabi,1.0
-2023,Medchal,Onion,Rabi,29.91
-2024,Medchal,Onion,Rabi,30.1
-2023,Medchal,Potato,Rabi,18.05
-2024,Medchal,Potato,Rabi,18.19
-2023,Medchal,Ragi,Kharif,1.67
-2024,Medchal,Ragi,Kharif,1.68
-2023,Medchal,Rice,Kharif,3.4
-2023,Medchal,Rice,Rabi,3.64
-2024,Medchal,Rice,Kharif,3.42
-2024,Medchal,Rice,Rabi,3.65
-2023,Medchal,Safflower,Kharif,1.0
-2023,Medchal,Safflower,Rabi,1.0
-2024,Medchal,Safflower,Kharif,1.0
-2024,Medchal,Safflower,Rabi,1.0
-2023,Medchal,Sesamum,Kharif,0.19
-2023,Medchal,Sesamum,Rabi,0.72
-2024,Medchal,Sesamum,Kharif,0.19
-2024,Medchal,Sesamum,Rabi,0.72
-2023,Medchal,Small millets,Kharif,0.63
-2023,Medchal,Small millets,Rabi,0.5
-2024,Medchal,Small millets,Kharif,0.63
-2024,Medchal,Small millets,Rabi,0.5
-2023,Medchal,Soyabean,Kharif,1.65
-2024,Medchal,Soyabean,Kharif,1.65
-2023,Medchal,Sugarcane,Kharif,94.0
-2024,Medchal,Sugarcane,Kharif,94.0
-2023,Medchal,Sunflower,Kharif,1.75
-2023,Medchal,Sunflower,Rabi,1.66
-2024,Medchal,Sunflower,Kharif,1.76
-2024,Medchal,Sunflower,Rabi,1.68
-2023,Medchal,Sweet potato,Kharif,9.0
-2024,Medchal,Sweet potato,Kharif,9.0
-2023,Medchal,Turmeric,Kharif,7.0
-2024,Medchal,Turmeric,Kharif,7.0
-2023,Medchal,Urad,Kharif,0.71
-2023,Medchal,Urad,Rabi,1.65
-2024,Medchal,Urad,Kharif,0.71
-2024,Medchal,Urad,Rabi,1.66
-2023,Medchal,Wheat,Kharif,2.0
-2023,Medchal,Wheat,Rabi,2.01
-2024,Medchal,Wheat,Kharif,2.0
-2024,Medchal,Wheat,Rabi,2.03
-2023,Mulugu,Arhar/Tur,Kharif,11.86
-2023,Mulugu,Arhar/Tur,Rabi,0.76
-2024,Mulugu,Arhar/Tur,Kharif,12.04
-2024,Mulugu,Arhar/Tur,Rabi,0.76
-2023,Mulugu,Bajra,Rabi,1.0
-2024,Mulugu,Bajra,Rabi,1.0
-2023,Mulugu,Banana,Kharif,48.26
-2024,Mulugu,Banana,Kharif,48.63
-2023,Mulugu,Cashewnut,Kharif,0.42
-2024,Mulugu,Cashewnut,Kharif,0.43
-2023,Mulugu,Coriander,Rabi,1.0
-2024,Mulugu,Coriander,Rabi,1.0
-2023,Mulugu,Cowpea(Lobia),Kharif,0.85
-2023,Mulugu,Cowpea(Lobia),Rabi,1.02
-2024,Mulugu,Cowpea(Lobia),Kharif,0.85
-2024,Mulugu,Cowpea(Lobia),Rabi,1.03
-2023,Mulugu,Dry chillies,Kharif,4.33
-2023,Mulugu,Dry chillies,Rabi,5.94
-2024,Mulugu,Dry chillies,Kharif,4.37
-2024,Mulugu,Dry chillies,Rabi,5.98
-2023,Mulugu,Ginger,Kharif,9.0
-2024,Mulugu,Ginger,Kharif,9.0
-2023,Mulugu,Gram,Rabi,1.59
-2024,Mulugu,Gram,Rabi,1.59
-2023,Mulugu,Groundnut,Kharif,2.18
-2023,Mulugu,Groundnut,Rabi,1.95
-2024,Mulugu,Groundnut,Kharif,2.2
-2024,Mulugu,Groundnut,Rabi,1.97
-2023,Mulugu,Horse-gram,Rabi,0.85
-2024,Mulugu,Horse-gram,Rabi,0.85
-2023,Mulugu,Jowar,Kharif,0.6
-2023,Mulugu,Jowar,Rabi,1.92
-2024,Mulugu,Jowar,Kharif,0.6
-2024,Mulugu,Jowar,Rabi,1.92
-2023,Mulugu,Maize,Kharif,4.96
-2023,Mulugu,Maize,Rabi,8.65
-2024,Mulugu,Maize,Kharif,5.02
-2024,Mulugu,Maize,Rabi,8.71
-2023,Mulugu,Moong(Green Gram),Kharif,0.71
-2023,Mulugu,Moong(Green Gram),Rabi,0.77
-2024,Mulugu,Moong(Green Gram),Kharif,0.72
-2024,Mulugu,Moong(Green Gram),Rabi,0.77
-2023,Mulugu,Onion,Rabi,30.14
-2024,Mulugu,Onion,Rabi,30.26
-2023,Mulugu,Ragi,Kharif,1.5
-2024,Mulugu,Ragi,Kharif,1.5
-2023,Mulugu,Rice,Kharif,3.22
-2023,Mulugu,Rice,Rabi,3.44
-2024,Mulugu,Rice,Kharif,3.23
-2024,Mulugu,Rice,Rabi,3.45
-2023,Mulugu,Safflower,Rabi,1.0
-2024,Mulugu,Safflower,Rabi,1.0
-2023,Mulugu,Sesamum,Rabi,0.72
-2024,Mulugu,Sesamum,Rabi,0.72
-2023,Mulugu,Soyabean,Rabi,1.5
-2024,Mulugu,Soyabean,Rabi,1.5
-2023,Mulugu,Sunflower,Rabi,1.93
-2024,Mulugu,Sunflower,Rabi,1.94
-2023,Mulugu,Tobacco,Rabi,4.0
-2024,Mulugu,Tobacco,Rabi,4.03
-2023,Mulugu,Turmeric,Kharif,7.15
-2023,Mulugu,Turmeric,Rabi,7.5
-2024,Mulugu,Turmeric,Kharif,7.17
-2024,Mulugu,Turmeric,Rabi,7.5
-2023,Mulugu,Urad,Kharif,0.68
-2023,Mulugu,Urad,Rabi,1.2
-2024,Mulugu,Urad,Kharif,0.69
-2024,Mulugu,Urad,Rabi,1.22
-2023,Mulugu,Wheat,Rabi,2.0
-2024,Mulugu,Wheat,Rabi,2.0
-2023,Nagarkurnool,Arhar/Tur,Kharif,0.65
-2023,Nagarkurnool,Arhar/Tur,Rabi,0.78
-2024,Nagarkurnool,Arhar/Tur,Kharif,0.66
-2024,Nagarkurnool,Arhar/Tur,Rabi,0.79
-2023,Nagarkurnool,Bajra,Kharif,0.73
-2023,Nagarkurnool,Bajra,Rabi,2.14
-2024,Nagarkurnool,Bajra,Kharif,0.74
-2024,Nagarkurnool,Bajra,Rabi,2.16
-2023,Nagarkurnool,Banana,Kharif,47.93
-2024,Nagarkurnool,Banana,Kharif,48.33
-2023,Nagarkurnool,Castor seed,Kharif,1.09
-2023,Nagarkurnool,Castor seed,Rabi,1.09
-2024,Nagarkurnool,Castor seed,Kharif,1.1
-2024,Nagarkurnool,Castor seed,Rabi,1.11
-2023,Nagarkurnool,Cowpea(Lobia),Kharif,0.76
-2023,Nagarkurnool,Cowpea(Lobia),Rabi,0.97
-2024,Nagarkurnool,Cowpea(Lobia),Kharif,0.77
-2024,Nagarkurnool,Cowpea(Lobia),Rabi,0.98
-2023,Nagarkurnool,Dry chillies,Kharif,4.17
-2023,Nagarkurnool,Dry chillies,Rabi,5.19
-2024,Nagarkurnool,Dry chillies,Kharif,4.23
-2024,Nagarkurnool,Dry chillies,Rabi,5.22
-2023,Nagarkurnool,Gram,Kharif,1.5
-2023,Nagarkurnool,Gram,Rabi,1.45
-2024,Nagarkurnool,Gram,Kharif,1.5
-2024,Nagarkurnool,Gram,Rabi,1.45
-2023,Nagarkurnool,Groundnut,Kharif,1.98
-2023,Nagarkurnool,Groundnut,Rabi,2.38
-2024,Nagarkurnool,Groundnut,Kharif,1.99
-2024,Nagarkurnool,Groundnut,Rabi,2.38
-2023,Nagarkurnool,Horse-gram,Kharif,1.11
-2023,Nagarkurnool,Horse-gram,Rabi,0.99
-2024,Nagarkurnool,Horse-gram,Kharif,1.12
-2024,Nagarkurnool,Horse-gram,Rabi,1.01
-2023,Nagarkurnool,Jowar,Kharif,0.96
-2023,Nagarkurnool,Jowar,Rabi,1.64
-2024,Nagarkurnool,Jowar,Kharif,0.97
-2024,Nagarkurnool,Jowar,Rabi,1.66
-2023,Nagarkurnool,Maize,Kharif,2.55
-2023,Nagarkurnool,Maize,Rabi,6.41
-2024,Nagarkurnool,Maize,Kharif,2.6
-2024,Nagarkurnool,Maize,Rabi,6.45
-2023,Nagarkurnool,Moong(Green Gram),Kharif,0.61
-2023,Nagarkurnool,Moong(Green Gram),Rabi,1.0
-2024,Nagarkurnool,Moong(Green Gram),Kharif,0.61
-2024,Nagarkurnool,Moong(Green Gram),Rabi,1.0
-2023,Nagarkurnool,Onion,Kharif,16.64
-2023,Nagarkurnool,Onion,Rabi,29.93
-2024,Nagarkurnool,Onion,Kharif,16.79
-2024,Nagarkurnool,Onion,Rabi,30.1
-2023,Nagarkurnool,Potato,Kharif,12.0
-2023,Nagarkurnool,Potato,Rabi,15.63
-2024,Nagarkurnool,Potato,Kharif,12.0
-2024,Nagarkurnool,Potato,Rabi,15.74
-2023,Nagarkurnool,Ragi,Kharif,1.28
-2023,Nagarkurnool,Ragi,Rabi,1.38
-2024,Nagarkurnool,Ragi,Kharif,1.29
-2024,Nagarkurnool,Ragi,Rabi,1.4
-2023,Nagarkurnool,Rice,Kharif,2.76
-2023,Nagarkurnool,Rice,Rabi,2.91
-2024,Nagarkurnool,Rice,Kharif,2.77
-2024,Nagarkurnool,Rice,Rabi,2.92
-2023,Nagarkurnool,Safflower,Rabi,0.94
-2024,Nagarkurnool,Safflower,Rabi,0.94
-2023,Nagarkurnool,Sesamum,Kharif,0.16
-2023,Nagarkurnool,Sesamum,Rabi,0.7
-2024,Nagarkurnool,Sesamum,Kharif,0.16
-2024,Nagarkurnool,Sesamum,Rabi,0.7
-2023,Nagarkurnool,Small millets,Kharif,1.37
-2023,Nagarkurnool,Small millets,Rabi,1.25
-2024,Nagarkurnool,Small millets,Kharif,1.39
-2024,Nagarkurnool,Small millets,Rabi,1.27
-2023,Nagarkurnool,Soyabean,Kharif,1.38
-2024,Nagarkurnool,Soyabean,Kharif,1.39
-2023,Nagarkurnool,Sugarcane,Kharif,91.48
-2024,Nagarkurnool,Sugarcane,Kharif,91.78
-2023,Nagarkurnool,Sunflower,Kharif,1.83
-2023,Nagarkurnool,Sunflower,Rabi,2.05
-2024,Nagarkurnool,Sunflower,Kharif,1.85
-2024,Nagarkurnool,Sunflower,Rabi,2.07
-2023,Nagarkurnool,Sweet potato,Kharif,12.0
-2023,Nagarkurnool,Sweet potato,Rabi,12.26
-2024,Nagarkurnool,Sweet potato,Kharif,12.0
-2024,Nagarkurnool,Sweet potato,Rabi,12.35
-2023,Nagarkurnool,Turmeric,Kharif,7.5
-2024,Nagarkurnool,Turmeric,Kharif,7.52
-2023,Nagarkurnool,Urad,Kharif,1.21
-2023,Nagarkurnool,Urad,Rabi,1.35
-2024,Nagarkurnool,Urad,Kharif,1.22
-2024,Nagarkurnool,Urad,Rabi,1.37
-2023,Nagarkurnool,Wheat,Kharif,2.0
-2023,Nagarkurnool,Wheat,Rabi,2.34
-2024,Nagarkurnool,Wheat,Kharif,2.0
-2024,Nagarkurnool,Wheat,Rabi,2.35
-2023,Nalgonda,Arhar/Tur,Kharif,0.57
-2023,Nalgonda,Arhar/Tur,Rabi,0.72
-2024,Nalgonda,Arhar/Tur,Kharif,0.57
-2024,Nalgonda,Arhar/Tur,Rabi,0.73
-2023,Nalgonda,Bajra,Kharif,0.81
-2023,Nalgonda,Bajra,Rabi,1.89
-2024,Nalgonda,Bajra,Kharif,0.82
-2024,Nalgonda,Bajra,Rabi,1.92
-2023,Nalgonda,Banana,Kharif,40.98
-2023,Nalgonda,Banana,Whole Year,31.18
-2024,Nalgonda,Banana,Kharif,41.2
-2024,Nalgonda,Banana,Whole Year,31.18
-2023,Nalgonda,Cashewnut,Kharif,0.44
-2024,Nalgonda,Cashewnut,Kharif,0.44
-2023,Nalgonda,Castor seed,Kharif,0.72
-2023,Nalgonda,Castor seed,Rabi,0.82
-2024,Nalgonda,Castor seed,Kharif,0.73
-2024,Nalgonda,Castor seed,Rabi,0.84
-2023,Nalgonda,Coriander,Rabi,0.62
-2023,Nalgonda,Coriander,Whole Year,0.48
-2024,Nalgonda,Coriander,Rabi,0.63
-2024,Nalgonda,Coriander,Whole Year,0.48
-2023,Nalgonda,Cowpea(Lobia),Kharif,0.75
-2023,Nalgonda,Cowpea(Lobia),Rabi,0.76
-2024,Nalgonda,Cowpea(Lobia),Kharif,0.75
-2024,Nalgonda,Cowpea(Lobia),Rabi,0.78
-2023,Nalgonda,Dry chillies,Kharif,4.65
-2023,Nalgonda,Dry chillies,Rabi,4.47
-2024,Nalgonda,Dry chillies,Kharif,4.73
-2024,Nalgonda,Dry chillies,Rabi,4.54
-2023,Nalgonda,Ginger,Kharif,6.78
-2023,Nalgonda,Ginger,Rabi,6.5
-2024,Nalgonda,Ginger,Kharif,6.79
-2024,Nalgonda,Ginger,Rabi,6.5
-2023,Nalgonda,Gram,Kharif,2.0
-2023,Nalgonda,Gram,Rabi,1.22
-2024,Nalgonda,Gram,Kharif,2.0
-2024,Nalgonda,Gram,Rabi,1.24
-2023,Nalgonda,Groundnut,Kharif,1.88
-2023,Nalgonda,Groundnut,Rabi,1.71
-2024,Nalgonda,Groundnut,Kharif,1.9
-2024,Nalgonda,Groundnut,Rabi,1.73
-2023,Nalgonda,Horse-gram,Kharif,1.15
-2023,Nalgonda,Horse-gram,Rabi,1.01
-2024,Nalgonda,Horse-gram,Kharif,1.17
-2024,Nalgonda,Horse-gram,Rabi,1.02
-2023,Nalgonda,Jowar,Kharif,0.76
-2023,Nalgonda,Jowar,Rabi,1.34
-2024,Nalgonda,Jowar,Kharif,0.77
-2024,Nalgonda,Jowar,Rabi,1.37
-2023,Nalgonda,Maize,Kharif,2.78
-2023,Nalgonda,Maize,Rabi,6.43
-2024,Nalgonda,Maize,Kharif,2.86
-2024,Nalgonda,Maize,Rabi,6.47
-2023,Nalgonda,Moong(Green Gram),Kharif,0.57
-2023,Nalgonda,Moong(Green Gram),Rabi,1.05
-2024,Nalgonda,Moong(Green Gram),Kharif,0.57
-2024,Nalgonda,Moong(Green Gram),Rabi,1.06
-2023,Nalgonda,Oilseeds total,Kharif,1.77
-2023,Nalgonda,Oilseeds total,Rabi,1.04
-2024,Nalgonda,Oilseeds total,Kharif,1.77
-2024,Nalgonda,Oilseeds total,Rabi,1.04
-2023,Nalgonda,Onion,Kharif,16.0
-2023,Nalgonda,Onion,Rabi,28.99
-2024,Nalgonda,Onion,Kharif,16.0
-2024,Nalgonda,Onion,Rabi,29.15
-2023,Nalgonda,Ragi,Kharif,1.84
-2023,Nalgonda,Ragi,Rabi,2.0
-2024,Nalgonda,Ragi,Kharif,1.84
-2024,Nalgonda,Ragi,Rabi,2.0
-2023,Nalgonda,Rice,Kharif,3.06
-2023,Nalgonda,Rice,Rabi,3.22
-2024,Nalgonda,Rice,Kharif,3.08
-2024,Nalgonda,Rice,Rabi,3.23
-2023,Nalgonda,Safflower,Rabi,1.0
-2024,Nalgonda,Safflower,Rabi,1.0
-2023,Nalgonda,Sesamum,Kharif,0.17
-2023,Nalgonda,Sesamum,Rabi,0.62
-2024,Nalgonda,Sesamum,Kharif,0.17
-2024,Nalgonda,Sesamum,Rabi,0.63
-2023,Nalgonda,Small millets,Kharif,1.15
-2024,Nalgonda,Small millets,Kharif,1.16
-2023,Nalgonda,Soyabean,Kharif,1.44
-2024,Nalgonda,Soyabean,Kharif,1.44
-2023,Nalgonda,Sugarcane,Kharif,87.86
-2024,Nalgonda,Sugarcane,Kharif,88.22
-2023,Nalgonda,Sunflower,Rabi,1.84
-2024,Nalgonda,Sunflower,Rabi,1.86
-2023,Nalgonda,Sweet potato,Rabi,11.5
-2024,Nalgonda,Sweet potato,Rabi,11.5
-2023,Nalgonda,Tobacco,Kharif,4.07
-2023,Nalgonda,Tobacco,Rabi,4.21
-2024,Nalgonda,Tobacco,Kharif,4.09
-2024,Nalgonda,Tobacco,Rabi,4.23
-2023,Nalgonda,Turmeric,Kharif,6.26
-2024,Nalgonda,Turmeric,Kharif,6.31
-2023,Nalgonda,Urad,Kharif,0.75
-2023,Nalgonda,Urad,Rabi,1.14
-2024,Nalgonda,Urad,Kharif,0.75
-2024,Nalgonda,Urad,Rabi,1.17
-2023,Nalgonda,Wheat,Rabi,1.97
-2024,Nalgonda,Wheat,Rabi,1.98
-2023,Nalgonda,other oilseeds,Kharif,19.75
-2024,Nalgonda,other oilseeds,Kharif,19.97
-2023,Narayanapet,Arhar/Tur,Kharif,0.71
-2023,Narayanapet,Arhar/Tur,Rabi,0.97
-2024,Narayanapet,Arhar/Tur,Kharif,0.72
-2024,Narayanapet,Arhar/Tur,Rabi,0.98
-2023,Narayanapet,Bajra,Kharif,1.17
-2023,Narayanapet,Bajra,Rabi,2.18
-2024,Narayanapet,Bajra,Kharif,1.17
-2024,Narayanapet,Bajra,Rabi,2.2
-2023,Narayanapet,Banana,Kharif,47.91
-2024,Narayanapet,Banana,Kharif,48.31
-2023,Narayanapet,Castor seed,Kharif,1.0
-2023,Narayanapet,Castor seed,Rabi,1.3
-2024,Narayanapet,Castor seed,Kharif,1.01
-2024,Narayanapet,Castor seed,Rabi,1.32
-2023,Narayanapet,Coriander,Rabi,1.0
-2024,Narayanapet,Coriander,Rabi,1.0
-2023,Narayanapet,Cowpea(Lobia),Kharif,0.68
-2023,Narayanapet,Cowpea(Lobia),Rabi,0.88
-2024,Narayanapet,Cowpea(Lobia),Kharif,0.69
-2024,Narayanapet,Cowpea(Lobia),Rabi,0.88
-2023,Narayanapet,Dry chillies,Kharif,4.48
-2023,Narayanapet,Dry chillies,Rabi,5.1
-2024,Narayanapet,Dry chillies,Kharif,4.52
-2024,Narayanapet,Dry chillies,Rabi,5.1
-2023,Narayanapet,Garlic,Rabi,4.0
-2024,Narayanapet,Garlic,Rabi,4.0
-2023,Narayanapet,Gram,Kharif,1.0
-2023,Narayanapet,Gram,Rabi,1.44
-2024,Narayanapet,Gram,Kharif,1.0
-2024,Narayanapet,Gram,Rabi,1.44
-2023,Narayanapet,Groundnut,Kharif,2.18
-2023,Narayanapet,Groundnut,Rabi,2.08
-2024,Narayanapet,Groundnut,Kharif,2.2
-2024,Narayanapet,Groundnut,Rabi,2.08
-2023,Narayanapet,Horse-gram,Kharif,1.17
-2023,Narayanapet,Horse-gram,Rabi,1.16
-2024,Narayanapet,Horse-gram,Kharif,1.18
-2024,Narayanapet,Horse-gram,Rabi,1.17
-2023,Narayanapet,Jowar,Kharif,0.89
-2023,Narayanapet,Jowar,Rabi,0.93
-2024,Narayanapet,Jowar,Kharif,0.89
-2024,Narayanapet,Jowar,Rabi,0.94
-2023,Narayanapet,Maize,Kharif,3.61
-2023,Narayanapet,Maize,Rabi,7.12
-2024,Narayanapet,Maize,Kharif,3.68
-2024,Narayanapet,Maize,Rabi,7.14
-2023,Narayanapet,Moong(Green Gram),Kharif,0.49
-2023,Narayanapet,Moong(Green Gram),Rabi,0.84
-2024,Narayanapet,Moong(Green Gram),Kharif,0.49
-2024,Narayanapet,Moong(Green Gram),Rabi,0.85
-2023,Narayanapet,Onion,Kharif,16.49
-2023,Narayanapet,Onion,Rabi,28.85
-2024,Narayanapet,Onion,Kharif,16.66
-2024,Narayanapet,Onion,Rabi,29.02
-2023,Narayanapet,Ragi,Kharif,1.15
-2023,Narayanapet,Ragi,Rabi,1.45
-2024,Narayanapet,Ragi,Kharif,1.16
-2024,Narayanapet,Ragi,Rabi,1.46
-2023,Narayanapet,Rice,Kharif,2.9
-2023,Narayanapet,Rice,Rabi,3.03
-2024,Narayanapet,Rice,Kharif,2.91
-2024,Narayanapet,Rice,Rabi,3.05
-2023,Narayanapet,Safflower,Kharif,1.0
-2023,Narayanapet,Safflower,Rabi,0.8
-2024,Narayanapet,Safflower,Kharif,1.0
-2024,Narayanapet,Safflower,Rabi,0.81
-2023,Narayanapet,Sesamum,Kharif,0.33
-2023,Narayanapet,Sesamum,Rabi,0.68
-2024,Narayanapet,Sesamum,Kharif,0.33
-2024,Narayanapet,Sesamum,Rabi,0.68
-2023,Narayanapet,Small millets,Kharif,1.15
-2024,Narayanapet,Small millets,Kharif,1.17
-2023,Narayanapet,Soyabean,Kharif,1.5
-2023,Narayanapet,Soyabean,Rabi,1.75
-2024,Narayanapet,Soyabean,Kharif,1.5
-2024,Narayanapet,Soyabean,Rabi,1.75
-2023,Narayanapet,Sugarcane,Kharif,91.77
-2024,Narayanapet,Sugarcane,Kharif,92.03
-2023,Narayanapet,Sunflower,Kharif,2.0
-2023,Narayanapet,Sunflower,Rabi,2.18
-2024,Narayanapet,Sunflower,Kharif,2.02
-2024,Narayanapet,Sunflower,Rabi,2.21
-2023,Narayanapet,Urad,Kharif,0.81
-2023,Narayanapet,Urad,Rabi,1.65
-2024,Narayanapet,Urad,Kharif,0.81
-2024,Narayanapet,Urad,Rabi,1.66
-2023,Narayanapet,Wheat,Rabi,2.0
-2024,Narayanapet,Wheat,Rabi,2.0
-2023,Nirmal,Arhar/Tur,Kharif,1.04
-2023,Nirmal,Arhar/Tur,Rabi,1.0
-2024,Nirmal,Arhar/Tur,Kharif,1.05
-2024,Nirmal,Arhar/Tur,Rabi,1.01
-2023,Nirmal,Bajra,Rabi,1.26
-2024,Nirmal,Bajra,Rabi,1.27
-2023,Nirmal,Banana,Kharif,49.34
-2024,Nirmal,Banana,Kharif,49.74
-2023,Nirmal,Castor seed,Kharif,0.42
-2023,Nirmal,Castor seed,Rabi,1.0
-2024,Nirmal,Castor seed,Kharif,0.42
-2024,Nirmal,Castor seed,Rabi,1.02
-2023,Nirmal,Coriander,Kharif,1.0
-2023,Nirmal,Coriander,Rabi,0.77
-2024,Nirmal,Coriander,Kharif,1.0
-2024,Nirmal,Coriander,Rabi,0.77
-2023,Nirmal,Cowpea(Lobia),Kharif,0.76
-2023,Nirmal,Cowpea(Lobia),Rabi,0.89
-2024,Nirmal,Cowpea(Lobia),Kharif,0.77
-2024,Nirmal,Cowpea(Lobia),Rabi,0.9
-2023,Nirmal,Dry chillies,Kharif,4.09
-2023,Nirmal,Dry chillies,Rabi,5.61
-2024,Nirmal,Dry chillies,Kharif,4.14
-2024,Nirmal,Dry chillies,Rabi,5.63
-2023,Nirmal,Garlic,Rabi,2.84
-2024,Nirmal,Garlic,Rabi,2.88
-2023,Nirmal,Ginger,Kharif,9.0
-2023,Nirmal,Ginger,Rabi,9.0
-2024,Nirmal,Ginger,Kharif,9.0
-2024,Nirmal,Ginger,Rabi,9.0
-2023,Nirmal,Gram,Kharif,2.0
-2023,Nirmal,Gram,Rabi,1.46
-2024,Nirmal,Gram,Kharif,2.0
-2024,Nirmal,Gram,Rabi,1.47
-2023,Nirmal,Groundnut,Kharif,1.63
-2023,Nirmal,Groundnut,Rabi,2.68
-2024,Nirmal,Groundnut,Kharif,1.64
-2024,Nirmal,Groundnut,Rabi,2.69
-2023,Nirmal,Horse-gram,Kharif,1.6
-2023,Nirmal,Horse-gram,Rabi,1.25
-2024,Nirmal,Horse-gram,Kharif,1.6
-2024,Nirmal,Horse-gram,Rabi,1.26
-2023,Nirmal,Jowar,Kharif,0.93
-2023,Nirmal,Jowar,Rabi,1.76
-2024,Nirmal,Jowar,Kharif,0.94
-2024,Nirmal,Jowar,Rabi,1.79
-2023,Nirmal,Maize,Kharif,5.83
-2023,Nirmal,Maize,Rabi,8.69
-2024,Nirmal,Maize,Kharif,5.9
-2024,Nirmal,Maize,Rabi,8.7
-2023,Nirmal,Moong(Green Gram),Kharif,0.51
-2023,Nirmal,Moong(Green Gram),Rabi,0.97
-2024,Nirmal,Moong(Green Gram),Kharif,0.52
-2024,Nirmal,Moong(Green Gram),Rabi,0.97
-2023,Nirmal,Onion,Kharif,17.74
-2023,Nirmal,Onion,Rabi,30.96
-2024,Nirmal,Onion,Kharif,17.85
-2024,Nirmal,Onion,Rabi,31.11
-2023,Nirmal,Ragi,Kharif,1.67
-2023,Nirmal,Ragi,Rabi,1.09
-2024,Nirmal,Ragi,Kharif,1.67
-2024,Nirmal,Ragi,Rabi,1.09
-2023,Nirmal,Rice,Kharif,3.02
-2023,Nirmal,Rice,Rabi,3.55
-2024,Nirmal,Rice,Kharif,3.04
-2024,Nirmal,Rice,Rabi,3.56
-2023,Nirmal,Safflower,Rabi,0.85
-2024,Nirmal,Safflower,Rabi,0.86
-2023,Nirmal,Sesamum,Rabi,0.55
-2024,Nirmal,Sesamum,Rabi,0.56
-2023,Nirmal,Small millets,Kharif,1.34
-2023,Nirmal,Small millets,Rabi,1.0
-2024,Nirmal,Small millets,Kharif,1.35
-2024,Nirmal,Small millets,Rabi,1.0
-2023,Nirmal,Soyabean,Kharif,1.56
-2023,Nirmal,Soyabean,Rabi,1.34
-2024,Nirmal,Soyabean,Kharif,1.56
-2024,Nirmal,Soyabean,Rabi,1.34
-2023,Nirmal,Sugarcane,Kharif,89.7
-2024,Nirmal,Sugarcane,Kharif,89.94
-2023,Nirmal,Sunflower,Kharif,3.0
-2023,Nirmal,Sunflower,Rabi,2.03
-2024,Nirmal,Sunflower,Kharif,3.0
-2024,Nirmal,Sunflower,Rabi,2.05
-2023,Nirmal,Tobacco,Kharif,4.0
-2023,Nirmal,Tobacco,Rabi,4.01
-2024,Nirmal,Tobacco,Kharif,4.0
-2024,Nirmal,Tobacco,Rabi,4.03
-2023,Nirmal,Turmeric,Kharif,5.74
-2023,Nirmal,Turmeric,Rabi,7.38
-2024,Nirmal,Turmeric,Kharif,5.8
-2024,Nirmal,Turmeric,Rabi,7.38
-2023,Nirmal,Urad,Kharif,0.78
-2023,Nirmal,Urad,Rabi,1.28
-2024,Nirmal,Urad,Kharif,0.78
-2024,Nirmal,Urad,Rabi,1.29
-2023,Nirmal,Wheat,Rabi,1.46
-2024,Nirmal,Wheat,Rabi,1.48
-2023,Nizamabad,Arhar/Tur,Kharif,0.89
-2023,Nizamabad,Arhar/Tur,Rabi,0.89
-2024,Nizamabad,Arhar/Tur,Kharif,0.91
-2024,Nizamabad,Arhar/Tur,Rabi,0.9
-2023,Nizamabad,Bajra,Kharif,1.0
-2023,Nizamabad,Bajra,Rabi,1.89
-2024,Nizamabad,Bajra,Kharif,1.01
-2024,Nizamabad,Bajra,Rabi,1.92
-2023,Nizamabad,Banana,Kharif,49.33
-2023,Nizamabad,Banana,Whole Year,31.15
-2024,Nizamabad,Banana,Kharif,49.72
-2024,Nizamabad,Banana,Whole Year,31.15
-2023,Nizamabad,Castor seed,Kharif,0.75
-2023,Nizamabad,Castor seed,Rabi,1.04
-2024,Nizamabad,Castor seed,Kharif,0.76
-2024,Nizamabad,Castor seed,Rabi,1.05
-2023,Nizamabad,Coriander,Kharif,0.86
-2023,Nizamabad,Coriander,Rabi,0.94
-2023,Nizamabad,Coriander,Whole Year,0.48
-2024,Nizamabad,Coriander,Kharif,0.87
-2024,Nizamabad,Coriander,Rabi,0.95
-2024,Nizamabad,Coriander,Whole Year,0.49
-2023,Nizamabad,Cowpea(Lobia),Kharif,0.68
-2023,Nizamabad,Cowpea(Lobia),Rabi,1.64
-2024,Nizamabad,Cowpea(Lobia),Kharif,0.68
-2024,Nizamabad,Cowpea(Lobia),Rabi,1.67
-2023,Nizamabad,Dry chillies,Kharif,4.34
-2023,Nizamabad,Dry chillies,Rabi,4.43
-2024,Nizamabad,Dry chillies,Kharif,4.38
-2024,Nizamabad,Dry chillies,Rabi,4.49
-2023,Nizamabad,Garlic,Rabi,3.91
-2024,Nizamabad,Garlic,Rabi,3.97
-2023,Nizamabad,Ginger,Kharif,7.76
-2024,Nizamabad,Ginger,Kharif,7.79
-2023,Nizamabad,Gram,Rabi,1.29
-2024,Nizamabad,Gram,Rabi,1.31
-2023,Nizamabad,Groundnut,Kharif,2.16
-2023,Nizamabad,Groundnut,Rabi,2.47
-2024,Nizamabad,Groundnut,Kharif,2.17
-2024,Nizamabad,Groundnut,Rabi,2.48
-2023,Nizamabad,Horse-gram,Kharif,0.58
-2023,Nizamabad,Horse-gram,Rabi,0.97
-2024,Nizamabad,Horse-gram,Kharif,0.58
-2024,Nizamabad,Horse-gram,Rabi,0.98
-2023,Nizamabad,Jowar,Kharif,0.84
-2023,Nizamabad,Jowar,Rabi,1.71
-2024,Nizamabad,Jowar,Kharif,0.85
-2024,Nizamabad,Jowar,Rabi,1.73
-2023,Nizamabad,Maize,Kharif,5.44
-2023,Nizamabad,Maize,Rabi,6.07
-2024,Nizamabad,Maize,Kharif,5.47
-2024,Nizamabad,Maize,Rabi,6.14
-2023,Nizamabad,Moong(Green Gram),Kharif,0.59
-2023,Nizamabad,Moong(Green Gram),Rabi,0.8
-2024,Nizamabad,Moong(Green Gram),Kharif,0.59
-2024,Nizamabad,Moong(Green Gram),Rabi,0.8
-2023,Nizamabad,Oilseeds total,Kharif,1.07
-2023,Nizamabad,Oilseeds total,Rabi,0.78
-2024,Nizamabad,Oilseeds total,Kharif,1.07
-2024,Nizamabad,Oilseeds total,Rabi,0.78
-2023,Nizamabad,Onion,Kharif,16.56
-2023,Nizamabad,Onion,Rabi,28.29
-2024,Nizamabad,Onion,Kharif,16.7
-2024,Nizamabad,Onion,Rabi,28.47
-2023,Nizamabad,Other Rabi pulses,Rabi,0.93
-2024,Nizamabad,Other Rabi pulses,Rabi,0.93
-2023,Nizamabad,Ragi,Rabi,1.5
-2024,Nizamabad,Ragi,Rabi,1.52
-2023,Nizamabad,Rapeseed &Mustard,Rabi,1.02
-2024,Nizamabad,Rapeseed &Mustard,Rabi,1.02
-2023,Nizamabad,Rice,Kharif,3.4
-2023,Nizamabad,Rice,Rabi,3.64
-2024,Nizamabad,Rice,Kharif,3.42
-2024,Nizamabad,Rice,Rabi,3.67
-2023,Nizamabad,Safflower,Rabi,1.23
-2024,Nizamabad,Safflower,Rabi,1.25
-2023,Nizamabad,Sesamum,Rabi,0.69
-2024,Nizamabad,Sesamum,Rabi,0.7
-2023,Nizamabad,Small millets,Kharif,1.0
-2024,Nizamabad,Small millets,Kharif,1.02
-2023,Nizamabad,Soyabean,Kharif,1.62
-2023,Nizamabad,Soyabean,Rabi,1.38
-2024,Nizamabad,Soyabean,Kharif,1.64
-2024,Nizamabad,Soyabean,Rabi,1.4
-2023,Nizamabad,Sugarcane,Kharif,81.6
-2024,Nizamabad,Sugarcane,Kharif,82.28
-2023,Nizamabad,Sunflower,Rabi,1.62
-2024,Nizamabad,Sunflower,Rabi,1.66
-2023,Nizamabad,Sweet potato,Rabi,10.51
-2024,Nizamabad,Sweet potato,Rabi,10.55
-2023,Nizamabad,Tobacco,Kharif,2.88
-2023,Nizamabad,Tobacco,Rabi,2.82
-2024,Nizamabad,Tobacco,Kharif,2.89
-2024,Nizamabad,Tobacco,Rabi,2.86
-2023,Nizamabad,Turmeric,Kharif,4.54
-2023,Nizamabad,Turmeric,Rabi,5.84
-2024,Nizamabad,Turmeric,Kharif,4.6
-2024,Nizamabad,Turmeric,Rabi,5.84
-2023,Nizamabad,Urad,Kharif,0.57
-2023,Nizamabad,Urad,Rabi,1.19
-2024,Nizamabad,Urad,Kharif,0.59
-2024,Nizamabad,Urad,Rabi,1.21
-2023,Nizamabad,Wheat,Rabi,1.78
-2024,Nizamabad,Wheat,Rabi,1.8
-2023,Peddapalli,Arhar/Tur,Kharif,0.8
-2023,Peddapalli,Arhar/Tur,Rabi,0.97
-2024,Peddapalli,Arhar/Tur,Kharif,0.8
-2024,Peddapalli,Arhar/Tur,Rabi,0.97
-2023,Peddapalli,Bajra,Rabi,1.95
-2024,Peddapalli,Bajra,Rabi,1.97
-2023,Peddapalli,Banana,Kharif,49.34
-2024,Peddapalli,Banana,Kharif,49.73
-2023,Peddapalli,Castor seed,Kharif,0.5
-2024,Peddapalli,Castor seed,Kharif,0.5
-2023,Peddapalli,Coriander,Rabi,0.75
-2024,Peddapalli,Coriander,Rabi,0.76
-2023,Peddapalli,Cowpea(Lobia),Kharif,0.58
-2023,Peddapalli,Cowpea(Lobia),Rabi,1.42
-2024,Peddapalli,Cowpea(Lobia),Kharif,0.59
-2024,Peddapalli,Cowpea(Lobia),Rabi,1.44
-2023,Peddapalli,Dry chillies,Kharif,3.6
-2023,Peddapalli,Dry chillies,Rabi,5.31
-2024,Peddapalli,Dry chillies,Kharif,3.65
-2024,Peddapalli,Dry chillies,Rabi,5.32
-2023,Peddapalli,Garlic,Rabi,4.0
-2024,Peddapalli,Garlic,Rabi,4.0
-2023,Peddapalli,Ginger,Kharif,9.17
-2024,Peddapalli,Ginger,Kharif,9.17
-2023,Peddapalli,Gram,Rabi,1.49
-2024,Peddapalli,Gram,Rabi,1.5
-2023,Peddapalli,Groundnut,Kharif,2.22
-2023,Peddapalli,Groundnut,Rabi,2.29
-2024,Peddapalli,Groundnut,Kharif,2.23
-2024,Peddapalli,Groundnut,Rabi,2.29
-2023,Peddapalli,Horse-gram,Kharif,1.5
-2023,Peddapalli,Horse-gram,Rabi,1.0
-2024,Peddapalli,Horse-gram,Kharif,1.52
-2024,Peddapalli,Horse-gram,Rabi,1.0
-2023,Peddapalli,Jowar,Kharif,0.93
-2023,Peddapalli,Jowar,Rabi,2.08
-2024,Peddapalli,Jowar,Kharif,0.93
-2024,Peddapalli,Jowar,Rabi,2.08
-2023,Peddapalli,Maize,Kharif,6.42
-2023,Peddapalli,Maize,Rabi,8.15
-2024,Peddapalli,Maize,Kharif,6.47
-2024,Peddapalli,Maize,Rabi,8.19
-2023,Peddapalli,Moong(Green Gram),Kharif,0.6
-2023,Peddapalli,Moong(Green Gram),Rabi,0.91
-2024,Peddapalli,Moong(Green Gram),Kharif,0.6
-2024,Peddapalli,Moong(Green Gram),Rabi,0.91
-2023,Peddapalli,Onion,Kharif,14.06
-2023,Peddapalli,Onion,Rabi,29.98
-2024,Peddapalli,Onion,Kharif,14.08
-2024,Peddapalli,Onion,Rabi,30.17
-2023,Peddapalli,Ragi,Kharif,1.84
-2024,Peddapalli,Ragi,Kharif,1.84
-2023,Peddapalli,Rice,Kharif,3.42
-2023,Peddapalli,Rice,Rabi,4.08
-2024,Peddapalli,Rice,Kharif,3.44
-2024,Peddapalli,Rice,Rabi,4.08
-2023,Peddapalli,Safflower,Rabi,1.0
-2024,Peddapalli,Safflower,Rabi,1.0
-2023,Peddapalli,Sesamum,Kharif,0.15
-2023,Peddapalli,Sesamum,Rabi,0.69
-2024,Peddapalli,Sesamum,Kharif,0.15
-2024,Peddapalli,Sesamum,Rabi,0.69
-2023,Peddapalli,Small millets,Kharif,1.7
-2024,Peddapalli,Small millets,Kharif,1.7
-2023,Peddapalli,Soyabean,Kharif,1.76
-2023,Peddapalli,Soyabean,Rabi,1.33
-2024,Peddapalli,Soyabean,Kharif,1.77
-2024,Peddapalli,Soyabean,Rabi,1.35
-2023,Peddapalli,Sunflower,Rabi,2.01
-2024,Peddapalli,Sunflower,Rabi,2.03
-2023,Peddapalli,Turmeric,Kharif,7.12
-2023,Peddapalli,Turmeric,Rabi,7.33
-2024,Peddapalli,Turmeric,Kharif,7.16
-2024,Peddapalli,Turmeric,Rabi,7.33
-2023,Peddapalli,Urad,Kharif,0.88
-2023,Peddapalli,Urad,Rabi,1.41
-2024,Peddapalli,Urad,Kharif,0.88
-2024,Peddapalli,Urad,Rabi,1.43
-2023,Peddapalli,Wheat,Rabi,2.0
-2024,Peddapalli,Wheat,Rabi,2.0
-2023,Rajanna,Arhar/Tur,Kharif,0.81
-2023,Rajanna,Arhar/Tur,Rabi,0.75
-2024,Rajanna,Arhar/Tur,Kharif,0.81
-2024,Rajanna,Arhar/Tur,Rabi,0.75
-2023,Rajanna,Bajra,Kharif,1.0
-2024,Rajanna,Bajra,Kharif,1.0
-2023,Rajanna,Banana,Kharif,38.05
-2024,Rajanna,Banana,Kharif,38.12
-2023,Rajanna,Castor seed,Kharif,0.84
-2023,Rajanna,Castor seed,Rabi,0.95
-2024,Rajanna,Castor seed,Kharif,0.85
-2024,Rajanna,Castor seed,Rabi,0.97
-2023,Rajanna,Coriander,Kharif,1.0
-2023,Rajanna,Coriander,Rabi,0.87
-2024,Rajanna,Coriander,Kharif,1.0
-2024,Rajanna,Coriander,Rabi,0.88
-2023,Rajanna,Cowpea(Lobia),Kharif,0.59
-2023,Rajanna,Cowpea(Lobia),Rabi,1.4
-2024,Rajanna,Cowpea(Lobia),Kharif,0.6
-2024,Rajanna,Cowpea(Lobia),Rabi,1.42
-2023,Rajanna,Dry chillies,Kharif,4.35
-2023,Rajanna,Dry chillies,Rabi,5.08
-2024,Rajanna,Dry chillies,Kharif,4.39
-2024,Rajanna,Dry chillies,Rabi,5.08
-2023,Rajanna,Garlic,Rabi,4.0
-2024,Rajanna,Garlic,Rabi,4.0
-2023,Rajanna,Ginger,Kharif,9.0
-2024,Rajanna,Ginger,Kharif,9.0
-2023,Rajanna,Gram,Rabi,1.4
-2024,Rajanna,Gram,Rabi,1.41
-2023,Rajanna,Groundnut,Kharif,2.0
-2023,Rajanna,Groundnut,Rabi,2.28
-2024,Rajanna,Groundnut,Kharif,2.01
-2024,Rajanna,Groundnut,Rabi,2.29
-2023,Rajanna,Horse-gram,Kharif,1.23
-2023,Rajanna,Horse-gram,Rabi,0.95
-2024,Rajanna,Horse-gram,Kharif,1.25
-2024,Rajanna,Horse-gram,Rabi,0.96
-2023,Rajanna,Jowar,Kharif,0.97
-2023,Rajanna,Jowar,Rabi,2.29
-2024,Rajanna,Jowar,Kharif,0.98
-2024,Rajanna,Jowar,Rabi,2.3
-2023,Rajanna,Maize,Kharif,4.95
-2023,Rajanna,Maize,Rabi,6.15
-2024,Rajanna,Maize,Kharif,5.01
-2024,Rajanna,Maize,Rabi,6.21
-2023,Rajanna,Moong(Green Gram),Kharif,0.61
-2023,Rajanna,Moong(Green Gram),Rabi,0.89
-2024,Rajanna,Moong(Green Gram),Kharif,0.61
-2024,Rajanna,Moong(Green Gram),Rabi,0.9
-2023,Rajanna,Onion,Kharif,17.54
-2023,Rajanna,Onion,Rabi,29.92
-2024,Rajanna,Onion,Kharif,17.63
-2024,Rajanna,Onion,Rabi,30.09
-2023,Rajanna,Potato,Rabi,24.0
-2024,Rajanna,Potato,Rabi,24.0
-2023,Rajanna,Ragi,Kharif,2.0
-2023,Rajanna,Ragi,Rabi,1.5
-2024,Rajanna,Ragi,Kharif,2.0
-2024,Rajanna,Ragi,Rabi,1.5
-2023,Rajanna,Rice,Kharif,3.67
-2023,Rajanna,Rice,Rabi,3.78
-2024,Rajanna,Rice,Kharif,3.69
-2024,Rajanna,Rice,Rabi,3.79
-2023,Rajanna,Safflower,Kharif,1.0
-2023,Rajanna,Safflower,Rabi,1.0
-2024,Rajanna,Safflower,Kharif,1.0
-2024,Rajanna,Safflower,Rabi,1.0
-2023,Rajanna,Sesamum,Rabi,0.61
-2024,Rajanna,Sesamum,Rabi,0.62
-2023,Rajanna,Small millets,Rabi,1.0
-2024,Rajanna,Small millets,Rabi,1.0
-2023,Rajanna,Soyabean,Kharif,1.75
-2023,Rajanna,Soyabean,Rabi,1.75
-2024,Rajanna,Soyabean,Kharif,1.76
-2024,Rajanna,Soyabean,Rabi,1.75
-2023,Rajanna,Sugarcane,Kharif,88.86
-2024,Rajanna,Sugarcane,Kharif,89.26
-2023,Rajanna,Sunflower,Rabi,2.02
-2024,Rajanna,Sunflower,Rabi,2.04
-2023,Rajanna,Tobacco,Rabi,3.0
-2024,Rajanna,Tobacco,Rabi,3.0
-2023,Rajanna,Turmeric,Kharif,7.13
-2023,Rajanna,Turmeric,Rabi,7.38
-2024,Rajanna,Turmeric,Kharif,7.17
-2024,Rajanna,Turmeric,Rabi,7.38
-2023,Rajanna,Urad,Kharif,0.75
-2023,Rajanna,Urad,Rabi,1.67
-2024,Rajanna,Urad,Kharif,0.76
-2024,Rajanna,Urad,Rabi,1.69
-2023,Rajanna,Wheat,Rabi,2.24
-2024,Rajanna,Wheat,Rabi,2.25
-2023,Rangareddi,Arhar/Tur,Kharif,0.51
-2023,Rangareddi,Arhar/Tur,Rabi,0.7
-2024,Rangareddi,Arhar/Tur,Kharif,0.51
-2024,Rangareddi,Arhar/Tur,Rabi,0.71
-2023,Rangareddi,Bajra,Kharif,0.85
-2023,Rangareddi,Bajra,Rabi,2.07
-2024,Rangareddi,Bajra,Kharif,0.86
-2024,Rangareddi,Bajra,Rabi,2.09
-2023,Rangareddi,Banana,Kharif,49.37
-2023,Rangareddi,Banana,Whole Year,31.14
-2024,Rangareddi,Banana,Kharif,49.76
-2024,Rangareddi,Banana,Whole Year,31.14
-2023,Rangareddi,Cashewnut,Kharif,0.33
-2024,Rangareddi,Cashewnut,Kharif,0.33
-2023,Rangareddi,Castor seed,Kharif,0.41
-2023,Rangareddi,Castor seed,Rabi,0.85
-2024,Rangareddi,Castor seed,Kharif,0.41
-2024,Rangareddi,Castor seed,Rabi,0.87
-2023,Rangareddi,Coriander,Kharif,0.75
-2023,Rangareddi,Coriander,Rabi,0.75
-2023,Rangareddi,Coriander,Whole Year,0.42
-2024,Rangareddi,Coriander,Kharif,0.76
-2024,Rangareddi,Coriander,Rabi,0.76
-2024,Rangareddi,Coriander,Whole Year,0.42
-2023,Rangareddi,Cowpea(Lobia),Kharif,0.74
-2023,Rangareddi,Cowpea(Lobia),Rabi,1.68
-2024,Rangareddi,Cowpea(Lobia),Kharif,0.75
-2024,Rangareddi,Cowpea(Lobia),Rabi,1.7
-2023,Rangareddi,Dry chillies,Kharif,4.5
-2023,Rangareddi,Dry chillies,Rabi,4.5
-2024,Rangareddi,Dry chillies,Kharif,4.54
-2024,Rangareddi,Dry chillies,Rabi,4.56
-2023,Rangareddi,Ginger,Kharif,11.21
-2023,Rangareddi,Ginger,Rabi,9.0
-2024,Rangareddi,Ginger,Kharif,11.43
-2024,Rangareddi,Ginger,Rabi,9.0
-2023,Rangareddi,Gram,Kharif,1.4
-2023,Rangareddi,Gram,Rabi,1.24
-2024,Rangareddi,Gram,Kharif,1.41
-2024,Rangareddi,Gram,Rabi,1.25
-2023,Rangareddi,Groundnut,Kharif,1.31
-2023,Rangareddi,Groundnut,Rabi,2.61
-2024,Rangareddi,Groundnut,Kharif,1.35
-2024,Rangareddi,Groundnut,Rabi,2.65
-2023,Rangareddi,Horse-gram,Kharif,0.92
-2023,Rangareddi,Horse-gram,Rabi,0.97
-2024,Rangareddi,Horse-gram,Kharif,0.94
-2024,Rangareddi,Horse-gram,Rabi,0.99
-2023,Rangareddi,Jowar,Kharif,1.03
-2023,Rangareddi,Jowar,Rabi,1.8
-2024,Rangareddi,Jowar,Kharif,1.04
-2024,Rangareddi,Jowar,Rabi,1.83
-2023,Rangareddi,Maize,Kharif,2.25
-2023,Rangareddi,Maize,Rabi,5.04
-2024,Rangareddi,Maize,Kharif,2.3
-2024,Rangareddi,Maize,Rabi,5.1
-2023,Rangareddi,Moong(Green Gram),Kharif,0.65
-2023,Rangareddi,Moong(Green Gram),Rabi,0.88
-2024,Rangareddi,Moong(Green Gram),Kharif,0.65
-2024,Rangareddi,Moong(Green Gram),Rabi,0.88
-2023,Rangareddi,Oilseeds total,Kharif,0.8
-2023,Rangareddi,Oilseeds total,Rabi,1.16
-2024,Rangareddi,Oilseeds total,Kharif,0.8
-2024,Rangareddi,Oilseeds total,Rabi,1.16
-2023,Rangareddi,Onion,Kharif,15.56
-2023,Rangareddi,Onion,Rabi,21.87
-2024,Rangareddi,Onion,Kharif,15.74
-2024,Rangareddi,Onion,Rabi,22.02
-2023,Rangareddi,Potato,Kharif,17.99
-2023,Rangareddi,Potato,Rabi,18.04
-2023,Rangareddi,Potato,Whole Year,16.67
-2024,Rangareddi,Potato,Kharif,18.14
-2024,Rangareddi,Potato,Rabi,18.19
-2024,Rangareddi,Potato,Whole Year,16.67
-2023,Rangareddi,Ragi,Kharif,1.57
-2023,Rangareddi,Ragi,Rabi,1.61
-2024,Rangareddi,Ragi,Kharif,1.59
-2024,Rangareddi,Ragi,Rabi,1.62
-2023,Rangareddi,Rice,Kharif,2.94
-2023,Rangareddi,Rice,Rabi,2.81
-2024,Rangareddi,Rice,Kharif,2.96
-2024,Rangareddi,Rice,Rabi,2.84
-2023,Rangareddi,Safflower,Kharif,1.3
-2023,Rangareddi,Safflower,Rabi,1.05
-2024,Rangareddi,Safflower,Kharif,1.31
-2024,Rangareddi,Safflower,Rabi,1.06
-2023,Rangareddi,Sesamum,Kharif,0.14
-2023,Rangareddi,Sesamum,Rabi,0.76
-2024,Rangareddi,Sesamum,Kharif,0.14
-2024,Rangareddi,Sesamum,Rabi,0.76
-2023,Rangareddi,Small millets,Kharif,1.12
-2024,Rangareddi,Small millets,Kharif,1.13
-2023,Rangareddi,Soyabean,Kharif,1.39
-2023,Rangareddi,Soyabean,Rabi,1.35
-2024,Rangareddi,Soyabean,Kharif,1.4
-2024,Rangareddi,Soyabean,Rabi,1.37
-2023,Rangareddi,Sugarcane,Kharif,76.39
-2024,Rangareddi,Sugarcane,Kharif,77.29
-2023,Rangareddi,Sunflower,Kharif,1.99
-2023,Rangareddi,Sunflower,Rabi,1.84
-2024,Rangareddi,Sunflower,Kharif,2.02
-2024,Rangareddi,Sunflower,Rabi,1.86
-2023,Rangareddi,Sweet potato,Kharif,8.76
-2023,Rangareddi,Sweet potato,Rabi,11.07
-2023,Rangareddi,Sweet potato,Whole Year,8.74
-2024,Rangareddi,Sweet potato,Kharif,8.83
-2024,Rangareddi,Sweet potato,Rabi,11.19
-2024,Rangareddi,Sweet potato,Whole Year,8.74
-2023,Rangareddi,Turmeric,Kharif,5.54
-2024,Rangareddi,Turmeric,Kharif,5.62
-2023,Rangareddi,Urad,Kharif,0.79
-2023,Rangareddi,Urad,Rabi,1.36
-2024,Rangareddi,Urad,Kharif,0.79
-2024,Rangareddi,Urad,Rabi,1.37
-2023,Rangareddi,Wheat,Kharif,1.5
-2023,Rangareddi,Wheat,Rabi,2.24
-2024,Rangareddi,Wheat,Kharif,1.52
-2024,Rangareddi,Wheat,Rabi,2.28
-2023,Rangareddi,other oilseeds,Kharif,0.33
-2024,Rangareddi,other oilseeds,Kharif,0.33
-2023,Sangareddy,Arhar/Tur,Kharif,0.74
-2023,Sangareddy,Arhar/Tur,Rabi,0.96
-2024,Sangareddy,Arhar/Tur,Kharif,0.74
-2024,Sangareddy,Arhar/Tur,Rabi,0.97
-2023,Sangareddy,Bajra,Kharif,0.59
-2023,Sangareddy,Bajra,Rabi,0.66
-2024,Sangareddy,Bajra,Kharif,0.61
-2024,Sangareddy,Bajra,Rabi,0.68
-2023,Sangareddy,Banana,Kharif,50.26
-2024,Sangareddy,Banana,Kharif,50.74
-2023,Sangareddy,Cashewnut,Kharif,0.66
-2024,Sangareddy,Cashewnut,Kharif,0.67
-2023,Sangareddy,Castor seed,Kharif,0.93
-2023,Sangareddy,Castor seed,Rabi,0.97
-2024,Sangareddy,Castor seed,Kharif,0.95
-2024,Sangareddy,Castor seed,Rabi,0.99
-2023,Sangareddy,Coriander,Kharif,0.7
-2023,Sangareddy,Coriander,Rabi,0.72
-2024,Sangareddy,Coriander,Kharif,0.71
-2024,Sangareddy,Coriander,Rabi,0.73
-2023,Sangareddy,Cowpea(Lobia),Kharif,0.84
-2023,Sangareddy,Cowpea(Lobia),Rabi,0.82
-2024,Sangareddy,Cowpea(Lobia),Kharif,0.84
-2024,Sangareddy,Cowpea(Lobia),Rabi,0.83
-2023,Sangareddy,Dry chillies,Kharif,4.41
-2023,Sangareddy,Dry chillies,Rabi,5.69
-2024,Sangareddy,Dry chillies,Kharif,4.45
-2024,Sangareddy,Dry chillies,Rabi,5.71
-2023,Sangareddy,Garlic,Kharif,3.0
-2023,Sangareddy,Garlic,Rabi,2.33
-2024,Sangareddy,Garlic,Kharif,3.0
-2024,Sangareddy,Garlic,Rabi,2.36
-2023,Sangareddy,Ginger,Kharif,8.04
-2023,Sangareddy,Ginger,Rabi,9.17
-2024,Sangareddy,Ginger,Kharif,8.08
-2024,Sangareddy,Ginger,Rabi,9.18
-2023,Sangareddy,Gram,Rabi,1.33
-2024,Sangareddy,Gram,Rabi,1.33
-2023,Sangareddy,Groundnut,Kharif,2.22
-2023,Sangareddy,Groundnut,Rabi,1.71
-2024,Sangareddy,Groundnut,Kharif,2.24
-2024,Sangareddy,Groundnut,Rabi,1.74
-2023,Sangareddy,Horse-gram,Kharif,0.95
-2023,Sangareddy,Horse-gram,Rabi,1.04
-2024,Sangareddy,Horse-gram,Kharif,0.96
-2024,Sangareddy,Horse-gram,Rabi,1.06
-2023,Sangareddy,Jowar,Kharif,0.66
-2023,Sangareddy,Jowar,Rabi,1.67
-2024,Sangareddy,Jowar,Kharif,0.66
-2024,Sangareddy,Jowar,Rabi,1.69
-2023,Sangareddy,Maize,Kharif,3.51
-2023,Sangareddy,Maize,Rabi,3.85
-2024,Sangareddy,Maize,Kharif,3.54
-2024,Sangareddy,Maize,Rabi,3.87
-2023,Sangareddy,Moong(Green Gram),Kharif,0.73
-2023,Sangareddy,Moong(Green Gram),Rabi,0.98
-2024,Sangareddy,Moong(Green Gram),Kharif,0.74
-2024,Sangareddy,Moong(Green Gram),Rabi,0.98
-2023,Sangareddy,Onion,Kharif,11.76
-2023,Sangareddy,Onion,Rabi,36.74
-2024,Sangareddy,Onion,Kharif,11.89
-2024,Sangareddy,Onion,Rabi,37.03
-2023,Sangareddy,Potato,Kharif,19.2
-2023,Sangareddy,Potato,Rabi,16.66
-2024,Sangareddy,Potato,Kharif,19.2
-2024,Sangareddy,Potato,Rabi,16.84
-2023,Sangareddy,Ragi,Kharif,1.47
-2023,Sangareddy,Ragi,Rabi,1.25
-2024,Sangareddy,Ragi,Kharif,1.47
-2024,Sangareddy,Ragi,Rabi,1.26
-2023,Sangareddy,Rice,Kharif,3.54
-2023,Sangareddy,Rice,Rabi,3.7
-2024,Sangareddy,Rice,Kharif,3.55
-2024,Sangareddy,Rice,Rabi,3.72
-2023,Sangareddy,Safflower,Rabi,0.65
-2024,Sangareddy,Safflower,Rabi,0.66
-2023,Sangareddy,Sesamum,Kharif,0.2
-2023,Sangareddy,Sesamum,Rabi,0.69
-2024,Sangareddy,Sesamum,Kharif,0.2
-2024,Sangareddy,Sesamum,Rabi,0.69
-2023,Sangareddy,Small millets,Kharif,1.11
-2023,Sangareddy,Small millets,Rabi,1.0
-2024,Sangareddy,Small millets,Kharif,1.12
-2024,Sangareddy,Small millets,Rabi,1.0
-2023,Sangareddy,Soyabean,Kharif,1.3
-2023,Sangareddy,Soyabean,Rabi,1.55
-2024,Sangareddy,Soyabean,Kharif,1.3
-2024,Sangareddy,Soyabean,Rabi,1.55
-2023,Sangareddy,Sugarcane,Kharif,87.13
-2024,Sangareddy,Sugarcane,Kharif,87.56
-2023,Sangareddy,Sunflower,Kharif,1.82
-2023,Sangareddy,Sunflower,Rabi,2.02
-2024,Sangareddy,Sunflower,Kharif,1.85
-2024,Sangareddy,Sunflower,Rabi,2.04
-2023,Sangareddy,Sweet potato,Rabi,12.0
-2024,Sangareddy,Sweet potato,Rabi,12.14
-2023,Sangareddy,Tobacco,Rabi,3.35
-2024,Sangareddy,Tobacco,Rabi,3.39
-2023,Sangareddy,Turmeric,Kharif,4.66
-2023,Sangareddy,Turmeric,Rabi,7.52
-2024,Sangareddy,Turmeric,Kharif,4.76
-2024,Sangareddy,Turmeric,Rabi,7.52
-2023,Sangareddy,Urad,Kharif,0.76
-2023,Sangareddy,Urad,Rabi,1.61
-2024,Sangareddy,Urad,Kharif,0.76
-2024,Sangareddy,Urad,Rabi,1.62
-2023,Sangareddy,Wheat,Kharif,2.0
-2023,Sangareddy,Wheat,Rabi,1.71
-2024,Sangareddy,Wheat,Kharif,2.0
-2024,Sangareddy,Wheat,Rabi,1.73
-2023,Siddipet,Arhar/Tur,Kharif,0.78
-2023,Siddipet,Arhar/Tur,Rabi,0.94
-2024,Siddipet,Arhar/Tur,Kharif,0.78
-2024,Siddipet,Arhar/Tur,Rabi,0.94
-2023,Siddipet,Bajra,Kharif,1.13
-2023,Siddipet,Bajra,Rabi,2.25
-2024,Siddipet,Bajra,Kharif,1.13
-2024,Siddipet,Bajra,Rabi,2.27
-2023,Siddipet,Banana,Kharif,49.37
-2024,Siddipet,Banana,Kharif,49.78
-2023,Siddipet,Cashewnut,Kharif,0.75
-2024,Siddipet,Cashewnut,Kharif,0.76
-2023,Siddipet,Castor seed,Kharif,0.84
-2023,Siddipet,Castor seed,Rabi,0.94
-2024,Siddipet,Castor seed,Kharif,0.85
-2024,Siddipet,Castor seed,Rabi,0.96
-2023,Siddipet,Coriander,Kharif,1.25
-2023,Siddipet,Coriander,Rabi,0.9
-2024,Siddipet,Coriander,Kharif,1.26
-2024,Siddipet,Coriander,Rabi,0.91
-2023,Siddipet,Cowpea(Lobia),Kharif,0.97
-2023,Siddipet,Cowpea(Lobia),Rabi,0.98
-2024,Siddipet,Cowpea(Lobia),Kharif,0.98
-2024,Siddipet,Cowpea(Lobia),Rabi,0.99
-2023,Siddipet,Dry chillies,Kharif,4.48
-2023,Siddipet,Dry chillies,Rabi,5.55
-2024,Siddipet,Dry chillies,Kharif,4.52
-2024,Siddipet,Dry chillies,Rabi,5.56
-2023,Siddipet,Garlic,Rabi,3.33
-2024,Siddipet,Garlic,Rabi,3.4
-2023,Siddipet,Ginger,Kharif,8.15
-2023,Siddipet,Ginger,Rabi,8.09
-2024,Siddipet,Ginger,Kharif,8.19
-2024,Siddipet,Ginger,Rabi,8.12
-2023,Siddipet,Gram,Kharif,1.03
-2023,Siddipet,Gram,Rabi,1.67
-2024,Siddipet,Gram,Kharif,1.04
-2024,Siddipet,Gram,Rabi,1.68
-2023,Siddipet,Groundnut,Kharif,1.91
-2023,Siddipet,Groundnut,Rabi,1.87
-2024,Siddipet,Groundnut,Kharif,1.94
-2024,Siddipet,Groundnut,Rabi,1.88
-2023,Siddipet,Horse-gram,Kharif,1.14
-2023,Siddipet,Horse-gram,Rabi,1.04
-2024,Siddipet,Horse-gram,Kharif,1.16
-2024,Siddipet,Horse-gram,Rabi,1.06
-2023,Siddipet,Jowar,Kharif,0.92
-2023,Siddipet,Jowar,Rabi,2.31
-2024,Siddipet,Jowar,Kharif,0.92
-2024,Siddipet,Jowar,Rabi,2.32
-2023,Siddipet,Maize,Kharif,3.8
-2023,Siddipet,Maize,Rabi,5.98
-2024,Siddipet,Maize,Kharif,3.83
-2024,Siddipet,Maize,Rabi,6.01
-2023,Siddipet,Moong(Green Gram),Kharif,0.64
-2023,Siddipet,Moong(Green Gram),Rabi,0.92
-2024,Siddipet,Moong(Green Gram),Kharif,0.64
-2024,Siddipet,Moong(Green Gram),Rabi,0.92
-2023,Siddipet,Onion,Kharif,17.58
-2023,Siddipet,Onion,Rabi,18.21
-2024,Siddipet,Onion,Kharif,17.68
-2024,Siddipet,Onion,Rabi,18.44
-2023,Siddipet,Potato,Kharif,18.1
-2023,Siddipet,Potato,Rabi,18.11
-2024,Siddipet,Potato,Kharif,18.49
-2024,Siddipet,Potato,Rabi,18.57
-2023,Siddipet,Ragi,Kharif,1.59
-2023,Siddipet,Ragi,Rabi,2.0
-2024,Siddipet,Ragi,Kharif,1.59
-2024,Siddipet,Ragi,Rabi,2.0
-2023,Siddipet,Rice,Kharif,3.4
-2023,Siddipet,Rice,Rabi,3.33
-2024,Siddipet,Rice,Kharif,3.41
-2024,Siddipet,Rice,Rabi,3.36
-2023,Siddipet,Safflower,Rabi,1.12
-2024,Siddipet,Safflower,Rabi,1.12
-2023,Siddipet,Sesamum,Kharif,0.31
-2023,Siddipet,Sesamum,Rabi,0.7
-2024,Siddipet,Sesamum,Kharif,0.32
-2024,Siddipet,Sesamum,Rabi,0.7
-2023,Siddipet,Small millets,Kharif,0.5
-2024,Siddipet,Small millets,Kharif,0.5
-2023,Siddipet,Soyabean,Kharif,1.42
-2023,Siddipet,Soyabean,Rabi,1.6
-2024,Siddipet,Soyabean,Kharif,1.43
-2024,Siddipet,Soyabean,Rabi,1.6
-2023,Siddipet,Sugarcane,Kharif,90.06
-2024,Siddipet,Sugarcane,Kharif,90.37
-2023,Siddipet,Sunflower,Kharif,2.0
-2023,Siddipet,Sunflower,Rabi,2.09
-2024,Siddipet,Sunflower,Kharif,2.03
-2024,Siddipet,Sunflower,Rabi,2.11
-2023,Siddipet,Tobacco,Rabi,2.51
-2024,Siddipet,Tobacco,Rabi,2.51
-2023,Siddipet,Turmeric,Kharif,6.84
-2023,Siddipet,Turmeric,Rabi,7.0
-2024,Siddipet,Turmeric,Kharif,6.86
-2024,Siddipet,Turmeric,Rabi,7.0
-2023,Siddipet,Urad,Kharif,0.85
-2023,Siddipet,Urad,Rabi,1.38
-2024,Siddipet,Urad,Kharif,0.85
-2024,Siddipet,Urad,Rabi,1.4
-2023,Siddipet,Wheat,Kharif,2.0
-2023,Siddipet,Wheat,Rabi,1.9
-2024,Siddipet,Wheat,Kharif,2.0
-2024,Siddipet,Wheat,Rabi,1.93
-2023,Suryapet,Arhar/Tur,Kharif,0.67
-2023,Suryapet,Arhar/Tur,Rabi,0.83
-2024,Suryapet,Arhar/Tur,Kharif,0.67
-2024,Suryapet,Arhar/Tur,Rabi,0.84
-2023,Suryapet,Bajra,Kharif,1.0
-2023,Suryapet,Bajra,Rabi,3.0
-2024,Suryapet,Bajra,Kharif,1.0
-2024,Suryapet,Bajra,Rabi,3.0
-2023,Suryapet,Banana,Kharif,49.36
-2024,Suryapet,Banana,Kharif,49.78
-2023,Suryapet,Castor seed,Kharif,0.5
-2023,Suryapet,Castor seed,Rabi,0.93
-2024,Suryapet,Castor seed,Kharif,0.5
-2024,Suryapet,Castor seed,Rabi,0.94
-2023,Suryapet,Coriander,Kharif,1.0
-2024,Suryapet,Coriander,Kharif,1.0
-2023,Suryapet,Cowpea(Lobia),Kharif,0.87
-2023,Suryapet,Cowpea(Lobia),Rabi,0.61
-2024,Suryapet,Cowpea(Lobia),Kharif,0.87
-2024,Suryapet,Cowpea(Lobia),Rabi,0.62
-2023,Suryapet,Dry chillies,Kharif,4.01
-2023,Suryapet,Dry chillies,Rabi,7.49
-2024,Suryapet,Dry chillies,Kharif,4.05
-2024,Suryapet,Dry chillies,Rabi,7.57
-2023,Suryapet,Ginger,Kharif,9.0
-2024,Suryapet,Ginger,Kharif,9.0
-2023,Suryapet,Gram,Rabi,1.48
-2024,Suryapet,Gram,Rabi,1.49
-2023,Suryapet,Groundnut,Kharif,1.89
-2023,Suryapet,Groundnut,Rabi,2.08
-2024,Suryapet,Groundnut,Kharif,1.9
-2024,Suryapet,Groundnut,Rabi,2.1
-2023,Suryapet,Horse-gram,Kharif,1.75
-2023,Suryapet,Horse-gram,Rabi,1.2
-2024,Suryapet,Horse-gram,Kharif,1.77
-2024,Suryapet,Horse-gram,Rabi,1.21
-2023,Suryapet,Jowar,Kharif,0.94
-2023,Suryapet,Jowar,Rabi,1.55
-2024,Suryapet,Jowar,Kharif,0.94
-2024,Suryapet,Jowar,Rabi,1.58
-2023,Suryapet,Maize,Kharif,3.35
-2023,Suryapet,Maize,Rabi,5.67
-2024,Suryapet,Maize,Kharif,3.4
-2024,Suryapet,Maize,Rabi,5.74
-2023,Suryapet,Moong(Green Gram),Kharif,0.4
-2023,Suryapet,Moong(Green Gram),Rabi,0.76
-2024,Suryapet,Moong(Green Gram),Kharif,0.41
-2024,Suryapet,Moong(Green Gram),Rabi,0.77
-2023,Suryapet,Onion,Kharif,16.66
-2023,Suryapet,Onion,Rabi,27.92
-2024,Suryapet,Onion,Kharif,16.85
-2024,Suryapet,Onion,Rabi,28.06
-2023,Suryapet,Ragi,Rabi,1.33
-2024,Suryapet,Ragi,Rabi,1.35
-2023,Suryapet,Rice,Kharif,3.35
-2023,Suryapet,Rice,Rabi,3.54
-2024,Suryapet,Rice,Kharif,3.36
-2024,Suryapet,Rice,Rabi,3.54
-2023,Suryapet,Safflower,Rabi,1.0
-2024,Suryapet,Safflower,Rabi,1.0
-2023,Suryapet,Sesamum,Kharif,0.15
-2023,Suryapet,Sesamum,Rabi,0.73
-2024,Suryapet,Sesamum,Kharif,0.15
-2024,Suryapet,Sesamum,Rabi,0.73
-2023,Suryapet,Small millets,Kharif,1.7
-2023,Suryapet,Small millets,Rabi,1.0
-2024,Suryapet,Small millets,Kharif,1.7
-2024,Suryapet,Small millets,Rabi,1.0
-2023,Suryapet,Sugarcane,Kharif,88.64
-2024,Suryapet,Sugarcane,Kharif,89.0
-2023,Suryapet,Sunflower,Kharif,1.0
-2023,Suryapet,Sunflower,Rabi,1.8
-2024,Suryapet,Sunflower,Kharif,1.0
-2024,Suryapet,Sunflower,Rabi,1.83
-2023,Suryapet,Sweet potato,Kharif,12.31
-2023,Suryapet,Sweet potato,Rabi,11.04
-2024,Suryapet,Sweet potato,Kharif,12.42
-2024,Suryapet,Sweet potato,Rabi,11.15
-2023,Suryapet,Tobacco,Rabi,3.29
-2024,Suryapet,Tobacco,Rabi,3.33
-2023,Suryapet,Turmeric,Kharif,7.0
-2023,Suryapet,Turmeric,Rabi,6.0
-2024,Suryapet,Turmeric,Kharif,7.03
-2024,Suryapet,Turmeric,Rabi,6.0
-2023,Suryapet,Urad,Kharif,0.84
-2023,Suryapet,Urad,Rabi,1.27
-2024,Suryapet,Urad,Kharif,0.84
-2024,Suryapet,Urad,Rabi,1.29
-2023,Vikarabad,Arhar/Tur,Kharif,0.73
-2023,Vikarabad,Arhar/Tur,Rabi,0.82
-2024,Vikarabad,Arhar/Tur,Kharif,0.73
-2024,Vikarabad,Arhar/Tur,Rabi,0.83
-2023,Vikarabad,Bajra,Kharif,0.88
-2023,Vikarabad,Bajra,Rabi,2.01
-2024,Vikarabad,Bajra,Kharif,0.89
-2024,Vikarabad,Bajra,Rabi,2.03
-2023,Vikarabad,Banana,Kharif,53.38
-2024,Vikarabad,Banana,Kharif,53.63
-2023,Vikarabad,Castor seed,Kharif,0.84
-2023,Vikarabad,Castor seed,Rabi,1.25
-2024,Vikarabad,Castor seed,Kharif,0.85
-2024,Vikarabad,Castor seed,Rabi,1.26
-2023,Vikarabad,Coriander,Kharif,0.58
-2023,Vikarabad,Coriander,Rabi,0.75
-2024,Vikarabad,Coriander,Kharif,0.59
-2024,Vikarabad,Coriander,Rabi,0.76
-2023,Vikarabad,Cowpea(Lobia),Kharif,0.8
-2023,Vikarabad,Cowpea(Lobia),Rabi,0.98
-2024,Vikarabad,Cowpea(Lobia),Kharif,0.8
-2024,Vikarabad,Cowpea(Lobia),Rabi,0.99
-2023,Vikarabad,Dry chillies,Kharif,4.45
-2023,Vikarabad,Dry chillies,Rabi,5.31
-2024,Vikarabad,Dry chillies,Kharif,4.49
-2024,Vikarabad,Dry chillies,Rabi,5.32
-2023,Vikarabad,Garlic,Kharif,2.0
-2023,Vikarabad,Garlic,Rabi,4.0
-2024,Vikarabad,Garlic,Kharif,2.0
-2024,Vikarabad,Garlic,Rabi,4.0
-2023,Vikarabad,Ginger,Kharif,6.61
-2023,Vikarabad,Ginger,Rabi,6.65
-2024,Vikarabad,Ginger,Kharif,6.7
-2024,Vikarabad,Ginger,Rabi,6.72
-2023,Vikarabad,Gram,Kharif,1.61
-2023,Vikarabad,Gram,Rabi,1.43
-2024,Vikarabad,Gram,Kharif,1.61
-2024,Vikarabad,Gram,Rabi,1.44
-2023,Vikarabad,Groundnut,Kharif,1.88
-2023,Vikarabad,Groundnut,Rabi,2.25
-2024,Vikarabad,Groundnut,Kharif,1.9
-2024,Vikarabad,Groundnut,Rabi,2.26
-2023,Vikarabad,Horse-gram,Kharif,1.02
-2023,Vikarabad,Horse-gram,Rabi,1.09
-2024,Vikarabad,Horse-gram,Kharif,1.03
-2024,Vikarabad,Horse-gram,Rabi,1.11
-2023,Vikarabad,Jowar,Kharif,1.09
-2023,Vikarabad,Jowar,Rabi,1.57
-2024,Vikarabad,Jowar,Kharif,1.1
-2024,Vikarabad,Jowar,Rabi,1.59
-2023,Vikarabad,Maize,Kharif,4.18
-2023,Vikarabad,Maize,Rabi,5.87
-2024,Vikarabad,Maize,Kharif,4.2
-2024,Vikarabad,Maize,Rabi,5.93
-2023,Vikarabad,Moong(Green Gram),Kharif,0.7
-2023,Vikarabad,Moong(Green Gram),Rabi,0.97
-2024,Vikarabad,Moong(Green Gram),Kharif,0.71
-2024,Vikarabad,Moong(Green Gram),Rabi,0.97
-2023,Vikarabad,Onion,Kharif,15.54
-2023,Vikarabad,Onion,Rabi,36.06
-2024,Vikarabad,Onion,Kharif,15.71
-2024,Vikarabad,Onion,Rabi,36.46
-2023,Vikarabad,Potato,Kharif,24.02
-2023,Vikarabad,Potato,Rabi,21.07
-2024,Vikarabad,Potato,Kharif,24.33
-2024,Vikarabad,Potato,Rabi,21.51
-2023,Vikarabad,Ragi,Kharif,1.94
-2023,Vikarabad,Ragi,Rabi,1.32
-2024,Vikarabad,Ragi,Kharif,1.96
-2024,Vikarabad,Ragi,Rabi,1.33
-2023,Vikarabad,Rice,Kharif,2.87
-2023,Vikarabad,Rice,Rabi,3.1
-2024,Vikarabad,Rice,Kharif,2.88
-2024,Vikarabad,Rice,Rabi,3.11
-2023,Vikarabad,Safflower,Kharif,0.85
-2023,Vikarabad,Safflower,Rabi,0.81
-2024,Vikarabad,Safflower,Kharif,0.85
-2024,Vikarabad,Safflower,Rabi,0.82
-2023,Vikarabad,Sesamum,Kharif,0.23
-2023,Vikarabad,Sesamum,Rabi,0.71
-2024,Vikarabad,Sesamum,Kharif,0.23
-2024,Vikarabad,Sesamum,Rabi,0.71
-2023,Vikarabad,Small millets,Kharif,0.77
-2023,Vikarabad,Small millets,Rabi,0.75
-2024,Vikarabad,Small millets,Kharif,0.78
-2024,Vikarabad,Small millets,Rabi,0.75
-2023,Vikarabad,Soyabean,Kharif,1.7
-2023,Vikarabad,Soyabean,Rabi,1.36
-2024,Vikarabad,Soyabean,Kharif,1.71
-2024,Vikarabad,Soyabean,Rabi,1.37
-2023,Vikarabad,Sugarcane,Kharif,75.34
-2024,Vikarabad,Sugarcane,Kharif,76.18
-2023,Vikarabad,Sunflower,Kharif,3.0
-2023,Vikarabad,Sunflower,Rabi,2.07
-2024,Vikarabad,Sunflower,Kharif,3.0
-2024,Vikarabad,Sunflower,Rabi,2.09
-2023,Vikarabad,Sweet potato,Kharif,10.16
-2023,Vikarabad,Sweet potato,Rabi,10.02
-2024,Vikarabad,Sweet potato,Kharif,10.26
-2024,Vikarabad,Sweet potato,Rabi,10.09
-2023,Vikarabad,Turmeric,Kharif,8.31
-2023,Vikarabad,Turmeric,Rabi,12.12
-2024,Vikarabad,Turmeric,Kharif,8.45
-2024,Vikarabad,Turmeric,Rabi,12.14
-2023,Vikarabad,Urad,Kharif,0.75
-2023,Vikarabad,Urad,Rabi,1.65
-2024,Vikarabad,Urad,Kharif,0.76
-2024,Vikarabad,Urad,Rabi,1.66
-2023,Vikarabad,Wheat,Kharif,2.0
-2023,Vikarabad,Wheat,Rabi,1.95
-2024,Vikarabad,Wheat,Kharif,2.0
-2024,Vikarabad,Wheat,Rabi,1.97
-2023,Wanaparthy,Arhar/Tur,Kharif,0.56
-2023,Wanaparthy,Arhar/Tur,Rabi,0.8
-2024,Wanaparthy,Arhar/Tur,Kharif,0.56
-2024,Wanaparthy,Arhar/Tur,Rabi,0.81
-2023,Wanaparthy,Bajra,Kharif,1.0
-2024,Wanaparthy,Bajra,Kharif,1.0
-2023,Wanaparthy,Banana,Kharif,46.63
-2024,Wanaparthy,Banana,Kharif,47.0
-2023,Wanaparthy,Castor seed,Kharif,0.9
-2023,Wanaparthy,Castor seed,Rabi,0.93
-2024,Wanaparthy,Castor seed,Kharif,0.92
-2024,Wanaparthy,Castor seed,Rabi,0.95
-2023,Wanaparthy,Cowpea(Lobia),Kharif,0.75
-2023,Wanaparthy,Cowpea(Lobia),Rabi,0.99
-2024,Wanaparthy,Cowpea(Lobia),Kharif,0.76
-2024,Wanaparthy,Cowpea(Lobia),Rabi,1.0
-2023,Wanaparthy,Dry chillies,Kharif,4.33
-2023,Wanaparthy,Dry chillies,Rabi,5.62
-2024,Wanaparthy,Dry chillies,Kharif,4.39
-2024,Wanaparthy,Dry chillies,Rabi,5.64
-2023,Wanaparthy,Gram,Rabi,1.84
-2024,Wanaparthy,Gram,Rabi,1.85
-2023,Wanaparthy,Groundnut,Kharif,2.06
-2023,Wanaparthy,Groundnut,Rabi,2.63
-2024,Wanaparthy,Groundnut,Kharif,2.09
-2024,Wanaparthy,Groundnut,Rabi,2.65
-2023,Wanaparthy,Horse-gram,Kharif,1.02
-2023,Wanaparthy,Horse-gram,Rabi,1.06
-2024,Wanaparthy,Horse-gram,Kharif,1.03
-2024,Wanaparthy,Horse-gram,Rabi,1.07
-2023,Wanaparthy,Jowar,Kharif,0.92
-2023,Wanaparthy,Jowar,Rabi,1.86
-2024,Wanaparthy,Jowar,Kharif,0.93
-2024,Wanaparthy,Jowar,Rabi,1.88
-2023,Wanaparthy,Maize,Kharif,3.18
-2023,Wanaparthy,Maize,Rabi,6.17
-2024,Wanaparthy,Maize,Kharif,3.24
-2024,Wanaparthy,Maize,Rabi,6.22
-2023,Wanaparthy,Moong(Green Gram),Kharif,0.6
-2023,Wanaparthy,Moong(Green Gram),Rabi,0.92
-2024,Wanaparthy,Moong(Green Gram),Kharif,0.6
-2024,Wanaparthy,Moong(Green Gram),Rabi,0.92
-2023,Wanaparthy,Onion,Kharif,22.84
-2023,Wanaparthy,Onion,Rabi,29.92
-2024,Wanaparthy,Onion,Kharif,23.04
-2024,Wanaparthy,Onion,Rabi,30.1
-2023,Wanaparthy,Ragi,Kharif,1.58
-2023,Wanaparthy,Ragi,Rabi,1.4
-2024,Wanaparthy,Ragi,Kharif,1.59
-2024,Wanaparthy,Ragi,Rabi,1.42
-2023,Wanaparthy,Rice,Kharif,2.86
-2023,Wanaparthy,Rice,Rabi,3.3
-2024,Wanaparthy,Rice,Kharif,2.89
-2024,Wanaparthy,Rice,Rabi,3.32
-2023,Wanaparthy,Safflower,Rabi,1.0
-2024,Wanaparthy,Safflower,Rabi,1.0
-2023,Wanaparthy,Sesamum,Kharif,0.17
-2023,Wanaparthy,Sesamum,Rabi,0.72
-2024,Wanaparthy,Sesamum,Kharif,0.17
-2024,Wanaparthy,Sesamum,Rabi,0.72
-2023,Wanaparthy,Small millets,Kharif,1.12
-2023,Wanaparthy,Small millets,Rabi,1.0
-2024,Wanaparthy,Small millets,Kharif,1.14
-2024,Wanaparthy,Small millets,Rabi,1.0
-2023,Wanaparthy,Soyabean,Kharif,1.44
-2023,Wanaparthy,Soyabean,Rabi,1.46
-2024,Wanaparthy,Soyabean,Kharif,1.44
-2024,Wanaparthy,Soyabean,Rabi,1.47
-2023,Wanaparthy,Sugarcane,Kharif,75.17
-2024,Wanaparthy,Sugarcane,Kharif,76.3
-2023,Wanaparthy,Sunflower,Rabi,1.84
-2024,Wanaparthy,Sunflower,Rabi,1.84
-2023,Wanaparthy,Tobacco,Kharif,3.0
-2023,Wanaparthy,Tobacco,Rabi,5.21
-2024,Wanaparthy,Tobacco,Kharif,3.0
-2024,Wanaparthy,Tobacco,Rabi,5.21
-2023,Wanaparthy,Urad,Kharif,0.83
-2023,Wanaparthy,Urad,Rabi,1.44
-2024,Wanaparthy,Urad,Kharif,0.83
-2024,Wanaparthy,Urad,Rabi,1.46
-2023,Wanaparthy,Wheat,Rabi,2.0
-2024,Wanaparthy,Wheat,Rabi,2.0
-2023,Warangal,Arhar/Tur,Kharif,0.82
-2023,Warangal,Arhar/Tur,Rabi,0.88
-2024,Warangal,Arhar/Tur,Kharif,0.82
-2024,Warangal,Arhar/Tur,Rabi,0.89
-2023,Warangal,Bajra,Kharif,1.0
-2023,Warangal,Bajra,Rabi,2.15
-2024,Warangal,Bajra,Kharif,1.0
-2024,Warangal,Bajra,Rabi,2.17
-2023,Warangal,Banana,Kharif,50.97
-2023,Warangal,Banana,Whole Year,31.14
-2024,Warangal,Banana,Kharif,51.82
-2024,Warangal,Banana,Whole Year,31.14
-2023,Warangal,Cashewnut,Kharif,1.0
-2024,Warangal,Cashewnut,Kharif,1.0
-2023,Warangal,Castor seed,Kharif,0.61
-2023,Warangal,Castor seed,Rabi,1.0
-2024,Warangal,Castor seed,Kharif,0.62
-2024,Warangal,Castor seed,Rabi,1.0
-2023,Warangal,Coriander,Kharif,1.0
-2023,Warangal,Coriander,Rabi,3.19
-2023,Warangal,Coriander,Whole Year,0.49
-2024,Warangal,Coriander,Kharif,1.0
-2024,Warangal,Coriander,Rabi,3.27
-2024,Warangal,Coriander,Whole Year,0.49
-2023,Warangal,Cowpea(Lobia),Kharif,0.75
-2023,Warangal,Cowpea(Lobia),Rabi,4.39
-2024,Warangal,Cowpea(Lobia),Kharif,0.75
-2024,Warangal,Cowpea(Lobia),Rabi,4.44
-2023,Warangal,Dry chillies,Kharif,3.47
-2023,Warangal,Dry chillies,Rabi,3.17
-2024,Warangal,Dry chillies,Kharif,3.54
-2024,Warangal,Dry chillies,Rabi,3.23
-2023,Warangal,Ginger,Kharif,8.0
-2023,Warangal,Ginger,Rabi,7.0
-2024,Warangal,Ginger,Kharif,8.03
-2024,Warangal,Ginger,Rabi,7.0
-2023,Warangal,Gram,Kharif,1.0
-2023,Warangal,Gram,Rabi,1.13
-2024,Warangal,Gram,Kharif,1.0
-2024,Warangal,Gram,Rabi,1.15
-2023,Warangal,Groundnut,Kharif,3.12
-2023,Warangal,Groundnut,Rabi,2.42
-2024,Warangal,Groundnut,Kharif,3.14
-2024,Warangal,Groundnut,Rabi,2.45
-2023,Warangal,Horse-gram,Kharif,1.0
-2023,Warangal,Horse-gram,Rabi,0.69
-2024,Warangal,Horse-gram,Kharif,1.0
-2024,Warangal,Horse-gram,Rabi,0.7
-2023,Warangal,Jowar,Kharif,0.86
-2023,Warangal,Jowar,Rabi,1.55
-2024,Warangal,Jowar,Kharif,0.87
-2024,Warangal,Jowar,Rabi,1.58
-2023,Warangal,Maize,Kharif,5.32
-2023,Warangal,Maize,Rabi,7.82
-2024,Warangal,Maize,Kharif,5.37
-2024,Warangal,Maize,Rabi,7.89
-2023,Warangal,Moong(Green Gram),Kharif,0.7
-2023,Warangal,Moong(Green Gram),Rabi,0.77
-2024,Warangal,Moong(Green Gram),Kharif,0.71
-2024,Warangal,Moong(Green Gram),Rabi,0.78
-2023,Warangal,Oilseeds total,Kharif,1.25
-2023,Warangal,Oilseeds total,Rabi,1.65
-2024,Warangal,Oilseeds total,Kharif,1.25
-2024,Warangal,Oilseeds total,Rabi,1.65
-2023,Warangal,Onion,Kharif,17.91
-2023,Warangal,Onion,Rabi,29.93
-2024,Warangal,Onion,Kharif,18.01
-2024,Warangal,Onion,Rabi,30.1
-2023,Warangal,Ragi,Kharif,1.6
-2023,Warangal,Ragi,Rabi,1.0
-2024,Warangal,Ragi,Kharif,1.6
-2024,Warangal,Ragi,Rabi,1.0
-2023,Warangal,Rice,Kharif,2.96
-2023,Warangal,Rice,Rabi,3.58
-2024,Warangal,Rice,Kharif,2.98
-2024,Warangal,Rice,Rabi,3.59
-2023,Warangal,Safflower,Rabi,1.0
-2024,Warangal,Safflower,Rabi,1.0
-2023,Warangal,Sesamum,Kharif,0.16
-2023,Warangal,Sesamum,Rabi,0.54
-2024,Warangal,Sesamum,Kharif,0.16
-2024,Warangal,Sesamum,Rabi,0.55
-2023,Warangal,Small millets,Kharif,1.37
-2024,Warangal,Small millets,Kharif,1.38
-2023,Warangal,Soyabean,Kharif,1.42
-2023,Warangal,Soyabean,Rabi,1.32
-2024,Warangal,Soyabean,Kharif,1.43
-2024,Warangal,Soyabean,Rabi,1.32
-2023,Warangal,Sugarcane,Kharif,82.0
-2024,Warangal,Sugarcane,Kharif,82.42
-2023,Warangal,Sunflower,Kharif,2.0
-2023,Warangal,Sunflower,Rabi,1.85
-2024,Warangal,Sunflower,Kharif,2.0
-2024,Warangal,Sunflower,Rabi,1.87
-2023,Warangal,Sweet potato,Rabi,12.52
-2023,Warangal,Sweet potato,Whole Year,6.4
-2024,Warangal,Sweet potato,Rabi,12.61
-2024,Warangal,Sweet potato,Whole Year,6.4
-2023,Warangal,Tobacco,Kharif,3.37
-2023,Warangal,Tobacco,Rabi,3.24
-2024,Warangal,Tobacco,Kharif,3.38
-2024,Warangal,Tobacco,Rabi,3.27
-2023,Warangal,Turmeric,Kharif,5.48
-2023,Warangal,Turmeric,Rabi,5.6
-2024,Warangal,Turmeric,Kharif,5.51
-2024,Warangal,Turmeric,Rabi,5.61
-2023,Warangal,Urad,Kharif,0.7
-2023,Warangal,Urad,Rabi,1.14
-2024,Warangal,Urad,Kharif,0.71
-2024,Warangal,Urad,Rabi,1.16
-2023,Warangal urban,Arhar/Tur,Kharif,0.67
-2023,Warangal urban,Arhar/Tur,Rabi,0.79
-2024,Warangal urban,Arhar/Tur,Kharif,0.67
-2024,Warangal urban,Arhar/Tur,Rabi,0.79
-2023,Warangal urban,Bajra,Kharif,1.0
-2023,Warangal urban,Bajra,Rabi,3.0
-2024,Warangal urban,Bajra,Kharif,1.0
-2024,Warangal urban,Bajra,Rabi,3.0
-2023,Warangal urban,Banana,Kharif,49.32
-2024,Warangal urban,Banana,Kharif,49.75
-2023,Warangal urban,Castor seed,Kharif,0.75
-2024,Warangal urban,Castor seed,Kharif,0.76
-2023,Warangal urban,Coriander,Rabi,1.0
-2024,Warangal urban,Coriander,Rabi,1.0
-2023,Warangal urban,Cowpea(Lobia),Kharif,0.71
-2023,Warangal urban,Cowpea(Lobia),Rabi,0.9
-2024,Warangal urban,Cowpea(Lobia),Kharif,0.71
-2024,Warangal urban,Cowpea(Lobia),Rabi,0.91
-2023,Warangal urban,Dry chillies,Kharif,3.94
-2023,Warangal urban,Dry chillies,Rabi,5.56
-2024,Warangal urban,Dry chillies,Kharif,4.0
-2024,Warangal urban,Dry chillies,Rabi,5.57
-2023,Warangal urban,Garlic,Rabi,1.7
-2024,Warangal urban,Garlic,Rabi,1.72
-2023,Warangal urban,Ginger,Kharif,9.0
-2024,Warangal urban,Ginger,Kharif,9.0
-2023,Warangal urban,Gram,Kharif,2.0
-2023,Warangal urban,Gram,Rabi,1.25
-2024,Warangal urban,Gram,Kharif,2.0
-2024,Warangal urban,Gram,Rabi,1.27
-2023,Warangal urban,Groundnut,Kharif,2.67
-2023,Warangal urban,Groundnut,Rabi,1.63
-2024,Warangal urban,Groundnut,Kharif,2.69
-2024,Warangal urban,Groundnut,Rabi,1.65
-2023,Warangal urban,Horse-gram,Kharif,0.92
-2023,Warangal urban,Horse-gram,Rabi,1.05
-2024,Warangal urban,Horse-gram,Kharif,0.93
-2024,Warangal urban,Horse-gram,Rabi,1.07
-2023,Warangal urban,Jowar,Kharif,0.91
-2023,Warangal urban,Jowar,Rabi,2.25
-2024,Warangal urban,Jowar,Kharif,0.92
-2024,Warangal urban,Jowar,Rabi,2.26
-2023,Warangal urban,Maize,Kharif,5.62
-2023,Warangal urban,Maize,Rabi,7.22
-2024,Warangal urban,Maize,Kharif,5.66
-2024,Warangal urban,Maize,Rabi,7.26
-2023,Warangal urban,Moong(Green Gram),Kharif,0.44
-2023,Warangal urban,Moong(Green Gram),Rabi,0.92
-2024,Warangal urban,Moong(Green Gram),Kharif,0.45
-2024,Warangal urban,Moong(Green Gram),Rabi,0.92
-2023,Warangal urban,Onion,Kharif,14.46
-2023,Warangal urban,Onion,Rabi,29.93
-2024,Warangal urban,Onion,Kharif,14.56
-2024,Warangal urban,Onion,Rabi,30.1
-2023,Warangal urban,Potato,Kharif,12.0
-2024,Warangal urban,Potato,Kharif,12.0
-2023,Warangal urban,Ragi,Kharif,1.78
-2024,Warangal urban,Ragi,Kharif,1.79
-2023,Warangal urban,Rice,Kharif,3.03
-2023,Warangal urban,Rice,Rabi,3.76
-2024,Warangal urban,Rice,Kharif,3.04
-2024,Warangal urban,Rice,Rabi,3.78
-2023,Warangal urban,Safflower,Kharif,1.0
-2023,Warangal urban,Safflower,Rabi,0.92
-2024,Warangal urban,Safflower,Kharif,1.0
-2024,Warangal urban,Safflower,Rabi,0.92
-2023,Warangal urban,Sesamum,Kharif,0.3
-2023,Warangal urban,Sesamum,Rabi,0.72
-2024,Warangal urban,Sesamum,Kharif,0.31
-2024,Warangal urban,Sesamum,Rabi,0.72
-2023,Warangal urban,Small millets,Kharif,1.2
-2024,Warangal urban,Small millets,Kharif,1.22
-2023,Warangal urban,Soyabean,Kharif,1.59
-2023,Warangal urban,Soyabean,Rabi,1.62
-2024,Warangal urban,Soyabean,Kharif,1.6
-2024,Warangal urban,Soyabean,Rabi,1.63
-2023,Warangal urban,Sunflower,Rabi,2.05
-2024,Warangal urban,Sunflower,Rabi,2.07
-2023,Warangal urban,Tobacco,Kharif,2.58
-2023,Warangal urban,Tobacco,Rabi,2.8
-2024,Warangal urban,Tobacco,Kharif,2.6
-2024,Warangal urban,Tobacco,Rabi,2.82
-2023,Warangal urban,Turmeric,Kharif,6.47
-2023,Warangal urban,Turmeric,Rabi,6.39
-2024,Warangal urban,Turmeric,Kharif,6.51
-2024,Warangal urban,Turmeric,Rabi,6.39
-2023,Warangal urban,Urad,Kharif,0.84
-2023,Warangal urban,Urad,Rabi,1.41
-2024,Warangal urban,Urad,Kharif,0.84
-2024,Warangal urban,Urad,Rabi,1.43
-2023,Warangal urban,Wheat,Rabi,2.0
-2024,Warangal urban,Wheat,Rabi,2.0
-2023,Yadadri,Arhar/Tur,Kharif,0.58
-2023,Yadadri,Arhar/Tur,Rabi,0.88
-2024,Yadadri,Arhar/Tur,Kharif,0.59
-2024,Yadadri,Arhar/Tur,Rabi,0.88
-2023,Yadadri,Bajra,Kharif,0.8
-2023,Yadadri,Bajra,Rabi,1.0
-2024,Yadadri,Bajra,Kharif,0.8
-2024,Yadadri,Bajra,Rabi,1.0
-2023,Yadadri,Banana,Kharif,49.33
-2024,Yadadri,Banana,Kharif,49.73
-2023,Yadadri,Cashewnut,Kharif,0.67
-2024,Yadadri,Cashewnut,Kharif,0.67
-2023,Yadadri,Castor seed,Kharif,0.78
-2023,Yadadri,Castor seed,Rabi,1.0
-2024,Yadadri,Castor seed,Kharif,0.8
-2024,Yadadri,Castor seed,Rabi,1.02
-2023,Yadadri,Coriander,Rabi,0.76
-2024,Yadadri,Coriander,Rabi,0.76
-2023,Yadadri,Cowpea(Lobia),Kharif,0.85
-2023,Yadadri,Cowpea(Lobia),Rabi,0.82
-2024,Yadadri,Cowpea(Lobia),Kharif,0.85
-2024,Yadadri,Cowpea(Lobia),Rabi,0.83
-2023,Yadadri,Dry chillies,Kharif,4.28
-2023,Yadadri,Dry chillies,Rabi,5.55
-2024,Yadadri,Dry chillies,Kharif,4.33
-2024,Yadadri,Dry chillies,Rabi,5.57
-2023,Yadadri,Ginger,Kharif,9.0
-2024,Yadadri,Ginger,Kharif,9.0
-2023,Yadadri,Gram,Rabi,1.53
-2024,Yadadri,Gram,Rabi,1.53
-2023,Yadadri,Groundnut,Kharif,2.21
-2023,Yadadri,Groundnut,Rabi,2.28
-2024,Yadadri,Groundnut,Kharif,2.22
-2024,Yadadri,Groundnut,Rabi,2.29
-2023,Yadadri,Horse-gram,Kharif,1.08
-2023,Yadadri,Horse-gram,Rabi,1.03
-2024,Yadadri,Horse-gram,Kharif,1.1
-2024,Yadadri,Horse-gram,Rabi,1.04
-2023,Yadadri,Jowar,Kharif,0.72
-2023,Yadadri,Jowar,Rabi,1.8
-2024,Yadadri,Jowar,Kharif,0.73
-2024,Yadadri,Jowar,Rabi,1.82
-2023,Yadadri,Maize,Kharif,3.3
-2023,Yadadri,Maize,Rabi,7.63
-2024,Yadadri,Maize,Kharif,3.34
-2024,Yadadri,Maize,Rabi,7.66
-2023,Yadadri,Moong(Green Gram),Kharif,0.61
-2023,Yadadri,Moong(Green Gram),Rabi,0.92
-2024,Yadadri,Moong(Green Gram),Kharif,0.61
-2024,Yadadri,Moong(Green Gram),Rabi,0.92
-2023,Yadadri,Onion,Rabi,29.73
-2024,Yadadri,Onion,Rabi,29.92
-2023,Yadadri,Potato,Rabi,17.05
-2024,Yadadri,Potato,Rabi,17.22
-2023,Yadadri,Ragi,Kharif,1.75
-2024,Yadadri,Ragi,Kharif,1.76
-2023,Yadadri,Rice,Kharif,3.3
-2023,Yadadri,Rice,Rabi,3.61
-2024,Yadadri,Rice,Kharif,3.31
-2024,Yadadri,Rice,Rabi,3.61
-2023,Yadadri,Safflower,Kharif,1.0
-2023,Yadadri,Safflower,Rabi,0.94
-2024,Yadadri,Safflower,Kharif,1.0
-2024,Yadadri,Safflower,Rabi,0.94
-2023,Yadadri,Sesamum,Kharif,0.18
-2023,Yadadri,Sesamum,Rabi,0.75
-2024,Yadadri,Sesamum,Kharif,0.18
-2024,Yadadri,Sesamum,Rabi,0.76
-2023,Yadadri,Small millets,Kharif,1.14
-2023,Yadadri,Small millets,Rabi,1.4
-2024,Yadadri,Small millets,Kharif,1.16
-2024,Yadadri,Small millets,Rabi,1.41
-2023,Yadadri,Soyabean,Kharif,1.59
-2023,Yadadri,Soyabean,Rabi,1.5
-2024,Yadadri,Soyabean,Kharif,1.6
-2024,Yadadri,Soyabean,Rabi,1.5
-2023,Yadadri,Sugarcane,Kharif,89.09
-2024,Yadadri,Sugarcane,Kharif,89.49
-2023,Yadadri,Sunflower,Rabi,1.4
-2024,Yadadri,Sunflower,Rabi,1.4
-2023,Yadadri,Sweet potato,Kharif,12.28
-2023,Yadadri,Sweet potato,Rabi,11.67
-2024,Yadadri,Sweet potato,Kharif,12.37
-2024,Yadadri,Sweet potato,Rabi,11.67
-2023,Yadadri,Tobacco,Kharif,3.78
-2023,Yadadri,Tobacco,Rabi,2.25
-2024,Yadadri,Tobacco,Kharif,3.8
-2024,Yadadri,Tobacco,Rabi,2.25
-2023,Yadadri,Turmeric,Kharif,7.17
-2024,Yadadri,Turmeric,Kharif,7.17
-2023,Yadadri,Urad,Kharif,0.82
-2023,Yadadri,Urad,Rabi,1.37
-2024,Yadadri,Urad,Kharif,0.82
-2024,Yadadri,Urad,Rabi,1.39
-2023,Yadadri,Wheat,Rabi,2.01
-2024,Yadadri,Wheat,Rabi,2.03
+year,district,crop,season,price
+2025,Adilabad,Arhar/Tur,Kharif,6899.51
+2025,Adilabad,Arhar/Tur,Rabi,7088.74
+2025,Adilabad,Banana,Kharif,587.0
+2025,Adilabad,Banana,Whole Year,707.29
+2025,Adilabad,Coriander,Kharif,4831.2
+2025,Adilabad,Coriander,Rabi,8234.84
+2025,Adilabad,Coriander,Whole Year,9047.6
+2025,Adilabad,Cowpea(Lobia),Rabi,2974.04
+2025,Adilabad,Dry chillies,Kharif,10478.0
+2025,Adilabad,Dry chillies,Rabi,5400.0
+2025,Adilabad,Garlic,Rabi,3103.0
+2025,Adilabad,Ginger,Kharif,587.0
+2025,Adilabad,Gram,Kharif,4254.13
+2025,Adilabad,Gram,Rabi,4281.43
+2025,Adilabad,Groundnut,Rabi,4430.55
+2025,Adilabad,Jowar,Kharif,1951.06
+2025,Adilabad,Jowar,Rabi,1917.67
+2025,Adilabad,Maize,Kharif,1793.32
+2025,Adilabad,Maize,Rabi,1643.86
+2025,Adilabad,Moong(Green Gram),Kharif,4531.73
+2025,Adilabad,Moong(Green Gram),Rabi,7230.26
+2025,Adilabad,Mustard,Rabi,3722.45
+2025,Adilabad,Onion,Kharif,2983.58
+2025,Adilabad,Onion,Rabi,1846.21
+2025,Adilabad,Potato,Kharif,3000.0
+2025,Adilabad,Potato,Rabi,2779.78
+2025,Adilabad,Potato,Whole Year,2800.56
+2025,Adilabad,Rice,Rabi,3000.0
+2025,Adilabad,Safflower,Rabi,5059.38
+2025,Adilabad,Sesamum,Kharif,11042.03
+2025,Adilabad,Sesamum,Rabi,9759.99
+2025,Adilabad,Soyabean,Kharif,4132.5
+2025,Adilabad,Soyabean,Rabi,4726.07
+2025,Adilabad,Sunflower,Rabi,5000.66
+2025,Adilabad,Turmeric,Kharif,6311.0
+2025,Adilabad,Turmeric,Rabi,8855.34
+2025,Adilabad,Urad,Kharif,5352.52
+2025,Adilabad,Urad,Rabi,5658.34
+2025,Adilabad,Wheat,Kharif,1815.24
+2025,Adilabad,Wheat,Rabi,1909.41
+2025,Hyderabad,Banana,Kharif,1035.68
+2025,Hyderabad,Banana,Whole Year,946.07
+2025,Hyderabad,Coriander,Kharif,7285.34
+2025,Hyderabad,Coriander,Rabi,7057.48
+2025,Hyderabad,Coriander,Whole Year,7192.26
+2025,Hyderabad,Dry chillies,Kharif,8172.72
+2025,Hyderabad,Dry chillies,Rabi,8324.82
+2025,Hyderabad,Garlic,Kharif,9205.01
+2025,Hyderabad,Garlic,Rabi,8688.58
+2025,Hyderabad,Groundnut,Kharif,2211.4
+2025,Hyderabad,Groundnut,Rabi,2167.47
+2025,Hyderabad,Maize,Kharif,971.73
+2025,Hyderabad,Maize,Rabi,1092.78
+2025,Hyderabad,Onion,Kharif,1855.88
+2025,Hyderabad,Onion,Rabi,1137.1
+2025,Hyderabad,Potato,Kharif,1739.51
+2025,Hyderabad,Potato,Rabi,1569.15
+2025,Hyderabad,Potato,Whole Year,1541.57
+2025,Hyderabad,Sesamum,Rabi,6000.0
+2025,Hyderabad,Sweet potato,Kharif,1142.32
+2025,Hyderabad,Sweet potato,Rabi,1113.65
+2025,Hyderabad,Sweet potato,Whole Year,1257.64
+2025,Hyderabad,Turmeric,Kharif,7097.75
+2025,Hyderabad,Turmeric,Rabi,8825.75
+2025,Karimnagar,Arhar/Tur,Kharif,5320.02
+2025,Karimnagar,Arhar/Tur,Rabi,6412.24
+2025,Karimnagar,Bajra,Rabi,1246.05
+2025,Karimnagar,Castor seed,Kharif,2808.5
+2025,Karimnagar,Castor seed,Rabi,3333.92
+2025,Karimnagar,Coriander,Kharif,722.93
+2025,Karimnagar,Coriander,Rabi,402.0
+2025,Karimnagar,Coriander,Whole Year,1070.2
+2025,Karimnagar,Cowpea(Lobia),Kharif,4457.21
+2025,Karimnagar,Cowpea(Lobia),Rabi,4886.16
+2025,Karimnagar,Gram,Kharif,4480.79
+2025,Karimnagar,Gram,Rabi,3892.77
+2025,Karimnagar,Groundnut,Kharif,3691.21
+2025,Karimnagar,Groundnut,Rabi,3873.53
+2025,Karimnagar,Horse-gram,Rabi,3604.23
+2025,Karimnagar,Jowar,Kharif,1000.0
+2025,Karimnagar,Jowar,Rabi,2458.05
+2025,Karimnagar,Maize,Kharif,1652.17
+2025,Karimnagar,Maize,Rabi,1696.56
+2025,Karimnagar,Moong(Green Gram),Kharif,5641.9
+2025,Karimnagar,Moong(Green Gram),Rabi,6668.24
+2025,Karimnagar,Mustard,Rabi,3482.74
+2025,Karimnagar,Onion,Rabi,300.0
+2025,Karimnagar,Potato,Kharif,2475.0
+2025,Karimnagar,Potato,Whole Year,2237.66
+2025,Karimnagar,Rice,Kharif,1750.0
+2025,Karimnagar,Rice,Rabi,2839.6
+2025,Karimnagar,Safflower,Rabi,2059.0
+2025,Karimnagar,Sesamum,Kharif,11509.01
+2025,Karimnagar,Sesamum,Rabi,8069.06
+2025,Karimnagar,Soyabean,Kharif,3214.67
+2025,Karimnagar,Soyabean,Rabi,3552.04
+2025,Karimnagar,Sunflower,Rabi,3375.0
+2025,Karimnagar,Turmeric,Kharif,3580.75
+2025,Karimnagar,Turmeric,Rabi,7719.68
+2025,Karimnagar,Urad,Kharif,3886.03
+2025,Karimnagar,Urad,Rabi,4788.13
+2025,Karimnagar,Wheat,Kharif,1401.47
+2025,Karimnagar,Wheat,Rabi,1250.0
+2025,Khammam,Arhar/Tur,Kharif,6046.0
+2025,Khammam,Arhar/Tur,Rabi,6700.9
+2025,Khammam,Banana,Kharif,1211.18
+2025,Khammam,Banana,Whole Year,961.94
+2025,Khammam,Cowpea(Lobia),Kharif,4500.0
+2025,Khammam,Cowpea(Lobia),Rabi,5495.36
+2025,Khammam,Dry chillies,Kharif,10522.23
+2025,Khammam,Dry chillies,Rabi,10145.17
+2025,Khammam,Gram,Kharif,9400.0
+2025,Khammam,Groundnut,Kharif,3868.99
+2025,Khammam,Groundnut,Rabi,4956.64
+2025,Khammam,Jowar,Rabi,2432.4
+2025,Khammam,Maize,Kharif,1658.37
+2025,Khammam,Maize,Rabi,1671.88
+2025,Khammam,Moong(Green Gram),Kharif,5413.33
+2025,Khammam,Moong(Green Gram),Rabi,5851.27
+2025,Khammam,Onion,Kharif,1967.36
+2025,Khammam,Onion,Rabi,802.16
+2025,Khammam,Potato,Kharif,1564.0
+2025,Khammam,Potato,Rabi,1370.21
+2025,Khammam,Potato,Whole Year,1678.26
+2025,Khammam,Rice,Kharif,4300.07
+2025,Khammam,Rice,Rabi,3517.99
+2025,Khammam,Safflower,Rabi,3800.0
+2025,Khammam,Sunflower,Rabi,4473.13
+2025,Khammam,Tobacco,Rabi,1034.14
+2025,Khammam,Turmeric,Rabi,5278.35
+2025,Khammam,Urad,Kharif,5591.04
+2025,Khammam,Urad,Rabi,5732.0
+2025,Mahbubnagar,Arhar/Tur,Kharif,6830.56
+2025,Mahbubnagar,Arhar/Tur,Rabi,6632.73
+2025,Mahbubnagar,Bajra,Kharif,1712.47
+2025,Mahbubnagar,Bajra,Rabi,1645.04
+2025,Mahbubnagar,Castor seed,Kharif,4562.33
+2025,Mahbubnagar,Castor seed,Rabi,4819.22
+2025,Mahbubnagar,Cowpea(Lobia),Kharif,7225.0
+2025,Mahbubnagar,Cowpea(Lobia),Rabi,4948.3
+2025,Mahbubnagar,Dry chillies,Kharif,1334.0
+2025,Mahbubnagar,Dry chillies,Rabi,17001.05
+2025,Mahbubnagar,Gram,Kharif,4995.42
+2025,Mahbubnagar,Gram,Rabi,4401.83
+2025,Mahbubnagar,Groundnut,Kharif,5090.25
+2025,Mahbubnagar,Groundnut,Rabi,4699.87
+2025,Mahbubnagar,Horse-gram,Kharif,3714.76
+2025,Mahbubnagar,Horse-gram,Rabi,4032.27
+2025,Mahbubnagar,Jowar,Kharif,2879.36
+2025,Mahbubnagar,Jowar,Rabi,3068.01
+2025,Mahbubnagar,Maize,Kharif,1703.64
+2025,Mahbubnagar,Maize,Rabi,1682.74
+2025,Mahbubnagar,Masoor,Rabi,3690.0
+2025,Mahbubnagar,Moong(Green Gram),Kharif,5595.59
+2025,Mahbubnagar,Moong(Green Gram),Rabi,5878.83
+2025,Mahbubnagar,Mustard,Rabi,3124.0
+2025,Mahbubnagar,Onion,Kharif,3474.67
+2025,Mahbubnagar,Onion,Rabi,942.54
+2025,Mahbubnagar,Potato,Kharif,1959.69
+2025,Mahbubnagar,Potato,Rabi,1718.15
+2025,Mahbubnagar,Potato,Whole Year,1838.92
+2025,Mahbubnagar,Ragi,Kharif,1871.75
+2025,Mahbubnagar,Ragi,Rabi,2364.74
+2025,Mahbubnagar,Safflower,Kharif,3929.0
+2025,Mahbubnagar,Safflower,Rabi,3850.27
+2025,Mahbubnagar,Sesamum,Kharif,3750.0
+2025,Mahbubnagar,Small millets,Kharif,1278.0
+2025,Mahbubnagar,Soyabean,Kharif,2321.16
+2025,Mahbubnagar,Sunflower,Kharif,3490.78
+2025,Mahbubnagar,Sunflower,Rabi,4535.6
+2025,Mahbubnagar,Sweet potato,Kharif,1839.23
+2025,Mahbubnagar,Sweet potato,Whole Year,1872.22
+2025,Mahbubnagar,Urad,Kharif,6116.72
+2025,Mahbubnagar,Urad,Rabi,5713.57
+2025,Mahbubnagar,Wheat,Rabi,1395.0
+2025,Medak,Arhar/Tur,Kharif,6719.11
+2025,Medak,Arhar/Tur,Rabi,7189.78
+2025,Medak,Bajra,Kharif,1937.8
+2025,Medak,Bajra,Rabi,1400.0
+2025,Medak,Castor seed,Kharif,3250.61
+2025,Medak,Castor seed,Rabi,4041.68
+2025,Medak,Coriander,Kharif,5335.67
+2025,Medak,Coriander,Rabi,5426.97
+2025,Medak,Coriander,Whole Year,8002.67
+2025,Medak,Cowpea(Lobia),Kharif,5342.58
+2025,Medak,Cowpea(Lobia),Rabi,5392.87
+2025,Medak,Dry chillies,Rabi,18600.0
+2025,Medak,Gram,Kharif,4061.7
+2025,Medak,Gram,Rabi,4527.4
+2025,Medak,Groundnut,Kharif,4160.79
+2025,Medak,Groundnut,Rabi,4108.44
+2025,Medak,Horse-gram,Kharif,3578.92
+2025,Medak,Horse-gram,Rabi,5208.5
+2025,Medak,Jowar,Kharif,2175.24
+2025,Medak,Jowar,Rabi,2180.81
+2025,Medak,Maize,Kharif,1740.92
+2025,Medak,Maize,Rabi,1708.02
+2025,Medak,Moong(Green Gram),Kharif,5787.73
+2025,Medak,Moong(Green Gram),Rabi,5790.71
+2025,Medak,Onion,Kharif,2135.44
+2025,Medak,Onion,Rabi,1353.73
+2025,Medak,Potato,Kharif,1668.04
+2025,Medak,Potato,Rabi,1542.25
+2025,Medak,Potato,Whole Year,1551.97
+2025,Medak,Ragi,Rabi,1538.0
+2025,Medak,Rice,Rabi,2250.0
+2025,Medak,Safflower,Kharif,4287.84
+2025,Medak,Safflower,Rabi,3996.16
+2025,Medak,Sesamum,Kharif,9935.75
+2025,Medak,Sesamum,Rabi,9959.04
+2025,Medak,Soyabean,Kharif,3946.89
+2025,Medak,Soyabean,Rabi,4731.86
+2025,Medak,Sunflower,Kharif,3782.31
+2025,Medak,Sunflower,Rabi,3667.73
+2025,Medak,Sweet potato,Kharif,1000.0
+2025,Medak,Sweet potato,Rabi,1095.71
+2025,Medak,Sweet potato,Whole Year,1053.1
+2025,Medak,Turmeric,Kharif,5971.7
+2025,Medak,Turmeric,Rabi,9150.62
+2025,Medak,Urad,Kharif,5956.36
+2025,Medak,Urad,Rabi,5142.99
+2025,Medak,Wheat,Kharif,1931.99
+2025,Medak,Wheat,Rabi,1754.2
+2025,Nalgonda,Arhar/Tur,Kharif,6191.26
+2025,Nalgonda,Arhar/Tur,Rabi,6223.83
+2025,Nalgonda,Bajra,Kharif,1613.45
+2025,Nalgonda,Bajra,Rabi,1859.0
+2025,Nalgonda,Castor seed,Kharif,3649.05
+2025,Nalgonda,Castor seed,Rabi,4262.82
+2025,Nalgonda,Cowpea(Lobia),Kharif,4845.22
+2025,Nalgonda,Cowpea(Lobia),Rabi,5045.75
+2025,Nalgonda,Groundnut,Kharif,4560.32
+2025,Nalgonda,Groundnut,Rabi,4383.02
+2025,Nalgonda,Horse-gram,Kharif,3552.18
+2025,Nalgonda,Horse-gram,Rabi,3747.45
+2025,Nalgonda,Jowar,Kharif,2282.97
+2025,Nalgonda,Jowar,Rabi,2466.06
+2025,Nalgonda,Maize,Kharif,1491.04
+2025,Nalgonda,Maize,Rabi,1597.72
+2025,Nalgonda,Moong(Green Gram),Kharif,5317.06
+2025,Nalgonda,Moong(Green Gram),Rabi,5174.13
+2025,Nalgonda,Onion,Kharif,3209.7
+2025,Nalgonda,Onion,Rabi,1753.64
+2025,Nalgonda,Potato,Kharif,2872.33
+2025,Nalgonda,Potato,Rabi,2353.11
+2025,Nalgonda,Potato,Whole Year,2633.58
+2025,Nalgonda,Rice,Kharif,3000.0
+2025,Nalgonda,Sesamum,Kharif,4876.9
+2025,Nalgonda,Sesamum,Rabi,6829.65
+2025,Nalgonda,Sunflower,Rabi,3320.0
+2025,Nalgonda,Urad,Kharif,4818.63
+2025,Nalgonda,Urad,Rabi,6146.28
+2025,Nizamabad,Arhar/Tur,Kharif,3951.53
+2025,Nizamabad,Arhar/Tur,Rabi,4180.73
+2025,Nizamabad,Bajra,Kharif,1545.69
+2025,Nizamabad,Bajra,Rabi,1585.5
+2025,Nizamabad,Banana,Kharif,898.44
+2025,Nizamabad,Banana,Whole Year,980.17
+2025,Nizamabad,Castor seed,Kharif,2607.0
+2025,Nizamabad,Castor seed,Rabi,3530.42
+2025,Nizamabad,Coriander,Kharif,5373.89
+2025,Nizamabad,Coriander,Rabi,6807.68
+2025,Nizamabad,Coriander,Whole Year,5864.22
+2025,Nizamabad,Dry chillies,Kharif,14501.0
+2025,Nizamabad,Dry chillies,Rabi,6600.0
+2025,Nizamabad,Garlic,Rabi,1715.07
+2025,Nizamabad,Gram,Kharif,3899.33
+2025,Nizamabad,Gram,Rabi,3443.7
+2025,Nizamabad,Groundnut,Kharif,3136.89
+2025,Nizamabad,Groundnut,Rabi,3771.78
+2025,Nizamabad,Horse-gram,Kharif,4653.13
+2025,Nizamabad,Horse-gram,Rabi,1900.0
+2025,Nizamabad,Jowar,Kharif,1386.33
+2025,Nizamabad,Jowar,Rabi,1260.51
+2025,Nizamabad,Maize,Kharif,1680.51
+2025,Nizamabad,Maize,Rabi,1657.66
+2025,Nizamabad,Moong(Green Gram),Kharif,5236.7
+2025,Nizamabad,Moong(Green Gram),Rabi,5529.44
+2025,Nizamabad,Mustard,Rabi,3946.64
+2025,Nizamabad,Onion,Kharif,1781.06
+2025,Nizamabad,Onion,Rabi,1011.21
+2025,Nizamabad,Potato,Kharif,1100.0
+2025,Nizamabad,Potato,Whole Year,1100.0
+2025,Nizamabad,Rice,Kharif,3176.65
+2025,Nizamabad,Rice,Rabi,3905.95
+2025,Nizamabad,Safflower,Kharif,2200.0
+2025,Nizamabad,Safflower,Rabi,2858.82
+2025,Nizamabad,Sesamum,Kharif,11041.96
+2025,Nizamabad,Sesamum,Rabi,9608.67
+2025,Nizamabad,Soyabean,Kharif,3804.16
+2025,Nizamabad,Soyabean,Rabi,4350.59
+2025,Nizamabad,Sunflower,Kharif,4192.16
+2025,Nizamabad,Sunflower,Rabi,3068.26
+2025,Nizamabad,Turmeric,Kharif,6880.24
+2025,Nizamabad,Turmeric,Rabi,9751.49
+2025,Nizamabad,Urad,Kharif,5124.42
+2025,Nizamabad,Urad,Rabi,6662.07
+2025,Nizamabad,Wheat,Kharif,1466.47
+2025,Nizamabad,Wheat,Rabi,1475.41
+2025,Ranga Reddy,Arhar/Tur,Kharif,6961.77
+2025,Ranga Reddy,Arhar/Tur,Rabi,7726.26
+2025,Ranga Reddy,Bajra,Rabi,1175.0
+2025,Ranga Reddy,Coriander,Whole Year,200.0
+2025,Ranga Reddy,Gram,Kharif,4228.9
+2025,Ranga Reddy,Gram,Rabi,4437.2
+2025,Ranga Reddy,Groundnut,Kharif,5158.28
+2025,Ranga Reddy,Groundnut,Rabi,5141.48
+2025,Ranga Reddy,Horse-gram,Kharif,4825.0
+2025,Ranga Reddy,Jowar,Kharif,2008.48
+2025,Ranga Reddy,Jowar,Rabi,2777.96
+2025,Ranga Reddy,Maize,Kharif,1653.51
+2025,Ranga Reddy,Maize,Rabi,1711.36
+2025,Ranga Reddy,Moong(Green Gram),Kharif,6088.72
+2025,Ranga Reddy,Moong(Green Gram),Rabi,5832.7
+2025,Ranga Reddy,Onion,Kharif,1883.15
+2025,Ranga Reddy,Onion,Rabi,1558.51
+2025,Ranga Reddy,Potato,Kharif,1375.4
+2025,Ranga Reddy,Potato,Rabi,1526.36
+2025,Ranga Reddy,Potato,Whole Year,1515.45
+2025,Ranga Reddy,Ragi,Kharif,2085.52
+2025,Ranga Reddy,Ragi,Rabi,1908.96
+2025,Ranga Reddy,Rice,Kharif,3056.43
+2025,Ranga Reddy,Safflower,Rabi,3973.59
+2025,Ranga Reddy,Sesamum,Kharif,5419.46
+2025,Ranga Reddy,Soyabean,Kharif,3921.28
+2025,Ranga Reddy,Soyabean,Rabi,4640.05
+2025,Ranga Reddy,Sunflower,Rabi,2839.0
+2025,Ranga Reddy,Sweet potato,Kharif,2293.21
+2025,Ranga Reddy,Sweet potato,Rabi,2096.11
+2025,Ranga Reddy,Sweet potato,Whole Year,2438.65
+2025,Ranga Reddy,Turmeric,Kharif,6133.61
+2025,Ranga Reddy,Turmeric,Rabi,9475.18
+2025,Ranga Reddy,Urad,Kharif,6336.36
+2025,Ranga Reddy,Urad,Rabi,5735.95
+2025,Warangal,Arhar/Tur,Kharif,6376.57
+2025,Warangal,Arhar/Tur,Rabi,6645.2
+2025,Warangal,Bajra,Kharif,1825.0
+2025,Warangal,Banana,Kharif,2863.47
+2025,Warangal,Banana,Whole Year,2878.86
+2025,Warangal,Castor seed,Kharif,4187.01
+2025,Warangal,Castor seed,Rabi,4110.54
+2025,Warangal,Coriander,Rabi,5116.69
+2025,Warangal,Coriander,Whole Year,6572.62
+2025,Warangal,Cowpea(Lobia),Kharif,4606.67
+2025,Warangal,Cowpea(Lobia),Rabi,5456.12
+2025,Warangal,Dry chillies,Kharif,11860.1
+2025,Warangal,Dry chillies,Rabi,12773.01
+2025,Warangal,Gram,Kharif,5651.92
+2025,Warangal,Gram,Rabi,5338.94
+2025,Warangal,Groundnut,Kharif,5024.2
+2025,Warangal,Groundnut,Rabi,4690.85
+2025,Warangal,Horse-gram,Rabi,3569.0
+2025,Warangal,Jowar,Kharif,1127.03
+2025,Warangal,Jowar,Rabi,2317.76
+2025,Warangal,Maize,Kharif,1748.46
+2025,Warangal,Maize,Rabi,1672.1
+2025,Warangal,Moong(Green Gram),Kharif,5264.29
+2025,Warangal,Moong(Green Gram),Rabi,5933.35
+2025,Warangal,Mustard,Rabi,3797.71
+2025,Warangal,Onion,Kharif,3514.82
+2025,Warangal,Onion,Rabi,2524.8
+2025,Warangal,Potato,Kharif,2375.78
+2025,Warangal,Potato,Rabi,2277.31
+2025,Warangal,Potato,Whole Year,2405.83
+2025,Warangal,Sesamum,Kharif,9294.38
+2025,Warangal,Sesamum,Rabi,8865.01
+2025,Warangal,Soyabean,Kharif,3346.65
+2025,Warangal,Soyabean,Rabi,3175.73
+2025,Warangal,Sunflower,Kharif,4780.34
+2025,Warangal,Sunflower,Rabi,4438.69
+2025,Warangal,Turmeric,Kharif,5978.07
+2025,Warangal,Turmeric,Rabi,9400.42
+2025,Warangal,Urad,Kharif,4415.2
+2025,Warangal,Urad,Rabi,6037.92
