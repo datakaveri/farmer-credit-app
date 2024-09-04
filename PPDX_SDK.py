@@ -89,6 +89,9 @@ def measureDockervTPM(sha_digest):
         print("Measurement extended successfully to PCR 15.")
     except Exception as e:
         print("Error:", e)
+        with open("output/output.json", "w") as f:
+            # make status code 900 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "900", "status": "TEE Attestation error"}, f)
 
     try:
         pcr_values = {}
@@ -116,7 +119,10 @@ def measureDockervTPM(sha_digest):
         else:
             print(f"Error reading PCR values: {result.stderr}")
     except Exception as e:
-        print("Error:", e)  
+        print("Error:", e)
+        with open("output/output.json", "w") as f:
+            # make status code 900 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "900", "status": "TEE Attestation error"}, f)
 
 def execute_guest_attestation():
     # Get the directory of the current script
@@ -164,7 +170,9 @@ def getAttestationToken(config):
         return token
     else:
         print("Attestation Token fetching failed.", r.text)
-        sys.exit() 
+        with open("output/output.json", "w") as f:
+            # make status code 900 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "900", "status": "TEE Attestation error"}, f)
 
 def getADEXDataAccessTokens(config):
     auth_server_url=config["auth_server_url"]
@@ -190,7 +198,9 @@ def getADEXDataAccessTokens(config):
         return token
     else:
         print("ADEX data access Token fetching failed.", r.text)
-        sys.exit()
+        with open("output/output.json", "w") as f:
+            # make status code 901 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "901", "status": "ADEX Data Access Token Fetching error"}, f)
 
 
 def getFarmerDataToken(config, ppb_number):
@@ -216,12 +226,12 @@ def getFarmerDataToken(config, ppb_number):
         jsonResponse=r.json()
         token=jsonResponse.get('results').get('accessToken')
         print(token)
-
         return token 
-    
     else:
         print("Farmer data access Token fetching failed.", r.text)
-        sys.exit() 
+        with open("output/output.json", "w") as f:
+            # make status code 902 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "902", "status": "Rytabandhu Data Access Token fetching error"}, f)
 
 
 #Send token to resource server for verification & get encrypted images  
@@ -256,6 +266,9 @@ def getSOFDataFromADEX(config, token):
     else:
         print(f"Failed to fetch SOF data. Status code: {rs.status_code}")
         print(f"Response content: {rs.text}")
+        with open("output/output.json", "w") as f:
+            # make status code 903 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "903", "status": "SOF Data fetching error"}, f)
 
 def getYieldDataFromADEX(config, token):
     rs_url = config["Yield_url"]
@@ -289,6 +302,9 @@ def getYieldDataFromADEX(config, token):
     else:
         print(f"Failed to fetch Yield data. Status code: {rs.status_code}")
         print(f"Response content: {rs.text}")
+        with open("output/output.json", "w") as f:
+            # make status code 904 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "904", "status": "Yield Data fetching error"}, f)
 
 def getAPMCDataFromADEX(config, token):
     rs_url = config["APMC_url"]
@@ -322,6 +338,9 @@ def getAPMCDataFromADEX(config, token):
     else:
         print(f"Failed to fetch APMC data. Status code: {rs.status_code}")
         print(f"Response content: {rs.text}")
+        with open("output/output.json", "w") as f:
+            # make status code 905 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "905", "status": "APMC Data fetching error"}, f)
 
 
 def getFarmerData(config, ppb_number, farmer_data_token):
@@ -362,6 +381,9 @@ def getFarmerData(config, ppb_number, farmer_data_token):
 
     except requests.exceptions.RequestException as e:
         print(f"An error occurred while making the request: {e}")
+        with open("output/output.json", "w") as f:
+            # make status code 906 & status as "Error" to indicate that the process has failed
+            json.dump({"status_code": "906", "status": "Rytabandhu Farmer Data fetching error"}, f)
 
 
 #function to set state of enclave

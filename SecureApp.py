@@ -3,6 +3,7 @@ import os
 import PPDX_SDK
 import json
 import shutil
+import app
 
 # Simulate sourcing external scripts -  
 # You'd integrate the necessary functions from setState.sh and profilingStep.sh here 
@@ -42,6 +43,10 @@ def remove_files():
 
 # Start the main process
 if __name__ == "__main__":
+
+    with open("output/output.json", "w") as f:  
+        # make status code 300 & status as "Executing" to indicate that the process has started 
+        json.dump({"status_code": "300"}, f)
     config_file = "config_file.json"
     with open(config_file) as f:
         config = json.load(f)
@@ -101,7 +106,35 @@ if __name__ == "__main__":
     # Executing the application  
     box_out("Running the Application...")
     PPDX_SDK.setState("Computing farmer credit amount in TEE", "Step 4",4,5,address)
-    subprocess.run(["python3", "app.py"])
+    kisaan_loan_amount, consumer_loan_amount = app.main()
+
+    # check if status code is 300 and set it to 000
+    with open("./output/output.json") as f:
+        output = json.load(f)
+        if output["status_code"] == "300":
+            response = {
+                "output": {
+                    "kisaan_loan_amount": kisaan_loan_amount,
+                    "consumer_loan_amount": consumer_loan_amount
+                },
+                "status": "Success",
+                "status_code": "000"  
+            }
+        else:
+            print("Status code: ", output["status_code"])
+            print("Status: ", output["status"])
+            response = {
+                "output": {
+                    "kisaan_loan_amount": 0,
+                    "consumer_loan_amount": 0
+                },
+                "status": output["status"],
+                "status_code": output["status_code"]
+            }
+        with open("./output/output.json", "w") as f:
+            json.dump(response, f)
+
+    print("Output saved to output.json")
 
     # execution completed
     PPDX_SDK.setState("Secure Computation Complete","Step 5",5,5,address)
