@@ -11,6 +11,9 @@
     "FarmerData_itemID": "c5422a0f-e60f-48e4-9d1e-1fa4b1714900",
     "itemType": "resource",
     "role": "consumer",
-    "adex_url" : "<adex_url>", 
+    "APMC_url": "https://rs.ts.adex.org.in/ngsi-ld/v1/entities?id=832e3e20-8bf7-4b48-84f3-28128dea3847&q=id%3D%3D832e3e20-8bf7-4b48-84f3-28128dea3847",
+    "Yield_url": "https://rs.ts.adex.org.in/ngsi-ld/v1/entities?id=6407a6cd-0210-4563-9de9-b95df752a792&q=id%3D%3D6407a6cd-0210-4563-9de9-b95df752a792",
+    "SOF_url": "https://rs.ts.adex.org.in/ngsi-ld/v1/entities?q=id==bee0e5cd-1c05-4501-81db-4068af891ac3&id=bee0e5cd-1c05-4501-81db-4068af891ac3",
+    "adex_url" : "rs.ts.adex.org.in", 
     "farmer_data_url": "https://gateway.adex.org.in/ngsi-ld/v1/temporal/entities"
 }

@@ -1,0 +1,375 @@
+district,crop,season,price
+Adilabad,Arhar/Tur,Kharif,6899.51
+Adilabad,Banana,Whole Year,707.29
+Adilabad,Banana,Kharif,587.0
+Adilabad,Coriander,Kharif,4831.2
+Adilabad,Arhar/Tur,Rabi,7088.74
+Adilabad,Coriander,Rabi,8234.84
+Adilabad,Coriander,Whole Year,9047.6
+Adilabad,Cowpea(Lobia),Rabi,2974.04
+Adilabad,Dry chillies,Kharif,10478.0
+Adilabad,Dry chillies,Rabi,5400.0
+Adilabad,Garlic,Rabi,3103.0
+Adilabad,Ginger,Kharif,587.0
+Adilabad,Gram,Kharif,4254.13
+Adilabad,Gram,Rabi,4281.43
+Adilabad,Groundnut,Rabi,4430.55
+Adilabad,Jowar,Kharif,1951.06
+Adilabad,Maize,Kharif,1793.32
+Adilabad,Jowar,Rabi,1917.67
+Adilabad,Maize,Rabi,1643.86
+Adilabad,Moong(Green Gram),Rabi,7230.26
+Adilabad,Onion,Rabi,1846.21
+Adilabad,Moong(Green Gram),Kharif,4531.73
+Adilabad,Mustard,Rabi,3722.45
+Adilabad,Onion,Kharif,2983.58
+Adilabad,Potato,Rabi,2779.78
+Adilabad,Potato,Kharif,3000.0
+Adilabad,Potato,Whole Year,2800.56
+Adilabad,Rice,Rabi,3000.0
+Adilabad,Safflower,Rabi,5059.38
+Adilabad,Sesamum,Kharif,11042.03
+Adilabad,Soyabean,Kharif,4132.5
+Adilabad,Sunflower,Rabi,5000.66
+Adilabad,Turmeric,Kharif,6311.0
+Adilabad,Sesamum,Rabi,9759.99
+Adilabad,Soyabean,Rabi,4726.07
+Adilabad,Turmeric,Rabi,8855.34
+Adilabad,Urad,Rabi,5658.34
+Adilabad,Wheat,Rabi,1909.41
+Hyderabad,Banana,Whole Year,946.07
+Hyderabad,Coriander,Rabi,7057.48
+Hyderabad,Dry chillies,Rabi,8324.82
+Adilabad,Urad,Kharif,5352.52
+Adilabad,Wheat,Kharif,1815.24
+Hyderabad,Banana,Kharif,1035.68
+Hyderabad,Coriander,Kharif,7285.34
+Hyderabad,Coriander,Whole Year,7192.26
+Hyderabad,Dry chillies,Kharif,8172.72
+Hyderabad,Garlic,Kharif,9205.01
+Hyderabad,Garlic,Rabi,8688.58
+Hyderabad,Groundnut,Rabi,2167.47
+Hyderabad,Groundnut,Kharif,2211.4
+Hyderabad,Maize,Kharif,971.73
+Hyderabad,Maize,Rabi,1092.78
+Hyderabad,Onion,Rabi,1137.1
+Hyderabad,Onion,Kharif,1855.88
+Hyderabad,Potato,Rabi,1569.15
+Hyderabad,Potato,Kharif,1739.51
+Hyderabad,Potato,Whole Year,1541.57
+Hyderabad,Sesamum,Rabi,6000.0
+Hyderabad,Sweet potato,Kharif,1142.32
+Hyderabad,Sweet potato,Whole Year,1257.64
+Hyderabad,Turmeric,Kharif,7097.75
+Karimnagar,Arhar/Tur,Kharif,5320.02
+Hyderabad,Sweet potato,Rabi,1113.65
+Hyderabad,Turmeric,Rabi,8825.75
+Karimnagar,Arhar/Tur,Rabi,6412.24
+Karimnagar,Castor seed,Rabi,3333.92
+Karimnagar,Coriander,Rabi,402.0
+Karimnagar,Cowpea(Lobia),Rabi,4886.16
+Karimnagar,Gram,Rabi,3892.77
+Karimnagar,Groundnut,Rabi,3873.53
+Karimnagar,Jowar,Rabi,2458.05
+Karimnagar,Bajra,Rabi,1246.05
+Karimnagar,Castor seed,Kharif,2808.5
+Karimnagar,Coriander,Kharif,722.93
+Karimnagar,Coriander,Whole Year,1070.2
+Karimnagar,Cowpea(Lobia),Kharif,4457.21
+Karimnagar,Gram,Kharif,4480.79
+Karimnagar,Groundnut,Kharif,3691.21
+Karimnagar,Horse-gram,Rabi,3604.23
+Karimnagar,Jowar,Kharif,1000.0
+Karimnagar,Maize,Kharif,1652.17
+Karimnagar,Maize,Rabi,1696.56
+Karimnagar,Moong(Green Gram),Kharif,5641.9
+Karimnagar,Mustard,Rabi,3482.74
+Karimnagar,Onion,Rabi,300.0
+Karimnagar,Potato,Kharif,2475.0
+Karimnagar,Rice,Kharif,1750.0
+Karimnagar,Safflower,Rabi,2059.0
+Karimnagar,Sesamum,Kharif,11509.01
+Karimnagar,Soyabean,Kharif,3214.67
+Karimnagar,Sunflower,Rabi,3375.0
+Karimnagar,Turmeric,Kharif,3580.75
+Karimnagar,Moong(Green Gram),Rabi,6668.24
+Karimnagar,Potato,Whole Year,2237.66
+Karimnagar,Rice,Rabi,2839.6
+Karimnagar,Sesamum,Rabi,8069.06
+Karimnagar,Soyabean,Rabi,3552.04
+Karimnagar,Turmeric,Rabi,7719.68
+Karimnagar,Urad,Rabi,4788.13
+Karimnagar,Wheat,Rabi,1250.0
+Khammam,Arhar/Tur,Rabi,6700.9
+Khammam,Banana,Whole Year,961.94
+Khammam,Cowpea(Lobia),Rabi,5495.36
+Khammam,Dry chillies,Rabi,10145.17
+Karimnagar,Urad,Kharif,3886.03
+Karimnagar,Wheat,Kharif,1401.47
+Khammam,Arhar/Tur,Kharif,6046.0
+Khammam,Banana,Kharif,1211.18
+Khammam,Cowpea(Lobia),Kharif,4500.0
+Khammam,Dry chillies,Kharif,10522.23
+Khammam,Gram,Kharif,9400.0
+Khammam,Groundnut,Kharif,3868.99
+Khammam,Jowar,Rabi,2432.4
+Khammam,Maize,Kharif,1658.37
+Khammam,Moong(Green Gram),Kharif,5413.33
+Khammam,Onion,Kharif,1967.36
+Khammam,Groundnut,Rabi,4956.64
+Khammam,Maize,Rabi,1671.88
+Khammam,Moong(Green Gram),Rabi,5851.27
+Khammam,Onion,Rabi,802.16
+Khammam,Potato,Rabi,1370.21
+Khammam,Rice,Rabi,3517.99
+Khammam,Urad,Rabi,5732.0
+Khammam,Potato,Kharif,1564.0
+Khammam,Potato,Whole Year,1678.26
+Khammam,Rice,Kharif,4300.07
+Khammam,Safflower,Rabi,3800.0
+Khammam,Sunflower,Rabi,4473.13
+Khammam,Tobacco,Rabi,1034.14
+Khammam,Turmeric,Rabi,5278.35
+Khammam,Urad,Kharif,5591.04
+Mahbubnagar,Arhar/Tur,Kharif,6830.56
+Mahbubnagar,Arhar/Tur,Rabi,6632.73
+Mahbubnagar,Bajra,Rabi,1645.04
+Mahbubnagar,Castor seed,Rabi,4819.22
+Mahbubnagar,Cowpea(Lobia),Rabi,4948.3
+Mahbubnagar,Bajra,Kharif,1712.47
+Mahbubnagar,Castor seed,Kharif,4562.33
+Mahbubnagar,Cowpea(Lobia),Kharif,7225.0
+Mahbubnagar,Dry chillies,Rabi,17001.05
+Mahbubnagar,Gram,Rabi,4401.83
+Mahbubnagar,Groundnut,Rabi,4699.87
+Mahbubnagar,Horse-gram,Rabi,4032.27
+Mahbubnagar,Jowar,Rabi,3068.01
+Mahbubnagar,Maize,Rabi,1682.74
+Mahbubnagar,Moong(Green Gram),Rabi,5878.83
+Mahbubnagar,Dry chillies,Kharif,1334.0
+Mahbubnagar,Gram,Kharif,4995.42
+Mahbubnagar,Groundnut,Kharif,5090.25
+Mahbubnagar,Horse-gram,Kharif,3714.76
+Mahbubnagar,Jowar,Kharif,2879.36
+Mahbubnagar,Maize,Kharif,1703.64
+Mahbubnagar,Masoor,Rabi,3690.0
+Mahbubnagar,Moong(Green Gram),Kharif,5595.59
+Mahbubnagar,Mustard,Rabi,3124.0
+Mahbubnagar,Onion,Kharif,3474.67
+Mahbubnagar,Onion,Rabi,942.54
+Mahbubnagar,Potato,Rabi,1718.15
+Mahbubnagar,Ragi,Rabi,2364.74
+Mahbubnagar,Safflower,Rabi,3850.27
+Mahbubnagar,Potato,Kharif,1959.69
+Mahbubnagar,Potato,Whole Year,1838.92
+Mahbubnagar,Ragi,Kharif,1871.75
+Mahbubnagar,Safflower,Kharif,3929.0
+Mahbubnagar,Sesamum,Kharif,3750.0
+Mahbubnagar,Small millets,Kharif,1278.0
+Mahbubnagar,Soyabean,Kharif,2321.16
+Mahbubnagar,Sunflower,Kharif,3490.78
+Mahbubnagar,Sunflower,Rabi,4535.6
+Mahbubnagar,Sweet potato,Whole Year,1872.22
+Mahbubnagar,Sweet potato,Kharif,1839.23
+Mahbubnagar,Urad,Kharif,6116.72
+Mahbubnagar,Urad,Rabi,5713.57
+Mahbubnagar,Wheat,Rabi,1395.0
+Medak,Arhar/Tur,Kharif,6719.11
+Medak,Arhar/Tur,Rabi,7189.78
+Medak,Bajra,Rabi,1400.0
+Medak,Castor seed,Rabi,4041.68
+Medak,Bajra,Kharif,1937.8
+Medak,Castor seed,Kharif,3250.61
+Medak,Coriander,Kharif,5335.67
+Medak,Coriander,Rabi,5426.97
+Medak,Coriander,Whole Year,8002.67
+Medak,Cowpea(Lobia),Kharif,5342.58
+Medak,Cowpea(Lobia),Rabi,5392.87
+Medak,Dry chillies,Rabi,18600.0
+Medak,Gram,Kharif,4061.7
+Medak,Gram,Rabi,4527.4
+Medak,Groundnut,Rabi,4108.44
+Medak,Horse-gram,Rabi,5208.5
+Medak,Groundnut,Kharif,4160.79
+Medak,Horse-gram,Kharif,3578.92
+Medak,Jowar,Kharif,2175.24
+Medak,Jowar,Rabi,2180.81
+Medak,Maize,Kharif,1740.92
+Medak,Maize,Rabi,1708.02
+Medak,Moong(Green Gram),Rabi,5790.71
+Medak,Moong(Green Gram),Kharif,5787.73
+Medak,Onion,Kharif,2135.44
+Medak,Potato,Kharif,1668.04
+Medak,Onion,Rabi,1353.73
+Medak,Potato,Rabi,1542.25
+Medak,Potato,Whole Year,1551.97
+Medak,Safflower,Rabi,3996.16
+Medak,Sesamum,Rabi,9959.04
+Medak,Ragi,Rabi,1538.0
+Medak,Rice,Rabi,2250.0
+Medak,Safflower,Kharif,4287.84
+Medak,Sesamum,Kharif,9935.75
+Medak,Soyabean,Rabi,4731.86
+Medak,Sunflower,Rabi,3667.73
+Medak,Soyabean,Kharif,3946.89
+Medak,Sunflower,Kharif,3782.31
+Medak,Sweet potato,Kharif,1000.0
+Medak,Sweet potato,Rabi,1095.71
+Medak,Turmeric,Rabi,9150.62
+Medak,Sweet potato,Whole Year,1053.1
+Medak,Turmeric,Kharif,5971.7
+Medak,Urad,Rabi,5142.99
+Medak,Wheat,Rabi,1754.2
+Nalgonda,Arhar/Tur,Rabi,6223.83
+Nalgonda,Bajra,Rabi,1859.0
+Medak,Urad,Kharif,5956.36
+Medak,Wheat,Kharif,1931.99
+Nalgonda,Arhar/Tur,Kharif,6191.26
+Nalgonda,Bajra,Kharif,1613.45
+Nalgonda,Castor seed,Kharif,3649.05
+Nalgonda,Castor seed,Rabi,4262.82
+Nalgonda,Cowpea(Lobia),Kharif,4845.22
+Nalgonda,Groundnut,Kharif,4560.32
+Nalgonda,Horse-gram,Kharif,3552.18
+Nalgonda,Cowpea(Lobia),Rabi,5045.75
+Nalgonda,Groundnut,Rabi,4383.02
+Nalgonda,Horse-gram,Rabi,3747.45
+Nalgonda,Jowar,Rabi,2466.06
+Nalgonda,Maize,Rabi,1597.72
+Nalgonda,Moong(Green Gram),Rabi,5174.13
+Nalgonda,Jowar,Kharif,2282.97
+Nalgonda,Maize,Kharif,1491.04
+Nalgonda,Moong(Green Gram),Kharif,5317.06
+Nalgonda,Onion,Kharif,3209.7
+Nalgonda,Potato,Kharif,2872.33
+Nalgonda,Potato,Whole Year,2633.58
+Nalgonda,Rice,Kharif,3000.0
+Nalgonda,Sesamum,Kharif,4876.9
+Nalgonda,Sunflower,Rabi,3320.0
+Nalgonda,Urad,Kharif,4818.63
+Nizamabad,Arhar/Tur,Kharif,3951.53
+Nizamabad,Bajra,Kharif,1545.69
+Nizamabad,Banana,Kharif,898.44
+Nalgonda,Onion,Rabi,1753.64
+Nalgonda,Potato,Rabi,2353.11
+Nalgonda,Sesamum,Rabi,6829.65
+Nalgonda,Urad,Rabi,6146.28
+Nizamabad,Arhar/Tur,Rabi,4180.73
+Nizamabad,Bajra,Rabi,1585.5
+Nizamabad,Banana,Whole Year,980.17
+Nizamabad,Castor seed,Rabi,3530.42
+Nizamabad,Castor seed,Kharif,2607.0
+Nizamabad,Coriander,Kharif,5373.89
+Nizamabad,Coriander,Rabi,6807.68
+Nizamabad,Dry chillies,Rabi,6600.0
+Nizamabad,Gram,Rabi,3443.7
+Nizamabad,Groundnut,Rabi,3771.78
+Nizamabad,Horse-gram,Rabi,1900.0
+Nizamabad,Jowar,Rabi,1260.51
+Nizamabad,Coriander,Whole Year,5864.22
+Nizamabad,Dry chillies,Kharif,14501.0
+Nizamabad,Garlic,Rabi,1715.07
+Nizamabad,Gram,Kharif,3899.33
+Nizamabad,Groundnut,Kharif,3136.89
+Nizamabad,Horse-gram,Kharif,4653.13
+Nizamabad,Jowar,Kharif,1386.33
+Nizamabad,Maize,Kharif,1680.51
+Nizamabad,Maize,Rabi,1657.66
+Nizamabad,Moong(Green Gram),Kharif,5236.7
+Nizamabad,Moong(Green Gram),Rabi,5529.44
+Nizamabad,Mustard,Rabi,3946.64
+Nizamabad,Onion,Kharif,1781.06
+Nizamabad,Onion,Rabi,1011.21
+Nizamabad,Potato,Whole Year,1100.0
+Nizamabad,Potato,Kharif,1100.0
+Nizamabad,Rice,Kharif,3176.65
+Nizamabad,Safflower,Kharif,2200.0
+Nizamabad,Rice,Rabi,3905.95
+Nizamabad,Safflower,Rabi,2858.82
+Nizamabad,Sesamum,Kharif,11041.96
+Nizamabad,Soyabean,Kharif,3804.16
+Nizamabad,Sunflower,Kharif,4192.16
+Nizamabad,Sesamum,Rabi,9608.67
+Nizamabad,Soyabean,Rabi,4350.59
+Nizamabad,Sunflower,Rabi,3068.26
+Nizamabad,Turmeric,Rabi,9751.49
+Nizamabad,Urad,Rabi,6662.07
+Nizamabad,Wheat,Rabi,1475.41
+Nizamabad,Turmeric,Kharif,6880.24
+Nizamabad,Urad,Kharif,5124.42
+Nizamabad,Wheat,Kharif,1466.47
+Ranga Reddy,Arhar/Tur,Rabi,7726.26
+Ranga Reddy,Gram,Rabi,4437.2
+Ranga Reddy,Groundnut,Rabi,5141.48
+Ranga Reddy,Arhar/Tur,Kharif,6961.77
+Ranga Reddy,Bajra,Rabi,1175.0
+Ranga Reddy,Coriander,Whole Year,200.0
+Ranga Reddy,Gram,Kharif,4228.9
+Ranga Reddy,Groundnut,Kharif,5158.28
+Ranga Reddy,Horse-gram,Kharif,4825.0
+Ranga Reddy,Jowar,Kharif,2008.48
+Ranga Reddy,Jowar,Rabi,2777.96
+Ranga Reddy,Maize,Rabi,1711.36
+Ranga Reddy,Moong(Green Gram),Rabi,5832.7
+Ranga Reddy,Maize,Kharif,1653.51
+Ranga Reddy,Moong(Green Gram),Kharif,6088.72
+Ranga Reddy,Onion,Kharif,1883.15
+Ranga Reddy,Onion,Rabi,1558.51
+Ranga Reddy,Potato,Kharif,1375.4
+Ranga Reddy,Potato,Whole Year,1515.45
+Ranga Reddy,Ragi,Kharif,2085.52
+Ranga Reddy,Rice,Kharif,3056.43
+Ranga Reddy,Safflower,Rabi,3973.59
+Ranga Reddy,Sesamum,Kharif,5419.46
+Ranga Reddy,Soyabean,Kharif,3921.28
+Ranga Reddy,Sunflower,Rabi,2839.0
+Ranga Reddy,Sweet potato,Kharif,2293.21
+Ranga Reddy,Potato,Rabi,1526.36
+Ranga Reddy,Ragi,Rabi,1908.96
+Ranga Reddy,Soyabean,Rabi,4640.05
+Ranga Reddy,Sweet potato,Rabi,2096.11
+Ranga Reddy,Turmeric,Rabi,9475.18
+Ranga Reddy,Urad,Rabi,5735.95
+Ranga Reddy,Sweet potato,Whole Year,2438.65
+Ranga Reddy,Turmeric,Kharif,6133.61
+Ranga Reddy,Urad,Kharif,6336.36
+Warangal,Arhar/Tur,Kharif,6376.57
+Warangal,Bajra,Kharif,1825.0
+Warangal,Banana,Kharif,2863.47
+Warangal,Arhar/Tur,Rabi,6645.2
+Warangal,Banana,Whole Year,2878.86
+Warangal,Castor seed,Rabi,4110.54
+Warangal,Coriander,Whole Year,6572.62
+Warangal,Castor seed,Kharif,4187.01
+Warangal,Coriander,Rabi,5116.69
+Warangal,Cowpea(Lobia),Kharif,4606.67
+Warangal,Cowpea(Lobia),Rabi,5456.12
+Warangal,Dry chillies,Kharif,11860.1
+Warangal,Gram,Kharif,5651.92
+Warangal,Dry chillies,Rabi,12773.01
+Warangal,Gram,Rabi,5338.94
+Warangal,Groundnut,Kharif,5024.2
+Warangal,Groundnut,Rabi,4690.85
+Warangal,Horse-gram,Rabi,3569.0
+Warangal,Jowar,Kharif,1127.03
+Warangal,Jowar,Rabi,2317.76
+Warangal,Maize,Kharif,1748.46
+Warangal,Maize,Rabi,1672.1
+Warangal,Moong(Green Gram),Kharif,5264.29
+Warangal,Mustard,Rabi,3797.71
+Warangal,Onion,Kharif,3514.82
+Warangal,Potato,Kharif,2375.78
+Warangal,Moong(Green Gram),Rabi,5933.35
+Warangal,Onion,Rabi,2524.8
+Warangal,Potato,Rabi,2277.31
+Warangal,Potato,Whole Year,2405.83
+Warangal,Sesamum,Kharif,9294.38
+Warangal,Soyabean,Kharif,3346.65
+Warangal,Sesamum,Rabi,8865.01
+Warangal,Soyabean,Rabi,3175.73
+Warangal,Sunflower,Rabi,4438.69
+Warangal,Sunflower,Kharif,4780.34
+Warangal,Turmeric,Kharif,5978.07
+Warangal,Urad,Kharif,4415.2
+Warangal,Turmeric,Rabi,9400.42
+Warangal,Urad,Rabi,6037.92

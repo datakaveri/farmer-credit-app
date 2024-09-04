@@ -82,16 +82,14 @@ if __name__ == "__main__":
     print("\nStep 7")
     box_out("Sending JWT to APD for verification...")
     PPDX_SDK.setState("Step 7","Sending JWT to APD for verification...",7,10,address)
-    PPDX_SDK.getAttestationToken(config)
+    attestationToken = PPDX_SDK.getAttestationToken(config)
     print("Attestation token received from APD")
 
     # Call APD for getting ADEX data access tokens
-    PPDX_SDK.getYieldDataToken(config)
-    PPDX_SDK.getAPMCDataToken(config)
-    PPDX_SDK.getSOFDataToken(config)
+    adexDataToken = PPDX_SDK.getADEXDataAccessTokens(config)
 
     # Call APD for getting Rythabandhu data access token
-    PPDX_SDK.getFarmerDataToken(config, ppb_number)
+    farmerDataToken = PPDX_SDK.getFarmerDataToken(config, ppb_number)
 
     # Step 8 - Getting files from RS
     print("\nStep 8")
@@ -99,10 +97,12 @@ if __name__ == "__main__":
     PPDX_SDK.setState("Step 8","Getting files from RS...",8,10,address)
 
     # getting files from ADEX
-    PPDX_SDK.getFilesFromResourceServer(config)
+    PPDX_SDK.getSOFDataFromADEX(config, adexDataToken)
+    PPDX_SDK.getYieldDataFromADEX(config, adexDataToken)
+    PPDX_SDK.getAPMCDataFromADEX(config, adexDataToken)
 
     # getting Rytabandhu farmer data
-    PPDX_SDK.getFarmerData(config, ppb_number)
+    PPDX_SDK.getFarmerData(config, ppb_number, farmerDataToken, attestationToken)
 
     # Executing the application  
     print("\nStep 9")

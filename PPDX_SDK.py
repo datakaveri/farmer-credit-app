@@ -13,6 +13,7 @@ import requests
 import _pickle as pickle
 import urllib
 import urllib.parse
+import csv
 
 def pull_compose_file(url, filename='docker-compose.yml'):
     try:
@@ -160,112 +161,36 @@ def getAttestationToken(config):
         jsonResponse=r.json()
         token=jsonResponse.get('results').get('accessToken')
         print(token)
-
-        # create tokens.json in the same directory & append to it as attestationToken
-        with open('tokens.json', 'w') as file:
-            json.dump({"attestationToken": token}, file)
-        print("Attestation token written to tokens.json file.")
-    
+        return token
     else:
         print("Attestation Token fetching failed.", r.text)
         sys.exit() 
 
-def getYieldDataToken(config):
-
+def getADEXDataAccessTokens(config):
     auth_server_url=config["auth_server_url"]
-    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
-
-    data={
-        "itemId": config["yieldData_itemID"],
-        "itemType": config["itemType"],
+    headers = {
+        "clientId": config["clientId"],
+        "clientSecret": config["clientSecret"],
+        "Content-Type": "application/json"
+    }
+    data = {
+        "itemId": config["adex_url"],
+        "itemType": "resource_server",
         "role": config["role"]
     }
-    
-    dataJson=json.dumps(data)
-    r= requests.post(auth_server_url,headers=headers,data=dataJson)
 
-    if(r.status_code==200):
+    dataJson = json.dumps(data)
+    r = requests.post(auth_server_url, headers=headers, data=dataJson)
+
+    if r.status_code == 200:
         print("Token verified and Token recieved.")
-        jsonResponse=r.json()
-        token=jsonResponse.get('results').get('accessToken')
+        jsonResponse = r.json()
+        token = jsonResponse.get('results').get('accessToken')
         print(token)
-
-        # append yield data access token to tokens.json file
-        with open('tokens.json', 'r') as file:
-            tokens = json.load(file)
-            tokens["yieldDataToken"] = token
-        with open('tokens.json', 'w') as file:
-            json.dump(tokens, file)
-        print("Yield data access Token written to tokens.json file.")
-    
+        return token
     else:
-        print("Yield data access Token fetching failed.", r.text)
-        sys.exit() 
-
-def getAPMCDataToken(config):
-
-    auth_server_url=config["auth_server_url"]
-    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
-
-    data={
-        "itemId": config["APMCData_itemID"],
-        "itemType": config["itemType"],
-        "role": config["role"]
-    }
-    
-    dataJson=json.dumps(data)
-    r= requests.post(auth_server_url,headers=headers,data=dataJson)
-
-    if(r.status_code==200):
-        print("Token verified and Token recieved.")
-        jsonResponse=r.json()
-        token=jsonResponse.get('results').get('accessToken')
-        print(token)
-
-        # append APMC data access token to tokens.json file
-        with open('tokens.json', 'r') as file:
-            tokens = json.load(file)
-            tokens["APMCDataToken"] = token
-        with open('tokens.json', 'w') as file:
-            json.dump(tokens, file)
-        print("APMC data access Token written to tokens.json file.")
-    
-    else:
-        print("APMC data access Token fetching failed.", r.text)
-        sys.exit() 
-
-
-def getSOFDataToken(config):
-
-    auth_server_url=config["auth_server_url"]
-    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
-
-    data={
-        "itemId": config["SOFData_itemID"],
-        "itemType": config["itemType"],
-        "role": config["role"]
-    }
-    
-    dataJson=json.dumps(data)
-    r= requests.post(auth_server_url,headers=headers,data=dataJson)
-
-    if(r.status_code==200):
-        print("Token verified and Token recieved.")
-        jsonResponse=r.json()
-        token=jsonResponse.get('results').get('accessToken')
-        print(token)
-
-        # append SOF data access token to tokens.json file
-        with open('tokens.json', 'r') as file:
-            tokens = json.load(file)
-            tokens["SOFDataToken"] = token
-        with open('tokens.json', 'w') as file:
-            json.dump(tokens, file)
-        print("SOF data access Token written to tokens.json file.")
-    
-    else:
-        print("SOF data access Token fetching failed.", r.text)
-        sys.exit() 
+        print("ADEX data access Token fetching failed.", r.text)
+        sys.exit()
 
 
 def getFarmerDataToken(config, ppb_number):
@@ -307,31 +232,101 @@ def getFarmerDataToken(config, ppb_number):
 
 
 #Send token to resource server for verification & get encrypted images  
-def getFilesFromResourceServer(config):
-    rs_url = config["adex_url"]
-
-    # get all access tokens from tokens.json
-    with open("tokens.json", "r") as file:
-        tokens = json.load(file)
-        token = tokens["attestationToken"]
-        yieldDataToken = tokens["yieldDataToken"]
-        APMCDataToken = tokens["APMCDataToken"]
-        SOFDataToken = tokens["SOFDataToken"]
-    
-    # Get individual data & store in data/
-
-    rs_headers={'Authorization': f'Bearer {token}'}
-    rs=requests.get(rs_url,headers=rs_headers)
+def getSOFDataFromADEX(config, token):
+    rs_url = config["SOF_url"]
+    headers = {
+        "token": token,
+        "Content-Type": "application/json"  
+    }
+    rs=requests.get(rs_url,headers=headers)
     if rs.status_code == 200:
-        print("Token authenticated and Encrypted images received.")
-        loadedDict = pickle.loads(rs.content)
-        # Write the loadedDict to a file
-        with open("loadedDict.pkl", "wb") as file:
-            pickle.dump(loadedDict, file)
-        print("loadedDict written to loadedDict.pkl file.")
+        print("SOF data fetched successfully.")
+        print("Response content: ", rs.text)
+
+        # extract the results dictionary from response & store it in SOF_data.json in data folder
+        jsonResponse = rs.json()
+        results = jsonResponse.get('results')
+        filtered_data = [item for item in results if item['evaluationYear'] == "2024-2025"]
+
+        # if SOF_data.csv exists, delete it
+
+        with open('data/SOF_data.csv', 'w', newline='') as csvfile:
+            # Define the CSV field names
+            fieldnames = ['Crop', 'maxSOF']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for item in filtered_data:
+                writer.writerow({'Crop': item['cropNameCommon'], 'maxSOF': item['maxSOF']})
+        print("SOF data written to SOF_data.csv file.")
     else:
-        print("Token authentication failed.",rs.text)
-        sys.exit()
+        print(f"Failed to fetch SOF data. Status code: {rs.status_code}")
+        print(f"Response content: {rs.text}")
+
+def getYieldDataFromADEX(config, token):
+    rs_url = config["Yield_url"]
+    headers = {
+        "token": token,
+        "Content-Type": "application/json"  
+    }
+    rs=requests.get(rs_url,headers=headers)
+    if rs.status_code == 200:
+        print("Yield data fetched successfully.")
+        print("Response content: ", rs.text)
+
+        # extract the results dictionary from response & store it in SOF_data.json in data folder
+        jsonResponse = rs.json()
+        results = jsonResponse.get('results')
+        print(results)
+        # with open('data/Yield_data.json', 'w') as file:
+        #     json.dump(results, file)
+        filtered_data = [item for item in results if item['year'] == 2024]
+
+        # if Yield_data.csv exists, delete it
+
+        with open('data/Yield_data.csv', 'w', newline='') as csvfile:
+            # Define the CSV field names
+            fieldnames = ['district', 'crop', 'season', 'yield']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for item in filtered_data:
+                writer.writerow({'district' : item['districtName'], 'crop': item['commodityName'], 'season': item['cropSeason'], 'yield': item['targetYield']})
+        print("Yield data written to Yield_data.csv file.")
+    else:
+        print(f"Failed to fetch Yield data. Status code: {rs.status_code}")
+        print(f"Response content: {rs.text}")
+
+def getAPMCDataFromADEX(config, token):
+    rs_url = config["APMC_url"]
+    headers = {
+        "token": token,
+        "Content-Type": "application/json"  
+    }
+    rs=requests.get(rs_url,headers=headers)
+    if rs.status_code == 200:
+        print("APMC data fetched successfully.")
+        print("Response content: ", rs.text)
+
+        # extract the results dictionary from response & store it in SOF_data.json in data folder
+        jsonResponse = rs.json()
+        results = jsonResponse.get('results')
+        print(results)
+        # with open('data/APMC_data.json', 'w') as file:
+        #     json.dump(results, file)
+        filtered_data = [item for item in results if item['year'] == 2025]
+
+        # if APMC_data.csv exists, delete it
+
+        with open('data/APMC_data.csv', 'w', newline='') as csvfile:
+            # Define the CSV field names
+            fieldnames = ['district', 'crop', 'season', 'price']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for item in filtered_data:
+                writer.writerow({'district' : item['districtName'], 'crop': item['commodityName'], 'season': item['cropSeason'], 'price': item['totalPrice']})
+        print("APMC data written to APMC_data.csv file.")
+    else:
+        print(f"Failed to fetch APMC data. Status code: {rs.status_code}")
+        print(f"Response content: {rs.text}")
 
 
 def getFarmerData(config, ppb_number):
