@@ -43,16 +43,17 @@ def remove_files():
 
 # Start the main process
 if __name__ == "__main__":
-
+    
+    remove_files()
+    
     with open("output/output.json", "w") as f:  
         # make status code 300 & status as "Executing" to indicate that the process has started 
         json.dump({"status_code": "300"}, f)
+
     config_file = "config_file.json"
     with open(config_file) as f:
         config = json.load(f)
     address = config["address"]
-    
-    remove_files()
 
     # read the json context file stored in the context folder
     json_context = "./UIcontext/context.json"
@@ -109,7 +110,7 @@ if __name__ == "__main__":
     kisaan_loan_amount, consumer_loan_amount = app.main()
 
     # check if status code is 300 and set it to 000
-    with open("./output/output.json") as f:
+    with open("output/output.json") as f:
         output = json.load(f)
         if output["status_code"] == "300":
             response = {

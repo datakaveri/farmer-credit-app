@@ -244,7 +244,6 @@ def getSOFDataFromADEX(config, token):
     rs=requests.get(rs_url,headers=headers)
     if rs.status_code == 200:
         print("SOF data fetched successfully.")
-        print("Response content: ", rs.text)
 
         # extract the results dictionary from response & store it in SOF_data.json in data folder
         jsonResponse = rs.json()
@@ -279,7 +278,6 @@ def getYieldDataFromADEX(config, token):
     rs=requests.get(rs_url,headers=headers)
     if rs.status_code == 200:
         print("Yield data fetched successfully.")
-        print("Response content: ", rs.text)
 
         # extract the results dictionary from response & store it in SOF_data.json in data folder
         jsonResponse = rs.json()
@@ -315,7 +313,6 @@ def getAPMCDataFromADEX(config, token):
     rs=requests.get(rs_url,headers=headers)
     if rs.status_code == 200:
         print("APMC data fetched successfully.")
-        print("Response content: ", rs.text)
 
         # extract the results dictionary from response & store it in SOF_data.json in data folder
         jsonResponse = rs.json()

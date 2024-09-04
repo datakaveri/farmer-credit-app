@@ -3,7 +3,7 @@
     "crop" : "Coriander",
     "district" : "Adilabad",
     "season": "Rabi",
-    "crop_area": 5,
+    "crop_area": 0.05,
     "land_type" : "Irr",
     "sha_digest": "hf8"
 }

@@ -131,7 +131,9 @@ def main():
     else:
         consumer_loan_amount = lac.calcConsumerLoan(predicted_yield, total_crop_cost, crop_price)
     print("Consumer loan amount: Rs. ", consumer_loan_amount)
+
     print("********* Farmer Credit System EXIT ********")
+    return kisaan_loan_amount, consumer_loan_amount
 
 
 if __name__ == "__main__":
