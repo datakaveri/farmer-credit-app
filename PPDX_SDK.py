@@ -137,7 +137,7 @@ def execute_guest_attestation():
 #APD verifies quote and releases token
 def getAttestationToken(config):
 
-    auth_server_url=config["auth_server_url"]
+    auth_server_url=config["apd_url"]
     headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
 
     with open('keys/jwt-response.txt', 'r') as file:
@@ -157,7 +157,7 @@ def getAttestationToken(config):
     r= requests.post(auth_server_url,headers=headers,data=dataJson)
 
     if(r.status_code==200):
-        print("Token verified and Token recieved.")
+        print("Attestation Token verified and Token recieved.")
         jsonResponse=r.json()
         token=jsonResponse.get('results').get('accessToken')
         print(token)
@@ -183,7 +183,7 @@ def getADEXDataAccessTokens(config):
     r = requests.post(auth_server_url, headers=headers, data=dataJson)
 
     if r.status_code == 200:
-        print("Token verified and Token recieved.")
+        print("ADEX Data access Token verified and Token recieved.")
         jsonResponse = r.json()
         token = jsonResponse.get('results').get('accessToken')
         print(token)
@@ -212,19 +212,12 @@ def getFarmerDataToken(config, ppb_number):
     r= requests.post(auth_server_url,headers=headers,data=dataJson)
 
     if(r.status_code==200):
-        print("Token verified and Token recieved.")
+        print("Rytabandhu Consent Token verified and Token recieved.")
         jsonResponse=r.json()
         token=jsonResponse.get('results').get('accessToken')
         print(token)
 
-        # append SOF data access token to tokens.json file
-        with open('tokens.json', 'r') as file:
-            tokens = json.load(file)
-            tokens["FarmerDataToken"] = token
-        
-        with open('tokens.json', 'w') as file:
-            json.dump(tokens, file)
-        print("Farmer data access Token written to tokens.json file.")
+        return token 
     
     else:
         print("Farmer data access Token fetching failed.", r.text)
@@ -249,8 +242,10 @@ def getSOFDataFromADEX(config, token):
         filtered_data = [item for item in results if item['evaluationYear'] == "2024-2025"]
 
         # if SOF_data.csv exists, delete it
-
-        with open('data/SOF_data.csv', 'w', newline='') as csvfile:
+        file_path = 'data/SOF_data.csv'
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        with open(file_path, 'w', newline='') as csvfile:
             # Define the CSV field names
             fieldnames = ['Crop', 'maxSOF']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -276,14 +271,14 @@ def getYieldDataFromADEX(config, token):
         # extract the results dictionary from response & store it in SOF_data.json in data folder
         jsonResponse = rs.json()
         results = jsonResponse.get('results')
-        print(results)
         # with open('data/Yield_data.json', 'w') as file:
         #     json.dump(results, file)
         filtered_data = [item for item in results if item['year'] == 2024]
 
-        # if Yield_data.csv exists, delete it
-
-        with open('data/Yield_data.csv', 'w', newline='') as csvfile:
+        file_path = 'data/Yield_data.csv'
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        with open(file_path, 'w', newline='') as csvfile:
             # Define the CSV field names
             fieldnames = ['district', 'crop', 'season', 'yield']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -309,14 +304,14 @@ def getAPMCDataFromADEX(config, token):
         # extract the results dictionary from response & store it in SOF_data.json in data folder
         jsonResponse = rs.json()
         results = jsonResponse.get('results')
-        print(results)
         # with open('data/APMC_data.json', 'w') as file:
         #     json.dump(results, file)
         filtered_data = [item for item in results if item['year'] == 2025]
 
-        # if APMC_data.csv exists, delete it
-
-        with open('data/APMC_data.csv', 'w', newline='') as csvfile:
+        file_path = 'data/APMC_data.csv'
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        with open(file_path, 'w', newline='') as csvfile:
             # Define the CSV field names
             fieldnames = ['district', 'crop', 'season', 'price']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -329,7 +324,7 @@ def getAPMCDataFromADEX(config, token):
         print(f"Response content: {rs.text}")
 
 
-def getFarmerData(config, ppb_number):
+def getFarmerData(config, ppb_number, farmer_data_token):
     # Define the URL and parameters
     url = config["farmer_data_url"]
     params = {
@@ -340,14 +335,9 @@ def getFarmerData(config, ppb_number):
         "timerel": "during"
     }
 
-    # read farmer data token from tokens.json
-    with open('tokens.json', 'r') as file:
-        tokens = json.load(file)
-        token = tokens["FarmerDataToken"]
-
     # Define the headers
     headers = {
-        "token": token
+        "token": farmer_data_token
     }
 
     try:
@@ -357,14 +347,16 @@ def getFarmerData(config, ppb_number):
         # Check if the request was successful
         if response.status_code == 200:
             print("Farmer data fetched successfully.")
-            # Ensure the 'data' directory exists
-            os.makedirs("data", exist_ok=True)
+            
+            file_path = "data/farmer_data.json"
+            if os.path.exists(file_path):
+                os.remove(file_path)
+
             # Write the response content to a file
-            with open("data/farmer_data.json", "wb") as file:
+            with open(file_path, "wb") as file:
                 file.write(response.content)
             print("Farmer data written to farmer_data.json file.")
         else:
-            # Handle non-200 status codes
             print(f"Failed to fetch farmer data. Status code: {response.status_code}")
             print(f"Response content: {response.text}")
 

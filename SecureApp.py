@@ -58,34 +58,32 @@ if __name__ == "__main__":
     ppb_number = context["ppb_number"]
 
     # Step 4 - Key generation
-    print("\nStep 4") 
     box_out("Generating and saving key pair...")
     PPDX_SDK.setState("TEE Attestation & Authorisation", "Step 2",2,5,address)
     PPDX_SDK.generate_and_save_key_pair()
     print("Key pair generated and saved")
 
     # Step 5 - storing image digest in vTPM
-    print("\nStep 5")
     box_out("Measuring Docker image into vTPM...")
     PPDX_SDK.measureDockervTPM(sha_digest)
     print("Measured and stored in vTPM")
 
     # Step 6 - Send VTPM & public key to MAA & get attestation token
-    print("\nStep 6")
     box_out("Guest Attestation Executing...")
     PPDX_SDK.execute_guest_attestation()
     print("Guest Attestation complete. JWT received from MAA")
 
-    # Step 6 - Send the JWT to APD
-    print("\nStep 7")
+    # Step 7 - Send the JWT to APD
     box_out("Sending JWT to APD for verification...")
-    attestationToken = PPDX_SDK.getAttestationToken(config)
+    #attestationToken = PPDX_SDK.getAttestationToken(config)
     print("Attestation token received from APD")
 
-    # Call APD for getting ADEX data access tokens
+    # Call APD for getting ADEX data access token
+    print("Getting ADEX data access token")
     adexDataToken = PPDX_SDK.getADEXDataAccessTokens(config)
 
     # Call APD for getting Rythabandhu data access token
+    print("Getting Rytabandhu consent token")
     farmerDataToken = PPDX_SDK.getFarmerDataToken(config, ppb_number)
 
     # Step 8 - Getting files from RS
@@ -98,7 +96,7 @@ if __name__ == "__main__":
     PPDX_SDK.getAPMCDataFromADEX(config, adexDataToken)
 
     # getting Rytabandhu farmer data
-    PPDX_SDK.getFarmerData(config, ppb_number, farmerDataToken, attestationToken)
+    PPDX_SDK.getFarmerData(config, ppb_number, farmerDataToken)
 
     # Executing the application  
     box_out("Running the Application...")

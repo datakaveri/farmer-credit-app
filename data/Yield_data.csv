@@ -1,482 +1,8 @@
 district,crop,season,yield
 Adilabad,Arhar/Tur,Kharif,1.02
 Adilabad,Bajra,Kharif,1.21
-Komaram bheem asifabad,Coriander,Kharif,1.0
-Komaram bheem asifabad,Cowpea(Lobia),Kharif,0.72
-Komaram bheem asifabad,Castor seed,Kharif,0.87
-Komaram bheem asifabad,Coriander,Rabi,0.82
-Komaram bheem asifabad,Cowpea(Lobia),Rabi,0.98
-Komaram bheem asifabad,Dry chillies,Kharif,4.46
-Komaram bheem asifabad,Dry chillies,Rabi,5.72
-Komaram bheem asifabad,Gram,Rabi,1.34
-Komaram bheem asifabad,Groundnut,Kharif,2.12
-Komaram bheem asifabad,Horse-gram,Kharif,1.27
-Komaram bheem asifabad,Jowar,Kharif,0.65
-Komaram bheem asifabad,Groundnut,Rabi,2.26
-Komaram bheem asifabad,Horse-gram,Rabi,0.6
-Komaram bheem asifabad,Jowar,Rabi,0.89
-Komaram bheem asifabad,Maize,Kharif,3.08
-Komaram bheem asifabad,Moong(Green Gram),Kharif,0.53
-Komaram bheem asifabad,Onion,Kharif,17.8
-Komaram bheem asifabad,Ragi,Kharif,1.29
-Komaram bheem asifabad,Maize,Rabi,5.78
-Komaram bheem asifabad,Moong(Green Gram),Rabi,1.11
-Komaram bheem asifabad,Onion,Rabi,30.11
-Komaram bheem asifabad,Potato,Rabi,21.0
-Komaram bheem asifabad,Ragi,Rabi,1.75
-Komaram bheem asifabad,Rice,Kharif,2.31
-Khammam,Groundnut,Kharif,1.99
-Khammam,Horse-gram,Kharif,1.5
-Khammam,Groundnut,Rabi,2.12
-Khammam,Horse-gram,Rabi,1.45
-Khammam,Jowar,Kharif,0.93
-Khammam,Jowar,Rabi,1.69
-Khammam,Maize,Rabi,7.57
-Khammam,Maize,Kharif,4.45
-Khammam,Moong(Green Gram),Kharif,0.41
-Khammam,Moong(Green Gram),Rabi,0.84
-Khammam,Oilseeds total,Kharif,18.89
-Khammam,Onion,Kharif,14.88
-Khammam,Oilseeds total,Rabi,2.57
-Khammam,Onion,Rabi,30.07
-Khammam,Ragi,Kharif,1.5
-Khammam,Rice,Kharif,3.2
-Khammam,Rapeseed &Mustard,Rabi,1.0
-Khammam,Rice,Rabi,3.38
-Khammam,Safflower,Rabi,1.0
-Khammam,Sesamum,Kharif,0.23
-Khammam,Small millets,Kharif,1.1
-Khammam,Sesamum,Rabi,0.46
-Khammam,Small millets,Rabi,1.52
-Komaram bheem asifabad,Sesamum,Kharif,0.21
-Komaram bheem asifabad,Small millets,Kharif,1.38
-Komaram bheem asifabad,Soyabean,Kharif,1.26
-Komaram bheem asifabad,Sunflower,Kharif,0.8
-Komaram bheem asifabad,Sweet potato,Kharif,16.0
-Komaram bheem asifabad,Rice,Rabi,3.0
-Komaram bheem asifabad,Safflower,Rabi,0.94
-Komaram bheem asifabad,Sesamum,Rabi,0.65
-Komaram bheem asifabad,Small millets,Rabi,1.0
-Komaram bheem asifabad,Soyabean,Rabi,1.25
-Komaram bheem asifabad,Sugarcane,Kharif,93.12
-Komaram bheem asifabad,Sunflower,Rabi,1.98
-Komaram bheem asifabad,Sweet potato,Rabi,11.64
-Komaram bheem asifabad,Turmeric,Rabi,7.67
-Komaram bheem asifabad,Turmeric,Kharif,6.03
-Komaram bheem asifabad,Urad,Rabi,1.34
-Komaram bheem asifabad,Urad,Kharif,0.66
-Komaram bheem asifabad,Wheat,Rabi,1.83
-Mahabubabad,Arhar/Tur,Rabi,0.88
-Mahabubabad,Bajra,Rabi,2.29
-Mahabubabad,Arhar/Tur,Kharif,0.75
-Khammam,Soyabean,Kharif,1.4
-Khammam,Soyabean,Rabi,1.2
-Khammam,Sugarcane,Kharif,85.65
-Khammam,Sweet potato,Kharif,7.5
-Khammam,Tobacco,Kharif,2.52
-Khammam,Sunflower,Rabi,1.83
-Khammam,Sweet potato,Rabi,10.69
-Khammam,Tobacco,Rabi,3.74
-Khammam,Urad,Kharif,0.71
-Khammam,Turmeric,Kharif,6.13
-Khammam,Urad,Rabi,1.16
-Khammam,other oilseeds,Kharif,19.97
-Komaram bheem asifabad,Arhar/Tur,Kharif,1.06
-Komaram bheem asifabad,Arhar/Tur,Rabi,0.96
-Komaram bheem asifabad,Bajra,Kharif,1.44
-Komaram bheem asifabad,Banana,Kharif,49.7
-Komaram bheem asifabad,Cashewnut,Kharif,0.45
-Khammam,Castor seed,Kharif,0.5
-Khammam,Cowpea(Lobia),Kharif,0.67
-Khammam,Castor seed,Rabi,1.67
-Khammam,Cowpea(Lobia),Rabi,1.12
-Khammam,Dry chillies,Kharif,5.28
-Khammam,Ginger,Kharif,9.2
-Khammam,Gram,Kharif,1.4
-Khammam,Dry chillies,Rabi,3.91
-Khammam,Ginger,Rabi,8.03
-Khammam,Gram,Rabi,1.28
 Adilabad,Arhar/Tur,Rabi,1.24
 Adilabad,Bajra,Rabi,0.96
-Nalgonda,Jowar,Rabi,1.37
-Nalgonda,Maize,Rabi,6.47
-Nalgonda,Moong(Green Gram),Rabi,1.06
-Nalgonda,Oilseeds total,Rabi,1.04
-Nalgonda,Maize,Kharif,2.86
-Nalgonda,Moong(Green Gram),Kharif,0.57
-Nalgonda,Oilseeds total,Kharif,1.77
-Nalgonda,Onion,Kharif,16.0
-Nalgonda,Onion,Rabi,29.15
-Nalgonda,Ragi,Kharif,1.84
-Nalgonda,Ragi,Rabi,2.0
-Nalgonda,Rice,Kharif,3.08
-Nalgonda,Rice,Rabi,3.23
-Nalgonda,Safflower,Rabi,1.0
-Nalgonda,Sesamum,Kharif,0.17
-Nalgonda,Tobacco,Kharif,4.09
-Nalgonda,Urad,Kharif,0.75
-Nalgonda,Sesamum,Rabi,0.63
-Nalgonda,Small millets,Kharif,1.16
-Nalgonda,Soyabean,Kharif,1.44
-Nalgonda,Sugarcane,Kharif,88.22
-Nalgonda,Sunflower,Rabi,1.86
-Nalgonda,Sweet potato,Rabi,11.5
-Nalgonda,Tobacco,Rabi,4.23
-Nalgonda,Turmeric,Kharif,6.31
-Nalgonda,Urad,Rabi,1.17
-Nalgonda,Wheat,Rabi,1.98
-Nagarkurnool,Ragi,Rabi,1.4
-Nagarkurnool,Rice,Rabi,2.92
-Nagarkurnool,Safflower,Rabi,0.94
-Nagarkurnool,Sesamum,Rabi,0.7
-Nagarkurnool,Small millets,Rabi,1.27
-Nagarkurnool,Soyabean,Kharif,1.39
-Nagarkurnool,Sugarcane,Kharif,91.78
-Nagarkurnool,Sunflower,Kharif,1.85
-Nagarkurnool,Sunflower,Rabi,2.07
-Nagarkurnool,Sweet potato,Kharif,12.0
-Nagarkurnool,Sweet potato,Rabi,12.35
-Nagarkurnool,Turmeric,Kharif,7.52
-Nagarkurnool,Urad,Kharif,1.22
-Nagarkurnool,Urad,Rabi,1.37
-Nagarkurnool,Wheat,Kharif,2.0
-Nagarkurnool,Wheat,Rabi,2.35
-Nalgonda,Arhar/Tur,Kharif,0.57
-Nalgonda,Arhar/Tur,Rabi,0.73
-Nalgonda,Bajra,Kharif,0.82
-Nalgonda,Bajra,Rabi,1.92
-Nalgonda,Banana,Kharif,41.2
-Nalgonda,Banana,Whole Year,31.18
-Nalgonda,Cashewnut,Kharif,0.44
-Nalgonda,Castor seed,Kharif,0.73
-Medak,Turmeric,Kharif,5.29
-Medak,Urad,Kharif,0.61
-Medak,Wheat,Kharif,2.0
-Medak,Tobacco,Rabi,2.97
-Medak,Turmeric,Rabi,7.5
-Medak,Urad,Rabi,1.13
-Medak,Wheat,Rabi,1.72
-Medak,other oilseeds,Kharif,1.52
-Medchal,Arhar/Tur,Kharif,0.78
-Medchal,Arhar/Tur,Rabi,1.0
-Medchal,Bajra,Kharif,1.1
-Medchal,Bajra,Rabi,2.13
-Medchal,Banana,Kharif,49.7
-Medchal,Cashewnut,Kharif,1.0
-Medchal,Castor seed,Rabi,2.0
-Medchal,Cowpea(Lobia),Rabi,0.85
-Medchal,Castor seed,Kharif,0.8
-Medchal,Cowpea(Lobia),Kharif,0.88
-Medchal,Dry chillies,Kharif,3.67
-Medchal,Dry chillies,Rabi,5.41
-Medchal,Ginger,Rabi,9.4
-Medchal,Gram,Rabi,1.44
-Medchal,Groundnut,Rabi,2.2
-Medchal,Horse-gram,Rabi,1.02
-Medchal,Jowar,Rabi,1.94
-Medchal,Maize,Rabi,7.28
-Medchal,Groundnut,Kharif,2.17
-Medchal,Horse-gram,Kharif,1.21
-Medchal,Jowar,Kharif,1.0
-Medchal,Maize,Kharif,2.99
-Medchal,Moong(Green Gram),Kharif,0.71
-Medchal,Moong(Green Gram),Rabi,1.0
-Medchal,Onion,Rabi,30.1
-Medchal,Potato,Rabi,18.19
-Medchal,Ragi,Kharif,1.68
-Medchal,Rice,Rabi,3.65
-Medchal,Safflower,Rabi,1.0
-Medchal,Sesamum,Rabi,0.72
-Medchal,Rice,Kharif,3.42
-Medchal,Safflower,Kharif,1.0
-Medchal,Sesamum,Kharif,0.19
-Medchal,Small millets,Rabi,0.5
-Medchal,Small millets,Kharif,0.63
-Medchal,Soyabean,Kharif,1.65
-Mulugu,Turmeric,Kharif,7.17
-Mulugu,Turmeric,Rabi,7.5
-Mulugu,Urad,Rabi,1.22
-Mulugu,Urad,Kharif,0.69
-Mulugu,Wheat,Rabi,2.0
-Nagarkurnool,Arhar/Tur,Kharif,0.66
-Nagarkurnool,Arhar/Tur,Rabi,0.79
-Nagarkurnool,Bajra,Kharif,0.74
-Nagarkurnool,Bajra,Rabi,2.16
-Nagarkurnool,Banana,Kharif,48.33
-Nagarkurnool,Castor seed,Rabi,1.11
-Nagarkurnool,Cowpea(Lobia),Rabi,0.98
-Nagarkurnool,Dry chillies,Rabi,5.22
-Nagarkurnool,Castor seed,Kharif,1.1
-Nagarkurnool,Cowpea(Lobia),Kharif,0.77
-Nagarkurnool,Dry chillies,Kharif,4.23
-Nagarkurnool,Gram,Kharif,1.5
-Nagarkurnool,Gram,Rabi,1.45
-Nagarkurnool,Groundnut,Rabi,2.38
-Nagarkurnool,Groundnut,Kharif,1.99
-Nagarkurnool,Horse-gram,Kharif,1.12
-Mulugu,Ginger,Kharif,9.0
-Mulugu,Gram,Rabi,1.59
-Mulugu,Groundnut,Kharif,2.2
-Mulugu,Groundnut,Rabi,1.97
-Mulugu,Horse-gram,Rabi,0.85
-Mulugu,Jowar,Kharif,0.6
-Mulugu,Jowar,Rabi,1.92
-Mulugu,Maize,Rabi,8.71
-Mulugu,Maize,Kharif,5.02
-Mulugu,Moong(Green Gram),Kharif,0.72
-Mulugu,Moong(Green Gram),Rabi,0.77
-Mulugu,Onion,Rabi,30.26
-Mulugu,Ragi,Kharif,1.5
-Mulugu,Rice,Kharif,3.23
-Mulugu,Rice,Rabi,3.45
-Mulugu,Safflower,Rabi,1.0
-Mulugu,Sesamum,Rabi,0.72
-Mulugu,Soyabean,Rabi,1.5
-Mulugu,Sunflower,Rabi,1.94
-Mulugu,Tobacco,Rabi,4.03
-Medchal,Sugarcane,Kharif,94.0
-Medchal,Sunflower,Kharif,1.76
-Medchal,Sunflower,Rabi,1.68
-Medchal,Sweet potato,Kharif,9.0
-Medchal,Turmeric,Kharif,7.0
-Medchal,Urad,Kharif,0.71
-Medchal,Urad,Rabi,1.66
-Medchal,Wheat,Rabi,2.03
-Mulugu,Arhar/Tur,Rabi,0.76
-Mulugu,Bajra,Rabi,1.0
-Mulugu,Banana,Kharif,48.63
-Mulugu,Cashewnut,Kharif,0.43
-Mulugu,Coriander,Rabi,1.0
-Mulugu,Cowpea(Lobia),Rabi,1.03
-Medchal,Wheat,Kharif,2.0
-Mulugu,Arhar/Tur,Kharif,12.04
-Mulugu,Cowpea(Lobia),Kharif,0.85
-Mulugu,Dry chillies,Rabi,5.98
-Mulugu,Dry chillies,Kharif,4.37
-Nalgonda,Coriander,Rabi,0.63
-Nalgonda,Castor seed,Rabi,0.84
-Nalgonda,Coriander,Whole Year,0.48
-Nalgonda,Cowpea(Lobia),Rabi,0.78
-Nalgonda,Cowpea(Lobia),Kharif,0.75
-Nalgonda,Dry chillies,Kharif,4.73
-Nalgonda,Dry chillies,Rabi,4.54
-Nalgonda,Ginger,Rabi,6.5
-Nalgonda,Ginger,Kharif,6.79
-Nalgonda,Gram,Kharif,2.0
-Nalgonda,Groundnut,Kharif,1.9
-Nalgonda,Horse-gram,Kharif,1.17
-Nalgonda,Gram,Rabi,1.24
-Nalgonda,Groundnut,Rabi,1.73
-Nalgonda,Horse-gram,Rabi,1.02
-Nalgonda,Jowar,Kharif,0.77
-Nagarkurnool,Horse-gram,Rabi,1.01
-Nagarkurnool,Jowar,Kharif,0.97
-Nagarkurnool,Jowar,Rabi,1.66
-Nagarkurnool,Maize,Kharif,2.6
-Nagarkurnool,Moong(Green Gram),Kharif,0.61
-Nagarkurnool,Onion,Kharif,16.79
-Nagarkurnool,Potato,Kharif,12.0
-Nagarkurnool,Maize,Rabi,6.45
-Nagarkurnool,Moong(Green Gram),Rabi,1.0
-Nagarkurnool,Onion,Rabi,30.1
-Nagarkurnool,Potato,Rabi,15.74
-Nagarkurnool,Ragi,Kharif,1.29
-Nagarkurnool,Rice,Kharif,2.77
-Nagarkurnool,Sesamum,Kharif,0.16
-Nagarkurnool,Small millets,Kharif,1.39
-Siddipet,Castor seed,Kharif,0.85
-Siddipet,Coriander,Kharif,1.26
-Siddipet,Cowpea(Lobia),Kharif,0.98
-Siddipet,Dry chillies,Kharif,4.52
-Siddipet,Ginger,Kharif,8.19
-Siddipet,Gram,Kharif,1.04
-Siddipet,Groundnut,Kharif,1.94
-Siddipet,Horse-gram,Kharif,1.16
-Siddipet,Jowar,Kharif,0.92
-Siddipet,Maize,Kharif,3.83
-Siddipet,Moong(Green Gram),Kharif,0.64
-Siddipet,Onion,Kharif,17.68
-Siddipet,Potato,Kharif,18.49
-Siddipet,Castor seed,Rabi,0.96
-Siddipet,Coriander,Rabi,0.91
-Siddipet,Cowpea(Lobia),Rabi,0.99
-Siddipet,Dry chillies,Rabi,5.56
-Siddipet,Garlic,Rabi,3.4
-Siddipet,Ginger,Rabi,8.12
-Siddipet,Gram,Rabi,1.68
-Siddipet,Groundnut,Rabi,1.88
-Siddipet,Horse-gram,Rabi,1.06
-Siddipet,Jowar,Rabi,2.32
-Siddipet,Maize,Rabi,6.01
-Siddipet,Moong(Green Gram),Rabi,0.92
-Siddipet,Onion,Rabi,18.44
-Siddipet,Potato,Rabi,18.57
-Siddipet,Ragi,Kharif,1.59
-Siddipet,Rice,Kharif,3.41
-Rangareddi,Ragi,Rabi,1.62
-Rangareddi,Rice,Rabi,2.84
-Rangareddi,Safflower,Rabi,1.06
-Rangareddi,Ragi,Kharif,1.59
-Rangareddi,Rice,Kharif,2.96
-Rangareddi,Safflower,Kharif,1.31
-Rangareddi,Sesamum,Kharif,0.14
-Rangareddi,Soyabean,Kharif,1.4
-Rangareddi,Sunflower,Kharif,2.02
-Rangareddi,Sesamum,Rabi,0.76
-Rangareddi,Small millets,Kharif,1.13
-Rangareddi,Soyabean,Rabi,1.37
-Rangareddi,Sugarcane,Kharif,77.29
-Rangareddi,Sunflower,Rabi,1.86
-Rangareddi,Sweet potato,Kharif,8.83
-Rangareddi,Sweet potato,Rabi,11.19
-Rangareddi,Sweet potato,Whole Year,8.74
-Rangareddi,Turmeric,Kharif,5.62
-Rangareddi,Urad,Rabi,1.37
-Rangareddi,Urad,Kharif,0.79
-Rangareddi,Wheat,Kharif,1.52
-Rangareddi,Wheat,Rabi,2.28
-Rangareddi,other oilseeds,Kharif,0.33
-Rajanna,Turmeric,Rabi,7.38
-Rajanna,Urad,Rabi,1.69
-Rajanna,Wheat,Rabi,2.25
-Rajanna,Turmeric,Kharif,7.17
-Rajanna,Urad,Kharif,0.76
-Rangareddi,Arhar/Tur,Kharif,0.51
-Rangareddi,Bajra,Kharif,0.86
-Rangareddi,Arhar/Tur,Rabi,0.71
-Rangareddi,Bajra,Rabi,2.09
-Rangareddi,Banana,Kharif,49.76
-Rangareddi,Banana,Whole Year,31.14
-Rangareddi,Cashewnut,Kharif,0.33
-Rangareddi,Castor seed,Kharif,0.41
-Rangareddi,Castor seed,Rabi,0.87
-Rangareddi,Coriander,Kharif,0.76
-Rangareddi,Coriander,Whole Year,0.42
-Rangareddi,Cowpea(Lobia),Rabi,1.7
-Rangareddi,Dry chillies,Rabi,4.56
-Rangareddi,Coriander,Rabi,0.76
-Rangareddi,Cowpea(Lobia),Kharif,0.75
-Rangareddi,Dry chillies,Kharif,4.54
-Rajanna,Banana,Kharif,38.12
-Rajanna,Castor seed,Rabi,0.97
-Rajanna,Castor seed,Kharif,0.85
-Rajanna,Coriander,Kharif,1.0
-Rajanna,Coriander,Rabi,0.88
-Rajanna,Cowpea(Lobia),Rabi,1.42
-Rajanna,Cowpea(Lobia),Kharif,0.6
-Rajanna,Dry chillies,Rabi,5.08
-Rajanna,Garlic,Rabi,4.0
-Rajanna,Ginger,Kharif,9.0
-Rajanna,Gram,Rabi,1.41
-Rajanna,Groundnut,Rabi,2.29
-Rajanna,Dry chillies,Kharif,4.39
-Rajanna,Groundnut,Kharif,2.01
-Rajanna,Horse-gram,Kharif,1.25
-Rajanna,Horse-gram,Rabi,0.96
-Rajanna,Jowar,Kharif,0.98
-Rajanna,Maize,Kharif,5.01
-Rajanna,Moong(Green Gram),Kharif,0.61
-Rajanna,Jowar,Rabi,2.3
-Rajanna,Maize,Rabi,6.21
-Rajanna,Moong(Green Gram),Rabi,0.9
-Sangareddy,Groundnut,Rabi,1.74
-Sangareddy,Horse-gram,Rabi,1.06
-Sangareddy,Groundnut,Kharif,2.24
-Sangareddy,Horse-gram,Kharif,0.96
-Sangareddy,Jowar,Kharif,0.66
-Sangareddy,Jowar,Rabi,1.69
-Sangareddy,Maize,Kharif,3.54
-Sangareddy,Maize,Rabi,3.87
-Sangareddy,Moong(Green Gram),Kharif,0.74
-Sangareddy,Moong(Green Gram),Rabi,0.98
-Sangareddy,Onion,Rabi,37.03
-Sangareddy,Potato,Rabi,16.84
-Sangareddy,Onion,Kharif,11.89
-Sangareddy,Potato,Kharif,19.2
-Sangareddy,Ragi,Kharif,1.47
-Sangareddy,Ragi,Rabi,1.26
-Sangareddy,Rice,Rabi,3.72
-Sangareddy,Rice,Kharif,3.55
-Sangareddy,Safflower,Rabi,0.66
-Sangareddy,Sesamum,Rabi,0.69
-Sangareddy,Sesamum,Kharif,0.2
-Sangareddy,Small millets,Kharif,1.12
-Sangareddy,Soyabean,Kharif,1.3
-Sangareddy,Sunflower,Kharif,1.85
-Sangareddy,Turmeric,Kharif,4.76
-Sangareddy,Urad,Kharif,0.76
-Sangareddy,Wheat,Kharif,2.0
-Sangareddy,Small millets,Rabi,1.0
-Sangareddy,Soyabean,Rabi,1.55
-Sangareddy,Sugarcane,Kharif,87.56
-Sangareddy,Sunflower,Rabi,2.04
-Sangareddy,Sweet potato,Rabi,12.14
-Sangareddy,Tobacco,Rabi,3.39
-Sangareddy,Turmeric,Rabi,7.52
-Sangareddy,Urad,Rabi,1.62
-Sangareddy,Wheat,Rabi,1.73
-Siddipet,Arhar/Tur,Rabi,0.94
-Siddipet,Bajra,Rabi,2.27
-Siddipet,Arhar/Tur,Kharif,0.78
-Siddipet,Bajra,Kharif,1.13
-Siddipet,Banana,Kharif,49.78
-Siddipet,Cashewnut,Kharif,0.76
-Rangareddi,Ginger,Kharif,11.43
-Rangareddi,Gram,Kharif,1.41
-Rangareddi,Groundnut,Kharif,1.35
-Rangareddi,Horse-gram,Kharif,0.94
-Rangareddi,Jowar,Kharif,1.04
-Rangareddi,Maize,Kharif,2.3
-Rangareddi,Moong(Green Gram),Kharif,0.65
-Rangareddi,Ginger,Rabi,9.0
-Rangareddi,Gram,Rabi,1.25
-Rangareddi,Groundnut,Rabi,2.65
-Rangareddi,Horse-gram,Rabi,0.99
-Rangareddi,Jowar,Rabi,1.83
-Rangareddi,Maize,Rabi,5.1
-Rangareddi,Moong(Green Gram),Rabi,0.88
-Rangareddi,Oilseeds total,Rabi,1.16
-Rangareddi,Onion,Rabi,22.02
-Rangareddi,Potato,Kharif,18.14
-Rangareddi,Potato,Whole Year,16.67
-Rangareddi,Oilseeds total,Kharif,0.8
-Rangareddi,Onion,Kharif,15.74
-Rangareddi,Potato,Rabi,18.19
-Sangareddy,Arhar/Tur,Rabi,0.97
-Sangareddy,Arhar/Tur,Kharif,0.74
-Sangareddy,Bajra,Kharif,0.61
-Sangareddy,Bajra,Rabi,0.68
-Sangareddy,Banana,Kharif,50.74
-Sangareddy,Castor seed,Kharif,0.95
-Sangareddy,Coriander,Kharif,0.71
-Sangareddy,Cashewnut,Kharif,0.67
-Sangareddy,Castor seed,Rabi,0.99
-Sangareddy,Coriander,Rabi,0.73
-Sangareddy,Cowpea(Lobia),Rabi,0.83
-Sangareddy,Dry chillies,Rabi,5.71
-Sangareddy,Cowpea(Lobia),Kharif,0.84
-Sangareddy,Dry chillies,Kharif,4.45
-Sangareddy,Garlic,Kharif,3.0
-Sangareddy,Ginger,Kharif,8.08
-Sangareddy,Garlic,Rabi,2.36
-Sangareddy,Ginger,Rabi,9.18
-Sangareddy,Gram,Rabi,1.33
-Rajanna,Onion,Rabi,30.09
-Rajanna,Potato,Rabi,24.0
-Rajanna,Onion,Kharif,17.63
-Rajanna,Ragi,Kharif,2.0
-Rajanna,Ragi,Rabi,1.5
-Rajanna,Rice,Kharif,3.69
-Rajanna,Rice,Rabi,3.79
-Rajanna,Safflower,Rabi,1.0
-Rajanna,Sesamum,Rabi,0.62
-Rajanna,Small millets,Rabi,1.0
-Rajanna,Soyabean,Rabi,1.75
-Rajanna,Sugarcane,Kharif,89.26
-Rajanna,Safflower,Kharif,1.0
-Rajanna,Soyabean,Kharif,1.76
-Rajanna,Sunflower,Rabi,2.04
-Rajanna,Tobacco,Rabi,3.0
 Adilabad,Banana,Kharif,49.97
 Adilabad,Cashewnut,Kharif,0.61
 Adilabad,Castor seed,Kharif,0.85
@@ -872,6 +398,129 @@ Karimnagar,Urad,Kharif,0.74
 Khammam,Arhar/Tur,Kharif,0.59
 Khammam,Bajra,Kharif,1.0
 Khammam,Banana,Kharif,49.74
+Khammam,Castor seed,Kharif,0.5
+Khammam,Cowpea(Lobia),Kharif,0.67
+Khammam,Castor seed,Rabi,1.67
+Khammam,Cowpea(Lobia),Rabi,1.12
+Khammam,Dry chillies,Kharif,5.28
+Khammam,Ginger,Kharif,9.2
+Khammam,Gram,Kharif,1.4
+Khammam,Dry chillies,Rabi,3.91
+Khammam,Ginger,Rabi,8.03
+Khammam,Gram,Rabi,1.28
+Khammam,Groundnut,Kharif,1.99
+Khammam,Horse-gram,Kharif,1.5
+Khammam,Groundnut,Rabi,2.12
+Khammam,Horse-gram,Rabi,1.45
+Khammam,Jowar,Kharif,0.93
+Khammam,Jowar,Rabi,1.69
+Khammam,Maize,Rabi,7.57
+Khammam,Maize,Kharif,4.45
+Khammam,Moong(Green Gram),Kharif,0.41
+Khammam,Moong(Green Gram),Rabi,0.84
+Khammam,Oilseeds total,Kharif,18.89
+Khammam,Onion,Kharif,14.88
+Khammam,Oilseeds total,Rabi,2.57
+Khammam,Onion,Rabi,30.07
+Khammam,Ragi,Kharif,1.5
+Khammam,Rice,Kharif,3.2
+Khammam,Rapeseed &Mustard,Rabi,1.0
+Khammam,Rice,Rabi,3.38
+Khammam,Safflower,Rabi,1.0
+Khammam,Sesamum,Kharif,0.23
+Khammam,Small millets,Kharif,1.1
+Khammam,Sesamum,Rabi,0.46
+Khammam,Small millets,Rabi,1.52
+Khammam,Soyabean,Kharif,1.4
+Khammam,Soyabean,Rabi,1.2
+Khammam,Sugarcane,Kharif,85.65
+Khammam,Sweet potato,Kharif,7.5
+Khammam,Tobacco,Kharif,2.52
+Khammam,Sunflower,Rabi,1.83
+Khammam,Sweet potato,Rabi,10.69
+Khammam,Tobacco,Rabi,3.74
+Khammam,Urad,Kharif,0.71
+Khammam,Turmeric,Kharif,6.13
+Khammam,Urad,Rabi,1.16
+Khammam,other oilseeds,Kharif,19.97
+Komaram bheem asifabad,Arhar/Tur,Kharif,1.06
+Komaram bheem asifabad,Arhar/Tur,Rabi,0.96
+Komaram bheem asifabad,Bajra,Kharif,1.44
+Komaram bheem asifabad,Banana,Kharif,49.7
+Komaram bheem asifabad,Cashewnut,Kharif,0.45
+Komaram bheem asifabad,Coriander,Kharif,1.0
+Komaram bheem asifabad,Cowpea(Lobia),Kharif,0.72
+Komaram bheem asifabad,Castor seed,Kharif,0.87
+Komaram bheem asifabad,Coriander,Rabi,0.82
+Komaram bheem asifabad,Cowpea(Lobia),Rabi,0.98
+Komaram bheem asifabad,Dry chillies,Kharif,4.46
+Komaram bheem asifabad,Dry chillies,Rabi,5.72
+Komaram bheem asifabad,Gram,Rabi,1.34
+Komaram bheem asifabad,Groundnut,Kharif,2.12
+Komaram bheem asifabad,Horse-gram,Kharif,1.27
+Komaram bheem asifabad,Jowar,Kharif,0.65
+Komaram bheem asifabad,Groundnut,Rabi,2.26
+Komaram bheem asifabad,Horse-gram,Rabi,0.6
+Komaram bheem asifabad,Jowar,Rabi,0.89
+Komaram bheem asifabad,Maize,Kharif,3.08
+Komaram bheem asifabad,Moong(Green Gram),Kharif,0.53
+Komaram bheem asifabad,Onion,Kharif,17.8
+Komaram bheem asifabad,Ragi,Kharif,1.29
+Komaram bheem asifabad,Maize,Rabi,5.78
+Komaram bheem asifabad,Moong(Green Gram),Rabi,1.11
+Komaram bheem asifabad,Onion,Rabi,30.11
+Komaram bheem asifabad,Potato,Rabi,21.0
+Komaram bheem asifabad,Ragi,Rabi,1.75
+Komaram bheem asifabad,Rice,Kharif,2.31
+Komaram bheem asifabad,Sesamum,Kharif,0.21
+Komaram bheem asifabad,Small millets,Kharif,1.38
+Komaram bheem asifabad,Soyabean,Kharif,1.26
+Komaram bheem asifabad,Sunflower,Kharif,0.8
+Komaram bheem asifabad,Sweet potato,Kharif,16.0
+Komaram bheem asifabad,Rice,Rabi,3.0
+Komaram bheem asifabad,Safflower,Rabi,0.94
+Komaram bheem asifabad,Sesamum,Rabi,0.65
+Komaram bheem asifabad,Small millets,Rabi,1.0
+Komaram bheem asifabad,Soyabean,Rabi,1.25
+Komaram bheem asifabad,Sugarcane,Kharif,93.12
+Komaram bheem asifabad,Sunflower,Rabi,1.98
+Komaram bheem asifabad,Sweet potato,Rabi,11.64
+Komaram bheem asifabad,Turmeric,Rabi,7.67
+Komaram bheem asifabad,Turmeric,Kharif,6.03
+Komaram bheem asifabad,Urad,Rabi,1.34
+Komaram bheem asifabad,Urad,Kharif,0.66
+Komaram bheem asifabad,Wheat,Rabi,1.83
+Mahabubabad,Arhar/Tur,Rabi,0.88
+Mahabubabad,Bajra,Rabi,2.29
+Mahabubabad,Arhar/Tur,Kharif,0.75
+Mahabubabad,Banana,Kharif,49.73
+Mahabubabad,Castor seed,Kharif,0.5
+Mahabubabad,Cowpea(Lobia),Rabi,0.83
+Mahabubabad,Dry chillies,Rabi,5.57
+Mahabubabad,Ginger,Kharif,9.0
+Mahabubabad,Gram,Rabi,1.41
+Mahabubabad,Groundnut,Rabi,1.68
+Mahabubabad,Horse-gram,Rabi,1.17
+Mahabubabad,Cowpea(Lobia),Kharif,0.75
+Mahabubabad,Dry chillies,Kharif,3.33
+Mahabubabad,Groundnut,Kharif,2.69
+Mahabubabad,Jowar,Kharif,0.84
+Mahabubabad,Maize,Kharif,4.59
+Mahabubabad,Jowar,Rabi,0.98
+Mahabubabad,Maize,Rabi,6.29
+Mahabubabad,Moong(Green Gram),Rabi,0.87
+Mahabubabad,Moong(Green Gram),Kharif,0.51
+Mahabubabad,Onion,Rabi,30.11
+Mahabubabad,Ragi,Kharif,1.6
+Mahabubabad,Onion,Kharif,17.8
+Mahabubabad,Rice,Kharif,2.91
+Mahabubabad,Rice,Rabi,3.25
+Mahabubabad,Safflower,Rabi,1.0
+Mahabubabad,Sesamum,Rabi,0.69
+Mahabubabad,Small millets,Rabi,0.5
+Mahabubabad,Soyabean,Kharif,1.51
+Mahabubabad,Sugarcane,Kharif,80.94
+Mahabubabad,Sunflower,Rabi,2.03
 Mahabubabad,Sweet potato,Rabi,9.35
 Mahabubabad,Tobacco,Rabi,3.24
 Mahabubabad,Turmeric,Rabi,5.0
@@ -906,6 +555,27 @@ Mahbubnagar,Jowar,Rabi,1.75
 Mahbubnagar,Maize,Rabi,5.97
 Mahbubnagar,Moong(Green Gram),Rabi,0.8
 Mahbubnagar,Oilseeds total,Rabi,1.6
+Mahbubnagar,Maize,Kharif,2.97
+Mahbubnagar,Moong(Green Gram),Kharif,0.44
+Mahbubnagar,Oilseeds total,Kharif,0.52
+Mahbubnagar,Onion,Kharif,16.59
+Mahbubnagar,Onion,Rabi,32.74
+Mahbubnagar,Potato,Rabi,13.5
+Mahbubnagar,Potato,Whole Year,14.5
+Mahbubnagar,Ragi,Kharif,1.02
+Mahbubnagar,Rice,Kharif,2.72
+Mahbubnagar,Safflower,Kharif,1.0
+Mahbubnagar,Ragi,Rabi,1.02
+Mahbubnagar,Rice,Rabi,2.94
+Mahbubnagar,Safflower,Rabi,1.14
+Mahbubnagar,Sesamum,Kharif,0.16
+Mahbubnagar,Small millets,Kharif,1.16
+Mahbubnagar,Sunflower,Kharif,1.47
+Mahbubnagar,Sesamum,Rabi,0.74
+Mahbubnagar,Small millets,Rabi,0.9
+Mahbubnagar,Soyabean,Kharif,1.52
+Mahbubnagar,Sugarcane,Kharif,72.28
+Mahbubnagar,Sunflower,Rabi,1.74
 Mahbubnagar,Sweet potato,Kharif,7.0
 Mahbubnagar,Tobacco,Kharif,1.83
 Mahbubnagar,Turmeric,Kharif,6.24
@@ -930,6 +600,27 @@ Mancherial,Dry chillies,Rabi,5.59
 Mancherial,Garlic,Rabi,4.0
 Mancherial,Gram,Rabi,1.49
 Mancherial,Groundnut,Rabi,2.77
+Mancherial,Horse-gram,Rabi,0.68
+Mancherial,Jowar,Rabi,1.77
+Mancherial,Horse-gram,Kharif,1.35
+Mancherial,Jowar,Kharif,0.99
+Mancherial,Maize,Kharif,4.17
+Mancherial,Moong(Green Gram),Kharif,0.61
+Mancherial,Maize,Rabi,5.94
+Mancherial,Moong(Green Gram),Rabi,1.4
+Mancherial,Onion,Kharif,17.91
+Mancherial,Rice,Kharif,2.59
+Mancherial,Sesamum,Kharif,0.21
+Mancherial,Soyabean,Kharif,1.56
+Mancherial,Onion,Rabi,30.11
+Mancherial,Rice,Rabi,3.66
+Mancherial,Safflower,Rabi,0.76
+Mancherial,Sesamum,Rabi,0.69
+Mancherial,Small millets,Kharif,1.67
+Mancherial,Soyabean,Rabi,1.67
+Mancherial,Sugarcane,Kharif,104.0
+Mancherial,Sunflower,Rabi,2.07
+Mancherial,Sweet potato,Rabi,11.16
 Mancherial,Turmeric,Kharif,6.02
 Mancherial,Urad,Rabi,1.41
 Mancherial,Wheat,Rabi,2.08
@@ -953,49 +644,6 @@ Medak,Garlic,Rabi,4.8
 Medak,Ginger,Rabi,9.0
 Medak,Dry chillies,Kharif,3.22
 Medak,Ginger,Kharif,8.06
-Mahabubabad,Banana,Kharif,49.73
-Mahabubabad,Castor seed,Kharif,0.5
-Mahabubabad,Cowpea(Lobia),Rabi,0.83
-Mahabubabad,Dry chillies,Rabi,5.57
-Mahabubabad,Ginger,Kharif,9.0
-Mahabubabad,Gram,Rabi,1.41
-Mahabubabad,Groundnut,Rabi,1.68
-Mahabubabad,Horse-gram,Rabi,1.17
-Mahabubabad,Cowpea(Lobia),Kharif,0.75
-Mahabubabad,Dry chillies,Kharif,3.33
-Mahabubabad,Groundnut,Kharif,2.69
-Mahabubabad,Jowar,Kharif,0.84
-Mahabubabad,Maize,Kharif,4.59
-Mahabubabad,Jowar,Rabi,0.98
-Mahabubabad,Maize,Rabi,6.29
-Mahabubabad,Moong(Green Gram),Rabi,0.87
-Mahabubabad,Moong(Green Gram),Kharif,0.51
-Mahabubabad,Onion,Rabi,30.11
-Mahabubabad,Ragi,Kharif,1.6
-Mahabubabad,Onion,Kharif,17.8
-Mahabubabad,Rice,Kharif,2.91
-Mahabubabad,Rice,Rabi,3.25
-Mahbubnagar,Maize,Kharif,2.97
-Mahbubnagar,Moong(Green Gram),Kharif,0.44
-Mahbubnagar,Oilseeds total,Kharif,0.52
-Mahbubnagar,Onion,Kharif,16.59
-Mahbubnagar,Onion,Rabi,32.74
-Mahbubnagar,Potato,Rabi,13.5
-Mahbubnagar,Potato,Whole Year,14.5
-Mahbubnagar,Ragi,Kharif,1.02
-Mahbubnagar,Rice,Kharif,2.72
-Mahbubnagar,Safflower,Kharif,1.0
-Mahbubnagar,Ragi,Rabi,1.02
-Mahbubnagar,Rice,Rabi,2.94
-Mahbubnagar,Safflower,Rabi,1.14
-Mahbubnagar,Sesamum,Kharif,0.16
-Mahbubnagar,Small millets,Kharif,1.16
-Mahbubnagar,Sunflower,Kharif,1.47
-Mahbubnagar,Sesamum,Rabi,0.74
-Mahbubnagar,Small millets,Rabi,0.9
-Mahbubnagar,Soyabean,Kharif,1.52
-Mahbubnagar,Sugarcane,Kharif,72.28
-Mahbubnagar,Sunflower,Rabi,1.74
 Medak,Gram,Rabi,1.28
 Medak,Gram,Kharif,1.0
 Medak,Groundnut,Kharif,1.57
@@ -1015,27 +663,6 @@ Medak,Oilseeds total,Kharif,0.94
 Medak,Onion,Rabi,31.57
 Medak,Onion,Kharif,16.74
 Medak,Other Kharif pulses,Kharif,0.69
-Mancherial,Horse-gram,Rabi,0.68
-Mancherial,Jowar,Rabi,1.77
-Mancherial,Horse-gram,Kharif,1.35
-Mancherial,Jowar,Kharif,0.99
-Mancherial,Maize,Kharif,4.17
-Mancherial,Moong(Green Gram),Kharif,0.61
-Mancherial,Maize,Rabi,5.94
-Mancherial,Moong(Green Gram),Rabi,1.4
-Mancherial,Onion,Kharif,17.91
-Mancherial,Rice,Kharif,2.59
-Mancherial,Sesamum,Kharif,0.21
-Mancherial,Soyabean,Kharif,1.56
-Mancherial,Onion,Rabi,30.11
-Mancherial,Rice,Rabi,3.66
-Mancherial,Safflower,Rabi,0.76
-Mancherial,Sesamum,Rabi,0.69
-Mancherial,Small millets,Kharif,1.67
-Mancherial,Soyabean,Rabi,1.67
-Mancherial,Sugarcane,Kharif,104.0
-Mancherial,Sunflower,Rabi,2.07
-Mancherial,Sweet potato,Rabi,11.16
 Medak,Potato,Rabi,15.39
 Medak,Ragi,Kharif,1.28
 Medak,Rice,Kharif,3.5
@@ -1055,12 +682,314 @@ Medak,Soyabean,Rabi,1.7
 Medak,Sugarcane,Kharif,80.84
 Medak,Sunflower,Rabi,1.77
 Medak,Sweet potato,Rabi,9.68
-Mahabubabad,Safflower,Rabi,1.0
-Mahabubabad,Sesamum,Rabi,0.69
-Mahabubabad,Small millets,Rabi,0.5
-Mahabubabad,Soyabean,Kharif,1.51
-Mahabubabad,Sugarcane,Kharif,80.94
-Mahabubabad,Sunflower,Rabi,2.03
+Medak,Turmeric,Kharif,5.29
+Medak,Urad,Kharif,0.61
+Medak,Wheat,Kharif,2.0
+Medak,Tobacco,Rabi,2.97
+Medak,Turmeric,Rabi,7.5
+Medak,Urad,Rabi,1.13
+Medak,Wheat,Rabi,1.72
+Medak,other oilseeds,Kharif,1.52
+Medchal,Arhar/Tur,Kharif,0.78
+Medchal,Arhar/Tur,Rabi,1.0
+Medchal,Bajra,Kharif,1.1
+Medchal,Bajra,Rabi,2.13
+Medchal,Banana,Kharif,49.7
+Medchal,Cashewnut,Kharif,1.0
+Medchal,Castor seed,Rabi,2.0
+Medchal,Cowpea(Lobia),Rabi,0.85
+Medchal,Castor seed,Kharif,0.8
+Medchal,Cowpea(Lobia),Kharif,0.88
+Medchal,Dry chillies,Kharif,3.67
+Medchal,Dry chillies,Rabi,5.41
+Medchal,Ginger,Rabi,9.4
+Medchal,Gram,Rabi,1.44
+Medchal,Groundnut,Rabi,2.2
+Medchal,Horse-gram,Rabi,1.02
+Medchal,Jowar,Rabi,1.94
+Medchal,Maize,Rabi,7.28
+Medchal,Groundnut,Kharif,2.17
+Medchal,Horse-gram,Kharif,1.21
+Medchal,Jowar,Kharif,1.0
+Medchal,Maize,Kharif,2.99
+Medchal,Moong(Green Gram),Kharif,0.71
+Medchal,Moong(Green Gram),Rabi,1.0
+Medchal,Onion,Rabi,30.1
+Medchal,Potato,Rabi,18.19
+Medchal,Ragi,Kharif,1.68
+Medchal,Rice,Rabi,3.65
+Medchal,Safflower,Rabi,1.0
+Medchal,Sesamum,Rabi,0.72
+Medchal,Rice,Kharif,3.42
+Medchal,Safflower,Kharif,1.0
+Medchal,Sesamum,Kharif,0.19
+Medchal,Small millets,Rabi,0.5
+Medchal,Small millets,Kharif,0.63
+Medchal,Soyabean,Kharif,1.65
+Medchal,Sugarcane,Kharif,94.0
+Medchal,Sunflower,Kharif,1.76
+Medchal,Sunflower,Rabi,1.68
+Medchal,Sweet potato,Kharif,9.0
+Medchal,Turmeric,Kharif,7.0
+Medchal,Urad,Kharif,0.71
+Medchal,Urad,Rabi,1.66
+Medchal,Wheat,Rabi,2.03
+Mulugu,Arhar/Tur,Rabi,0.76
+Mulugu,Bajra,Rabi,1.0
+Mulugu,Banana,Kharif,48.63
+Mulugu,Cashewnut,Kharif,0.43
+Mulugu,Coriander,Rabi,1.0
+Mulugu,Cowpea(Lobia),Rabi,1.03
+Medchal,Wheat,Kharif,2.0
+Mulugu,Arhar/Tur,Kharif,12.04
+Mulugu,Cowpea(Lobia),Kharif,0.85
+Mulugu,Dry chillies,Rabi,5.98
+Mulugu,Dry chillies,Kharif,4.37
+Mulugu,Ginger,Kharif,9.0
+Mulugu,Gram,Rabi,1.59
+Mulugu,Groundnut,Kharif,2.2
+Mulugu,Groundnut,Rabi,1.97
+Mulugu,Horse-gram,Rabi,0.85
+Mulugu,Jowar,Kharif,0.6
+Mulugu,Jowar,Rabi,1.92
+Mulugu,Maize,Rabi,8.71
+Mulugu,Maize,Kharif,5.02
+Mulugu,Moong(Green Gram),Kharif,0.72
+Mulugu,Moong(Green Gram),Rabi,0.77
+Mulugu,Onion,Rabi,30.26
+Mulugu,Ragi,Kharif,1.5
+Mulugu,Rice,Kharif,3.23
+Mulugu,Rice,Rabi,3.45
+Mulugu,Safflower,Rabi,1.0
+Mulugu,Sesamum,Rabi,0.72
+Mulugu,Soyabean,Rabi,1.5
+Mulugu,Sunflower,Rabi,1.94
+Mulugu,Tobacco,Rabi,4.03
+Mulugu,Turmeric,Kharif,7.17
+Mulugu,Turmeric,Rabi,7.5
+Mulugu,Urad,Rabi,1.22
+Mulugu,Urad,Kharif,0.69
+Mulugu,Wheat,Rabi,2.0
+Nagarkurnool,Arhar/Tur,Kharif,0.66
+Nagarkurnool,Arhar/Tur,Rabi,0.79
+Nagarkurnool,Bajra,Kharif,0.74
+Nagarkurnool,Bajra,Rabi,2.16
+Nagarkurnool,Banana,Kharif,48.33
+Nagarkurnool,Castor seed,Rabi,1.11
+Nagarkurnool,Cowpea(Lobia),Rabi,0.98
+Nagarkurnool,Dry chillies,Rabi,5.22
+Nagarkurnool,Castor seed,Kharif,1.1
+Nagarkurnool,Cowpea(Lobia),Kharif,0.77
+Nagarkurnool,Dry chillies,Kharif,4.23
+Nagarkurnool,Gram,Kharif,1.5
+Nagarkurnool,Gram,Rabi,1.45
+Nagarkurnool,Groundnut,Rabi,2.38
+Nagarkurnool,Groundnut,Kharif,1.99
+Nagarkurnool,Horse-gram,Kharif,1.12
+Nagarkurnool,Horse-gram,Rabi,1.01
+Nagarkurnool,Jowar,Kharif,0.97
+Nagarkurnool,Jowar,Rabi,1.66
+Nagarkurnool,Maize,Kharif,2.6
+Nagarkurnool,Moong(Green Gram),Kharif,0.61
+Nagarkurnool,Onion,Kharif,16.79
+Nagarkurnool,Potato,Kharif,12.0
+Nagarkurnool,Maize,Rabi,6.45
+Nagarkurnool,Moong(Green Gram),Rabi,1.0
+Nagarkurnool,Onion,Rabi,30.1
+Nagarkurnool,Potato,Rabi,15.74
+Nagarkurnool,Ragi,Kharif,1.29
+Nagarkurnool,Rice,Kharif,2.77
+Nagarkurnool,Sesamum,Kharif,0.16
+Nagarkurnool,Small millets,Kharif,1.39
+Nagarkurnool,Ragi,Rabi,1.4
+Nagarkurnool,Rice,Rabi,2.92
+Nagarkurnool,Safflower,Rabi,0.94
+Nagarkurnool,Sesamum,Rabi,0.7
+Nagarkurnool,Small millets,Rabi,1.27
+Nagarkurnool,Soyabean,Kharif,1.39
+Nagarkurnool,Sugarcane,Kharif,91.78
+Nagarkurnool,Sunflower,Kharif,1.85
+Nagarkurnool,Sunflower,Rabi,2.07
+Nagarkurnool,Sweet potato,Kharif,12.0
+Nagarkurnool,Sweet potato,Rabi,12.35
+Nagarkurnool,Turmeric,Kharif,7.52
+Nagarkurnool,Urad,Kharif,1.22
+Nagarkurnool,Urad,Rabi,1.37
+Nagarkurnool,Wheat,Kharif,2.0
+Nagarkurnool,Wheat,Rabi,2.35
+Nalgonda,Arhar/Tur,Kharif,0.57
+Nalgonda,Arhar/Tur,Rabi,0.73
+Nalgonda,Bajra,Kharif,0.82
+Nalgonda,Bajra,Rabi,1.92
+Nalgonda,Banana,Kharif,41.2
+Nalgonda,Banana,Whole Year,31.18
+Nalgonda,Cashewnut,Kharif,0.44
+Nalgonda,Castor seed,Kharif,0.73
+Nalgonda,Coriander,Rabi,0.63
+Nalgonda,Castor seed,Rabi,0.84
+Nalgonda,Coriander,Whole Year,0.48
+Nalgonda,Cowpea(Lobia),Rabi,0.78
+Nalgonda,Cowpea(Lobia),Kharif,0.75
+Nalgonda,Dry chillies,Kharif,4.73
+Nalgonda,Dry chillies,Rabi,4.54
+Nalgonda,Ginger,Rabi,6.5
+Nalgonda,Ginger,Kharif,6.79
+Nalgonda,Gram,Kharif,2.0
+Nalgonda,Groundnut,Kharif,1.9
+Nalgonda,Horse-gram,Kharif,1.17
+Nalgonda,Gram,Rabi,1.24
+Nalgonda,Groundnut,Rabi,1.73
+Nalgonda,Horse-gram,Rabi,1.02
+Nalgonda,Jowar,Kharif,0.77
+Nalgonda,Jowar,Rabi,1.37
+Nalgonda,Maize,Rabi,6.47
+Nalgonda,Moong(Green Gram),Rabi,1.06
+Nalgonda,Oilseeds total,Rabi,1.04
+Nalgonda,Maize,Kharif,2.86
+Nalgonda,Moong(Green Gram),Kharif,0.57
+Nalgonda,Oilseeds total,Kharif,1.77
+Nalgonda,Onion,Kharif,16.0
+Nalgonda,Onion,Rabi,29.15
+Nalgonda,Ragi,Kharif,1.84
+Nalgonda,Ragi,Rabi,2.0
+Nalgonda,Rice,Kharif,3.08
+Nalgonda,Rice,Rabi,3.23
+Nalgonda,Safflower,Rabi,1.0
+Nalgonda,Sesamum,Kharif,0.17
+Nalgonda,Tobacco,Kharif,4.09
+Nalgonda,Urad,Kharif,0.75
+Nalgonda,Sesamum,Rabi,0.63
+Nalgonda,Small millets,Kharif,1.16
+Nalgonda,Soyabean,Kharif,1.44
+Nalgonda,Sugarcane,Kharif,88.22
+Nalgonda,Sunflower,Rabi,1.86
+Nalgonda,Sweet potato,Rabi,11.5
+Nalgonda,Tobacco,Rabi,4.23
+Nalgonda,Turmeric,Kharif,6.31
+Nalgonda,Urad,Rabi,1.17
+Nalgonda,Wheat,Rabi,1.98
+Nalgonda,other oilseeds,Kharif,19.97
+Narayanapet,Arhar/Tur,Kharif,0.72
+Narayanapet,Arhar/Tur,Rabi,0.98
+Narayanapet,Bajra,Rabi,2.2
+Narayanapet,Bajra,Kharif,1.17
+Narayanapet,Castor seed,Kharif,1.01
+Narayanapet,Banana,Kharif,48.31
+Narayanapet,Castor seed,Rabi,1.32
+Narayanapet,Coriander,Rabi,1.0
+Narayanapet,Cowpea(Lobia),Rabi,0.88
+Narayanapet,Dry chillies,Rabi,5.1
+Narayanapet,Garlic,Rabi,4.0
+Narayanapet,Gram,Rabi,1.44
+Narayanapet,Groundnut,Rabi,2.08
+Narayanapet,Horse-gram,Rabi,1.17
+Narayanapet,Jowar,Rabi,0.94
+Narayanapet,Maize,Rabi,7.14
+Narayanapet,Moong(Green Gram),Rabi,0.85
+Narayanapet,Onion,Rabi,29.02
+Narayanapet,Cowpea(Lobia),Kharif,0.69
+Narayanapet,Dry chillies,Kharif,4.52
+Narayanapet,Gram,Kharif,1.0
+Narayanapet,Groundnut,Kharif,2.2
+Narayanapet,Horse-gram,Kharif,1.18
+Narayanapet,Jowar,Kharif,0.89
+Narayanapet,Maize,Kharif,3.68
+Narayanapet,Moong(Green Gram),Kharif,0.49
+Narayanapet,Onion,Kharif,16.66
+Narayanapet,Ragi,Kharif,1.16
+Narayanapet,Rice,Kharif,2.91
+Narayanapet,Ragi,Rabi,1.46
+Narayanapet,Rice,Rabi,3.05
+Narayanapet,Safflower,Rabi,0.81
+Narayanapet,Safflower,Kharif,1.0
+Narayanapet,Sesamum,Rabi,0.68
+Narayanapet,Sesamum,Kharif,0.33
+Narayanapet,Soyabean,Kharif,1.5
+Narayanapet,Sunflower,Kharif,2.02
+Narayanapet,Urad,Kharif,0.81
+Nirmal,Arhar/Tur,Kharif,1.05
+Narayanapet,Small millets,Kharif,1.17
+Narayanapet,Soyabean,Rabi,1.75
+Narayanapet,Sugarcane,Kharif,92.03
+Narayanapet,Sunflower,Rabi,2.21
+Narayanapet,Urad,Rabi,1.66
+Narayanapet,Wheat,Rabi,2.0
+Nirmal,Arhar/Tur,Rabi,1.01
+Nirmal,Bajra,Rabi,1.27
+Nirmal,Banana,Kharif,49.74
+Nirmal,Castor seed,Rabi,1.02
+Nirmal,Coriander,Rabi,0.77
+Nirmal,Cowpea(Lobia),Rabi,0.9
+Nirmal,Dry chillies,Rabi,5.63
+Nirmal,Garlic,Rabi,2.88
+Nirmal,Castor seed,Kharif,0.42
+Nirmal,Coriander,Kharif,1.0
+Nirmal,Cowpea(Lobia),Kharif,0.77
+Nirmal,Dry chillies,Kharif,4.14
+Nirmal,Ginger,Kharif,9.0
+Nirmal,Ginger,Rabi,9.0
+Nirmal,Gram,Rabi,1.47
+Nirmal,Groundnut,Rabi,2.69
+Nirmal,Horse-gram,Rabi,1.26
+Nirmal,Jowar,Rabi,1.79
+Nirmal,Maize,Rabi,8.7
+Nirmal,Gram,Kharif,2.0
+Nirmal,Groundnut,Kharif,1.64
+Nirmal,Horse-gram,Kharif,1.6
+Nirmal,Jowar,Kharif,0.94
+Nirmal,Maize,Kharif,5.9
+Nirmal,Moong(Green Gram),Kharif,0.52
+Nirmal,Onion,Kharif,17.85
+Nirmal,Ragi,Kharif,1.67
+Nirmal,Moong(Green Gram),Rabi,0.97
+Nirmal,Onion,Rabi,31.11
+Nirmal,Ragi,Rabi,1.09
+Nirmal,Rice,Rabi,3.56
+Nirmal,Safflower,Rabi,0.86
+Nirmal,Rice,Kharif,3.04
+Nirmal,Sesamum,Rabi,0.56
+Nirmal,Small millets,Kharif,1.35
+Nirmal,Soyabean,Kharif,1.56
+Nirmal,Small millets,Rabi,1.0
+Nirmal,Soyabean,Rabi,1.34
+Nirmal,Sugarcane,Kharif,89.94
+Nirmal,Sunflower,Rabi,2.05
+Nirmal,Sunflower,Kharif,3.0
+Nirmal,Tobacco,Kharif,4.0
+Nirmal,Turmeric,Kharif,5.8
+Nirmal,Urad,Kharif,0.78
+Nizamabad,Arhar/Tur,Kharif,0.91
+Nizamabad,Bajra,Kharif,1.01
+Nizamabad,Banana,Kharif,49.72
+Nizamabad,Castor seed,Kharif,0.76
+Nirmal,Tobacco,Rabi,4.03
+Nirmal,Turmeric,Rabi,7.38
+Nirmal,Urad,Rabi,1.29
+Nirmal,Wheat,Rabi,1.48
+Nizamabad,Arhar/Tur,Rabi,0.9
+Nizamabad,Bajra,Rabi,1.92
+Nizamabad,Banana,Whole Year,31.15
+Nizamabad,Castor seed,Rabi,1.05
+Nizamabad,Coriander,Kharif,0.87
+Nizamabad,Coriander,Whole Year,0.49
+Nizamabad,Cowpea(Lobia),Rabi,1.67
+Nizamabad,Dry chillies,Rabi,4.49
+Nizamabad,Garlic,Rabi,3.97
+Nizamabad,Ginger,Kharif,7.79
+Nizamabad,Gram,Rabi,1.31
+Nizamabad,Coriander,Rabi,0.95
+Nizamabad,Cowpea(Lobia),Kharif,0.68
+Nizamabad,Dry chillies,Kharif,4.38
+Nizamabad,Groundnut,Rabi,2.48
+Nizamabad,Groundnut,Kharif,2.17
+Nizamabad,Horse-gram,Kharif,0.58
+Nizamabad,Jowar,Kharif,0.85
+Nizamabad,Maize,Kharif,5.47
+Nizamabad,Moong(Green Gram),Kharif,0.59
+Nizamabad,Horse-gram,Rabi,0.98
+Nizamabad,Jowar,Rabi,1.73
+Nizamabad,Maize,Rabi,6.14
+Nizamabad,Moong(Green Gram),Rabi,0.8
 Nizamabad,Oilseeds total,Rabi,0.78
 Nizamabad,Onion,Rabi,28.47
 Nizamabad,Other Rabi pulses,Rabi,0.93
@@ -1087,74 +1016,6 @@ Nizamabad,Urad,Rabi,1.21
 Peddapalli,Arhar/Tur,Kharif,0.8
 Nizamabad,Wheat,Rabi,1.8
 Peddapalli,Arhar/Tur,Rabi,0.97
-Narayanapet,Sesamum,Kharif,0.33
-Narayanapet,Soyabean,Kharif,1.5
-Narayanapet,Sunflower,Kharif,2.02
-Narayanapet,Urad,Kharif,0.81
-Nirmal,Arhar/Tur,Kharif,1.05
-Narayanapet,Small millets,Kharif,1.17
-Narayanapet,Soyabean,Rabi,1.75
-Narayanapet,Sugarcane,Kharif,92.03
-Narayanapet,Sunflower,Rabi,2.21
-Narayanapet,Urad,Rabi,1.66
-Narayanapet,Wheat,Rabi,2.0
-Nirmal,Arhar/Tur,Rabi,1.01
-Nirmal,Bajra,Rabi,1.27
-Nirmal,Banana,Kharif,49.74
-Nirmal,Castor seed,Rabi,1.02
-Nirmal,Coriander,Rabi,0.77
-Nirmal,Cowpea(Lobia),Rabi,0.9
-Nirmal,Dry chillies,Rabi,5.63
-Nirmal,Garlic,Rabi,2.88
-Nirmal,Castor seed,Kharif,0.42
-Nirmal,Coriander,Kharif,1.0
-Nirmal,Cowpea(Lobia),Kharif,0.77
-Nirmal,Dry chillies,Kharif,4.14
-Nirmal,Ginger,Kharif,9.0
-Narayanapet,Groundnut,Rabi,2.08
-Narayanapet,Horse-gram,Rabi,1.17
-Narayanapet,Jowar,Rabi,0.94
-Narayanapet,Maize,Rabi,7.14
-Narayanapet,Moong(Green Gram),Rabi,0.85
-Narayanapet,Onion,Rabi,29.02
-Narayanapet,Cowpea(Lobia),Kharif,0.69
-Narayanapet,Dry chillies,Kharif,4.52
-Narayanapet,Gram,Kharif,1.0
-Narayanapet,Groundnut,Kharif,2.2
-Narayanapet,Horse-gram,Kharif,1.18
-Narayanapet,Jowar,Kharif,0.89
-Narayanapet,Maize,Kharif,3.68
-Narayanapet,Moong(Green Gram),Kharif,0.49
-Narayanapet,Onion,Kharif,16.66
-Narayanapet,Ragi,Kharif,1.16
-Narayanapet,Rice,Kharif,2.91
-Narayanapet,Ragi,Rabi,1.46
-Narayanapet,Rice,Rabi,3.05
-Narayanapet,Safflower,Rabi,0.81
-Narayanapet,Safflower,Kharif,1.0
-Narayanapet,Sesamum,Rabi,0.68
-Nirmal,Small millets,Kharif,1.35
-Nirmal,Soyabean,Kharif,1.56
-Nirmal,Small millets,Rabi,1.0
-Nirmal,Soyabean,Rabi,1.34
-Nirmal,Sugarcane,Kharif,89.94
-Nirmal,Sunflower,Rabi,2.05
-Nirmal,Sunflower,Kharif,3.0
-Nirmal,Tobacco,Kharif,4.0
-Nirmal,Turmeric,Kharif,5.8
-Nirmal,Urad,Kharif,0.78
-Nizamabad,Arhar/Tur,Kharif,0.91
-Nizamabad,Bajra,Kharif,1.01
-Nizamabad,Banana,Kharif,49.72
-Nizamabad,Castor seed,Kharif,0.76
-Nirmal,Tobacco,Rabi,4.03
-Nirmal,Turmeric,Rabi,7.38
-Nirmal,Urad,Rabi,1.29
-Nirmal,Wheat,Rabi,1.48
-Nizamabad,Arhar/Tur,Rabi,0.9
-Nizamabad,Bajra,Rabi,1.92
-Nizamabad,Banana,Whole Year,31.15
-Nizamabad,Castor seed,Rabi,1.05
 Peddapalli,Cowpea(Lobia),Kharif,0.59
 Peddapalli,Dry chillies,Kharif,3.65
 Peddapalli,Bajra,Rabi,1.97
@@ -1176,26 +1037,6 @@ Peddapalli,Jowar,Kharif,0.93
 Peddapalli,Maize,Kharif,6.47
 Peddapalli,Moong(Green Gram),Kharif,0.6
 Peddapalli,Moong(Green Gram),Rabi,0.91
-Nizamabad,Coriander,Kharif,0.87
-Nizamabad,Coriander,Whole Year,0.49
-Nizamabad,Cowpea(Lobia),Rabi,1.67
-Nizamabad,Dry chillies,Rabi,4.49
-Nizamabad,Garlic,Rabi,3.97
-Nizamabad,Ginger,Kharif,7.79
-Nizamabad,Gram,Rabi,1.31
-Nizamabad,Coriander,Rabi,0.95
-Nizamabad,Cowpea(Lobia),Kharif,0.68
-Nizamabad,Dry chillies,Kharif,4.38
-Nizamabad,Groundnut,Rabi,2.48
-Nizamabad,Groundnut,Kharif,2.17
-Nizamabad,Horse-gram,Kharif,0.58
-Nizamabad,Jowar,Kharif,0.85
-Nizamabad,Maize,Kharif,5.47
-Nizamabad,Moong(Green Gram),Kharif,0.59
-Nizamabad,Horse-gram,Rabi,0.98
-Nizamabad,Jowar,Rabi,1.73
-Nizamabad,Maize,Rabi,6.14
-Nizamabad,Moong(Green Gram),Rabi,0.8
 Peddapalli,Onion,Kharif,14.08
 Peddapalli,Onion,Rabi,30.17
 Peddapalli,Ragi,Kharif,1.84
@@ -1216,40 +1057,272 @@ Peddapalli,Soyabean,Kharif,1.77
 Peddapalli,Turmeric,Kharif,7.16
 Peddapalli,Urad,Kharif,0.88
 Rajanna,Arhar/Tur,Kharif,0.81
-Nirmal,Ginger,Rabi,9.0
-Nirmal,Gram,Rabi,1.47
-Nirmal,Groundnut,Rabi,2.69
-Nirmal,Horse-gram,Rabi,1.26
-Nirmal,Jowar,Rabi,1.79
-Nirmal,Maize,Rabi,8.7
-Nirmal,Gram,Kharif,2.0
-Nirmal,Groundnut,Kharif,1.64
-Nirmal,Horse-gram,Kharif,1.6
-Nirmal,Jowar,Kharif,0.94
-Nirmal,Maize,Kharif,5.9
-Nirmal,Moong(Green Gram),Kharif,0.52
-Nirmal,Onion,Kharif,17.85
-Nirmal,Ragi,Kharif,1.67
-Nirmal,Moong(Green Gram),Rabi,0.97
-Nirmal,Onion,Rabi,31.11
-Nirmal,Ragi,Rabi,1.09
-Nirmal,Rice,Rabi,3.56
-Nirmal,Safflower,Rabi,0.86
-Nirmal,Rice,Kharif,3.04
-Nirmal,Sesamum,Rabi,0.56
-Nalgonda,other oilseeds,Kharif,19.97
-Narayanapet,Arhar/Tur,Kharif,0.72
-Narayanapet,Arhar/Tur,Rabi,0.98
-Narayanapet,Bajra,Rabi,2.2
-Narayanapet,Bajra,Kharif,1.17
-Narayanapet,Castor seed,Kharif,1.01
-Narayanapet,Banana,Kharif,48.31
-Narayanapet,Castor seed,Rabi,1.32
-Narayanapet,Coriander,Rabi,1.0
-Narayanapet,Cowpea(Lobia),Rabi,0.88
-Narayanapet,Dry chillies,Rabi,5.1
-Narayanapet,Garlic,Rabi,4.0
-Narayanapet,Gram,Rabi,1.44
+Rajanna,Banana,Kharif,38.12
+Rajanna,Castor seed,Rabi,0.97
+Rajanna,Castor seed,Kharif,0.85
+Rajanna,Coriander,Kharif,1.0
+Rajanna,Coriander,Rabi,0.88
+Rajanna,Cowpea(Lobia),Rabi,1.42
+Rajanna,Cowpea(Lobia),Kharif,0.6
+Rajanna,Dry chillies,Rabi,5.08
+Rajanna,Garlic,Rabi,4.0
+Rajanna,Ginger,Kharif,9.0
+Rajanna,Gram,Rabi,1.41
+Rajanna,Groundnut,Rabi,2.29
+Rajanna,Dry chillies,Kharif,4.39
+Rajanna,Groundnut,Kharif,2.01
+Rajanna,Horse-gram,Kharif,1.25
+Rajanna,Horse-gram,Rabi,0.96
+Rajanna,Jowar,Kharif,0.98
+Rajanna,Maize,Kharif,5.01
+Rajanna,Moong(Green Gram),Kharif,0.61
+Rajanna,Jowar,Rabi,2.3
+Rajanna,Maize,Rabi,6.21
+Rajanna,Moong(Green Gram),Rabi,0.9
+Rajanna,Onion,Rabi,30.09
+Rajanna,Potato,Rabi,24.0
+Rajanna,Onion,Kharif,17.63
+Rajanna,Ragi,Kharif,2.0
+Rajanna,Ragi,Rabi,1.5
+Rajanna,Rice,Kharif,3.69
+Rajanna,Rice,Rabi,3.79
+Rajanna,Safflower,Rabi,1.0
+Rajanna,Sesamum,Rabi,0.62
+Rajanna,Small millets,Rabi,1.0
+Rajanna,Soyabean,Rabi,1.75
+Rajanna,Sugarcane,Kharif,89.26
+Rajanna,Safflower,Kharif,1.0
+Rajanna,Soyabean,Kharif,1.76
+Rajanna,Sunflower,Rabi,2.04
+Rajanna,Tobacco,Rabi,3.0
+Rajanna,Turmeric,Rabi,7.38
+Rajanna,Urad,Rabi,1.69
+Rajanna,Wheat,Rabi,2.25
+Rajanna,Turmeric,Kharif,7.17
+Rajanna,Urad,Kharif,0.76
+Rangareddi,Arhar/Tur,Kharif,0.51
+Rangareddi,Bajra,Kharif,0.86
+Rangareddi,Arhar/Tur,Rabi,0.71
+Rangareddi,Bajra,Rabi,2.09
+Rangareddi,Banana,Kharif,49.76
+Rangareddi,Banana,Whole Year,31.14
+Rangareddi,Cashewnut,Kharif,0.33
+Rangareddi,Castor seed,Kharif,0.41
+Rangareddi,Castor seed,Rabi,0.87
+Rangareddi,Coriander,Kharif,0.76
+Rangareddi,Coriander,Whole Year,0.42
+Rangareddi,Cowpea(Lobia),Rabi,1.7
+Rangareddi,Dry chillies,Rabi,4.56
+Rangareddi,Coriander,Rabi,0.76
+Rangareddi,Cowpea(Lobia),Kharif,0.75
+Rangareddi,Dry chillies,Kharif,4.54
+Rangareddi,Ginger,Kharif,11.43
+Rangareddi,Gram,Kharif,1.41
+Rangareddi,Groundnut,Kharif,1.35
+Rangareddi,Horse-gram,Kharif,0.94
+Rangareddi,Jowar,Kharif,1.04
+Rangareddi,Maize,Kharif,2.3
+Rangareddi,Moong(Green Gram),Kharif,0.65
+Rangareddi,Ginger,Rabi,9.0
+Rangareddi,Gram,Rabi,1.25
+Rangareddi,Groundnut,Rabi,2.65
+Rangareddi,Horse-gram,Rabi,0.99
+Rangareddi,Jowar,Rabi,1.83
+Rangareddi,Maize,Rabi,5.1
+Rangareddi,Moong(Green Gram),Rabi,0.88
+Rangareddi,Oilseeds total,Rabi,1.16
+Rangareddi,Onion,Rabi,22.02
+Rangareddi,Potato,Kharif,18.14
+Rangareddi,Potato,Whole Year,16.67
+Rangareddi,Oilseeds total,Kharif,0.8
+Rangareddi,Onion,Kharif,15.74
+Rangareddi,Potato,Rabi,18.19
+Rangareddi,Ragi,Rabi,1.62
+Rangareddi,Rice,Rabi,2.84
+Rangareddi,Safflower,Rabi,1.06
+Rangareddi,Ragi,Kharif,1.59
+Rangareddi,Rice,Kharif,2.96
+Rangareddi,Safflower,Kharif,1.31
+Rangareddi,Sesamum,Kharif,0.14
+Rangareddi,Soyabean,Kharif,1.4
+Rangareddi,Sunflower,Kharif,2.02
+Rangareddi,Sesamum,Rabi,0.76
+Rangareddi,Small millets,Kharif,1.13
+Rangareddi,Soyabean,Rabi,1.37
+Rangareddi,Sugarcane,Kharif,77.29
+Rangareddi,Sunflower,Rabi,1.86
+Rangareddi,Sweet potato,Kharif,8.83
+Rangareddi,Sweet potato,Rabi,11.19
+Rangareddi,Sweet potato,Whole Year,8.74
+Rangareddi,Turmeric,Kharif,5.62
+Rangareddi,Urad,Rabi,1.37
+Rangareddi,Urad,Kharif,0.79
+Rangareddi,Wheat,Kharif,1.52
+Rangareddi,Wheat,Rabi,2.28
+Rangareddi,other oilseeds,Kharif,0.33
+Sangareddy,Arhar/Tur,Rabi,0.97
+Sangareddy,Arhar/Tur,Kharif,0.74
+Sangareddy,Bajra,Kharif,0.61
+Sangareddy,Bajra,Rabi,0.68
+Sangareddy,Banana,Kharif,50.74
+Sangareddy,Castor seed,Kharif,0.95
+Sangareddy,Coriander,Kharif,0.71
+Sangareddy,Cashewnut,Kharif,0.67
+Sangareddy,Castor seed,Rabi,0.99
+Sangareddy,Coriander,Rabi,0.73
+Sangareddy,Cowpea(Lobia),Rabi,0.83
+Sangareddy,Dry chillies,Rabi,5.71
+Sangareddy,Cowpea(Lobia),Kharif,0.84
+Sangareddy,Dry chillies,Kharif,4.45
+Sangareddy,Garlic,Kharif,3.0
+Sangareddy,Ginger,Kharif,8.08
+Sangareddy,Garlic,Rabi,2.36
+Sangareddy,Ginger,Rabi,9.18
+Sangareddy,Gram,Rabi,1.33
+Sangareddy,Groundnut,Rabi,1.74
+Sangareddy,Horse-gram,Rabi,1.06
+Sangareddy,Groundnut,Kharif,2.24
+Sangareddy,Horse-gram,Kharif,0.96
+Sangareddy,Jowar,Kharif,0.66
+Sangareddy,Jowar,Rabi,1.69
+Sangareddy,Maize,Kharif,3.54
+Sangareddy,Maize,Rabi,3.87
+Sangareddy,Moong(Green Gram),Kharif,0.74
+Sangareddy,Moong(Green Gram),Rabi,0.98
+Sangareddy,Onion,Rabi,37.03
+Sangareddy,Potato,Rabi,16.84
+Sangareddy,Onion,Kharif,11.89
+Sangareddy,Potato,Kharif,19.2
+Sangareddy,Ragi,Kharif,1.47
+Sangareddy,Ragi,Rabi,1.26
+Sangareddy,Rice,Rabi,3.72
+Sangareddy,Rice,Kharif,3.55
+Sangareddy,Safflower,Rabi,0.66
+Sangareddy,Sesamum,Rabi,0.69
+Sangareddy,Sesamum,Kharif,0.2
+Sangareddy,Small millets,Kharif,1.12
+Sangareddy,Soyabean,Kharif,1.3
+Sangareddy,Sunflower,Kharif,1.85
+Sangareddy,Turmeric,Kharif,4.76
+Sangareddy,Urad,Kharif,0.76
+Sangareddy,Wheat,Kharif,2.0
+Sangareddy,Small millets,Rabi,1.0
+Sangareddy,Soyabean,Rabi,1.55
+Sangareddy,Sugarcane,Kharif,87.56
+Sangareddy,Sunflower,Rabi,2.04
+Sangareddy,Sweet potato,Rabi,12.14
+Sangareddy,Tobacco,Rabi,3.39
+Sangareddy,Turmeric,Rabi,7.52
+Sangareddy,Urad,Rabi,1.62
+Sangareddy,Wheat,Rabi,1.73
+Siddipet,Arhar/Tur,Rabi,0.94
+Siddipet,Bajra,Rabi,2.27
+Siddipet,Arhar/Tur,Kharif,0.78
+Siddipet,Bajra,Kharif,1.13
+Siddipet,Banana,Kharif,49.78
+Siddipet,Cashewnut,Kharif,0.76
+Siddipet,Castor seed,Kharif,0.85
+Siddipet,Coriander,Kharif,1.26
+Siddipet,Cowpea(Lobia),Kharif,0.98
+Siddipet,Dry chillies,Kharif,4.52
+Siddipet,Ginger,Kharif,8.19
+Siddipet,Gram,Kharif,1.04
+Siddipet,Groundnut,Kharif,1.94
+Siddipet,Horse-gram,Kharif,1.16
+Siddipet,Jowar,Kharif,0.92
+Siddipet,Maize,Kharif,3.83
+Siddipet,Moong(Green Gram),Kharif,0.64
+Siddipet,Onion,Kharif,17.68
+Siddipet,Potato,Kharif,18.49
+Siddipet,Castor seed,Rabi,0.96
+Siddipet,Coriander,Rabi,0.91
+Siddipet,Cowpea(Lobia),Rabi,0.99
+Siddipet,Dry chillies,Rabi,5.56
+Siddipet,Garlic,Rabi,3.4
+Siddipet,Ginger,Rabi,8.12
+Siddipet,Gram,Rabi,1.68
+Siddipet,Groundnut,Rabi,1.88
+Siddipet,Horse-gram,Rabi,1.06
+Siddipet,Jowar,Rabi,2.32
+Siddipet,Maize,Rabi,6.01
+Siddipet,Moong(Green Gram),Rabi,0.92
+Siddipet,Onion,Rabi,18.44
+Siddipet,Potato,Rabi,18.57
+Siddipet,Ragi,Kharif,1.59
+Siddipet,Rice,Kharif,3.41
+Siddipet,Ragi,Rabi,2.0
+Siddipet,Rice,Rabi,3.36
+Siddipet,Sesamum,Kharif,0.32
+Siddipet,Soyabean,Kharif,1.43
+Siddipet,Sunflower,Kharif,2.03
+Siddipet,Safflower,Rabi,1.12
+Siddipet,Sesamum,Rabi,0.7
+Siddipet,Small millets,Kharif,0.5
+Siddipet,Soyabean,Rabi,1.6
+Siddipet,Sugarcane,Kharif,90.37
+Siddipet,Sunflower,Rabi,2.11
+Siddipet,Tobacco,Rabi,2.51
+Siddipet,Turmeric,Kharif,6.86
+Siddipet,Urad,Kharif,0.85
+Siddipet,Turmeric,Rabi,7.0
+Siddipet,Urad,Rabi,1.4
+Siddipet,Wheat,Kharif,2.0
+Suryapet,Arhar/Tur,Kharif,0.67
+Siddipet,Wheat,Rabi,1.93
+Suryapet,Arhar/Tur,Rabi,0.84
+Suryapet,Bajra,Kharif,1.0
+Suryapet,Bajra,Rabi,3.0
+Suryapet,Banana,Kharif,49.78
+Suryapet,Castor seed,Rabi,0.94
+Suryapet,Coriander,Kharif,1.0
+Suryapet,Cowpea(Lobia),Rabi,0.62
+Suryapet,Castor seed,Kharif,0.5
+Suryapet,Cowpea(Lobia),Kharif,0.87
+Suryapet,Dry chillies,Kharif,4.05
+Suryapet,Dry chillies,Rabi,7.57
+Suryapet,Ginger,Kharif,9.0
+Suryapet,Gram,Rabi,1.49
+Suryapet,Groundnut,Rabi,2.1
+Suryapet,Horse-gram,Rabi,1.21
+Suryapet,Jowar,Rabi,1.58
+Suryapet,Groundnut,Kharif,1.9
+Suryapet,Horse-gram,Kharif,1.77
+Suryapet,Jowar,Kharif,0.94
+Suryapet,Maize,Kharif,3.4
+Suryapet,Maize,Rabi,5.74
+Suryapet,Moong(Green Gram),Kharif,0.41
+Suryapet,Moong(Green Gram),Rabi,0.77
+Suryapet,Onion,Kharif,16.85
+Suryapet,Onion,Rabi,28.06
+Suryapet,Ragi,Rabi,1.35
+Suryapet,Rice,Kharif,3.36
+Suryapet,Sesamum,Kharif,0.15
+Suryapet,Small millets,Kharif,1.7
+Suryapet,Sunflower,Kharif,1.0
+Suryapet,Sweet potato,Kharif,12.42
+Suryapet,Rice,Rabi,3.54
+Suryapet,Safflower,Rabi,1.0
+Suryapet,Sesamum,Rabi,0.73
+Suryapet,Small millets,Rabi,1.0
+Suryapet,Sugarcane,Kharif,89.0
+Suryapet,Sunflower,Rabi,1.83
+Suryapet,Sweet potato,Rabi,11.15
+Suryapet,Tobacco,Rabi,3.33
+Suryapet,Turmeric,Kharif,7.03
+Suryapet,Turmeric,Rabi,6.0
+Suryapet,Urad,Rabi,1.29
+Suryapet,Urad,Kharif,0.84
+Vikarabad,Arhar/Tur,Kharif,0.73
+Vikarabad,Arhar/Tur,Rabi,0.83
+Vikarabad,Bajra,Kharif,0.89
+Vikarabad,Bajra,Rabi,2.03
+Vikarabad,Banana,Kharif,53.63
+Vikarabad,Castor seed,Kharif,0.85
+Vikarabad,Coriander,Kharif,0.59
+Vikarabad,Castor seed,Rabi,1.26
+Vikarabad,Coriander,Rabi,0.76
+Vikarabad,Cowpea(Lobia),Kharif,0.8
+Vikarabad,Cowpea(Lobia),Rabi,0.99
 Vikarabad,Dry chillies,Kharif,4.49
 Vikarabad,Garlic,Kharif,2.0
 Vikarabad,Ginger,Kharif,6.7
@@ -1274,69 +1347,6 @@ Vikarabad,Potato,Kharif,24.33
 Vikarabad,Potato,Rabi,21.51
 Vikarabad,Ragi,Kharif,1.96
 Vikarabad,Rice,Kharif,2.88
-Suryapet,Arhar/Tur,Kharif,0.67
-Siddipet,Wheat,Rabi,1.93
-Suryapet,Arhar/Tur,Rabi,0.84
-Suryapet,Bajra,Kharif,1.0
-Suryapet,Bajra,Rabi,3.0
-Suryapet,Banana,Kharif,49.78
-Suryapet,Castor seed,Rabi,0.94
-Suryapet,Coriander,Kharif,1.0
-Suryapet,Cowpea(Lobia),Rabi,0.62
-Suryapet,Castor seed,Kharif,0.5
-Suryapet,Cowpea(Lobia),Kharif,0.87
-Suryapet,Dry chillies,Kharif,4.05
-Suryapet,Dry chillies,Rabi,7.57
-Suryapet,Ginger,Kharif,9.0
-Suryapet,Gram,Rabi,1.49
-Suryapet,Groundnut,Rabi,2.1
-Suryapet,Horse-gram,Rabi,1.21
-Suryapet,Jowar,Rabi,1.58
-Suryapet,Groundnut,Kharif,1.9
-Suryapet,Horse-gram,Kharif,1.77
-Suryapet,Jowar,Kharif,0.94
-Wanaparthy,Cowpea(Lobia),Kharif,0.76
-Wanaparthy,Dry chillies,Kharif,4.39
-Wanaparthy,Groundnut,Kharif,2.09
-Wanaparthy,Horse-gram,Kharif,1.03
-Wanaparthy,Jowar,Kharif,0.93
-Wanaparthy,Maize,Kharif,3.24
-Wanaparthy,Moong(Green Gram),Kharif,0.6
-Wanaparthy,Onion,Kharif,23.04
-Wanaparthy,Ragi,Kharif,1.59
-Wanaparthy,Rice,Rabi,3.32
-Wanaparthy,Safflower,Rabi,1.0
-Wanaparthy,Rice,Kharif,2.89
-Wanaparthy,Sesamum,Kharif,0.17
-Wanaparthy,Sesamum,Rabi,0.72
-Wanaparthy,Small millets,Kharif,1.14
-Wanaparthy,Soyabean,Kharif,1.44
-Wanaparthy,Small millets,Rabi,1.0
-Wanaparthy,Soyabean,Rabi,1.47
-Wanaparthy,Sugarcane,Kharif,76.3
-Wanaparthy,Sunflower,Rabi,1.84
-Wanaparthy,Tobacco,Rabi,5.21
-Suryapet,Maize,Kharif,3.4
-Suryapet,Maize,Rabi,5.74
-Suryapet,Moong(Green Gram),Kharif,0.41
-Suryapet,Moong(Green Gram),Rabi,0.77
-Suryapet,Onion,Kharif,16.85
-Suryapet,Onion,Rabi,28.06
-Suryapet,Ragi,Rabi,1.35
-Suryapet,Rice,Kharif,3.36
-Suryapet,Sesamum,Kharif,0.15
-Suryapet,Small millets,Kharif,1.7
-Suryapet,Sunflower,Kharif,1.0
-Suryapet,Sweet potato,Kharif,12.42
-Suryapet,Rice,Rabi,3.54
-Suryapet,Safflower,Rabi,1.0
-Suryapet,Sesamum,Rabi,0.73
-Suryapet,Small millets,Rabi,1.0
-Suryapet,Sugarcane,Kharif,89.0
-Suryapet,Sunflower,Rabi,1.83
-Suryapet,Sweet potato,Rabi,11.15
-Suryapet,Tobacco,Rabi,3.33
-Suryapet,Turmeric,Kharif,7.03
 Vikarabad,Safflower,Kharif,0.85
 Vikarabad,Sesamum,Kharif,0.23
 Vikarabad,Ragi,Rabi,1.33
@@ -1374,37 +1384,27 @@ Wanaparthy,Maize,Rabi,6.22
 Wanaparthy,Moong(Green Gram),Rabi,0.92
 Wanaparthy,Onion,Rabi,30.1
 Wanaparthy,Ragi,Rabi,1.42
-Suryapet,Turmeric,Rabi,6.0
-Suryapet,Urad,Rabi,1.29
-Suryapet,Urad,Kharif,0.84
-Vikarabad,Arhar/Tur,Kharif,0.73
-Vikarabad,Arhar/Tur,Rabi,0.83
-Vikarabad,Bajra,Kharif,0.89
-Vikarabad,Bajra,Rabi,2.03
-Vikarabad,Banana,Kharif,53.63
-Vikarabad,Castor seed,Kharif,0.85
-Vikarabad,Coriander,Kharif,0.59
-Vikarabad,Castor seed,Rabi,1.26
-Vikarabad,Coriander,Rabi,0.76
-Vikarabad,Cowpea(Lobia),Kharif,0.8
-Vikarabad,Cowpea(Lobia),Rabi,0.99
-Siddipet,Sesamum,Kharif,0.32
-Siddipet,Soyabean,Kharif,1.43
-Siddipet,Sunflower,Kharif,2.03
-Siddipet,Safflower,Rabi,1.12
-Siddipet,Sesamum,Rabi,0.7
-Siddipet,Small millets,Kharif,0.5
-Siddipet,Soyabean,Rabi,1.6
-Siddipet,Sugarcane,Kharif,90.37
-Siddipet,Sunflower,Rabi,2.11
-Siddipet,Tobacco,Rabi,2.51
-Siddipet,Turmeric,Kharif,6.86
-Siddipet,Urad,Kharif,0.85
-Siddipet,Turmeric,Rabi,7.0
-Siddipet,Urad,Rabi,1.4
-Siddipet,Wheat,Kharif,2.0
-Siddipet,Ragi,Rabi,2.0
-Siddipet,Rice,Rabi,3.36
+Wanaparthy,Cowpea(Lobia),Kharif,0.76
+Wanaparthy,Dry chillies,Kharif,4.39
+Wanaparthy,Groundnut,Kharif,2.09
+Wanaparthy,Horse-gram,Kharif,1.03
+Wanaparthy,Jowar,Kharif,0.93
+Wanaparthy,Maize,Kharif,3.24
+Wanaparthy,Moong(Green Gram),Kharif,0.6
+Wanaparthy,Onion,Kharif,23.04
+Wanaparthy,Ragi,Kharif,1.59
+Wanaparthy,Rice,Rabi,3.32
+Wanaparthy,Safflower,Rabi,1.0
+Wanaparthy,Rice,Kharif,2.89
+Wanaparthy,Sesamum,Kharif,0.17
+Wanaparthy,Sesamum,Rabi,0.72
+Wanaparthy,Small millets,Kharif,1.14
+Wanaparthy,Soyabean,Kharif,1.44
+Wanaparthy,Small millets,Rabi,1.0
+Wanaparthy,Soyabean,Rabi,1.47
+Wanaparthy,Sugarcane,Kharif,76.3
+Wanaparthy,Sunflower,Rabi,1.84
+Wanaparthy,Tobacco,Rabi,5.21
 Wanaparthy,Urad,Rabi,1.46
 Wanaparthy,Wheat,Rabi,2.0
 Warangal,Arhar/Tur,Rabi,0.89

@@ -1,62 +1,4 @@
 district,crop,season,price
-Adilabad,Arhar/Tur,Kharif,6899.51
-Adilabad,Banana,Whole Year,707.29
-Adilabad,Banana,Kharif,587.0
-Adilabad,Coriander,Kharif,4831.2
-Adilabad,Arhar/Tur,Rabi,7088.74
-Adilabad,Coriander,Rabi,8234.84
-Adilabad,Coriander,Whole Year,9047.6
-Adilabad,Cowpea(Lobia),Rabi,2974.04
-Adilabad,Dry chillies,Kharif,10478.0
-Adilabad,Dry chillies,Rabi,5400.0
-Adilabad,Garlic,Rabi,3103.0
-Adilabad,Ginger,Kharif,587.0
-Adilabad,Gram,Kharif,4254.13
-Adilabad,Gram,Rabi,4281.43
-Adilabad,Groundnut,Rabi,4430.55
-Adilabad,Jowar,Kharif,1951.06
-Adilabad,Maize,Kharif,1793.32
-Adilabad,Jowar,Rabi,1917.67
-Adilabad,Maize,Rabi,1643.86
-Adilabad,Moong(Green Gram),Rabi,7230.26
-Adilabad,Onion,Rabi,1846.21
-Adilabad,Moong(Green Gram),Kharif,4531.73
-Adilabad,Mustard,Rabi,3722.45
-Adilabad,Onion,Kharif,2983.58
-Adilabad,Potato,Rabi,2779.78
-Adilabad,Potato,Kharif,3000.0
-Adilabad,Potato,Whole Year,2800.56
-Adilabad,Rice,Rabi,3000.0
-Adilabad,Safflower,Rabi,5059.38
-Adilabad,Sesamum,Kharif,11042.03
-Adilabad,Soyabean,Kharif,4132.5
-Adilabad,Sunflower,Rabi,5000.66
-Adilabad,Turmeric,Kharif,6311.0
-Adilabad,Sesamum,Rabi,9759.99
-Adilabad,Soyabean,Rabi,4726.07
-Adilabad,Turmeric,Rabi,8855.34
-Adilabad,Urad,Rabi,5658.34
-Adilabad,Wheat,Rabi,1909.41
-Hyderabad,Banana,Whole Year,946.07
-Hyderabad,Coriander,Rabi,7057.48
-Hyderabad,Dry chillies,Rabi,8324.82
-Adilabad,Urad,Kharif,5352.52
-Adilabad,Wheat,Kharif,1815.24
-Hyderabad,Banana,Kharif,1035.68
-Hyderabad,Coriander,Kharif,7285.34
-Hyderabad,Coriander,Whole Year,7192.26
-Hyderabad,Dry chillies,Kharif,8172.72
-Hyderabad,Garlic,Kharif,9205.01
-Hyderabad,Garlic,Rabi,8688.58
-Hyderabad,Groundnut,Rabi,2167.47
-Hyderabad,Groundnut,Kharif,2211.4
-Hyderabad,Maize,Kharif,971.73
-Hyderabad,Maize,Rabi,1092.78
-Hyderabad,Onion,Rabi,1137.1
-Hyderabad,Onion,Kharif,1855.88
-Hyderabad,Potato,Rabi,1569.15
-Hyderabad,Potato,Kharif,1739.51
-Hyderabad,Potato,Whole Year,1541.57
 Hyderabad,Sesamum,Rabi,6000.0
 Hyderabad,Sweet potato,Kharif,1142.32
 Hyderabad,Sweet potato,Whole Year,1257.64
@@ -373,3 +315,61 @@ Warangal,Turmeric,Kharif,5978.07
 Warangal,Urad,Kharif,4415.2
 Warangal,Turmeric,Rabi,9400.42
 Warangal,Urad,Rabi,6037.92
+Adilabad,Sesamum,Rabi,9759.99
+Adilabad,Soyabean,Rabi,4726.07
+Adilabad,Turmeric,Rabi,8855.34
+Adilabad,Urad,Rabi,5658.34
+Adilabad,Wheat,Rabi,1909.41
+Hyderabad,Banana,Whole Year,946.07
+Hyderabad,Coriander,Rabi,7057.48
+Hyderabad,Dry chillies,Rabi,8324.82
+Adilabad,Urad,Kharif,5352.52
+Adilabad,Wheat,Kharif,1815.24
+Hyderabad,Banana,Kharif,1035.68
+Hyderabad,Coriander,Kharif,7285.34
+Hyderabad,Coriander,Whole Year,7192.26
+Hyderabad,Dry chillies,Kharif,8172.72
+Hyderabad,Garlic,Kharif,9205.01
+Hyderabad,Garlic,Rabi,8688.58
+Hyderabad,Groundnut,Rabi,2167.47
+Hyderabad,Groundnut,Kharif,2211.4
+Hyderabad,Maize,Kharif,971.73
+Hyderabad,Maize,Rabi,1092.78
+Hyderabad,Onion,Rabi,1137.1
+Hyderabad,Onion,Kharif,1855.88
+Hyderabad,Potato,Rabi,1569.15
+Hyderabad,Potato,Kharif,1739.51
+Hyderabad,Potato,Whole Year,1541.57
+Adilabad,Arhar/Tur,Kharif,6899.51
+Adilabad,Banana,Whole Year,707.29
+Adilabad,Banana,Kharif,587.0
+Adilabad,Coriander,Kharif,4831.2
+Adilabad,Arhar/Tur,Rabi,7088.74
+Adilabad,Coriander,Rabi,8234.84
+Adilabad,Coriander,Whole Year,9047.6
+Adilabad,Cowpea(Lobia),Rabi,2974.04
+Adilabad,Dry chillies,Kharif,10478.0
+Adilabad,Dry chillies,Rabi,5400.0
+Adilabad,Garlic,Rabi,3103.0
+Adilabad,Ginger,Kharif,587.0
+Adilabad,Gram,Kharif,4254.13
+Adilabad,Gram,Rabi,4281.43
+Adilabad,Groundnut,Rabi,4430.55
+Adilabad,Jowar,Kharif,1951.06
+Adilabad,Maize,Kharif,1793.32
+Adilabad,Jowar,Rabi,1917.67
+Adilabad,Maize,Rabi,1643.86
+Adilabad,Moong(Green Gram),Rabi,7230.26
+Adilabad,Onion,Rabi,1846.21
+Adilabad,Moong(Green Gram),Kharif,4531.73
+Adilabad,Mustard,Rabi,3722.45
+Adilabad,Onion,Kharif,2983.58
+Adilabad,Potato,Rabi,2779.78
+Adilabad,Potato,Kharif,3000.0
+Adilabad,Potato,Whole Year,2800.56
+Adilabad,Rice,Rabi,3000.0
+Adilabad,Safflower,Rabi,5059.38
+Adilabad,Sesamum,Kharif,11042.03
+Adilabad,Soyabean,Kharif,4132.5
+Adilabad,Sunflower,Rabi,5000.66
+Adilabad,Turmeric,Kharif,6311.0

@@ -114,7 +114,7 @@ apmc_df = pd.read_csv(APMC_path)
 crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
 
 if crop_price == 0:
-    print("Crop priceis not available for the selected season &/or district")
+    print("Crop price is not available for the selected season &/or district")
     print("Not elegible for consumer loan")
     consumer_loan_amount = 0
 
