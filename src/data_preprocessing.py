@@ -1,4 +1,5 @@
 import pandas as pd 
+import csv
 
 def modifyPredictedYieldsData():
     predicted_yields_path = 'data/predictedYields.csv'
@@ -13,13 +14,39 @@ def modifyPredictedYieldsData():
     print("Filtered data saved")
 
 def modifySOFData():
-    sof_data_path = 'data/SOF-TS.csv'
-    sof_data = pd.read_csv(sof_data_path)
+    sof_data_path = 'data/SOF_data.csv'
+    with open(sof_data_path, 'r') as infile:
+        reader = csv.DictReader(infile)
+        rows = list(reader) 
 
-    sof_data = sof_data.drop(columns=['SI. No.', 'Scale of Finance (2023-24)'])
+    for row in rows:
+        crop = row['Crop']
+        landType =''
 
-    # Save the modified data back to the CSV file (or a new file)
-    sof_data.to_csv('../data/SOF-TS.csv', index=False)
+        if '(' in crop and ')' in crop:
+        # Extract the part inside brackets
+            bracket_content = crop[crop.find('(') + 1 : crop.find(')')]
+            
+            # Check if it's 'UI' or 'Irr.'
+            if bracket_content in ['UI', 'Irr.']:
+                landType = bracket_content.rstrip('.')  # Remove the dot from 'Irr.'
+
+            # Remove the part inside brackets from 'Crop'
+            row['Crop'] = crop[:crop.find('(')].strip()
+
+        # Add the LandType to the row
+        row['LandType'] = landType
+
+    fieldnames = ['Crop', 'LandType', 'maxSOF']
+
+    with open('data/SOF_data.csv', 'w', newline='') as outfile:
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+        
+        # Write the header
+        writer.writeheader()
+        
+        # Write the rows
+        writer.writerows(rows)
 
     print("Modified SOF data saved")
 

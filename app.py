@@ -9,13 +9,11 @@ def main():
     print("********* Farmer Credit System ********")
 
     print("Pre-processing data...")
-    # preProcessor.modifyPredictedYieldsData()
-    # preProcessor.modifySOFData()
-    # preProcessor.modifyAPMCData()
+    preProcessor.modifySOFData()
     print("Data pre-processing complete")
 
     # Load the data
-    predicted_yields_path = 'data/predictedYields.csv'
+    predicted_yields_path = 'data/Yield_data.csv'
     predicted_yields = pd.read_csv(predicted_yields_path)
 
     farmer_data_path = 'data/farmer_data.json'
@@ -105,7 +103,7 @@ def main():
 
 
     # Get SOF for crop
-    SOF_path = 'data/SOF-TS.csv'
+    SOF_path = 'data/SOF_data.csv'
     sof_df = pd.read_csv(SOF_path)
 
     # get SOF as crop, irrigation type & SOF
@@ -118,7 +116,7 @@ def main():
     print("Kissan loan amount: Rs. ", kisaan_loan_amount)
 
     # get APMC price for the crop
-    APMC_path = 'data/predictedPrices.csv'
+    APMC_path = 'data/APMC_data.csv'
     apmc_df = pd.read_csv(APMC_path)
 
     # get APMC price for the crop

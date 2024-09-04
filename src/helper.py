@@ -4,17 +4,10 @@ def get_sof_of_crop(sof_df, crop, land_type):
     sof = 0.0
     # check if land type is there for particular crop, if not return sof for crop irrespective of land type
     if len(sof_df[(sof_df['Crop']==crop) & (sof_df['LandType']==land_type)]) == 0:
-        sof = sof_df[sof_df['Crop']==crop]['Scale of Finance (2024-25)'].to_list()[0]
-        if "-" in sof:
-            sof = float(sof.split('-')[1])
-        else:
-            sof = float(sof)
+        res = sof_df[sof_df['Crop']==crop]["maxSOF"]
     else: 
-        res = sof_df[(sof_df['Crop']==crop) & (sof_df['LandType']==land_type)]['Scale of Finance (2024-25)'].to_list()[0]
-        if "-" in res:
-            sof = float(res.split('-')[1])
-        else:
-            sof = float(res)
+        res = sof_df[(sof_df['Crop']==crop) & (sof_df['LandType']==land_type)]["maxSOF"]
+    sof = float(res.iloc[0]) 
     return sof
 
 # get APMC price for the crop

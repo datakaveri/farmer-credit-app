@@ -1,125 +1,125 @@
-Crop,maxSOF
-Sugarcane (Ratoon),66000.0
-Brinjal (without mulching),40000.0
-Onion,45000.0
-Cabbage,34000.0
-Capsicum,50000.0
-Banana (Tissue culture),97000.0
-Guava,47000.0
-Sweet Orange,50000.0
-Grapes (Seedless),132000.0
-Ber,35000.0
-Muskmelon,53000.0
-Mango,44000.0
-Mango (Ultra High Density),95000.0
-Coconut,50000.0
-Fig,34000.0
-Mulberry,60000.0
-Silkworm Rearing (45 days working capital cycle),40000.0
-Jasmine,40000.0
-Marigold,38000.0
-Chrysanthemum,42000.0
-Medicinal & Aromatic plants,45000.0
-Lemon grass,35000.0
-Roof garden — 3 cycle,12000.0
-Paddy (Irr.),45000.0
-Paddy (Seed Production),50000.0
-Jowar (UI),19000.0
-Bajra (Irr.),17000.0
-Raagi (Irr.),17000.0
-Maize (Irr.),34000.0
-Wheat (Irr.),21000.0
-Red gram (Irr.),24000.0
-Red gram (Organic),23000.0
-Black gram (UI),17000.0
-Green gram (Irr.),22000.0
-Green gram (Organic),22000.0
-Cow Pea,13000.0
-Soyabean,30000.0
-Groundnut (Irr.),30000.0
-Seasamun/Gingelly,21000.0
-Mustard,15000.0
-Castor (UI),19000.0
-Cotton (seed production),150000.0
-Chillies,84000.0
-Tomato (Irr.),55000.0
-Tomato (with mulching),70000.0
-Drumstick,35000.0
-Garlic,40000.0
-Gourds,32000.0
-Bhendi,30000.0
-Curry leaf,25000.0
-Coccinea,45000.0
-Vegetables (other than mentioned in the list),37000.0
-Acid Lime,50000.0
-Dates (working capital),60000.0
-Roof Garden — 1 cycle,32000.0
-"Nilavemu, Kalamegha (Andrographis paniculata)",17000.0
-"Vasa (Myrtle grass, Acorus calamus)",39000.0
-Kalabanda (Aloe vera),27000.0
-Tulasi (Ocimum sanctum),19000.0
-Nallakaraka - Badam (Terminalia chebula),25000.0
-Sandiliyamu—Wood Apple (Aegle marmelos),25000.0
-Palmarosa (Rusha ghas),26000.0
-Paddy (SRI),38000.0
-Jowar (Irr.),20000.0
-Bajra (UI),17000.0
-Raagi (UI),17000.0
-Maize (UI),28000.0
-Minor Millets,20000.0
-Red gram (UI),21000.0
-Black gram (Irr.),21000.0
-Black gram (Organic),21000.0
-Castor (Irr.),21000.0
-Cotton (UI),46000.0
-Sugarcane (Plantation),80000.0
-Oil palm (from 5th year onwards),44000.0
-Tomato (UI),40000.0
-Brinjal (with mulching),55000.0
-Colocasia,45000.0
-Ginger,67000.0
-Grapes,100000.0
-Sapota,36000.0
-Watermelon,35000.0
-Papaya,67000.0
-Mango (High Density),65000.0
-Fodder Cultivation,20000.0
-Cocoa,35000.0
-Dragon Fruit (working capital),80000.0
-Honey Bee Rearing (45 days working capital cycle),35000.0
-Lac Farming (40 trees per year),25000.0
-Tasar Culture,15000.0
-Jowar (Seed Production),26000.0
-Green gram (UI),18000.0
-Bengal gram,26000.0
-Sunflower (Irr)(UI),29000.0
-Soyabean (seed production),36000.0
-Groundnut (UI),26000.0
-Safflower/Kusumalu,20000.0
-Tobacco,35000.0
-Sweet Potato,30000.0
-Carrot,34000.0
-Potato,50000.0
-Gherkin,35000.0
-Cauliflower,35000.0
-Coriander,25000.0
-Turmeric,87000.0
-Vegetables Shade net (excluding structure),67000.0
-Banana (Ratoon),47000.0
-Citrus,45000.0
-Cashewnut,40000.0
-Pomegranate,77000.0
-Custard apple,40000.0
-Rose,52000.0
-Flower gardens/Floriculture (Crops other than mentioned in the list),42000.0
-Geranium,35000.0
-Amla,44000.0
-Roof garden — 2 cycle,22000.0
-Ashwagandha (Withania somnifera),17000.0
-Makandi (Coleus barbatus),28000.0
-Challan gadda (Asparagus racemosus),38000.0
-Pilliadugu (Mucuna prurita),12000.0
-Tanikaya - Badam (Terminalia bellarica),25000.0
-Thella Maddi - Badam (Terminalia arjuna),28000.0
-Sonamukhi — Senna,16000.0
-Other Horticulture crops,31000.0
+Crop,LandType,maxSOF
+Sugarcane,,66000.0
+Brinjal,,40000.0
+Onion,,45000.0
+Cabbage,,34000.0
+Capsicum,,50000.0
+Banana,,97000.0
+Guava,,47000.0
+Sweet Orange,,50000.0
+Grapes,,132000.0
+Ber,,35000.0
+Muskmelon,,53000.0
+Mango,,44000.0
+Mango,,95000.0
+Coconut,,50000.0
+Fig,,34000.0
+Mulberry,,60000.0
+Silkworm Rearing,,40000.0
+Jasmine,,40000.0
+Marigold,,38000.0
+Chrysanthemum,,42000.0
+Medicinal & Aromatic plants,,45000.0
+Lemon grass,,35000.0
+Roof garden — 3 cycle,,12000.0
+Paddy,Irr,45000.0
+Paddy,,50000.0
+Jowar,UI,19000.0
+Bajra,Irr,17000.0
+Raagi,Irr,17000.0
+Maize,Irr,34000.0
+Wheat,Irr,21000.0
+Red gram,Irr,24000.0
+Red gram,,23000.0
+Black gram,UI,17000.0
+Green gram,Irr,22000.0
+Green gram,,22000.0
+Cow Pea,,13000.0
+Soyabean,,30000.0
+Groundnut,Irr,30000.0
+Seasamun/Gingelly,,21000.0
+Mustard,,15000.0
+Castor,UI,19000.0
+Cotton,,150000.0
+Chillies,,84000.0
+Tomato,Irr,55000.0
+Tomato,,70000.0
+Drumstick,,35000.0
+Garlic,,40000.0
+Gourds,,32000.0
+Bhendi,,30000.0
+Curry leaf,,25000.0
+Coccinea,,45000.0
+Vegetables,,37000.0
+Acid Lime,,50000.0
+Dates,,60000.0
+Roof Garden — 1 cycle,,32000.0
+"Nilavemu, Kalamegha",,17000.0
+Vasa,,39000.0
+Kalabanda,,27000.0
+Tulasi,,19000.0
+Nallakaraka - Badam,,25000.0
+Sandiliyamu—Wood Apple,,25000.0
+Palmarosa,,26000.0
+Paddy,,38000.0
+Jowar,Irr,20000.0
+Bajra,UI,17000.0
+Raagi,UI,17000.0
+Maize,UI,28000.0
+Minor Millets,,20000.0
+Red gram,UI,21000.0
+Black gram,Irr,21000.0
+Black gram,,21000.0
+Castor,Irr,21000.0
+Cotton,UI,46000.0
+Sugarcane,,80000.0
+Oil palm,,44000.0
+Tomato,UI,40000.0
+Brinjal,,55000.0
+Colocasia,,45000.0
+Ginger,,67000.0
+Grapes,,100000.0
+Sapota,,36000.0
+Watermelon,,35000.0
+Papaya,,67000.0
+Mango,,65000.0
+Fodder Cultivation,,20000.0
+Cocoa,,35000.0
+Dragon Fruit,,80000.0
+Honey Bee Rearing,,35000.0
+Lac Farming,,25000.0
+Tasar Culture,,15000.0
+Jowar,,26000.0
+Green gram,UI,18000.0
+Bengal gram,,26000.0
+Sunflower,,29000.0
+Soyabean,,36000.0
+Groundnut,UI,26000.0
+Safflower/Kusumalu,,20000.0
+Tobacco,,35000.0
+Sweet Potato,,30000.0
+Carrot,,34000.0
+Potato,,50000.0
+Gherkin,,35000.0
+Cauliflower,,35000.0
+Coriander,,25000.0
+Turmeric,,87000.0
+Vegetables Shade net,,67000.0
+Banana,,47000.0
+Citrus,,45000.0
+Cashewnut,,40000.0
+Pomegranate,,77000.0
+Custard apple,,40000.0
+Rose,,52000.0
+Flower gardens/Floriculture,,42000.0
+Geranium,,35000.0
+Amla,,44000.0
+Roof garden — 2 cycle,,22000.0
+Ashwagandha,,17000.0
+Makandi,,28000.0
+Challan gadda,,38000.0
+Pilliadugu,,12000.0
+Tanikaya - Badam,,25000.0
+Thella Maddi - Badam,,28000.0
+Sonamukhi — Senna,,16000.0
+Other Horticulture crops,,31000.0
