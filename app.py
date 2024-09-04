@@ -34,6 +34,11 @@ land_type = context['land_type']
 if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
     # Get the districtName from the first item
     district = farmer_data['results'][0].get('districtName')
+
+    farmer_area = farmer_data['results'][0].get('landExtent') 
+    # convert farmer area to hectares & round off to 2 decimal places
+    farmer_area = round(farmer_area * 0.404686, 2)
+    print(f"Farmer Land Area: {farmer_area} hectares")
     print(f"District Name: {district}")
 else:
     print("No results found or 'results' is not a list.")
@@ -52,7 +57,7 @@ if val.validate_district(district)!=True:
     exit()
 
 #check if crop area is valid
-if val.validate_area(crop_area)!=True:
+if val.validate_area(crop_area, farmer_area)!=True:
     print("Invalid crop area")
     exit()
 
@@ -109,7 +114,7 @@ apmc_df = pd.read_csv(APMC_path)
 crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
 
 if crop_price == 0:
-    print("Crop is not grown in the selected season & district")
+    print("Crop priceis not available for the selected season &/or district")
     print("Not elegible for consumer loan")
     consumer_loan_amount = 0
 

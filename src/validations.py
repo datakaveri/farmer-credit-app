@@ -5,9 +5,6 @@ predicted_yields = pd.read_csv(predicted_yields_path)
 
 past_yield_path = './data/pastYields.csv'
 past_yield = pd.read_csv(past_yield_path)
-
-# farmer_data_path = 'data/farmer_data.csv'
-# farmer_data = pd.read_csv(farmer_data_path)
     
 def validate_crop(crop_name, season, district):
     # check if the crop is grown in the selected season & selected district
@@ -15,15 +12,15 @@ def validate_crop(crop_name, season, district):
         return False
     return True
 
-def validate_area(crop_area):
+def validate_area(crop_area, farmer_area):
         try:
             if crop_area <= 0:
                 print("Invalid crop area")
                 return False
-            # if crop area is greater than the land area the farmer has
-            # if crop_area > farmer_data['land_area'].values[0]:
-            #     print("Crop area is greater than the land area the farmer has")
-            #     return False
+            #if crop area is greater than the land area the farmer has
+            if crop_area > farmer_area:
+                print("Crop area is greater than the land area the farmer has")
+                return False
             return True
         except ValueError:
             print("Invalid crop area")

@@ -60,28 +60,25 @@ if __name__ == "__main__":
     # Step 4 - Key generation
     print("\nStep 4") 
     box_out("Generating and saving key pair...")
-    PPDX_SDK.setState("Step 4","Generating and saving key pair...",4,10,address)
+    PPDX_SDK.setState("TEE Attestation & Authorisation", "Step 2",2,5,address)
     PPDX_SDK.generate_and_save_key_pair()
     print("Key pair generated and saved")
 
     # Step 5 - storing image digest in vTPM
     print("\nStep 5")
     box_out("Measuring Docker image into vTPM...")
-    PPDX_SDK.setState("Step 5","Measuring Docker image into vTPM...",5,10,address)
     PPDX_SDK.measureDockervTPM(sha_digest)
     print("Measured and stored in vTPM")
 
     # Step 6 - Send VTPM & public key to MAA & get attestation token
     print("\nStep 6")
     box_out("Guest Attestation Executing...")
-    PPDX_SDK.setState("Step 6","Guest Attestation Executing...",6,10,address)
     PPDX_SDK.execute_guest_attestation()
     print("Guest Attestation complete. JWT received from MAA")
 
     # Step 6 - Send the JWT to APD
     print("\nStep 7")
     box_out("Sending JWT to APD for verification...")
-    PPDX_SDK.setState("Step 7","Sending JWT to APD for verification...",7,10,address)
     attestationToken = PPDX_SDK.getAttestationToken(config)
     print("Attestation token received from APD")
 
@@ -92,9 +89,8 @@ if __name__ == "__main__":
     farmerDataToken = PPDX_SDK.getFarmerDataToken(config, ppb_number)
 
     # Step 8 - Getting files from RS
-    print("\nStep 8")
     box_out("Getting files from RS...")
-    PPDX_SDK.setState("Step 8","Getting files from RS...",8,10,address)
+    PPDX_SDK.setState("Getting data into Secure enclave","Step 3",3,5,address)
 
     # getting files from ADEX
     PPDX_SDK.getSOFDataFromADEX(config, adexDataToken)
@@ -105,12 +101,10 @@ if __name__ == "__main__":
     PPDX_SDK.getFarmerData(config, ppb_number, farmerDataToken, attestationToken)
 
     # Executing the application  
-    print("\nStep 9")
     box_out("Running the Application...")
-    PPDX_SDK.setState("Step 9","Running Application...",9,10,address)
+    PPDX_SDK.setState("Computing farmer credit amount in TEE", "Step 4",4,5,address)
     subprocess.run(["python3", "app.py"])
-    # check for synchronous execution
 
-    print("\nStep 10")
-    PPDX_SDK.setState("Step 10","Finished Application Execution",10,10,address)
+    # execution completed
+    PPDX_SDK.setState("Secure Computation Complete","Step 5",5,5,address)
     print('DONE')
