@@ -41,7 +41,7 @@ if 'results' in farmer_data and isinstance(farmer_data['results'], list) and far
     print(f"District Name: {district}")
 else:
     print("No results found or 'results' is not a list.")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "901", "status": "Farmer data not available"}, f)
         sys.exit()
 
@@ -56,21 +56,21 @@ if district == 'Narayanpet':
 #check if district is valid
 if val.validate_district(district)!=True:
     print("District information not available")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "902", "status": "District information not available"}, f)
         sys.exit()
 
 #check if crop area is valid
 if val.validate_area(crop_area, farmer_area)!=True:
     print("Invalid crop area")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "903", "status": "Invalid crop area"}, f)
         sys.exit()
 
 #check if season is valid
 if season not in predicted_yields['season'].unique():
     print("Invalid season")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "904", "status": "Invalid season"}, f)
         sys.exit()
 
@@ -78,7 +78,7 @@ if season not in predicted_yields['season'].unique():
 if not val.validate_crop(crop, season, district):
     print("Crop is not grown in the selected season & district")
     print("Not elegible for kissan loan")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "905", "status": "Crop is not grown in the selected season & district"}, f)
         sys.exit()
 
@@ -87,7 +87,7 @@ if not val.validate_crop(crop, season, district):
 if val.yield_decreasing(crop, district):
     print("Yield of the crop is decreasing over the years")
     print("Not elegible for kissan loan")
-    with open("output/output.json", "w") as f:
+    with open("outputFolder/output.json", "w") as f:
         json.dump({"status_code": "906", "status": "Yield of the crop is decreasing over the years"}, f)
         sys.exit()
 
@@ -146,7 +146,7 @@ response = {
     "status": "Success",
     "status_code": "000"  
 }
-with open("./output/output.json", "w") as f:
+with open("outputFolder/output.json", "w") as f:
     json.dump(response, f)
 
 print("********* Farmer Credit System EXIT ********")
