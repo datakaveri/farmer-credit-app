@@ -32,7 +32,7 @@ def remove_files():
     else:
         print(f"Folder not found: {folder_path}")
 
-    folder_path = os.path.join('.', 'output')
+    folder_path = os.path.join('/tmp', 'FCoutput')
     if os.path.exists(folder_path):
         shutil.rmtree(folder_path)
         print(f"Removed folder and contents: {folder_path}")
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
     # Step 7 - Send the JWT to APD
     box_out("Sending JWT to APD for verification...")
-    #attestationToken = PPDX_SDK.getAttestationToken(config)
+    attestationToken = PPDX_SDK.getAttestationToken(config)
     print("Attestation token received from APD")
 
     # Call APD for getting ADEX data access token

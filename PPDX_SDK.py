@@ -143,8 +143,8 @@ def execute_guest_attestation():
 #APD verifies quote and releases token
 def getAttestationToken(config):
 
-    auth_server_url=config["apd_url"]
-    headers={'clientId': config["clientId"], 'clientSecret': config["clientSecret"], 'Content-Type': config["Content-Type"]}
+    auth_server_url= config["apd_url"]
+    headers={'clientId': "73599b23-6550-4f01-882d-a2db75ba24ba", 'clientSecret': "15a874120135e4eed4782c8b51385649fee55562", 'Content-Type': config["Content-Type"]}
 
     with open('keys/jwt-response.txt', 'r') as file:
         token = file.read().strip()
@@ -154,7 +154,7 @@ def getAttestationToken(config):
             }
 
     data={
-            "itemId": config["itemId"],
+            "itemId": "8bdebc63-ccb0-4930-bdbb-60ea9d7f7599",
             "itemType": config["itemType"],
             "role": config["role"],
             "context": context
@@ -393,10 +393,13 @@ def call_set_state_endpoint(state, address):
     #define enpoint url
     endpoint_url=urllib.parse.urljoin(address, '/enclave/setstate')
 
+    username = "enclave-manager-amd"
+    password = "yrZ6TuprH6C1WGeJKxMekVqN"
+
     #create Json payload
     payload = { "state": state }
     #create POST request
-    r = requests.post(endpoint_url, json=payload)
+    r = requests.post(endpoint_url, json=payload, auth=HTTPBasicAuth(username, password))
 
     #print response
     print(r.text)
