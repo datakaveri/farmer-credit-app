@@ -7,6 +7,10 @@ def get_sof_of_crop(sof_df, crop, land_type):
         res = sof_df[sof_df['Crop']==crop]["maxSOF"]
     else: 
         res = sof_df[(sof_df['Crop']==crop) & (sof_df['LandType']==land_type)]["maxSOF"]
+    # handle case when sof is not available
+    # if sof is not available, return 0
+    if len(res) == 0:
+        return 0            
     sof = float(res.iloc[0]) 
     return sof
 
