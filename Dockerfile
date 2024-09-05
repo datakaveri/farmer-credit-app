@@ -1,5 +1,5 @@
 # Use a Python base image
-FROM python:3.8-slim
+FROM python:3.10
 
 # Set the working directory in the container
 WORKDIR /app
@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Define the command to run your application
-CMD [ "python", "SecureApp.py"]
+CMD [ "python", "app.py"]
