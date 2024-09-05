@@ -1,6 +1,6 @@
 import pandas as pd
 
-predicted_yields_path = './data/predictedYields.csv'
+predicted_yields_path = './data/Yield_data.csv'
 predicted_yields = pd.read_csv(predicted_yields_path)
 
 past_yield_path = './data/pastYields.csv'
