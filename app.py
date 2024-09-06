@@ -8,146 +8,168 @@ import sys
 
 print("********* Farmer Credit System ********")
 
-print("Pre-processing data...")
-preProcessor.modifySOFData()
-print("Data pre-processing complete")
+kisaan_loan_amount = 0
+consumer_loan_amount = 0
+status = ""
+status_code = "000"
 
-# Load the data
-predicted_yields_path = 'data/Yield_data.csv'
-predicted_yields = pd.read_csv(predicted_yields_path)
+while True:
+    print("Pre-processing data...")
+    preProcessor.modifySOFData()
+    print("Data pre-processing complete")
 
-farmer_data_path = 'data/farmer_data.json'
-with open(farmer_data_path) as f:
-    farmer_data = json.load(f)
+    # Load the data
+    predicted_yields_path = 'data/Yield_data.csv'
+    predicted_yields = pd.read_csv(predicted_yields_path)
 
-UIcontext_path = './UIcontext/context.json'
-with open(UIcontext_path) as f:
-    context = json.load(f)
+    farmer_data_path = 'data/farmer_data.json'
+    with open(farmer_data_path) as f:
+        farmer_data = json.load(f)
 
-crop = context['crop']
-season = context['season']
-crop_area = context['crop_area']
-land_type = context['land_type']
+    UIcontext_path = './UIcontext/context.json'
+    with open(UIcontext_path) as f:
+        context = json.load(f)
 
-#take district from farmer data
-if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
-    # Get the districtName from the first item
-    district = farmer_data['results'][0].get('districtName')
+    crop = context['crop']
+    season = context['season']
+    crop_area = context['crop_area']
+    land_type = context['land_type']
 
-    farmer_area = farmer_data['results'][0].get('landExtent') 
-    # convert farmer area to hectares & round off to 2 decimal places
-    farmer_area = round(farmer_area * 0.404686, 2)
-    print(f"Farmer Land Area: {farmer_area} hectares")
-    print(f"District Name: {district}")
-else:
-    print("No results found or 'results' is not a list.")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "901", "status": "Farmer data not available"}, f)
-        sys.exit()
+    #take district from farmer data
+    if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
+        # Get the districtName from the first item
+        district = farmer_data['results'][0].get('districtName')
 
-# convert district to first letter capital
-district = district.title()
+        farmer_area = farmer_data['results'][0].get('landExtent') 
+        # convert farmer area to hectares & round off to 2 decimal places
+        farmer_area = round(farmer_area * 0.404686, 2)
+        print(f"Farmer Land Area: {farmer_area} hectares")
+        print(f"District Name: {district}")
 
-# if district is Narayanpet, change it to Narayanapet
-if district == 'Narayanpet':
-    district = 'Narayanapet'
+        district = district.title()
+        # if district is Narayanpet, change it to Narayanapet
+        if district == 'Narayanpet':
+            district = 'Narayanapet'
+    else:
+        print("No results found or 'results' is not a list.")
+        status = "Farmer data not available"
+        status_code = "401"
+        break
+
+    #check if district is valid
+    if val.validate_district(district)!=True:
+        print("Invalid District")
+        status = "Invalid District"
+        status_code = "402"
+        break
+
+    #check if crop area is valid
+    if val.validate_area(crop_area, farmer_area)!=True:
+        print("Invalid crop area")
+        status = "Invalid crop area"
+        status_code = "403"
+        break
+
+    #check if season is valid
+    if season not in predicted_yields['season'].unique():
+        print("Invalid season")
+        status = "Invalid season"
+        status_code = "404"
+        break
+
+    # validate if crop is grown in the selected season & selected district
+    if not val.validate_crop(crop, season, district):
+        print("Crop is not grown in the selected season & district")
+        print("Not elegible for kissan loan")
+        status = "Crop is not grown in the selected season & district, not eligible for kissan loan"
+        status_code = "405"
+        break
+
+    # do a check on if yield of crop is decreasing over the years
+    # if yield is decreasing, then do not give loan
+    if val.yield_decreasing(crop, district):
+        print("Yield of the crop is decreasing over the years")
+        print("Not elegible for kisaan loan")
+        status = "Yield of the crop is decreasing over the years, not eligible for kissan loan"
+        status_code = "406"
+        break
+
+    # filter the data based on the inputs & check if data is available
+    filtered_data = predicted_yields[(predicted_yields['crop']==crop) & (predicted_yields['district']==district) & (predicted_yields['season']==season)]
+    if filtered_data.empty:
+        print("Predicted yield data not available for the selected season &/or district")
+        print("Not elegible for kisaan loan")
+        status = "Predicted yield data not available for the selected season &/or district"
+        status_code = "407"
+        break
+
+    #display the filtered data
+    print(filtered_data)
+
+    #give yield prediction
+    yield_prediction = filtered_data['yield'].values[0] 
+    print("Predicted yield for year 2024: ", yield_prediction, " tonnes/hectares")
+
+    predicted_yield = filtered_data['yield'].values[0] * crop_area
+    print("Predicted yield for the farmer: ", predicted_yield, " tonnes")
 
 
-#check if district is valid
-if val.validate_district(district)!=True:
-    print("District information not available")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "902", "status": "District information not available"}, f)
-        sys.exit()
+    # Get SOF for crop
+    SOF_path = 'data/SOF_data.csv'
+    sof_df = pd.read_csv(SOF_path)
 
-#check if crop area is valid
-if val.validate_area(crop_area, farmer_area)!=True:
-    print("Invalid crop area")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "903", "status": "Invalid crop area"}, f)
-        sys.exit()
+    # get SOF as crop, irrigation type & SOF
+    crop_sof = helper.get_sof_of_crop(sof_df, crop, land_type)
+    if crop_sof == 0:
+        print("Scale of Finance is not available for the selected crop &/or land type")
+        print("Not elegible for kisaan loan")
+        status = "Scale of Finance is not available for the selected crop &/or land type"
+        status_code = "408"
+        break
+    print("Scale of Finance: ", crop_sof, " Rs per acre")
 
-#check if season is valid
-if season not in predicted_yields['season'].unique():
-    print("Invalid season")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "904", "status": "Invalid season"}, f)
-        sys.exit()
+    #calculate the kisaan loan amount
+    total_crop_cost = lac.calcKisaanLoan(crop_area, crop_sof)
+    kisaan_loan_amount = total_crop_cost
+    print("Kissan loan amount: Rs. ", kisaan_loan_amount)
 
-# validate if crop is grown in the selected season & selected district
-if not val.validate_crop(crop, season, district):
-    print("Crop is not grown in the selected season & district")
-    print("Not elegible for kissan loan")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "905", "status": "Crop is not grown in the selected season & district"}, f)
-        sys.exit()
+    # get APMC price for the crop
+    APMC_path = 'data/APMC_data.csv'
+    apmc_df = pd.read_csv(APMC_path)
 
-# do a check on if yield of crop is decreasing over the years
-# if yield is decreasing, then do not give loan
-if val.yield_decreasing(crop, district):
-    print("Yield of the crop is decreasing over the years")
-    print("Not elegible for kissan loan")
-    with open("outputFolder/output.json", "w") as f:
-        json.dump({"status_code": "906", "status": "Yield of the crop is decreasing over the years"}, f)
-        sys.exit()
-
-# filter the data based on the inputs
-filtered_data = predicted_yields[(predicted_yields['crop'] == crop) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district)]
-
-#display the filtered data
-print(filtered_data)
-
-#give yield prediction
-yield_prediction = filtered_data['yield'].values[0] 
-print("Predicted yield for year 2024: ", yield_prediction, " tonnes/hectares")
-
-predicted_yield = filtered_data['yield'].values[0] * crop_area
-print("Predicted yield for the farmer: ", predicted_yield, " tonnes")
-
-
-# Get SOF for crop
-SOF_path = 'data/SOF_data.csv'
-sof_df = pd.read_csv(SOF_path)
-
-# get SOF as crop, irrigation type & SOF
-crop_sof = helper.get_sof_of_crop(sof_df, crop, land_type)
-print("Scale of Finance: ", crop_sof, " Rs per acre")
-
-#calculate the kisaan loan amount
-total_crop_cost = lac.calcKisaanLoan(crop_area, crop_sof)
-kisaan_loan_amount = total_crop_cost
-print("Kissan loan amount: Rs. ", kisaan_loan_amount)
-
-# get APMC price for the crop
-APMC_path = 'data/APMC_data.csv'
-apmc_df = pd.read_csv(APMC_path)
-
-# get APMC price for the crop
-crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
-
-if crop_price == 0:
-    print("Crop price is not available for the selected season &/or district")
-    print("Not elegible for consumer loan")
-    consumer_loan_amount = 0
-else:
-    consumer_loan_amount = lac.calcConsumerLoan(predicted_yield, total_crop_cost, crop_price)
-    if consumer_loan_amount == 0:
-        print("Crop cost is greater than the selling price")
+    # get APMC price for the crop
+    crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
+    status_code = "200"
+    if crop_price == 0:
+        print("Crop price is not available for the selected season &/or district")
         print("Not elegible for consumer loan")
-        
-print("Consumer loan amount: Rs. ", consumer_loan_amount)
+        status = "Kisaan Loan amount calculated...Not elegible for consumer loan, crop price is not available for the selected season &/or district"
+        break
+    else:
+        consumer_loan_amount = lac.calcConsumerLoan(predicted_yield, total_crop_cost, crop_price)
+        if consumer_loan_amount == 0:
+            print("Crop cost is greater than the selling price")
+            print("Not elegible for consumer loan")
+            status = "Kisaan Loan amount calculated...Not elegible for consumer loan, crop cost is greater than the selling price"
+            break
+        else:
+            print("Consumer loan amount: Rs. ", consumer_loan_amount)
+            status = "Consumer loan amount calculated successfully"
+            break
 
-# write the output to a file
+
 response = {
     "output": {
         "kisaan_loan_amount": kisaan_loan_amount,
         "consumer_loan_amount": consumer_loan_amount
     },
-    "status": "Success",
-    "status_code": "000"  
+    "status": status,
+    "status_code": status_code
 }
+
 with open("outputFolder/output.json", "w") as f:
     json.dump(response, f)
+print("Output written to output.json")
 
 print("********* Farmer Credit System EXIT ********")
 
