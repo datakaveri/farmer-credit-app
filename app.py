@@ -38,9 +38,9 @@ while True:
     #take district from farmer data
     if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
         # Get the districtName from the first item
-        district = farmer_data['results'][0].get('districtName')
+        district = farmer_data['results'][-1].get('districtName')
 
-        farmer_area = farmer_data['results'][0].get('landExtent') 
+        farmer_area = farmer_data['results'][-1].get('landExtent') 
         # convert farmer area to hectares & round off to 2 decimal places
         farmer_area = round(farmer_area * 0.404686, 2)
         print(f"Farmer Land Area: {farmer_area} hectares")
@@ -66,7 +66,7 @@ while True:
     #check if crop area is valid
     if val.validate_area(crop_area, farmer_area)!=True:
         print("Invalid crop area")
-        status = "Invalid crop area"
+        status = "Invalid crop area, crop area greater than land area owned by farmer"
         status_code = "403"
         break
 
