@@ -11,5 +11,6 @@ def calcConsumerLoan(predictedYield, crop_cost, crop_price):
         print("Crop cost is greater than the selling price")
         return 0
     else:
-        print("Profit made by the farmer: ", selling_price - crop_cost)
-        return selling_price - crop_cost
+        profit = round(selling_price - crop_cost, 2)
+        print("Profit made by the farmer: ", profit)
+        return profit

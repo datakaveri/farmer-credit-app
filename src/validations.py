@@ -13,18 +13,14 @@ def validate_crop(crop_name, season, district):
     return True
 
 def validate_area(crop_area, farmer_area):
-        try:
-            if crop_area <= 0:
-                print("Invalid crop area")
-                return False
-            #if crop area is greater than the land area the farmer has
-            if crop_area > farmer_area:
-                print("Crop area is greater than the land area the farmer has")
-                return False
-            return True
-        except ValueError:
-            print("Invalid crop area")
-            return False
+    if crop_area <= 0:
+        print("Invalid crop area")
+        return -1
+    #if crop area is greater than the land area the farmer has
+    if crop_area > farmer_area:
+        print("Crop area is greater than the land area the farmer has")
+        return 0
+    return 1
         
 def validate_district(district):
     # check if the district is valid

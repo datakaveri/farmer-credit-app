@@ -4,7 +4,7 @@ import json
 import src.loan_amount_calculator as lac
 import src.helper as helper
 import src.data_preprocessing as preProcessor
-import sys
+from datetime import datetime
 
 print("********* Farmer Credit System ********")
 
@@ -37,11 +37,23 @@ while True:
 
     #take district from farmer data
     if 'results' in farmer_data and isinstance(farmer_data['results'], list) and farmer_data['results']:
-        # Get the districtName from the first item
-        district = farmer_data['results'][-1].get('districtName')
+        # Sort the results by observationDateTime in descending order
+        sorted_results = sorted(
+            farmer_data['results'], 
+            key=lambda x: datetime.strptime(x['observationDateTime'], "%Y-%m-%dT%H:%M:%S%z"), 
+            reverse=True
+        )
 
-        farmer_area = farmer_data['results'][-1].get('landExtent') 
-        # convert farmer area to hectares & round off to 2 decimal places
+        # Get the latest record (first item in the sorted list)
+        latest_record = sorted_results[0]
+
+        print(latest_record)
+        
+        # Get the districtName and landExtent from the latest record
+        district = latest_record.get('districtName')
+        farmer_area = latest_record.get('landExtent')
+
+        # Convert farmer area to hectares & round off to 2 decimal places
         farmer_area = round(farmer_area * 0.404686, 2)
         print(f"Farmer Land Area: {farmer_area} hectares")
         print(f"District Name: {district}")
@@ -58,15 +70,20 @@ while True:
 
     #check if district is valid
     if val.validate_district(district)!=True:
-        print("Invalid District")
-        status = "Invalid District"
+        print("Yield information not available for farmer district")
+        status = "Yield information not available for farmer district"
         status_code = "402"
         break
 
     #check if crop area is valid
-    if val.validate_area(crop_area, farmer_area)!=True:
-        print("Invalid crop area")
-        status = "Invalid crop area, crop area greater than land area owned by farmer"
+    if val.validate_area(crop_area, farmer_area)==-1:
+        print("Invalid crop area, has to be a positive number")
+        status = "Invalid crop area, enter positive number"
+        status_code = "403"
+        break
+
+    if val.validate_area(crop_area, farmer_area)==0:
+        status = f"Invalid crop area, crop area greater than land area owned by farmer ({farmer_area} hectares)."
         status_code = "403"
         break
 
@@ -81,7 +98,7 @@ while True:
     if not val.validate_crop(crop, season, district):
         print("Crop is not grown in the selected season & district")
         print("Not elegible for kissan loan")
-        status = "Crop is not grown in the selected season & district, not eligible for kissan loan"
+        status = "Crop is not grown in the selected season & district, not eligible for kisaan loan"
         status_code = "405"
         break
 
@@ -96,12 +113,6 @@ while True:
 
     # filter the data based on the inputs & check if data is available
     filtered_data = predicted_yields[(predicted_yields['crop']==crop) & (predicted_yields['district']==district) & (predicted_yields['season']==season)]
-    if filtered_data.empty:
-        print("Predicted yield data not available for the selected season &/or district")
-        print("Not elegible for kisaan loan")
-        status = "Predicted yield data not available for the selected season &/or district"
-        status_code = "407"
-        break
 
     #display the filtered data
     print(filtered_data)
@@ -139,22 +150,24 @@ while True:
 
     # get APMC price for the crop
     crop_price = helper.get_apmc_price(apmc_df, crop, district, season)
-    status_code = "200"
     if crop_price == 0:
         print("Crop price is not available for the selected season &/or district")
         print("Not elegible for consumer loan")
-        status = "Kisaan Loan amount calculated...Not elegible for consumer loan, crop price is not available for the selected season &/or district"
+        status = "Not elegible for consumer loan, crop APMC price is not available for the selected season &/or district"
+        status_code = "301"
         break
     else:
         consumer_loan_amount = lac.calcConsumerLoan(predicted_yield, total_crop_cost, crop_price)
         if consumer_loan_amount == 0:
-            print("Crop cost is greater than the selling price")
+            print("Crop cost is greater than the selling price, no profit made")
             print("Not elegible for consumer loan")
-            status = "Kisaan Loan amount calculated...Not elegible for consumer loan, crop cost is greater than the selling price"
+            status = "Not elegible for consumer loan, no estimated profit made"
+            status_code = "302"
             break
         else:
             print("Consumer loan amount: Rs. ", consumer_loan_amount)
-            status = "Consumer loan amount calculated successfully"
+            status = "Consumer and Kisaan loan amounts calculated successfully"
+            status_code = "200"
             break
 
 
