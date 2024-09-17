@@ -1,6 +1,6 @@
 services:
   farmer-credit-app:
-    image: ghcr.io/datakaveri/farmer-credit-app:v2.1
+    image: ghcr.io/datakaveri/farmer-credit-app:v2.2
     volumes:
       - /tmp/FCcontext:/app/UIcontext
       - /tmp/FCoutput:/app/outputFolder
