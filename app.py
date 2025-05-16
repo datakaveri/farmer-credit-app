@@ -180,7 +180,7 @@ response = {
     "status_code": status_code
 }
 
-with open("outputFolder/output.json", "w") as f:
+with open("/app/output/output.json", "w") as f:
     json.dump(response, f)
 print("Output written to output.json")
 
