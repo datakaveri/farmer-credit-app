@@ -19,14 +19,14 @@ while True:
     print("Data pre-processing complete")
 
     # Load the data
-    predicted_yields_path = 'data/Yield_data.csv'
+    predicted_yields_path = '/app/data/Yield_data.csv'
     predicted_yields = pd.read_csv(predicted_yields_path)
 
-    farmer_data_path = 'data/farmer_data.json'
+    farmer_data_path = '/app/data/farmer_data.json'
     with open(farmer_data_path) as f:
         farmer_data = json.load(f)
 
-    UIcontext_path = './UIcontext/context.json'
+    UIcontext_path = '/app/data/context.json'
     with open(UIcontext_path) as f:
         context = json.load(f)
 
@@ -126,7 +126,7 @@ while True:
 
 
     # Get SOF for crop
-    SOF_path = 'data/SOF_data.csv'
+    SOF_path = '/app/data/SOF_data.csv'
     sof_df = pd.read_csv(SOF_path)
 
     # get SOF as crop, irrigation type & SOF
@@ -145,7 +145,7 @@ while True:
     print("Kissan loan amount: Rs. ", kisaan_loan_amount)
 
     # get APMC price for the crop
-    APMC_path = 'data/APMC_data.csv'
+    APMC_path = '/app/data/APMC_data.csv'
     apmc_df = pd.read_csv(APMC_path)
 
     # get APMC price for the crop
