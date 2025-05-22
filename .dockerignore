@@ -3,3 +3,4 @@ docker-compose.yml
 README.md
 data/*
 UIcontext/*
+encrypt-img/*
