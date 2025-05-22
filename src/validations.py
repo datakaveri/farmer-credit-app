@@ -5,7 +5,7 @@ past_yield = pd.read_csv(past_yield_path)
     
 def validate_crop(crop_name, season, district):
     # check if the crop is grown in the selected season & selected district
-    predicted_yields_path = './data/Yield_data.csv'
+    predicted_yields_path = '/app/data/Yield_data.csv'
     predicted_yields = pd.read_csv(predicted_yields_path)
 
     if len(predicted_yields[(predicted_yields['crop'] == crop_name) & (predicted_yields['season'] == season) & (predicted_yields['district'] == district)]) == 0:
@@ -24,7 +24,7 @@ def validate_area(crop_area, farmer_area):
         
 def validate_district(district):
     # check if the district is valid
-    predicted_yields_path = './data/Yield_data.csv'
+    predicted_yields_path = '/app/data/Yield_data.csv'
     predicted_yields = pd.read_csv(predicted_yields_path)
 
     if district not in predicted_yields['district'].unique():

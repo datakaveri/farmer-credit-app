@@ -5,6 +5,7 @@ import src.loan_amount_calculator as lac
 import src.helper as helper
 import src.data_preprocessing as preProcessor
 from datetime import datetime
+import PPDX_SDK2
 
 print("********* Farmer Credit System ********")
 
@@ -26,7 +27,7 @@ while True:
     with open(farmer_data_path) as f:
         farmer_data = json.load(f)
 
-    UIcontext_path = '/app/data/context.json'
+    UIcontext_path = '/app/context/context.json'
     with open(UIcontext_path) as f:
         context = json.load(f)
 
@@ -184,6 +185,8 @@ with open("/app/output/output.json", "w") as f:
     json.dump(response, f)
 print("Output written to output.json")
 
+coco_address = "http://coco-demo.iudx.io"
+PPDX_SDK2.setState("Applciation Execution Completed","Step 5",5,5, coco_address)
 print("********* Farmer Credit System EXIT ********")
 
 
